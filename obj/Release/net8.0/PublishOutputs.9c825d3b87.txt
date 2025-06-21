@@ -1,0 +1,7 @@
+D:\SRM\Indo\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.exe
+D:\SRM\Indo\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\SRM\Indo\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\SRM\Indo\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.dll
+D:\SRM\Indo\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.deps.json
+D:\SRM\Indo\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.runtimeconfig.json
+D:\SRM\Indo\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.pdb
