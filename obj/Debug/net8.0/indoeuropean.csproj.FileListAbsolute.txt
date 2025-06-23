@@ -353,7 +353,6 @@ D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\staticwebassets.build.json
 D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\staticwebassets.development.json
 D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\indoeuropean.dll
 D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\refint\indoeuropean.dll
 D:\Bootstrap-work\indoeuropean\obj\Debug\net8.0\indoeuropean.pdb
