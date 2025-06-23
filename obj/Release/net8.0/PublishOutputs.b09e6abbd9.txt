@@ -1,7 +1,0 @@
-D:\Vinay-Dev\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.exe
-D:\Vinay-Dev\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
-D:\Vinay-Dev\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.json
-D:\Vinay-Dev\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.dll
-D:\Vinay-Dev\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.deps.json
-D:\Vinay-Dev\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.runtimeconfig.json
-D:\Vinay-Dev\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.pdb

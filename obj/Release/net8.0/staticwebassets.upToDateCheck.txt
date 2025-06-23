@@ -797,4 +797,4 @@ wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\robots.txt
 wwwroot\sitemap.xml
-wwwroot\assets\css\app.css
+wwwroot\assets\css\app-main.css

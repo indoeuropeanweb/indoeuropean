@@ -1,7 +1,0 @@
-D:\indoeuropean-website\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.exe
-D:\indoeuropean-website\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
-D:\indoeuropean-website\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.json
-D:\indoeuropean-website\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.dll
-D:\indoeuropean-website\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.deps.json
-D:\indoeuropean-website\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.runtimeconfig.json
-D:\indoeuropean-website\New_folderIndoeuropean\New_folderIndoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.pdb
