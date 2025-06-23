@@ -10,6 +10,12 @@
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
 
+	<ItemGroup>
+		<Content Update="wwwroot/assets/css/app.css">
+			<CopyToPublishDirectory>Never</CopyToPublishDirectory>
+		</Content>
+	</ItemGroup>
+
   <ItemGroup>
     <Folder Include="wwwroot\assets\images\Singapore\" />
   </ItemGroup>

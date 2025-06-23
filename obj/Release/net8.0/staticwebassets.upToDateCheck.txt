@@ -403,6 +403,7 @@ wwwroot\assets\images\franchise\icon\Data-Science.svg
 wwwroot\assets\images\franchise\icon\Electrical-Engineering.svg
 wwwroot\assets\images\franchise\icon\Engineering-Management.svg
 wwwroot\assets\images\franchise\icon\Health-Care.svg
+wwwroot\assets\images\franchise\icon\Human-Resource-Management.png
 wwwroot\assets\images\franchise\icon\Industrial-Engineering.svg
 wwwroot\assets\images\franchise\icon\Information-Management-Systems.svg
 wwwroot\assets\images\franchise\icon\Interdisciplinary.svg
@@ -410,6 +411,7 @@ wwwroot\assets\images\franchise\icon\International-Business.svg
 wwwroot\assets\images\franchise\icon\LAW.svg
 wwwroot\assets\images\franchise\icon\Management.svg
 wwwroot\assets\images\franchise\icon\Manufacturing-Engineering.svg
+wwwroot\assets\images\franchise\icon\Marketing.png
 wwwroot\assets\images\franchise\icon\Material-Science.svg
 wwwroot\assets\images\franchise\icon\MBA.svg
 wwwroot\assets\images\franchise\icon\Mechanical-Engineering.svg
@@ -535,8 +537,17 @@ wwwroot\assets\images\indo-gallery\g9.png
 wwwroot\assets\images\indo-gallery\user-headset.png
 wwwroot\assets\images\indo-gallery\workflow.jpg
 wwwroot\assets\images\indo-gallery\workflow_details.jpg
+wwwroot\assets\images\ireland\1.jpg
 wwwroot\assets\images\ireland\1.png
+wwwroot\assets\images\ireland\2.jpg
+wwwroot\assets\images\ireland\2.png
+wwwroot\assets\images\ireland\3.png
+wwwroot\assets\images\ireland\4.png
+wwwroot\assets\images\ireland\5.png
+wwwroot\assets\images\ireland\6.png
 wwwroot\assets\images\ireland\i1.png
+wwwroot\assets\images\ireland\ireland-2.jpg
+wwwroot\assets\images\ireland\ireland.jpg
 wwwroot\assets\images\ireland\u1.png
 wwwroot\assets\images\ireland\u10.png
 wwwroot\assets\images\ireland\u11.png
@@ -552,6 +563,8 @@ wwwroot\assets\images\ireland\u6.png
 wwwroot\assets\images\ireland\u7.png
 wwwroot\assets\images\ireland\u8.png
 wwwroot\assets\images\ireland\u9.png
+wwwroot\assets\images\ireland\usa.jpg
+wwwroot\assets\images\ireland\usa.png
 wwwroot\assets\images\logos\1.png
 wwwroot\assets\images\logos\10.png
 wwwroot\assets\images\logos\11.png
@@ -774,3 +787,5 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\robots.txt
+wwwroot\sitemap.xml

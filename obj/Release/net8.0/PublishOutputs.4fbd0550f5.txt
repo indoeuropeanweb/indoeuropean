@@ -1,0 +1,7 @@
+D:\indoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.exe
+D:\indoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\indoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\indoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.dll
+D:\indoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.deps.json
+D:\indoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.runtimeconfig.json
+D:\indoeuropean\indoeuropean\obj\Release\net8.0\PubTmp\Out\indoeuropean.pdb

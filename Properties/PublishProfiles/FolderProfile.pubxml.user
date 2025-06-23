@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--
-https://go.microsoft.com/fwlink/?LinkID=208121.
--->
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\Indo_File\indo_publish</_PublishTargetUrl>
-    <History>False|2025-06-18T12:34:25.6562154Z||;True|2025-06-13T14:31:41.4627403+05:30||;True|2025-03-18T16:35:28.2145031+05:30||;True|2025-03-18T16:33:45.6001697+05:30||;True|2025-03-18T16:17:15.3764811+05:30||;True|2024-10-17T11:50:16.0882944+05:30||;True|2024-10-17T11:37:27.0176937+05:30||;True|2024-09-23T12:45:02.6555003+05:30||;True|2024-09-23T12:44:46.3551128+05:30||;True|2024-09-23T11:52:01.6309498+05:30||;True|2024-09-19T14:49:26.5386644+05:30||;</History>
+    <_PublishTargetUrl>D:\Indo_File\Indo_File_23062025</_PublishTargetUrl>
+    <History>False|2025-06-23T10:14:46.6448705Z||;False|2025-06-23T15:44:26.2985911+05:30||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

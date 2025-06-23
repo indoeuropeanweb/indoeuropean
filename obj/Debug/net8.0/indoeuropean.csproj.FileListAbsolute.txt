@@ -325,3 +325,17 @@ D:\indo-european\New_IndoEuropean-main\obj\Debug\net8.0\staticwebassets.build.en
 D:\indo-european\New_IndoEuropean-main\obj\Debug\net8.0\indoeuropean.genruntimeconfig.cache
 D:\indo-european\New_IndoEuropean-main\obj\Debug\net8.0\ref\indoeuropean.dll
 D:\indo-european\New_IndoEuropean-main\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.GeneratedMSBuildEditorConfig.editorconfig
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.AssemblyInfoInputs.cache
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.AssemblyInfo.cs
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.csproj.CoreCompileInputs.cache
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.MvcApplicationPartsAssemblyInfo.cache
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.RazorAssemblyInfo.cache
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.RazorAssemblyInfo.cs
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.sourcelink.json
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\scopedcss\bundle\indoeuropean.styles.css
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\scopedcss\projectbundle\indoeuropean.bundle.scp.css
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.dll
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\refint\indoeuropean.dll
+D:\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.pdb
