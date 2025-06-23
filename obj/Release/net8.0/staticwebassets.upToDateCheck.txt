@@ -1,4 +1,3 @@
-wwwroot\assets\css\app.css
 wwwroot\assets\css\fonts\lgd641.html
 wwwroot\assets\css\international-telephone-input.css
 wwwroot\assets\css\vendor\animation.min.css
@@ -546,8 +545,17 @@ wwwroot\assets\images\ireland\4.png
 wwwroot\assets\images\ireland\5.png
 wwwroot\assets\images\ireland\6.png
 wwwroot\assets\images\ireland\i1.png
-wwwroot\assets\images\ireland\ireland-2.jpg
-wwwroot\assets\images\ireland\ireland.jpg
+wwwroot\assets\images\ireland\ireland-2.webp
+wwwroot\assets\images\ireland\ireland.webp
+wwwroot\assets\images\ireland\partner-1.webp
+wwwroot\assets\images\ireland\partner-2.webp
+wwwroot\assets\images\ireland\partner-3.webp
+wwwroot\assets\images\ireland\partner-4.webp
+wwwroot\assets\images\ireland\partner-5.webp
+wwwroot\assets\images\ireland\partner-6.webp
+wwwroot\assets\images\ireland\partner-7.webp
+wwwroot\assets\images\ireland\partner-8.webp
+wwwroot\assets\images\ireland\partner-9.webp
 wwwroot\assets\images\ireland\u1.png
 wwwroot\assets\images\ireland\u10.png
 wwwroot\assets\images\ireland\u11.png
@@ -789,3 +797,4 @@ wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\robots.txt
 wwwroot\sitemap.xml
+wwwroot\assets\css\app.css
