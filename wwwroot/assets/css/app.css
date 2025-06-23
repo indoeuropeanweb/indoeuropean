@@ -44025,3 +44025,464 @@ display:none;
 .section-title {
     text-align: center;
 }
+
+
+/*Ireland*/
+.university-columns-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 0;
+    background: #f8f9fa;
+}
+
+.university-columns-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.university-column {
+    flex: 1;
+    min-width: 300px;
+    max-width: 100%;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-top: 4px solid transparent;
+}
+
+.university-column--blue {
+    border-top-color: #2575fc;
+}
+
+.university-column--orange {
+    border-top-color: #eea849;
+}
+
+.university-column--pink {
+    border-top-color: #ff7eb3;
+}
+
+.column-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.column-icon {
+    font-size: 2rem;
+    color: #fff;
+    background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.university-column--orange .column-icon {
+    background: linear-gradient(45deg, #f46b45 0%, #eea849 100%);
+}
+
+.university-column--pink .column-icon {
+    background: linear-gradient(45deg, #ff758c 0%, #ff7eb3 100%);
+}
+
+.column-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.column-divider {
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    margin: 0 auto 15px;
+    border-radius: 2px;
+}
+
+.university-column--orange .column-divider {
+    background: linear-gradient(45deg, #f46b45 0%, #eea849 100%);
+}
+
+.university-column--pink .column-divider {
+    background: linear-gradient(45deg, #ff758c 0%, #ff7eb3 100%);
+}
+
+.university-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .university-list li {
+        padding: 10px 0;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        align-items: center;
+        color: #555;
+    }
+
+        .university-list li:last-child {
+            border-bottom: none;
+        }
+
+        .university-list li i {
+            margin-right: 10px;
+            font-size: 1.1rem;
+            color: #6a11cb;
+            min-width: 20px;
+            text-align: center;
+        }
+
+.university-column--orange .university-list li i {
+    color: #f46b45;
+}
+
+.university-column--pink .university-list li i {
+    color: #ff758c;
+}
+
+@media (max-width: 992px) {
+    .university-column {
+        min-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .university-column {
+        min-width: 100%;
+    }
+}
+
+
+
+
+/* Joureny Section of Ireland */
+/* Creative Journey Section */
+.creative-journey {
+    background: linear-gradient(135deg, #150958 0%, #2a5298 100%);
+    color: white;
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.journey-content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.journey-title {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+    .journey-title i {
+        margin-right: 15px;
+        font-size: 3rem;
+        color: #FFD700;
+    }
+
+.journey-subtitle {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.agency-name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #f58220; background: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    display: inline-block;
+/*    transform: rotate(-2deg);*/
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.journey-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    color: rgba(255,255,255,0.9);
+}
+.journey-text2 {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 25px;
+    color: rgba(255,255,255,0.9);
+    margin-top: 10px;
+}
+
+.ireland-text {
+    color: #FFD700;
+    font-weight: 700;
+}
+
+.free-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255,255,255,0.15);
+    padding: 12px 25px;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+    .free-badge i {
+        margin-right: 10px;
+        font-size: 1.5rem;
+        color: #FFD700;
+    }
+
+    .free-badge strong {
+        color: #FFD700;
+        font-weight: 700;
+        margin-left: 5px;
+    }
+
+.journey-shapes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.05);
+}
+
+.shape-1 {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    right: -100px;
+}
+
+.shape-2 {
+    width: 200px;
+    height: 200px;
+    bottom: -50px;
+    left: -50px;
+}
+
+.shape-3 {
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 30%;
+}
+
+/* Creative Features Section */
+.creative-features {
+    padding: 80px 0;
+    background: #f9fbfd;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+    .section-header h2 {
+        font-size: 2.9rem;
+        color: #000000;
+        margin-bottom: 15px;
+    }
+
+.highlight {
+    color: #f58220;
+    font-weight: 700;
+}
+
+.header-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 450px;
+}
+
+.divider-line {
+    flex: 1;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #2a5298, transparent);
+}
+
+.header-divider i {
+    margin: 0 15px;
+    color: #f58220;
+    font-size: 1.3rem;
+}
+
+.section-subtitle {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+    .feature-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+
+.feature-icon {
+/*    background-color: rgba(255, 99, 71, 0.2);*/
+    text-align: center;
+    background-image: url(../images/ireland/partner-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.features-bg {
+    background-color: rgba(21,9,88,0.6);
+    padding: 30px 0;
+}
+#partner-2 {
+    background-image: url(../images/ireland/partner-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#partner-3 {
+    background-image: url(../images/ireland/partner-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#partner-4 {
+    background-image: url(../images/ireland/partner-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#partner-5 {
+    background-image: url(../images/ireland/partner-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#partner-6 {
+    background-image: url(../images/ireland/partner-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#partner-7 {
+    background-image: url(../images/ireland/partner-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#partner-8 {
+    background-image: url(../images/ireland/partner-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#partner-9 {
+    background-image: url(../images/ireland/partner-9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-wrapper {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    background: #f58220;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.feature-content {
+    padding: 25px;
+    flex: 1;
+}
+
+    .feature-content h3 {
+        font-size: 1.36rem;
+        color: #2c3e50;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+
+    .feature-content p {
+        color: #7f8c8d;
+        line-height: 1.6;
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+@media (max-width: 768px) {
+    .journey-title {
+        font-size: 2rem;
+        flex-direction: column;
+    }
+
+        .journey-title i {
+            margin-right: 0;
+            margin-bottom: 15px;
+        }
+
+    .journey-subtitle {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+}

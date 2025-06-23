@@ -548,6 +548,15 @@ wwwroot\assets\images\ireland\6.png
 wwwroot\assets\images\ireland\i1.png
 wwwroot\assets\images\ireland\ireland-2.jpg
 wwwroot\assets\images\ireland\ireland.jpg
+wwwroot\assets\images\ireland\partner-1.jpg
+wwwroot\assets\images\ireland\partner-2.jpg
+wwwroot\assets\images\ireland\partner-3.jpg
+wwwroot\assets\images\ireland\partner-4.jpg
+wwwroot\assets\images\ireland\partner-5.jpg
+wwwroot\assets\images\ireland\partner-6.jpg
+wwwroot\assets\images\ireland\partner-7.jpg
+wwwroot\assets\images\ireland\partner-8.jpg
+wwwroot\assets\images\ireland\partner-9.jpg
 wwwroot\assets\images\ireland\u1.png
 wwwroot\assets\images\ireland\u10.png
 wwwroot\assets\images\ireland\u11.png
