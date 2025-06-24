@@ -1,19 +1,26 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\indoeuropean\\indoeuropean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\wwwroot\\assets\\css\\app-main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:wwwroot\\assets\\css\\app-main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\views\\home\\testimonials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\testimonials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\indoeuropean.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:indoeuropean.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\indoeuropean\\views\\home\\testimonials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\testimonials.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,34 +50,20 @@
       "DocumentGroups": [
         {
           "DockedHeight": 378,
-=======
-  "WorkspaceRootPath": "D:\\Bootstrap-work\\indoeuropean\\",
-  "Documents": [],
-  "DocumentGroupContainers": [
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
->>>>>>> ca5ab205fafdbad1a3ef49be38c4c63a7f2ebd66
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-<<<<<<< HEAD
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
         {
           "DockedHeight": 22,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
-=======
->>>>>>> ca5ab205fafdbad1a3ef49be38c4c63a7f2ebd66
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -84,11 +73,22 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-<<<<<<< HEAD
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "indoeuropean.csproj",
+              "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\indoeuropean.csproj",
+              "RelativeDocumentMoniker": "indoeuropean.csproj",
+              "ToolTip": "D:\\indoeuropean\\indoeuropean\\indoeuropean.csproj",
+              "RelativeToolTip": "indoeuropean.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-23T12:49:17.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -100,20 +100,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ireland.cshtml",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\Views\\Destinations\\Ireland.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Ireland.cshtml",
               "ToolTip": "D:\\indoeuropean\\indoeuropean\\Views\\Destinations\\Ireland.cshtml",
               "RelativeToolTip": "Views\\Destinations\\Ireland.cshtml",
-              "ViewState": "AgIAALwEAAAAAAAAAAAYwK4DAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-20T10:36:04.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DestinationsController.cs",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\Controllers\\DestinationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DestinationsController.cs",
@@ -121,25 +121,23 @@
               "RelativeToolTip": "Controllers\\DestinationsController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwBwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T10:35:30.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T10:35:30.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\indoeuropean\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAQwLUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T12:32:17.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T12:32:17.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -157,14 +155,14 @@
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\app-main.css",
               "ToolTip": "D:\\indoeuropean\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
               "RelativeToolTip": "wwwroot\\assets\\css\\app-main.css",
-              "ViewState": "AgIAAIGtAAAAAAAAAAAAAIqtAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAFGtAAAAAAAAAAAjwFWtAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-06-17T10:29:08.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -172,12 +170,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:29:50.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-23T09:29:50.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -189,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "Testimonials.cshtml",
               "DocumentMoniker": "D:\\indoeuropean\\indoeuropean\\Views\\Home\\Testimonials.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Testimonials.cshtml",
@@ -198,8 +195,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-17T09:08:12.088Z"
-=======
->>>>>>> ca5ab205fafdbad1a3ef49be38c4c63a7f2ebd66
             }
           ]
         }
