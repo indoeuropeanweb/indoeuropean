@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\indoeuropean\\indoeuropean\\indoeuropean.csproj": {}
+    "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean.csproj": {}
   },
   "projects": {
-    "D:\\indoeuropean\\indoeuropean\\indoeuropean.csproj": {
+    "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\indoeuropean\\indoeuropean\\indoeuropean.csproj",
+        "projectUniqueName": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean.csproj",
         "projectName": "indoeuropean",
-        "projectPath": "D:\\indoeuropean\\indoeuropean\\indoeuropean.csproj",
+        "projectPath": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean.csproj",
         "packagesPath": "C:\\Users\\Laptop-IEES\\.nuget\\packages\\",
-        "outputPath": "D:\\indoeuropean\\indoeuropean\\obj\\",
+        "outputPath": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
