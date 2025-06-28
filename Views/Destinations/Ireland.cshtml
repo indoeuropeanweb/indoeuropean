@@ -9,16 +9,6 @@
         line-height: 15px;
     }
 
-        .about-content .features-list li:before {
-            content: "\e913";
-            font-family: 'icomoon';
-            color: #150958;
-            font-size: 19px;
-            position: absolute;
-            left: 0;
-            top: -3px;
-        }
-
     .about-style-9 .about-content {
         padding-left: 0px;
     }
@@ -28,18 +18,33 @@
         padding: 7px 10px;
         color: #000;
     }
+
+    /* .university-card:hover {
+        transform: translateY(-10px) !important;
+        box-shadow: 0 15px 30px rgba(0, 96, 255, 0.15) !important;
+        border-color: rgba(0, 96, 255, 0.2) !important;
+    }
+
+    .university-card:hover .university-hover-content {
+        opacity: 1 !important;
+        height: auto !important;
+    }
+
+    .university-card:hover img {
+        transform: scale(1.1);
+    } */
 </style>
 
-<div class="edu-breadcrumb-area breadcrumb-style-6" style="background:#f0f6fd; padding: 50px 0px 100px;">
+<div class="edu-breadcrumb-area breadcrumb-style-6" style="background:#e4e6e8; padding: 50px 0px 100px;">
     <div class="container">
         <div class="breadcrumb-inner">
             <div class="page-title">
-                <h2 style="text-align: center; color: #150958; text-shadow: 2px 2px 2px #afabab; font-size: 50px;"> Why Study in Ireland?</h2>
+                <h2 style="text-align: center; color: #150958; text-shadow: 2px 2px 2px #afabab; font-size: 50px;"> Why Study in <span style="color: #FF8200">Ireland?</span></h2>
 
                 <h4 style="text-align: center; color: #000; font-size: 22px;"> Your Strategic Leap to a Global Career</h4>
             </div><br>
             <div class="col-lg-12 fimg">
-                <img src="~/assets/images/ireland/ireland.webp" width="100%" style=" border-radius: 80px;
+                <img src="~/assets/images/ireland/ireland.jpg" width="100%" style=" border-radius: 80px;
     box-shadow: 2px 5px 6px #afafaf" class="front">
             </div>
 
@@ -49,7 +54,7 @@
 
 
 
-<div class="gap-bottom-equal edu-about-area about-style-9" style="background:#0060ff2e; padding: 60px 10px;">
+<div class="gap-bottom-equal edu-about-area about-style-9" style="background: linear-gradient(135deg, rgba(0, 96, 255, 0.10) 0%, rgba(0, 179, 255, 0.10) 100%); padding: 60px 10px;">
     <div class="container edublink-animated-shape">
         <div class="row g-5 align-items-center">
 
@@ -57,33 +62,40 @@
                 <div class="about-content why-ireland">
                     <div class="section-title section-left sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
 
-                        <h2 class="title">Why Ireland</h2>
+                        <h2 class="title">Why Ireland?</h2>
                         <span class="shape-line"><i class="icon-19"></i></span>
 
                     </div>
                     <ul class="features-list sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                        <li style="text-align: justify; font-weight: 600;">World-Class Education System
+                        <li style="text-align: left; font-weight: 600;">World-Class Education System
                             <p class="fs-5">Gain a globally recognized qualification from top-ranked universities known for academic excellence and innovation, highly respected by employers worldwide.</p>
                         </li>
-                        <li style="text-align: justify; font-weight: 600;">Unbeatable Career Opportunities
+                        <li style="text-align: left; font-weight: 600;">
+                            Unbeatable Career Opportunities
                             <p class="fs-5">Ireland is a European hub for over 1,000 leading multinational companies (tech, pharma, finance). Your degree here opens doors to these global giants.</p>
                         </li>
-                        <li style="text-align: justify; font-weight: 600;">1-Year Master's & 2-Year Post-Study Work Visa
+                        <li style="text-align: left; font-weight: 600;">
+                            1-Year Master's & 2-Year Post-Study Work Visa
                             <p class="fs-5">Finish your Master's degree efficiently in just one year, then seamlessly transition to a 24-month (2-year) post-study work visa to gain invaluable international experience.</p>
                         </li>
-                        <li style="text-align: justify; font-weight: 600;">Affordable & Competitive Fees
+                        <li style="text-align: left; font-weight: 600;">
+                            Affordable & Competitive Fees
                             <p class="fs-5">Compared to other major English-speaking study destinations, Ireland offers competitive tuition fees and a reasonable cost of living, providing excellent value for your investment.</p>
                         </li>
-                        <li style="text-align: justify; font-weight: 600;">English-Speaking Advantage
+                        <li style="text-align: left; font-weight: 600;">
+                            English-Speaking Advantage
                             <p class="fs-5">As the only English-speaking country in the Eurozone, Ireland offers a smooth transition and full immersion, making communication and daily life easy for international students.</p>
                         </li>
-                        <li style="text-align: justify; font-weight: 600;">Flexible Part-Time Work Options
+                        <li style="text-align: left; font-weight: 600;">
+                            Flexible Part-Time Work Options
                             <p class="fs-5">Supplement your living expenses by working part-time for up to 20 hours per week during term time, and full-time (40 hours) during official holidays.</p>
                         </li>
-                        <li style="text-align: justify; font-weight: 600;">Safe, Welcoming, & Culturally Rich
+                        <li style="text-align: left; font-weight: 600;">
+                            Safe, Welcoming, & Culturally Rich
                             <p class="fs-5">Experience genuine Irish hospitality in a famously friendly and safe country. Immerse yourself in a vibrant culture with a rich history, music, and arts scene.</p>
                         </li>
-                        <li style="text-align: justify; font-weight: 600;">Gateway to Europe
+                        <li style="text-align: left; font-weight: 600;">
+                            Gateway to Europe
                             <p class="fs-5"> Ireland's strategic location provides easy and affordable access for travel and exploration across the rest of Europe, broadening your cultural horizons.</p>
                         </li>
                     </ul>
@@ -100,7 +112,233 @@
 </div>
 
 
-<div class="university-columns-container">
+<section class="" style="background:#ffffff; padding: 60px 10px;">
+    <div class="container">
+
+        <div class="row row--45">
+            <div class="section-title-flex section-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                <div class="col-lg-12">
+                    <h2 class="title" style="margin-bottom: 5px;text-align: center;margin-top: 40px;"> <span class="color-dark">  Top Programs to Study In Ireland  </span> </h2>
+                    <span class="shape-line"><i class="icon-19"></i></span>
+                    <p style="margin-bottom: 40px;text-align: center;margin-top: 5px;"> <span class="color-dark">   Find the best study programs in Ireland from multiple options available.<br /> Select a specialization aligned with your passion and build a strong foundation for a successful global career! </span> </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Bio-Medical-Engineering.svg">
+                <h4>Pharmaceutical Science</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Biotechnology.svg">
+                <h4>Bio<br>technology</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Business-Analytics.svg">
+                <h4>Business<br> Analytics</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Data-Science.svg">
+                <h4>Data<br> Analytics</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Cyber-Security.svg">
+                <h4>Cyber<br> Security</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/MBA.svg">
+                <h4>MBA</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Marketing.png">
+                <h4>Marketing</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Human-Resource-Management.png">
+                <h4>Human Resource</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/International-Business.svg">
+                <h4>International Business</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Project-Management.svg">
+                <h4>Project Management</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Robotics.svg">
+                <h4>Digital Marketing</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Accounts-and-Finance.svg">
+                <h4>Finance</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="~/assets/images/franchise/icon/Interdisciplinary.svg">
+                <h4>Business</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="gap-bottom-equal edu-about-area about-style-9" style="background: linear-gradient(135deg, rgba(0, 96, 255, 0.08) 0%, rgba(0, 179, 255, 0.08) 100%); padding: 60px 0;">
+    <div class="container edublink-animated-shape">
+        <div class="row align-items-center">
+            <div class="row row--45">
+                <div class="section-title-flex section-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                    <div class="col-lg-12 mb-5">
+                        <h2 class="title" style="margin-bottom: 5px;text-align: center;margin-top: 40px;"> <span class="color-dark">Top Universities of Ireland</span> </h2>
+                        <span class="shape-line"><i class="icon-19"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="row justify-content-center g-4">
+                    <!-- University Card 1 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u1.png" alt="Trinity College Dublin" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 2 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u2.png" alt="University College Dublin" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 3 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u3.png" alt="Dublin City University" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 4 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u4.png" alt="University of Limerick" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 5 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u5.png" alt="University College Cork" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 6 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u6.png" alt="National University of Ireland Galway" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 7 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u7.png" alt="Maynooth University" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 8 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u8.png" alt="Royal College of Surgeons Ireland" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 9 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u9.png" alt="Technological University Dublin" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 10 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u10.png" alt="Munster Technological University" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 11 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u11.png" alt="Atlantic Technological University" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 12 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u12.png" alt="Dundalk Institute of Technology" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 13 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u13.png" alt="Dublin Business School" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 14 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u14.png" alt="Griffith College" class="img-fluid" style="max-height: 80px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 15 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/ireland/u15.png" alt="Institute of Technology Carlow" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* <div class="university-columns-container">
     <div class="container">
         <div class="university-columns-row">
             <!-- Universities Column -->
@@ -158,7 +396,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> *@
 
 
 <!-- Journey Section -->
@@ -169,10 +407,10 @@
             <h1 class="journey-title"><i class="fa fa-map-marker"></i> Your Journey Begins Here</h1>
             <div class="journey-subtitle">
                 <span>The</span>
-                <div class="agency-name">Indoeuropean</div>
+                <div class="agency-name">Indo European</div>
                 <span>Advantage</span>
             </div>
-            <p class="journey-text">Choosing to study abroad is a big decision, and navigating the process shouldn't be. At <strong class="ireland-text">IndoEuropean</strong> we simplify your path to Ireland, offering unparalleled support every step of the way.</p>
+            <p class="journey-text">Studying abroad is a major decision, but the process can be stress-free.<br /><span class="ireland-text"> IndoEuropean </span> makes your move to Ireland simple, providing support at every step of your journey.</p>
             <div class="free-badge">
                 <i class="fa fa-graduation-cap"></i>
                 <span>Many of Our Core Services Are <strong>Absolutely FREE!</strong></span>
@@ -191,7 +429,7 @@
 <section class="creative-features">
     <div class="container">
         <div class="section-header">
-            <h2>Why Partner With <span class="highlight">IndoEuropean</span> ?</h2>
+            <h2>Why Partner With <span class="highlight">Indo European</span> ?</h2>
             <div class="header-divider">
                 <div class="divider-line"></div>
                 <i class="fa fa-star"></i>
@@ -343,76 +581,6 @@
     
 
 
-<section class="" style="background:#e6e6ff; padding: 60px 10px;">
-    <div class="container">
-
-        <div class="row row--45">
-            <div class="section-title-flex section-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                <div class="col-lg-12">
-                    <h2 class="title" style="margin-bottom: 5px;text-align: center;margin-top: 40px;"> <span class="color-dark">  Top Programs to Study In Ireland  </span> </h2>
-                    <span class="shape-line"><i class="icon-19"></i></span>
-                    <p style="margin-bottom: 40px;text-align: center;margin-top: 5px;"> <span class="color-dark">   Take a closer look at some of the most sought-after programs offered by renowned institutions around the globe.<br /> Select a specialization aligned with your passion and build a strong foundation for a successful global career! </span> </p>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Bio-Medical-Engineering.svg">
-                <h4>Pharmaceuticl Science</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Biotechnology.svg">
-                <h4>Bio<br>technology</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Business-Analytics.svg">
-                <h4>Business<br> Analytics</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Data-Science.svg">
-                <h4>Data<br> Analytics</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Cyber-Security.svg">
-                <h4>Cyber<br> Security</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/MBA.svg">
-                <h4>MBA</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Marketing.png">
-                <h4>Marketing</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Human-Resource-Management.png">
-                <h4>Human Resource</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/International-Business.svg">
-                <h4>International Business</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Project-Management.svg">
-                <h4>Project Management</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Robotics.svg">
-                <h4>Digital Marketing</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Accounts-and-Finance.svg">
-                <h4>Finance</h4>
-            </div>
-            <div class="courses">
-                <img class="items-center" src="~/assets/images/franchise/icon/Interdisciplinary.svg">
-                <h4>Business</h4>
-            </div>
-        </div>
-    </div>
-</section>
-
-
 <div class="container edu-section-gap">
     <div class="row row--45">
         <div class="section-title-flex section-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
@@ -428,7 +596,7 @@
             <iframe width="100%" height="215" src="https://www.youtube.com/embed/F5JmS74zXKw?si=n4aunw7Gft2A9pLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:10px;"></iframe>
         </div>
         <div class="col-md-4">
-            <iframe width="100%" height="215" src="https://www.youtube.com/embed/rckMqCL5ZIM?si=PDFdR1aFegWcI9z6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:10px;"></iframe>
+            <iframe width="100%" height="215" src="https://www.youtube.com/embed/_D6DkRjQyDs?si=yaJfLMi8wEVw9CWR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:10px;"></iframe>
         </div>
         <div class="col-md-4">
             <iframe width="100%" height="215" src="https://www.youtube.com/embed/t-W2-bXhL9c?si=expfWTN8dJW2KCYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:10px;"></iframe>

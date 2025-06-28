@@ -6070,11 +6070,11 @@ Countdown
         .about-content .features-list li:before {
             content: "\e913";
             font-family: 'icomoon';
-            color: var(--color-tertiary);
+            color: #150958;
             font-size: 19px;
             position: absolute;
             left: 0;
-            top: -3px;
+            top: 0;
         }
 
     .about-style-1,
@@ -35113,7 +35113,7 @@ Countdown
     Spacing
 -------------------------*/
     .edu-section-gap {
-        padding: 80px 0 60px;
+        padding: 60px 0 60px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -43890,6 +43890,7 @@ display:none;
 }
 
 
+
 /* Modal styles */
 .modal {
     display: none;
@@ -44172,9 +44173,9 @@ display:none;
 /* Joureny Section of Ireland */
 /* Creative Journey Section */
 .creative-journey {
-    background: linear-gradient(135deg, #150958 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #150958 0%, #150958 100%);
     color: white;
-    padding: 80px 0;
+    padding: 60px 0;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -44200,7 +44201,7 @@ display:none;
     .journey-title i {
         margin-right: 15px;
         font-size: 3rem;
-        color: #FFD700;
+        color: #b83434;
     }
 
 .journey-subtitle {
@@ -44308,7 +44309,7 @@ display:none;
 
 /* Creative Features Section */
 .creative-features {
-    padding: 80px 0;
+    padding: 60px 0;
     background: #f9fbfd;
 }
 
@@ -44387,7 +44388,7 @@ display:none;
     background-size: cover;
 }
 .features-bg {
-    background-color: rgba(21,9,88,0.6);
+    background-color: rgba(21,9,88,0.25);
     padding: 30px 0;
 }
 #partner-2 {
