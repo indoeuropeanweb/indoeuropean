@@ -35113,7 +35113,7 @@ Countdown
     Spacing
 -------------------------*/
     .edu-section-gap {
-        padding: 80px 0 60px;
+        padding: 60px 0 60px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -44175,7 +44175,7 @@ display:none;
 .creative-journey {
     background: linear-gradient(135deg, #150958 0%, #150958 100%);
     color: white;
-    padding: 80px 0;
+    padding: 60px 0;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -44309,7 +44309,7 @@ display:none;
 
 /* Creative Features Section */
 .creative-features {
-    padding: 80px 0;
+    padding: 60px 0;
     background: #f9fbfd;
 }
 
