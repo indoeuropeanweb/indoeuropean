@@ -1,7 +1,0 @@
-D:\indoeuropean\indoeuropean\bin\Release\net8.0\publish\indoeuropean.exe
-D:\indoeuropean\indoeuropean\bin\Release\net8.0\publish\appsettings.Development.json
-D:\indoeuropean\indoeuropean\bin\Release\net8.0\publish\appsettings.json
-D:\indoeuropean\indoeuropean\bin\Release\net8.0\publish\indoeuropean.dll
-D:\indoeuropean\indoeuropean\bin\Release\net8.0\publish\indoeuropean.deps.json
-D:\indoeuropean\indoeuropean\bin\Release\net8.0\publish\indoeuropean.runtimeconfig.json
-D:\indoeuropean\indoeuropean\bin\Release\net8.0\publish\indoeuropean.pdb

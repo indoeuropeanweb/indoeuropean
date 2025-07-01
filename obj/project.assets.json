@@ -2879,31 +2879,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {},
+    "C:\\Users\\Laptop-IEES\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean.csproj",
+      "projectUniqueName": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\indoeuropean.csproj",
       "projectName": "indoeuropean",
-      "projectPath": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean.csproj",
+      "projectPath": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\indoeuropean.csproj",
       "packagesPath": "C:\\Users\\Laptop-IEES\\.nuget\\packages\\",
-      "outputPath": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\obj\\",
-=======
-      "projectUniqueName": "D:\\Bootstrap-work\\indoeuropean\\indoeuropean.csproj",
-      "projectName": "indoeuropean",
-      "projectPath": "D:\\Bootstrap-work\\indoeuropean\\indoeuropean.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Bootstrap-work\\indoeuropean\\obj\\",
->>>>>>> 6c23af48f21426f1a918dbbe839062c11be31a0d
+      "outputPath": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Laptop-IEES\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2960,7 +2952,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

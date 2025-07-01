@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Indo European</title>
+    <title>@ViewData["Title"] - Indo European</title>
     <meta name="description" content="Indo European Study Abroad Consultants">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
@@ -26,8 +26,14 @@
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="/assets/css/app-main.css">
 
+
+    <link rel="canonical" href="@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}")" />
+
+    
+    <link rel="canonical" href="https://indoeuropean.in/" />
+
     @* CSP Header *@
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';">
+    @* <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';"> *@
 
 </head>
 
@@ -240,7 +246,7 @@
                                             <li><a href="/destinations/coaching"><i class="fa fa-star"></i> &nbsp; Coaching </a></li>
                                             <li><a href="/home/about"><i class="fa fa-star"></i> &nbsp; About Us</a></li>
                                             <li><a href="/home/contact"><i class="fa fa-star"></i> &nbsp; Contact Us </a></li>
-                                            <li><a href="/condition/termsconditions.html" target="_blank"><i class="fa fa-star"></i> &nbsp; Terms & Conditions </a></li>
+                                            <li><a href="/conditions/termsconditions.html" target="_blank"><i class="fa fa-star"></i> &nbsp; Terms & Conditions </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -431,8 +437,8 @@
                 </div>
                 <div class="modal-body">
                     <ul style="list-style:none; padding:0px; margin:0px;">
-                        <li class="social" style="background:#25c15f;"><a href="wa.link/oc5hi9" style="color:#fff;" target="_blank"> <i class="fa fa-whatsapp"></i> &nbsp; Follow on Whatsapp   </a></li>
-                        <li class="social" style="background:#ff0000;"><a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" style="color:#fff;" target="_blank"> <i class="fa fa-youtube"></i> &nbsp; Watch on Youtube   </a></li>
+                        <li class="social" style="background:#25c15f;"><a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" style="color:#fff;" target="_blank"> <i class="fa fa-whatsapp"></i> &nbsp; Follow on Whatsapp   </a></li>
+                        <li class="social" style="background:#ff0000;"><a href="https://www.youtube.com/IEESIndoEuropean" style="color:#fff;" target="_blank"> <i class="fa fa-youtube"></i> &nbsp; Watch on Youtube   </a></li>
                         <li class="social" style="background:#0866ff;"><a href="https://www.facebook.com/Indoeuropean.in/" style="color:#fff;" target="_blank"> <i class="icon-facebook"></i> &nbsp; Like us on Facebook   </a></li>
                         <li class="social" style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);"><a href="https://www.instagram.com/indo_european/" style="color:#fff;" target="_blank"> <i class="fa fa-instagram"></i> &nbsp; Follow on Instagram   </a></li>
                         <li class="social" style="background:#0077b5;"><a href="https://www.linkedin.com/company/indo-european-study-abroad-consultants" style="color:#fff;" target="_blank"> <i class="fa fa-linkedin"></i> &nbsp; Join Us on Linkedin   </a></li>
@@ -469,7 +475,7 @@
         </label>
 
         <a href="tel:+91-9650133355" class="float-item"> <i class="fa fa-phone"></i> </a>
-        <a href="https://wa.link/oc5hi9" class="float-item" target="blank"> <i class="fa fa-whatsapp"></i> </a>
+        <a href="" class="float-item" target="blank"> <i class="fa fa-whatsapp"></i> </a>
         <a href="#" class="float-item" data-toggle="modal" data-target="#exampleModalShort"> <i class="fa fa-envelope"></i> </a>
         <a href="#" class="float-item" data-toggle="modal" data-target="#regular_modal"> <i class="fa fa-retweet"></i> </a>
         <a href="/home/contact" class="float-item" target="blank"> <i class="fa fa-map-marker"></i> </a>
