@@ -76,6 +76,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Home/Termsandconditions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtc2FuZGNvbmRpdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Home/Testimonials.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0aW1vbmlhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -92,8 +96,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcQ29hY2hpbmdfQ2VudHJlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Partners/collaborate.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcY29sbGFib3JhdGUuY3NodG1s
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Partners/Collaborate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcQ29sbGFib3JhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Partners/Indian_Universities.cshtml]

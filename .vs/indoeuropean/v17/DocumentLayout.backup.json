@@ -3,60 +3,24 @@
   "WorkspaceRootPath": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\controllers\\partnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\partnerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\usa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\usa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\uk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\uk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\singapore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\singapore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\new_zealand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\new_zealand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\europe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\europe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\coaching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\coaching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\canada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\canada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\australia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\australia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\student\\our_services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\student\\our_services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\student\\enquiry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\student\\enquiry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\partner_franchise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -67,24 +31,100 @@
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\overseas_institute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\other_businesses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\other_businesses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\usa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\usa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\canada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\canada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\coaching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\coaching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\collaborate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\collaborate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\europe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\europe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\australia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\australia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\new_zealand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\new_zealand.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\uk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\uk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\destinations\\singapore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\singapore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\js\\landingpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:wwwroot\\assets\\js\\landingpage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\css\\vendor\\jqueru-ui-min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:wwwroot\\assets\\css\\vendor\\jqueru-ui-min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\images\\europe\\europe.php||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:wwwroot\\assets\\images\\europe\\europe.php||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\associate_agents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\associate_agents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\partners\\other_businesses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\other_businesses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\index_new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\index_new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\termsandconditions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\termsandconditions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\student\\enquiry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\student\\enquiry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\thankyou.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -99,24 +139,16 @@
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\index_new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\index_new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\student\\our_services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\student\\our_services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -126,24 +158,479 @@
       "DocumentGroups": [
         {
           "DockedHeight": 378,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "studentController.cs",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\studentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\studentController.cs",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\studentController.cs",
+              "RelativeToolTip": "Controllers\\studentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:00:36.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "destinationsController.cs",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\destinationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\destinationsController.cs",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\destinationsController.cs",
+              "RelativeToolTip": "Controllers\\destinationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T11:54:38.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "usa.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\usa.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\usa.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\usa.cshtml",
+              "RelativeToolTip": "Views\\destinations\\usa.cshtml",
+              "ViewState": "AgIAAIADAAAAAAAAAAAwwIwDAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T05:00:00.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "overseas_institute.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\overseas_institute.cshtml",
+              "RelativeDocumentMoniker": "Views\\partners\\overseas_institute.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\overseas_institute.cshtml",
+              "RelativeToolTip": "Views\\partners\\overseas_institute.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwHMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:56:53.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "partner_franchise.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\partner_franchise.cshtml",
+              "RelativeDocumentMoniker": "Views\\partners\\partner_franchise.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\partner_franchise.cshtml",
+              "RelativeToolTip": "Views\\partners\\partner_franchise.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:57:12.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "coaching_centres.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\coaching_centres.cshtml",
+              "RelativeDocumentMoniker": "Views\\partners\\coaching_centres.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\coaching_centres.cshtml",
+              "RelativeToolTip": "Views\\partners\\coaching_centres.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwHAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:55:29.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "partnersController.cs",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\partnersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\partnersController.cs",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\partnersController.cs",
+              "RelativeToolTip": "Controllers\\partnersController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwB8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T09:28:32.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "homeController.cs",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\homeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\homeController.cs",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Controllers\\homeController.cs",
+              "RelativeToolTip": "Controllers\\homeController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T09:01:08.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "canada.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\canada.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\canada.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\canada.cshtml",
+              "RelativeToolTip": "Views\\destinations\\canada.cshtml",
+              "ViewState": "AgIAANkAAAAAAAAAAIAwwOYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:58:25.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ireland.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\ireland.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\ireland.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\ireland.cshtml",
+              "RelativeToolTip": "Views\\destinations\\ireland.cshtml",
+              "ViewState": "AgIAAGMCAAAAAAAAAAAwwG8CAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T11:08:55.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwHAAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T10:20:01.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\index.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\index.cshtml",
+              "RelativeToolTip": "Views\\home\\index.cshtml",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAwwLcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:53:50.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "contact.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\contact.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\contact.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\contact.cshtml",
+              "RelativeToolTip": "Views\\home\\contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:53:40.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "collaborate.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\collaborate.cshtml",
+              "RelativeDocumentMoniker": "Views\\partners\\collaborate.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\collaborate.cshtml",
+              "RelativeToolTip": "Views\\partners\\collaborate.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:56:06.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "europe.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\europe.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\europe.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\europe.cshtml",
+              "RelativeToolTip": "Views\\destinations\\europe.cshtml",
+              "ViewState": "AgIAANcEAAAAAAAAAAAwwOMEAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:58:48.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "coaching.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\coaching.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\coaching.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\coaching.cshtml",
+              "RelativeToolTip": "Views\\destinations\\coaching.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:58:35.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "australia.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\australia.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\australia.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\australia.cshtml",
+              "RelativeToolTip": "Views\\destinations\\australia.cshtml",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAqwOoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:58:13.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "new_zealand.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\new_zealand.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\new_zealand.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\new_zealand.cshtml",
+              "RelativeToolTip": "Views\\destinations\\new_zealand.cshtml",
+              "ViewState": "AgIAANsAAAAAAAAAAAAhwOkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:59:18.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "uk.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\uk.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\uk.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\uk.cshtml",
+              "RelativeToolTip": "Views\\destinations\\uk.cshtml",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAqwOoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:59:44.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "singapore.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\singapore.cshtml",
+              "RelativeDocumentMoniker": "Views\\destinations\\singapore.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\destinations\\singapore.cshtml",
+              "RelativeToolTip": "Views\\destinations\\singapore.cshtml",
+              "ViewState": "AgIAANUAAAAAAAAAAAAqwOIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:59:32.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:16:21.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LandingPage.js",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\js\\LandingPage.js",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\js\\LandingPage.js",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\js\\LandingPage.js",
+              "RelativeToolTip": "wwwroot\\assets\\js\\LandingPage.js",
+              "ViewState": "AgIAADwBAAAAAAAAAAAowEMBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T10:23:40.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "jqueru-ui-min.css",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\css\\vendor\\jqueru-ui-min.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\vendor\\jqueru-ui-min.css",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\css\\vendor\\jqueru-ui-min.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\vendor\\jqueru-ui-min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-01T10:27:49.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "europe.php",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\images\\europe\\europe.php",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\images\\europe\\europe.php",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\images\\europe\\europe.php",
+              "RelativeToolTip": "wwwroot\\assets\\images\\europe\\europe.php",
+              "ViewState": "AgIAACkEAAAAAAAAAAAAADYEAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002338|",
+              "WhenOpened": "2025-07-01T09:28:24.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "associate_agents.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\associate_agents.cshtml",
+              "RelativeDocumentMoniker": "Views\\partners\\associate_agents.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\associate_agents.cshtml",
+              "RelativeToolTip": "Views\\partners\\associate_agents.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:55:14.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "indian_universities.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\indian_universities.cshtml",
+              "RelativeDocumentMoniker": "Views\\partners\\indian_universities.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\indian_universities.cshtml",
+              "RelativeToolTip": "Views\\partners\\indian_universities.cshtml",
+              "ViewState": "AgIAALgAAAAAAAAAAAAwwMQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:56:20.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "other_businesses.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\other_businesses.cshtml",
+              "RelativeDocumentMoniker": "Views\\partners\\other_businesses.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\partners\\other_businesses.cshtml",
+              "RelativeToolTip": "Views\\partners\\other_businesses.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:56:37.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "about.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\about.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\about.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\about.cshtml",
+              "RelativeToolTip": "Views\\home\\about.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDAAAAAIAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:53:37.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "index_new.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\index_new.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\index_new.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\index_new.cshtml",
+              "RelativeToolTip": "Views\\home\\index_new.cshtml",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAwwKwAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:53:52.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "termsandconditions.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\termsandconditions.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\termsandconditions.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\termsandconditions.cshtml",
+              "RelativeToolTip": "Views\\home\\termsandconditions.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T09:03:29.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "enquiry.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\student\\enquiry.cshtml",
+              "RelativeDocumentMoniker": "Views\\student\\enquiry.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\student\\enquiry.cshtml",
+              "RelativeToolTip": "Views\\student\\enquiry.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:57:33.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "thankyou.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\thankyou.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\thankyou.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\thankyou.cshtml",
+              "RelativeToolTip": "Views\\home\\thankyou.cshtml",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAJsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:53:56.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "testimonials.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\testimonials.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\testimonials.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\testimonials.cshtml",
+              "RelativeToolTip": "Views\\home\\testimonials.cshtml",
+              "ViewState": "AgIAAC8BAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:53:56.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "privacy.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\home\\privacy.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\home\\privacy.cshtml",
+              "RelativeToolTip": "Views\\home\\privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:53:54.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "our_services.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\student\\our_services.cshtml",
+              "RelativeDocumentMoniker": "Views\\student\\our_services.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\student\\our_services.cshtml",
+              "RelativeToolTip": "Views\\student\\our_services.cshtml",
+              "ViewState": "AgIAAGYBAAAAAAAAAAAiwG0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T04:57:48.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "error.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\error.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-01T05:00:25.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 36,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -153,360 +640,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-01T05:00:23.589Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usa.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Usa.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Usa.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Usa.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Usa.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T05:00:00.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Uk.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Uk.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Uk.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Uk.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Uk.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:59:44.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Singapore.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Singapore.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Singapore.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Singapore.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Singapore.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:59:32.988Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "New_Zealand.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\New_Zealand.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\New_Zealand.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\New_Zealand.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\New_Zealand.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:59:18.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T10:20:01.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Europe.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Europe.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Europe.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Europe.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Europe.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:58:48.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Coaching.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Coaching.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Coaching.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Coaching.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Coaching.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:58:35.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Canada.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Canada.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Canada.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Canada.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Canada.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:58:25.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Australia.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Australia.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Australia.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Australia.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Australia.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:58:13.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Our_Services.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Student\\Our_Services.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Our_Services.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Student\\Our_Services.cshtml",
-              "RelativeToolTip": "Views\\Student\\Our_Services.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:57:48.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Enquiry.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Student\\Enquiry.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Enquiry.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Student\\Enquiry.cshtml",
-              "RelativeToolTip": "Views\\Student\\Enquiry.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:57:33.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Partner_Franchise.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Partner_Franchise.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partners\\Partner_Franchise.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Partner_Franchise.cshtml",
-              "RelativeToolTip": "Views\\Partners\\Partner_Franchise.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:57:12.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Ireland.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Ireland.cshtml",
-              "RelativeDocumentMoniker": "Views\\Destinations\\Ireland.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Destinations\\Ireland.cshtml",
-              "RelativeToolTip": "Views\\Destinations\\Ireland.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-28T11:08:55.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Overseas_Institute.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Overseas_Institute.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partners\\Overseas_Institute.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Overseas_Institute.cshtml",
-              "RelativeToolTip": "Views\\Partners\\Overseas_Institute.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:56:53.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Other_Businesses.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Other_Businesses.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partners\\Other_Businesses.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Other_Businesses.cshtml",
-              "RelativeToolTip": "Views\\Partners\\Other_Businesses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:56:37.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Indian_Universities.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Indian_Universities.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partners\\Indian_Universities.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Indian_Universities.cshtml",
-              "RelativeToolTip": "Views\\Partners\\Indian_Universities.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:56:20.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "collaborate.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\collaborate.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partners\\collaborate.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\collaborate.cshtml",
-              "RelativeToolTip": "Views\\Partners\\collaborate.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:56:06.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Coaching_Centres.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Coaching_Centres.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partners\\Coaching_Centres.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Coaching_Centres.cshtml",
-              "RelativeToolTip": "Views\\Partners\\Coaching_Centres.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:55:29.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Associate_Agents.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Associate_Agents.cshtml",
-              "RelativeDocumentMoniker": "Views\\Partners\\Associate_Agents.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Partners\\Associate_Agents.cshtml",
-              "RelativeToolTip": "Views\\Partners\\Associate_Agents.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:55:14.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Thankyou.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Thankyou.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Thankyou.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Thankyou.cshtml",
-              "RelativeToolTip": "Views\\Home\\Thankyou.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:53:56.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Testimonials.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Testimonials.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Testimonials.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Testimonials.cshtml",
-              "RelativeToolTip": "Views\\Home\\Testimonials.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:53:56.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:53:54.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Index_New.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Index_New.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index_New.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Index_New.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index_New.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:53:52.648Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:53:50.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Contact.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\Contact.cshtml",
-              "RelativeToolTip": "Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:53:40.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\About.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Home\\About.cshtml",
-              "RelativeToolTip": "Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-01T04:53:37.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowD4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T11:16:21.907Z"
             }
           ]
         },

@@ -54,6 +54,10 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-        
+
+        public IActionResult Termsandconditions()
+        {
+            return View();
+        }
     }
 }

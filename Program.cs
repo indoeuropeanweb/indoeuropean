@@ -1,94 +1,71 @@
-var builder = WebApplication.CreateBuilder(args);
+﻿var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Force lowercase URL generation
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.LowercaseQueryStrings = true;
+});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
+// Force lowercase path before routing
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
+// 🔧 Normalize URLs before routing
+
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.Value;
+    if (!string.IsNullOrEmpty(path) && path != path.ToLowerInvariant())
+    {
+        var lowerPath = path.ToLowerInvariant();
+        var queryString = context.Request.QueryString.HasValue ? context.Request.QueryString.Value : "";
+        context.Response.Redirect(lowerPath + queryString, permanent: true);
+        return;
+    }
+    await next();
+});
+
+
+app.UseRouting();
+
+// Optional: Redirect /home/index to /
 app.Use(async (context, next) =>
 {
     if (context.Request.Path == "/home/index")
     {
-        context.Response.Redirect("/", permanent: true);
-        return;
-    }
-    await next();
-});
-
-app.Use(async (context, next) =>
-{
-    var request = context.Request;
-
-    // Normalize path (lowercase + no /home/index)
-    var path = request.Path.Value;
-
-    if (path != null)
-    {
-        var normalizedPath = path.ToLowerInvariant();
-
-        if (normalizedPath == "/home/index")
-        {
-            context.Response.Redirect("/", true);
-            return;
-        }
-
-        if (normalizedPath != path)
-        {
-            context.Response.Redirect(normalizedPath, true);
-            return;
-        }
-    }
-
-    await next();
-});
-
-app.Use(async (context, next) =>
-{
-    context.Response.Headers.Append("Content-Security-Policy",
-        "default-src 'self'; " +
-        "script-src 'self' https://www.youtube.com https://www.google.com https://www.gstatic.com https://kit.fontawesome.com; " +
-        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://kit.fontawesome.com; " +
-        "font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://kit.fontawesome.com; " +
-        "img-src 'self' data: https://i.ytimg.com; " +
-        "frame-src https://www.youtube.com https://www.youtube-nocookie.com;"
-    );
-    await next();
-});
-
-
-
-// Custom middleware to enforce lowercase URLs
-app.Use(async (context, next) =>
-{
-    var path = context.Request.Path.Value;
-    var queryString = context.Request.QueryString.Value;
-
-    if (!string.IsNullOrEmpty(path) && path != path.ToLowerInvariant())
-    {
-        var lowercaseUrl = path.ToLowerInvariant() + queryString;
-        context.Response.Redirect(lowercaseUrl, permanent: true);
+        context.Response.Redirect("/", true);
         return;
     }
 
     await next();
 });
 
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
+// Optional: Add CSP header
+//app.Use(async (context, next) =>
+//{
+//    context.Response.Headers.Append("Content-Security-Policy",
+//        "default-src 'self'; " +
+//        "script-src 'self' https://www.youtube.com https://www.google.com https://www.gstatic.com https://kit.fontawesome.com; " +
+//        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://kit.fontawesome.com; " +
+//        "font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://kit.fontawesome.com; " +
+//        "img-src 'self' data: https://i.ytimg.com; " +
+//        "frame-src https://www.youtube.com https://www.youtube-nocookie.com;"
+//    );
+//    await next();
+//});
 
 app.UseAuthorization();
-app.MapControllers();
 
 app.MapControllerRoute(
     name: "default",
