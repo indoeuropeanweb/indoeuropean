@@ -1,35 +1,25 @@
 ﻿var builder = WebApplication.CreateBuilder(args);
 
 // Force lowercase URL generation
-builder.Services.AddRouting(options =>
-{
-    options.LowercaseUrls = true;
-    options.LowercaseQueryStrings = true;
-});
-
 builder.Services.AddControllersWithViews();
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
 var app = builder.Build();
-
-// Force lowercase path before routing
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-// 🔧 Normalize URLs before routing
 
 app.Use(async (context, next) =>
 {
     var path = context.Request.Path.Value;
-    if (!string.IsNullOrEmpty(path) && path != path.ToLowerInvariant())
+    if (path != path.ToLowerInvariant())
     {
-        var lowerPath = path.ToLowerInvariant();
-        var queryString = context.Request.QueryString.HasValue ? context.Request.QueryString.Value : "";
-        context.Response.Redirect(lowerPath + queryString, permanent: true);
+        context.Response.Redirect(path.ToLowerInvariant() + context.Request.QueryString, true);
         return;
     }
     await next();
 });
 
+    // Force lowercase path before routing
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
 app.UseRouting();
 
@@ -58,7 +48,7 @@ if (!app.Environment.IsDevelopment())
 //        "default-src 'self'; " +
 //        "script-src 'self' https://www.youtube.com https://www.google.com https://www.gstatic.com https://kit.fontawesome.com; " +
 //        "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com https://kit.fontawesome.com; " +
-//        "font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com https://kit.fontawesome.com; " +
+//        "font-src 'self' https://fonts.gstatic.com https://kit.fontawesome.com; " +
 //        "img-src 'self' data: https://i.ytimg.com; " +
 //        "frame-src https://www.youtube.com https://www.youtube-nocookie.com;"
 //    );

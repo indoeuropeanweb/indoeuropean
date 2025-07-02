@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@ViewData["Title"] - Indo European</title>
-    <meta name="description" content="Indo European Study Abroad Consultants">
+    <meta name="description" content="@ViewData["Description"] - Indo European Study Abroad Consultants">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
@@ -93,7 +93,7 @@
                       
                             <div class="col-md-3">
                                 <div class="logo">
-                                    <a href="/home/index">
+                                    <a asp-controller="home" asp-action="index">
                                         <img class="logo-light" src="~/assets/images/logo/logo-dark.png" alt="Corporate Logo">
                                     </a>
                                 </div>
@@ -104,16 +104,15 @@
                                 <nav class="mainmenu-nav">
                                     <ul class="mainmenu">
                                         <li class="has-droupdown">
-                                            <a href="#"> Study Destinations </a>
-
+                                            <a asp-controller="home" asp-action="index"> Study Destinations </a>
                                             <ul class="submenu">
-                                                <li><a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg "> &nbsp; Europe </a></li>
-                                                <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg"> &nbsp; Australia </a></li>
-                                                <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg"> &nbsp; Canada </a></li>
-                                                <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg"> &nbsp; New Zealand </a></li>
-                                                <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg"> &nbsp; Singapore </a></li>
-                                                <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg"> &nbsp; UK </a></li>
-                                                <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg"> &nbsp; USA </a></li>
+                                                <li><a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="explore-europe"> &nbsp; Europe </a></li>
+                                                <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="explore-australia"> &nbsp; Australia </a></li>
+                                                <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="explore-canada"> &nbsp; Canada </a></li>
+                                                <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="explore-newzealand"> &nbsp; New Zealand </a></li>
+                                                <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="explore-singapore"> &nbsp; Singapore </a></li>
+                                                <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="explore-uk"> &nbsp; UK </a></li>
+                                                <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="explore-usa"> &nbsp; USA </a></li>
                                                 @* <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg"> &nbsp; Ireland </a></li> *@
                                             </ul>
                                         </li>
@@ -147,6 +146,7 @@
                 </div>
             </div>
         </div>
+       </div>
         <div class="popup-mobile-menu">
             <div class="inner">
                 <div class="header-top">
@@ -166,13 +166,13 @@
                         <li class="has-droupdown">
                             <a asp-controller="home" asp-action="index"> Study Destinations </a>
                             <ul class="submenu">
-                                <li><a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg "> &nbsp; Europe </a></li>
-                                <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg"> &nbsp; Australia </a></li>
-                                <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg"> &nbsp; Canada </a></li>
-                                <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg"> &nbsp; New Zealand </a></li>
-                                <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg"> &nbsp; Singapore </a></li>
-                                <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg"> &nbsp; UK </a></li>
-                                <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg"> &nbsp; USA </a></li>
+                                <li><a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="study-in-europe"> &nbsp; Europe </a></li>
+                                <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="study-in-australia"> &nbsp; Australia </a></li>
+                                <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="study-in-Canada"> &nbsp; Canada </a></li>
+                                <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="study-in-newzealand"> &nbsp; New Zealand </a></li>
+                                <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="study-in-singapore"> &nbsp; Singapore </a></li>
+                                <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="study-in-uk"/> &nbsp; UK </a></li>
+                                <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="study-in-usa"/> &nbsp; USA </a></li>
                                 @* <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg"> &nbsp; Ireland </a></li> *@
                             </ul>
                         </li>
@@ -231,7 +231,7 @@
                                         <ul class="information-list">
                                             <li><a asp-controller="home" asp-action="index"><i class="fa fa-star"></i> &nbsp; Home </a></li>
                                             <li><a asp-controller="student" asp-action="our_services"><i class="fa fa-star"></i> &nbsp; Our Services</a></li>
-                                            <li><a asp-controller="partners" asp-action="collaborators"><i class="fa fa-star"></i> &nbsp; Collaborate </a></li>
+                                            <li><a asp-controller="partners" asp-action="collaborate"><i class="fa fa-star"></i> &nbsp; Collaborate </a></li>
                                             <li><a asp-controller="destinations" asp-action="coaching"><i class="fa fa-star"></i> &nbsp; Coaching </a></li>
                                             <li><a asp-controller="home" asp-action="about"><i class="fa fa-star"></i> &nbsp; About Us</a></li>
                                             <li><a asp-controller="home" asp-action="contact"><i class="fa fa-star"></i> &nbsp; Contact Us </a></li>
@@ -259,12 +259,12 @@
                                     <h4 class="widget-title">Partnership with Us </h4>
                                     <div class="widget-information">
                                         <ul class="information-list">
-                                            <li><a href="/partners/associate_agents"><i class="fa fa-star"></i> &nbsp; Associate Agents </a></li>
-                                            <li><a href="/partners/partner_franchise"><i class="fa fa-star"></i> &nbsp; Partner Franchisee</a></li>
-                                            <li><a href="/partners/indian_universities"><i class="fa fa-star"></i> &nbsp; Indian Universities </a></li>
-                                            <li><a href="/partners/coaching_centres"><i class="fa fa-star"></i> &nbsp; Coaching Centres </a></li>
-                                            <li><a href="/partners/other_businesses"><i class="fa fa-star"></i> &nbsp; Other Businesses</a></li>
-                                            <li><a href="/partners/overseas_institute"><i class="fa fa-star"></i> &nbsp; Overseas Institutes </a></li>
+                                            <li><a asp-controller="partners" asp-action="associate_agents"><i class="fa fa-star"></i> &nbsp; Associate Agents </a></li>
+                                            <li><a asp-controller="partners" asp-action="partner_franchise"><i class="fa fa-star"></i> &nbsp; Partner Franchisee</a></li>
+                                            <li><a asp-controller="partners" asp-action="indian_universities"><i class="fa fa-star"></i> &nbsp; Indian Universities </a></li>
+                                            <li><a asp-controller="partners" asp-action="coaching_centres"><i class="fa fa-star"></i> &nbsp; Coaching Centres </a></li>
+                                            <li><a asp-controller="partners" asp-action="other_businesses"><i class="fa fa-star"></i> &nbsp; Other Businesses</a></li>
+                                            <li><a asp-controller="partners" asp-action="overseas_institute"><i class="fa fa-star"></i> &nbsp; Overseas Institutes </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -275,11 +275,11 @@
                                         <ul class="information-list">
                                             <li><a href="https://crm.indoeuropean.in/" target="_blank"><i class="fa fa-star"></i> &nbsp; CRM </a></li>
                                             @* <li><a href="http://search.indoeuropean.in/Home/Menu" target="_blank"><i class="fa fa-star"></i> &nbsp; Course Finder</a></li> *@
-                                            <li><a href="/destinations/coaching"><i class="fa fa-star" target="_blank"></i> &nbsp; IELTS Classes  </a></li>
+                                            <li><a asp-controller="destinations" asp-action="coaching"><i class="fa fa-star" target="_blank"></i> &nbsp; IELTS Classes  </a></li>
                                             <li><a href="http://payment.indoeuropean.in/payment-link.aspx" target="_blank"><i class="fa fa-star"></i> &nbsp; Pay Online </a></li>
                                             <li><a href="https://zoom.us/j/91022278457#success" target="_blank"><i class="fa fa-star"></i> &nbsp; Free Counselling</a></li>
                                             <li><a href="tel:9650133355"><i class="fa fa-star"></i> &nbsp; Call Our Experts </a></li>
-                                            <li><a href="/home/testimonials"><i class="fa fa-star"></i> &nbsp; Testimonials </a></li>
+                                            <li><a asp-controller="home" asp-action="testimonials"><i class="fa fa-star"></i> &nbsp; Testimonials </a></li>
                                             <li><a href="/sitemap.xml"><i class="fa fa-star"></i> &nbsp; Sitemap </a></li>
                                         </ul>
                                     </div>
@@ -297,7 +297,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="inner text-center ">
-                            <p class="text-white">Copyright 2025 <a href="/home/index" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
+                            <p class="text-white">Copyright 2025 <a asp-controller="home" asp-action="index" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
                         </div>
                     </div>
                 </div>

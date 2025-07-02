@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    ViewData["Description"] = "Indo European Study Abroad Consultants";
 }
 
 <div class="hero-banner hero-style-10" style="background-image:url(/assets/images/banner/bg-banner.png); background-repeat: no-repeat;
@@ -179,8 +180,6 @@
                         <h5 class="title-flag"> Canada</h5>
                     </a>
                 </li>
-
-
                 <li>
                     <a href="/destinations/usa">
                         <img src="/assets/images/flag/usa.png" class="flag">
@@ -193,17 +192,14 @@
                         <img src="/assets/images/flag/newzealand.png" class="flag">
                         <h5 class="title-flag"> New Zealand</h5>
                     </a>
-
                 </li>
                 <li>
                     <a href="/destinations/australia">
                         <img src="/assets/images/flag/australia.png" class="flag">
                         <h5 class="title-flag"> Australia</h5>
                     </a>
-                    </a>
                 </li>
-
-
+                </ul>
         </div>
     </div>
 
@@ -236,7 +232,7 @@
                         <p>In order to provide exceptional services to students, we provide full-fledged information about.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -250,7 +246,7 @@
                         <p>Today, students are aspiring for grasping global opportunities and therefore they want to establish. </p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -264,7 +260,7 @@
                         <p>After selecting the country, the next and major step is to select the University for pursuing higher. </p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -279,7 +275,7 @@
                         <p>This is one of the crucial stepsin the entire process of study abroad as it will determine the field of education.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -297,7 +293,7 @@
                         <p>Student Visa Processing and Visa file preparation keeps high importance in the entire process.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -311,7 +307,7 @@
                         <p>Most of the students are totally unaware about the living expenses and accommodation part.  </p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -325,7 +321,7 @@
                         <p>Along with other services, we also have financial agents that provide complete guidance on education.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -340,7 +336,7 @@
                         <p>Being your career consultant, we are responsible to undergo all the admission and visa formalities.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="student" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -612,11 +608,8 @@
                         </p>
                     </div>
                     <ul style="text-align: center; list-style:none;">
-                        <li><a href="/home/about"><i class="fa fa-check "></i> Read More </a></li>
-
+                        <li><a asp-controller="home" asp-action="about"><i class="fa fa-check "></i> Read More </a></li>
                     </ul>
-
-
                 </div>
             </div>
         </div>
@@ -861,8 +854,7 @@
                             </div>
                             <h5 class="title"><a href="#">Top 7 Reasons to Study in Europe in 2024?</a></h5>
                             <ul class="blog-meta">
-                                <li><i class="icon-27"></i>29 June, 2024</li>
-                                <br>
+                                <li style="margin-bottom: 12px"><i class="icon-27"></i>29 June, 2024</li>
                                 <li><i class="icon-23 "></i>Study in Europe Day</li>
                             </ul>
                         </div>
@@ -873,13 +865,13 @@
                 <div class="edu-blog blog-style-2 blog-style-10">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="#">
+                            <p>
                                 <img src="/assets/images/blogs/3.jpg" alt="Blog Images">
-                            </a>
+                            </p>
                         </div>
                         <div class="content">
                             <div class="category-wrap">
-                                <a href="#" class="blog-category small-category">Study Abroad</a>
+                                <p class="blog-category small-category">Study Abroad</p>
                             </div>
                             <h5 class="title"><a href="#">Why Indian Students are choosing Ukraine for studying abroad?</a></h5>
                             <ul class="blog-meta">

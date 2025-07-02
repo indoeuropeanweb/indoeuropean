@@ -27,4 +27,3 @@ D:\Vinay-Dev\New_Indoeuropean\indoeuropean\indoeuropean\obj\Debug\net8.0\refint\
 D:\Vinay-Dev\New_Indoeuropean\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.pdb
 D:\Vinay-Dev\New_Indoeuropean\indoeuropean\indoeuropean\obj\Debug\net8.0\indoeuropean.genruntimeconfig.cache
 D:\Vinay-Dev\New_Indoeuropean\indoeuropean\indoeuropean\obj\Debug\net8.0\ref\indoeuropean.dll
-D:\Vinay-Dev\New_Indoeuropean\indoeuropean\indoeuropean\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
