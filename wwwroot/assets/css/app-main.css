@@ -199,6 +199,10 @@
 .bg-image--55 {
     background-image: url(../images/bg-image-55.jpg);
 }
+.bg-image--56 {
+    background-image: url(../images/blogs/bg-image-56.jpg);
+}
+
 
 /*===================
 Custom Row
@@ -44493,3 +44497,58 @@ display:none;
         grid-template-columns: 1fr;
     }
 }
+
+
+
+/* Blog Sections */
+.blog-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+    .blog-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .blog-card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+.blog-title {
+    font-weight: 700;
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+.blog-meta {
+    font-size: 1.4rem;
+    color: #6c757d;
+    padding-left: 15px;
+}
+
+.blog-section-title {
+    font-weight: 700;
+    color: #4829ff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    color: #4829ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.read-more:hover {
+        text-decoration: underline;
+    }
+
+
+/* Europe blog*/
+
+/* latvia blog*/
+
