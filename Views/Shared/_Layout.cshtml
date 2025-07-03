@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Indo European</title>
-    <meta name="description" content="Indo European Study Abroad Consultants">
+    <title>@ViewData["Title"] - Indo European</title>
+    <meta name="description" content="@ViewData["Description"]">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
@@ -18,24 +18,27 @@
     <link rel="stylesheet" href="~/assets/css/vendor/odometer.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/lightbox.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/animation.min.css">
-    <link rel="stylesheet" href="~/assets/css/vendor/jquery-ui.min.css">
+    @* <link rel="stylesheet" href="~/assets/css/vendor/jquery-ui.min.css"> *@
     <link rel="stylesheet" href="~/assets/css/vendor/swiper-bundle.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/tipped.min.css">
     <link rel="stylesheet" href="~/assets/css/international-telephone-input.css">
     <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="/assets/css/app-main.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="canonical" href="@Context.Request.Scheme://@Context.Request.Host@Context.Request.Path" />
+
+    @* CSP Header *@
+    @* <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';"> *@
+
 </head>
 
 <body class="sticky-header">
-    
 
     <!--=====================================-->
     <!--=        Header Area Start          =-->
     <!--=====================================-->
-
-
-
 
     <header class="edu-header header-style-1 header-fullwidth">
         <div class="header-top-bar edu-sticky">
@@ -87,8 +90,8 @@
                       
                             <div class="col-md-3">
                                 <div class="logo">
-                                    <a href="/home/index">
-                                        <img class="logo-light" src="~/assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                                    <a asp-controller="home" asp-action="index">
+                                        <img class="logo-light" src="~/assets/images/logo/logo-dark.webp" alt="Corporate Logo">
                                     </a>
                                 </div>
                             </div>
@@ -98,35 +101,23 @@
                                 <nav class="mainmenu-nav">
                                     <ul class="mainmenu">
                                         <li class="has-droupdown">
-                                            <a href="#"> Study Destinations </a>
-
+                                            <a asp-controller="home" asp-action="index"> Study Destinations </a>
                                             <ul class="submenu">
-                                                <li><a href="/Destinations/europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg "> &nbsp; Europe </a></li>
-                                                <li><a href="/Destinations/australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg"> &nbsp; Australia </a></li>
-                                                <li><a href="/Destinations/canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg"> &nbsp; Canada </a></li>
-
-                                                <li><a href="/Destinations/New_Zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg"> &nbsp; New Zealand </a></li>
-
-                                                <li><a href="/Destinations/singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg"> &nbsp; Singapore </a></li>
-
-                                                <li><a href="/Destinations/uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg"> &nbsp; UK </a></li>
-
-                                                <li><a href="/Destinations/usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg"> &nbsp; USA </a></li>
-
-                                                @* <li><a href="/Destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg"> &nbsp; Ireland </a></li> *@
-
-
+                                                    <li><a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="Explore Europe" title="Explore Europe" /> &nbsp; Europe </a></li>
+                                                    <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="Explore Australia" title="Explore Australia" /> &nbsp; Australia </a></li>
+                                                    <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="Explore Canada" title="Explore Canada" /> &nbsp; Canada </a></li>
+                                                    <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="Explore New Zealand" title="Explore New Zealand" /> &nbsp; New Zealand </a></li>
+                                                    <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="Explore Singapore" title="Explore Singapore" /> &nbsp; Singapore </a></li>
+                                                    <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="Study Uk" title="Study Uk" /> &nbsp; UK </a></li>
+                                                    <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="Explore USA" title="Explore USA" /> &nbsp; USA </a></li>
+                                                @* <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg"> &nbsp; Ireland </a></li> *@
                                             </ul>
-
                                         </li>
-
-
-
-                                        <li><a href="/student/our_services">Our Services</a></li>
-                                        <li><a href="/Partners/collaborate">Collaborate </a></li>
-                                        <li><a href="/Destinations/coaching">Coaching </a></li>
-                                        <li><a href="/home/about">About Us</a></li>
-                                        <li><a href="/home/contact">Contact Us </a></li>
+                                        <li><a asp-controller="home" asp-action="our_services">Our Services</a></li>
+                                        <li><a asp-controller="home" asp-action="collaborate">Collaborate </a></li>
+                                        <li><a asp-controller="home" asp-action="coaching">Coaching </a></li>
+                                        <li><a asp-controller="home" asp-action="about">About Us</a></li>
+                                        <li><a asp-controller="home" asp-action="contact">Contact Us </a></li>
 
                                     </ul>
                                 </nav>
@@ -137,6 +128,9 @@
 
                                     <div class="header-right">
                                             <ul class="header-action">
+                                        <li class="header-btn">
+                                            <a style="width: 100px" asp-controller="home" asp-action="enquiry" class="edu-btn btn-medium">Enquiry</a>
+                                        </li>
                                                 <li class="header-btn">
                                                     <a href="https://zoom.us/j/91022278457#success" class="edu-btn btn-medium" target="blank"> Attend Free Counselling <i class="icon-4"></i></a>
                                                 </li>
@@ -152,13 +146,13 @@
                 </div>
             </div>
         </div>
+       </div>
         <div class="popup-mobile-menu">
             <div class="inner">
                 <div class="header-top">
                     <div class="logo">
-                            <a href="/home/index">
-                                <img class="logo-light" src="~/assets/images/logo/logo-dark.png" alt="Corporate Logo">
-
+                            <a asp-controller="home" asp-action="index">
+                            <img class="logo-light" src="~/assets/images/logo/logo-dark.png" alt="Indoeuropean-Logo" title="IndoEuropean-Logo" />
                             </a>
                     </div>
                     <div class="close-menu">
@@ -169,23 +163,23 @@
                 </div>
                     <ul class="mainmenu">
                         <li class="has-droupdown">
-                            <a href="#"> Study Destinations </a>
+                            <a asp-controller="home" asp-action="index"> Study Destinations </a>
                             <ul class="submenu">
-                                <li><a href="/destinations/europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg "> &nbsp; Europe </a></li>
-                                <li><a href="/destinations/australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg"> &nbsp; Australia </a></li>
-                                <li><a href="/destinations/canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg"> &nbsp; Canada </a></li>
-                                <li><a href="/destinations/New_Zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg"> &nbsp; New Zealand </a></li>
-                                <li><a href="/destinations/singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg"> &nbsp; Singapore </a></li>
-                                <li><a href="/destinations/uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg"> &nbsp; UK </a></li>
-                                <li><a href="/destinations/usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg"> &nbsp; USA </a></li>
-                                @* <li><a href="/Destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg"> &nbsp; Ireland </a></li> *@
+                            <li><a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="study-in-europe" title="Study in Europe" /> &nbsp; Europe </a></li>
+                            <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="study-in-australia" title="Study in Australia" /> &nbsp; Australia </a></li>
+                            <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="study-in-Canada" title="Study in Canada" /> &nbsp; Canada </a></li>
+                            <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="study-in-newzealand" title="Study in New Zealand" /> &nbsp; New Zealand </a></li>
+                            <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="study-in-singapore" title="Study in Singapore" /> &nbsp; Singapore </a></li>
+                            <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="study-in-uk" title="Study in Uk" /> &nbsp; UK </a></li>
+                            <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="study-in-usa" title="Study in USA" /> &nbsp; USA </a></li>
+                                @* <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg"> &nbsp; Ireland </a></li> *@
                             </ul>
                         </li>
-                        <li><a href="/student/our_services">Services</a></li>
-                        <li><a href="/Partners/collaborate">Collaborate </a></li>
-                        <li><a href="/Destinations/coaching">Coaching </a></li>
-                        <li><a href="/home/about">About </a></li>
-                        <li><a href="/home/contact">Contact  </a></li>
+                        <li><a asp-controller="home" asp-action="our_services">Services</a></li>
+                        <li><a asp-controller="home" asp-action="collaborate">Collaborate </a></li>
+                        <li><a asp-controller="home" asp-action="coaching">Coaching</a></li>
+                        <li><a asp-controller="home" asp-action="about">About </a></li>
+                        <li><a asp-controller="home" asp-action="contact">Contact  </a></li>
                     </ul>
             </div>
         </div>
@@ -193,7 +187,7 @@
         <div class="edu-search-popup">
             <div class="content-wrap">
                 <div class="site-logo">
-                    <img class="logo-light" src="~/assets/images/logo/logo-dark.png" alt="Corporate Logo">
+                    <img class="logo-light" src="~/assets/images/logo/logo-dark.png" alt="Corporate Logo" title="Corporate Logo" />
                 </div>
                 <div class="close-button">
                     <button class="close-trigger"><i class="icon-73"></i></button>
@@ -234,13 +228,14 @@
                                     <h4 class="widget-title">Useful Links</h4>
                                     <div class="widget-information">
                                         <ul class="information-list">
-                                            <li><a href="/home/index"><i class="fa fa-star"></i> &nbsp; Home </a></li>
-                                            <li><a href="/student/our_services"><i class="fa fa-star"></i> &nbsp; Our Services</a></li>
-                                            <li><a href="/partners/collaborate"><i class="fa fa-star"></i> &nbsp; Collaborate </a></li>
-                                            <li><a href="/destinations/coaching"><i class="fa fa-star"></i> &nbsp; Coaching </a></li>
-                                            <li><a href="/home/about"><i class="fa fa-star"></i> &nbsp; About Us</a></li>
-                                            <li><a href="/home/contact"><i class="fa fa-star"></i> &nbsp; Contact Us </a></li>
-                                            <li><a href="/condition/termsconditions.html" target="_blank"><i class="fa fa-star"></i> &nbsp; Terms & Conditions </a></li>
+                                            <li><a asp-controller="home" asp-action="index"><i class="fa fa-star"></i> &nbsp; Home </a></li>
+                                            <li><a asp-controller="home" asp-action="our_services"><i class="fa fa-star"></i> &nbsp; Our Services</a></li>
+                                            <li><a asp-controller="home" asp-action="collaborate"><i class="fa fa-star"></i> &nbsp; Collaborate </a></li>
+                                            <li><a asp-controller="home" asp-action="coaching"><i class="fa fa-star"></i> &nbsp; Coaching </a></li>
+                                            <li><a asp-controller="home" asp-action="about"><i class="fa fa-star"></i> &nbsp; About Us</a></li>
+                                            <li><a asp-controller="home" asp-action="contact"><i class="fa fa-star"></i> &nbsp; Contact Us </a></li>
+                                            <li><a asp-controller="home" asp-action="coaching_centres"><i class="fa fa-star"></i> &nbsp; Coaching Centres </a></li>
+                                            <li><a asp-controller="home" asp-action="termsandconditions" target="_blank"><i class="fa fa-star"></i> &nbsp; Terms & Conditions </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -249,13 +244,13 @@
                                     <h4 class="widget-title">Study Destinations</h4>
                                     <div class="widget-information">
                                         <ul class="information-list">
-                                            <li><a href="/destinations/europe" ><i class="fa fa-star"></i> &nbsp; Study in Europe </a></li>
-                                            <li><a href="/destinations/australia"><i class="fa fa-star"></i> &nbsp; Study in  Australia </a></li>
-                                            <li><a href="/destinations/canada"><i class="fa fa-star"></i> &nbsp; Study in Canada </a></li>
-                                            <li><a href="/destinations/New_Zealand"><i class="fa fa-star"></i> &nbsp; Study in New Zealand </a></li>
-                                            <li><a href="/destinations/singapore"><i class="fa fa-star"></i> &nbsp; Study in  Singapore </a></li>
-                                            <li><a href="/destinations/uk"><i class="fa fa-star"></i> &nbsp; Study in UK </a></li>
-                                            <li><a href="/destinations/usa"><i class="fa fa-star"></i> &nbsp; Study in USA </a></li>
+                                            <li><a asp-controller="destinations" asp-action="europe"><i class="fa fa-star"></i> &nbsp; Study in Europe </a></li>
+                                            <li><a asp-controller="destinations" asp-action="australia"><i class="fa fa-star"></i> &nbsp; Study in  Australia </a></li>
+                                            <li><a asp-controller="destinations" asp-action="canada"><i class="fa fa-star"></i> &nbsp; Study in Canada </a></li>
+                                            <li><a asp-controller="destinations" asp-action="new_zealand"><i class="fa fa-star"></i> &nbsp; Study in New Zealand </a></li>
+                                            <li><a asp-controller="destinations" asp-action="singapore"><i class="fa fa-star"></i> &nbsp; Study in  Singapore </a></li>
+                                            <li><a asp-controller="destinations" asp-action="uk"><i class="fa fa-star"></i> &nbsp; Study in UK </a></li>
+                                            <li><a asp-controller="destinations" asp-action="usa"><i class="fa fa-star"></i> &nbsp; Study in USA </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -264,12 +259,11 @@
                                     <h4 class="widget-title">Partnership with Us </h4>
                                     <div class="widget-information">
                                         <ul class="information-list">
-                                            <li><a href="/partners/associate_agents"><i class="fa fa-star"></i> &nbsp; Associate Agents </a></li>
-                                            <li><a href="/partners/Partner_Franchise"><i class="fa fa-star"></i> &nbsp; Partner Franchisee</a></li>
-                                            <li><a href="/partners/indian_universities"><i class="fa fa-star"></i> &nbsp; Indian Universities </a></li>
-                                            <li><a href="/partners/coaching_centres"><i class="fa fa-star"></i> &nbsp; Coaching Centres </a></li>
-                                            <li><a href="/partners/other_businesses"><i class="fa fa-star"></i> &nbsp; Other Businesses</a></li>
-                                            <li><a href="/partners/overseas_institute"><i class="fa fa-star"></i> &nbsp; Overseas Institutes </a></li>
+                                            <li><a asp-controller="partners" asp-action="associate_agents"><i class="fa fa-star"></i> &nbsp; Associate Agents </a></li>
+                                            <li><a asp-controller="partners" asp-action="partner_franchise"><i class="fa fa-star"></i> &nbsp; Partner Franchisee</a></li>
+                                            <li><a asp-controller="partners" asp-action="indian_universities"><i class="fa fa-star"></i> &nbsp; Indian Universities </a></li>
+                                            <li><a asp-controller="partners" asp-action="other_businesses"><i class="fa fa-star"></i> &nbsp; Other Businesses</a></li>
+                                            <li><a asp-controller="partners" asp-action="overseas_institute"><i class="fa fa-star"></i> &nbsp; Overseas Institutes </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -280,11 +274,11 @@
                                         <ul class="information-list">
                                             <li><a href="https://crm.indoeuropean.in/" target="_blank"><i class="fa fa-star"></i> &nbsp; CRM </a></li>
                                             @* <li><a href="http://search.indoeuropean.in/Home/Menu" target="_blank"><i class="fa fa-star"></i> &nbsp; Course Finder</a></li> *@
-                                            <li><a href="/Destinations/coaching"><i class="fa fa-star" target="_blank"></i> &nbsp; IELTS Classes  </a></li>
+                                            <li><a asp-controller="home" asp-action="coaching"><i class="fa fa-star" target="_blank"></i> &nbsp; IELTS Classes  </a></li>
                                             <li><a href="http://payment.indoeuropean.in/payment-link.aspx" target="_blank"><i class="fa fa-star"></i> &nbsp; Pay Online </a></li>
                                             <li><a href="https://zoom.us/j/91022278457#success" target="_blank"><i class="fa fa-star"></i> &nbsp; Free Counselling</a></li>
                                             <li><a href="tel:9650133355"><i class="fa fa-star"></i> &nbsp; Call Our Experts </a></li>
-                                            <li><a href="/home/testimonials"><i class="fa fa-star"></i> &nbsp; Testimonials </a></li>
+                                            <li><a asp-controller="home" asp-action="testimonials"><i class="fa fa-star"></i> &nbsp; Testimonials </a></li>
                                             <li><a href="/sitemap.xml"><i class="fa fa-star"></i> &nbsp; Sitemap </a></li>
                                         </ul>
                                     </div>
@@ -302,7 +296,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="inner text-center ">
-                            <p class="text-white">Copyright 2025 <a href="/home/index" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
+                            <p class="text-white">Copyright 2025 <a asp-controller="home" asp-action="index" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
@@ -336,7 +330,7 @@
 
                             <div class="row row--10">
                                 <div class="form-group col-lg-6 pb-10">
-                                    <input type="text" name="contact-name" id="contact-name" placeholder="Your Name">
+                                    <input type="text" name="contact-name" placeholder="Your Name">
                                 </div>
                                 <div class="form-group col-lg-6 pb-10">
                                     <input type="email" name="contact-email" id="contact-email" placeholder="Your Email">
@@ -370,7 +364,7 @@
                                 </div>
 
                                 <div class="form-group col-12 pb-10">
-                                    <select name="Programm" id="contact-name" required="">
+                                    <select name="Programm" required="">
                                         <option value="Program Interested">Program Interested</option>
                                         <option value="Bachelors">Bachelors</option>
                                         <option value="Masters">Masters</option>
@@ -384,7 +378,7 @@
 
 
                                 <div class="form-group col-12 pb-10">
-                                    <select name="Programm" id="contact-name" required="">
+                                    <select name="Programm" required="">
                                         <option value="Best Time to Call">Best Time to Call</option>
                                         <option value="09am-10am">09am - 10am</option>
                                         <option value="10am-11am">10am - 11am</option>
@@ -403,7 +397,7 @@
 
 
                                 <div class="form-group col-12 pb-10">
-                                    <input type="text" name="contact-name" id="contact-name" placeholder="City">
+                                    <input type="text" name="contact-name" placeholder="City">
                                 </div>
 
 
@@ -431,8 +425,8 @@
                 </div>
                 <div class="modal-body">
                     <ul style="list-style:none; padding:0px; margin:0px;">
-                        <li class="social" style="background:#25c15f;"><a href="wa.link/oc5hi9" style="color:#fff;" target="_blank"> <i class="fa fa-whatsapp"></i> &nbsp; Follow on Whatsapp   </a></li>
-                        <li class="social" style="background:#ff0000;"><a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" style="color:#fff;" target="_blank"> <i class="fa fa-youtube"></i> &nbsp; Watch on Youtube   </a></li>
+                        <li class="social" style="background:#25c15f;"><a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" style="color:#fff;" target="_blank"> <i class="fa fa-whatsapp"></i> &nbsp; Follow on Whatsapp   </a></li>
+                        <li class="social" style="background:#ff0000;"><a href="https://www.youtube.com/IEESIndoEuropean" style="color:#fff;" target="_blank"> <i class="fa fa-youtube"></i> &nbsp; Watch on Youtube   </a></li>
                         <li class="social" style="background:#0866ff;"><a href="https://www.facebook.com/Indoeuropean.in/" style="color:#fff;" target="_blank"> <i class="icon-facebook"></i> &nbsp; Like us on Facebook   </a></li>
                         <li class="social" style="background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);"><a href="https://www.instagram.com/indo_european/" style="color:#fff;" target="_blank"> <i class="fa fa-instagram"></i> &nbsp; Follow on Instagram   </a></li>
                         <li class="social" style="background:#0077b5;"><a href="https://www.linkedin.com/company/indo-european-study-abroad-consultants" style="color:#fff;" target="_blank"> <i class="fa fa-linkedin"></i> &nbsp; Join Us on Linkedin   </a></li>
@@ -443,8 +437,8 @@
     </div>
 
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://wa.link/mf3h15" class="float" target="_blank">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 
@@ -469,7 +463,7 @@
         </label>
 
         <a href="tel:+91-9650133355" class="float-item"> <i class="fa fa-phone"></i> </a>
-        <a href="https://wa.link/oc5hi9" class="float-item" target="blank"> <i class="fa fa-whatsapp"></i> </a>
+        <a href="" class="float-item" target="blank"> <i class="fa fa-whatsapp"></i> </a>
         <a href="#" class="float-item" data-toggle="modal" data-target="#exampleModalShort"> <i class="fa fa-envelope"></i> </a>
         <a href="#" class="float-item" data-toggle="modal" data-target="#regular_modal"> <i class="fa fa-retweet"></i> </a>
         <a href="/home/contact" class="float-item" target="blank"> <i class="fa fa-map-marker"></i> </a>
@@ -501,7 +495,7 @@
         modal.find('.modal-body input').val(recipient)
     })
 </script>
-<script>
+<script type="text/javascript">
     var acc = document.getElementsByClassName("accordion");
     var i;
 
@@ -523,15 +517,12 @@
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
-<script src="~/assets/js/bootstrap-modal-ios.js?1"></script>
 
 <script src="~/assets/js/international-telephone-input.js"></script>
 <script src="~/assets/js/vendor/modernizr.min.js"></script>
 <!-- Jquery Js -->
-<script src="~/assets/js/vendor/jquery.min.js"></script>
+@* <script src="~/assets/js/vendor/jquery.min.js"></script> *@
 <script src="~/assets/js/vendor/bootstrap.min.js"></script>
 <script src="~/assets/js/vendor/sal.min.js"></script>
 <script src="~/assets/js/vendor/jquery.waypoints.js"></script>

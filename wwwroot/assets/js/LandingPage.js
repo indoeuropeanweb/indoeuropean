@@ -108,12 +108,8 @@ function btnclick() {
         alert("Please select a best time to call.");
         return false;
     }   
-    
-
     Create_Lead();
-
 }
-
 
 //Call on Home Page Form 1
 function formValidation() {
@@ -319,7 +315,7 @@ function Create_Lead() {
         },
         success: function (res) {
             //alert(res.status);
-            window.location.href = "/home/thankyou";
+            window.location.href = "/thankyou";
         },
         error: function () {
             alert("Query Submission Failed!");

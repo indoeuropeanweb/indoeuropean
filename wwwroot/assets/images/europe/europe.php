@@ -75,7 +75,7 @@
                                                         </div>
                                                         <ul class="shape-group">
                                                             <li class="shape-4 scene sal-animate" data-sal-delay="500" data-sal="fade" data-sal-duration="200" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                                                                <img data-depth="-2" src="assets/images/others/shape-33.png" alt="" style="transform: translate3d(-4.1px, 16px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                                                                <img data-depth="-2" src="assets/images/others/shape-33.png" alt="feature-icon" / style="transform: translate3d(-4.1px, 16px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -152,7 +152,7 @@
                                                         </div>
                                                         <ul class="shape-group">
                                                             <li class="shape-4 scene sal-animate" data-sal-delay="500" data-sal="fade" data-sal-duration="200" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                                                                <img data-depth="-2" src="assets/images/others/shape-33.png" alt="" style="transform: translate3d(-4.1px, 16px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                                                                <img data-depth="-2" src="assets/images/others/shape-33.png" alt="feature-icon" / style="transform: translate3d(-4.1px, 16px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -226,7 +226,7 @@
                                                         </div>
                                                         <ul class="shape-group">
                                                             <li class="shape-4 scene sal-animate" data-sal-delay="500" data-sal="fade" data-sal-duration="200" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                                                                <img data-depth="-2" src="assets/images/others/shape-33.png" alt="" style="transform: translate3d(-4.1px, 16px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                                                                <img data-depth="-2" src="assets/images/others/shape-33.png" alt="feature-icon" / style="transform: translate3d(-4.1px, 16px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1035,66 +1035,66 @@
                                 <div class="features-wrapper">
                                     <div class="feature-wrap">
                                         <div class="features-track">
-                                            <img class="features-icon" src="assets/images/university/europe/logo1.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo1.png" alt="feature-icon" />
                                           
-                                            <img class="features-icon" src="assets/images/university/europe/logo2.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo2.png" alt="feature-icon" />
                                           
-                                            <img class="features-icon" src="assets/images/university/europe/logo3.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo3.png" alt="feature-icon" />
                                           
-                                            <img class="features-icon" src="assets/images/university/europe/logo4.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo4.png" alt="feature-icon" />
                                             
-                                            <img class="features-icon" src="assets/images/university/europe/logo5.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo5.png" alt="feature-icon" />
                                            
-                                            <img class="features-icon" src="assets/images/university/europe/logo6.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo6.png" alt="feature-icon" />
                                             
-                                            <img class="features-icon" src="assets/images/university/europe/logo7.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo7.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo8.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo8.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo9.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo9.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo10.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo10.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo11.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo11.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo12.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo12.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo13.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo13.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo14.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo14.png" alt="feature-icon" />
 
                                            
                                             
                                         </div>
 
                                          <div class="features-track">
-                                            <img class="features-icon" src="assets/images/university/europe/logo1.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo1.png" alt="feature-icon" />
                                           
-                                            <img class="features-icon" src="assets/images/university/europe/logo2.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo2.png" alt="feature-icon" />
                                           
-                                            <img class="features-icon" src="assets/images/university/europe/logo3.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo3.png" alt="feature-icon" />
                                           
-                                            <img class="features-icon" src="assets/images/university/europe/logo4.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo4.png" alt="feature-icon" />
                                             
-                                            <img class="features-icon" src="assets/images/university/europe/logo5.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo5.png" alt="feature-icon" />
                                            
-                                            <img class="features-icon" src="assets/images/university/europe/logo6.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo6.png" alt="feature-icon" />
                                             
-                                            <img class="features-icon" src="assets/images/university/europe/logo7.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo7.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo8.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo8.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo9.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo9.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo10.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo10.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo11.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo11.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo12.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo12.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo13.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo13.png" alt="feature-icon" />
 
-                                            <img class="features-icon" src="assets/images/university/europe/logo14.png" alt="">
+                                            <img class="features-icon" src="assets/images/university/europe/logo14.png" alt="feature-icon" />
 
                                           
                                             

@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Description"] = "Indo European Study Abroad Consultants";
 }
 
 <div class="hero-banner hero-style-10" style="background-image:url(/assets/images/banner/bg-banner.png); background-repeat: no-repeat;
@@ -12,20 +12,12 @@
                     <div class="thumbnail">
                         <img src="/assets/images/banner/girl.png" alt="Girl Image">
                     </div>
-                 
                 </div>
-
-               
             </div>
-
-
             <div class="col-lg-5">
-
-
                 <div class="contact-form" style="margin-bottom: 20px;">
-
                         <form class="rnt-contact-form rwt-dynamic-form" id="contact-form">
-                            <h3 class="title" style="padding: 10px 0px; color:#000;">Get in Touch </h3>
+                        <h3 class="title" style="padding: 10px 0px; color:#000;">Get in touch</h3>
                             <div class="row row--10">
                                 <div class="form-group col-lg-6">
                                 <input type="text" name="contact-name" id="txtFName" placeholder="Your Name">
@@ -37,7 +29,7 @@
                                     <div class="select-box">
                                         <div class="selected-option">
                                             <div>
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc35340290"><g id="IconifyId19135992cc35340291"><g id="IconifyId19135992cc35340292"><g id="IconifyId19135992cc35340293" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340293" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(-120)"></use></g></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc35340290"><g id="IconifyId19135992cc35340291"><g id="IconifyId19135992cc35340292"><g id="IconifyId19135992cc35340294" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340293" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(-120)"></use></g></svg>
 
                                             </div>
                                         <input type="tel" name="txtPhone" id="txtPhone" placeholder="+91">
@@ -76,11 +68,8 @@
 
                                 <div class="form-group col-12">
                                 <select name="PreferredCallBackTime" required="" id="ddlPreferredCallBackTime">
-                                      
-
                                     </select>
                                 </div>
-
 
                                 <div class="form-group col-12 text-center">
                                  <input type="button" value="Submit" class="rn-btn edu-btn submit-btn" onclick="formValidation();" />
@@ -88,7 +77,6 @@
                                </div>
                             </div>
                         </form>
-                   
                 </div>
             </div>
 
@@ -156,7 +144,7 @@
 <div class="edu-categorie-area categorie-area-2 edu-section-gap">
     <div class="container">
         <div class="section-title section-center">
-            <h2 class="title">Choose Among Top Study Destinations</h2>
+            <h1 class="title">Choose Among Top Study Destinations</h1>
             <span class="shape-line"><i class="icon-19"></i></span>
 
         </div>
@@ -166,48 +154,43 @@
         <div class="row">
             <ul class="flag-row">
                 <li>
-                    <a href="/Destinations/europe">
-                        <img src="/assets/images/flag/europe.png" class="flag">
+                    <a asp-controller="destinations" asp-action="europe">
+                        <img src="/assets/images/flag/europe.png" alt="Europe Flag" />
                         <h5 class="title-flag"> Europe</h5>
                     </a>
                 </li>
                 <li>
-                    <a href="/Destinations/uk">
-                        <img src="/assets/images/flag/uk.png" class="flag">
+                    <a asp-controller="destinations" asp-action="uk">
+                        <img src="/assets/images/flag/uk.png" alt="UK Flag" />
                         <h5 class="title-flag"> UK</h5>
                     </a>
                 </li>
                 <li>
-                    <a href="/Destinations/canada">
-                        <img src="/assets/images/flag/canada.png" class="flag">
+                    <a asp-controller="destinations" asp-action="canada">
+                        <img src="/assets/images/flag/canada.png" alt="Canada Flag" />
                         <h5 class="title-flag"> Canada</h5>
                     </a>
                 </li>
-
-
                 <li>
-                    <a href="/Destinations/usa">
-                        <img src="/assets/images/flag/usa.png" class="flag">
-                        <h5 class="title-flag"> USA</h5>
+                    <a asp-controller="destinations" asp-action="usa">
+                        <img src="/assets/images/flag/usa.png" alt="USA Flag" />
+                        <h5 class="title-flag">USA</h5>
                     </a>
                 </li>
 
                 <li>
-                    <a href="/Destinations/new_zealand">
-                        <img src="/assets/images/flag/newzealand.png" class="flag">
-                        <h5 class="title-flag"> New Zealand</h5>
+                    <a asp-controller="destinations" asp-action="new_zealand">
+                        <img src="/assets/images/flag/newzealand.png" alt="New Zealand Flag" />
+                        <h5 class="title-flag">New Zealand</h5>
                     </a>
-
                 </li>
                 <li>
-                    <a href="/Destinations/australia">
-                        <img src="/assets/images/flag/australia.png" class="flag">
-                        <h5 class="title-flag"> Australia</h5>
-                    </a>
+                    <a asp-controller="destinations" asp-action="australia">
+                        <img src="/assets/images/flag/australia.png" alt="Australia Flag" />
+                        <h5 class="title-flag">Australia</h5>
                     </a>
                 </li>
-
-
+                </ul>
         </div>
     </div>
 
@@ -226,49 +209,49 @@
     <div class="container edublink-animated-shape">
         <div class="section-title section-center sal-animate gap">
             <span class="pre-title">Why choose Indo European</span>
-            <h2 class="title">What <span class="color-secondary">We Offer</span> </h2>
+            <h1 class="title">What <span class="color-secondary">We Offer</span> </h1>
             <span class="shape-line"><i class="icon-19"></i></span>
         </div>
         <div class="row g-5">
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-primary-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/1.png">
+                        <img src="/assets/images/icons/1.png" alt="icon-img" />
                     </div>
                     <div class="content">
                         <h4 class="title">Career Counseling</h4>
                         <p>In order to provide exceptional services to students, we provide full-fledged information about.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-secondary-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/2.png">
+                        <img src="/assets/images/icons/2.png" alt="icon-img" />
                     </div>
                     <div class="content">
                         <h4 class="title">Country Selection</h4>
                         <p>Today, students are aspiring for grasping global opportunities and therefore they want to establish. </p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-extra08-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/3.png">
+                        <img src="/assets/images/icons/3.png" alt="icon-img">
                     </div>
                     <div class="content">
                         <h4 class="title">University Selection</h4>
                         <p>After selecting the country, the next and major step is to select the University for pursuing higher. </p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -276,14 +259,14 @@
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-extra08-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/4.png">
+                        <img src="/assets/images/icons/4.png" alt="icon-img">
                     </div>
                     <div class="content">
                         <h4 class="title">Course Selection</h4>
                         <p>This is one of the crucial stepsin the entire process of study abroad as it will determine the field of education.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -294,42 +277,42 @@
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-primary-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/5.png">
+                        <img src="/assets/images/icons/5.png" alt="icon-img">
                     </div>
                     <div class="content">
                         <h4 class="title">Student Visa</h4>
                         <p>Student Visa Processing and Visa file preparation keeps high importance in the entire process.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-secondary-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/6.png">
+                        <img src="/assets/images/icons/6.png" alt="icn-img">
                     </div>
                     <div class="content">
                         <h4 class="title">Accommodation</h4>
                         <p>Most of the students are totally unaware about the living expenses and accommodation part.  </p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-extra08-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/7.png">
+                        <img src="/assets/images/icons/7.png" alt="icon-img">
                     </div>
                     <div class="content">
                         <h4 class="title">Education Loans</h4>
                         <p>Along with other services, we also have financial agents that provide complete guidance on education.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -337,14 +320,14 @@
             <div class="col-lg-3 sal-animate">
                 <div class="why-choose-box features-box color-extra08-style">
                     <div class="icon">
-                        <img src="/assets/images/icons/8.png">
+                        <img src="/assets/images/icons/8.png" alt="icon-img">
                     </div>
                     <div class="content">
                         <h4 class="title">Admission Formalities</h4>
                         <p>Being your career consultant, we are responsible to undergo all the admission and visa formalities.</p>
                     </div>
                     <div class="read-more">
-                        <a href="/student/our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
                     </div>
                 </div>
             </div>
@@ -390,24 +373,24 @@
                     </div>
                     <ul class="shape-group">
                         <li class="shape-01 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                            <img data-depth="2.5" src="/assets/images/cta/shape-43.png" alt="shape" style="transform: translate3d(4.8px, -8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                            <img data-depth="2.5" src="/assets/images/cta/shape-43.png" alt="shape-icon" style="transform: translate3d(4.8px, -8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
                         </li>
                         <li class="shape-02 sal-animate">
-                            <img src="/assets/images/cta/shape-42.png" alt="shape">
+                            <img src="/assets/images/cta/shape-42.png" alt="shape-image-icon">
                         </li>
                         <li class="shape-03 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                            <img data-depth="-2" src="/assets/images/cta/shape-40.png" alt="shape" style="transform: translate3d(-5.7px, 9.4px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                            <img data-depth="-2" src="/assets/images/cta/shape-40.png" alt="shape-icon" style="transform: translate3d(-5.7px, 9.4px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
                         </li>
                         <li class="shape-04 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-                            <img data-depth="2" src="/assets/images/cta/shape-38.png" alt="shape" style="transform: translate3d(4.4px, -8.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
+                            <img data-depth="2" src="/assets/images/cta/shape-38.png" alt="shape-icon" style="transform: translate3d(4.4px, -8.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;">
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
 
                     <div class="contact-form" style="margin-top:50px; margin-bottom: 20px;">
-                        <form class="rnt-contact-form rwt-dynamic-form" id="contact-form1">
-                            <h3 class="title" style="padding: 10px 0px; color:#000;">Get in Touch </h3>
+                        <form class="rnt-contact-form rwt-dynamic-form">
+                            <h3 class="title" style="padding: 10px 0px; color:#000;">Connect with us</h3>
                             <div class="row row--10">
                                 <div class="form-group col-lg-6">
                                     <input type="text" name="contact-name" id="txtFName_1" placeholder="Your Name">
@@ -419,7 +402,7 @@
                                     <div class="select-box">
                                         <div class="selected-option">
                                             <div>
-                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc35340290"><g id="IconifyId19135992cc35340291"><g id="IconifyId19135992cc35340292"><g id="IconifyId19135992cc35340293" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340293" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(-120)"></use></g></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc35340290"><g id="IconifyId19135992cc35340291"><g id="IconifyId19135992cc35340292"><g id="IconifyId19135992cc35340294" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340295" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340290" transform="rotate(-120)"></use></g></svg>
 
                                             </div>
                                             <input type="tel" name="txtPhone" id="txtPhone_1" placeholder="+91">
@@ -465,7 +448,6 @@
                         </form>
 
 @*                         <form class="rnt-contact-form rwt-dynamic-form" id="contact-form" method="POST" action="#">
-                            <h3 class="title" style="padding: 10px 0px;">Get in Touch With Our Experts</h3>
                             <div class="row row--10">
                                 <div class="form-group col-lg-6">
                                     <input type="text" name="contact-name" id="contact-name" placeholder="Your Name">
@@ -608,7 +590,7 @@
                 <div class="about-content">
                     <div class="section-title section-center align-items-center">
                         <span class="pre-title">About Indo European Study Abroad Consultant</span>
-                        <h2 class="title" style="font-size: 30px; ">Right Advice Leads to Right Career  <span class="color-secondary">Our Experience Speaks</span></h2>
+                        <h1 class="title" style="font-size: 30px; ">Right Advice Leads to Right Career  <span class="color-secondary">Our Experience Speaks</span></h1>
                         <span class="shape-line"><i class="icon-19"></i></span>
                         <p style="text-align: center;">
                             <b> Welcome to Indo-European,</b> your premier global education consultancy with over 20 years of excellence in connecting Indian students with prestigious international universities. We are dedicated to guiding students towards their academic goals and fostering strategic partnerships with top institutions worldwide. <br>
@@ -617,17 +599,14 @@
                         </p>
                     </div>
                     <ul style="text-align: center; list-style:none;">
-                        <li><a href="/home/about"><i class="fa fa-check "></i> Read More </a></li>
-
+                        <li><a asp-controller="home" asp-action="about"><i class="fa fa-check "></i> Read More </a></li>
                     </ul>
-
-
                 </div>
             </div>
         </div>
 
     </div>
-    <img src="/assets/images/svg-icons/download.png">
+    <img src="/assets/images/svg-icons/download.png" alt="download-icon">
 </div>
 
 
@@ -641,7 +620,7 @@
                 <div class="brand-section-heading">
                     <div class="section-title section-center sal-animate">
                         <span class="pre-title" style="color: #000;">Top Universities</span>
-                        <h2 class="title">Our Partner Universities</h2>
+                        <h1 class="title">Our Partner Universities</h1>
                         <span class="shape-line"><i class="icon-19"></i></span>
                     </div>
                 </div>
@@ -651,70 +630,70 @@
                     <div class="features-wrapper">
                         <div class="feature-wrap">
                             <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/1.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/1.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/2.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/2.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/3.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/3.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/4.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/4.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/5.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/5.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/6.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/6.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/7.png" alt="">
-
-                            </div>
-
-                            <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/8.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/10.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/11.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/12.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/13.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/14.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/15.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/7.png" alt="feature-icon">
 
                             </div>
 
                             <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/1.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/8.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/2.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/10.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/3.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/11.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/4.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/12.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/5.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/13.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/6.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/14.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/7.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/15.png" alt="feature-icon">
 
                             </div>
 
                             <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/8.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/1.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/10.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/2.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/11.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/3.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/12.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/4.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/13.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/5.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/14.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/6.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/15.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/7.png" alt="feature-icon">
+
+                            </div>
+
+                            <div class="features-track">
+                                <img class="features-icon" src="/assets/images/logos/8.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/10.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/11.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/12.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/13.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/14.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/15.png" alt="feature-icon">
 
                             </div>
                         </div>
@@ -727,72 +706,72 @@
                     <div class="features-wrapper">
                         <div class="feature-wrap">
                             <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/16.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/16.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/17.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/17.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/18.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/18.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/19.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/19.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/20.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/20.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/21.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/21.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/22.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/22.png" alt="feature-icon">
 
                             </div>
 
                             <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/23.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/23.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/24.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/24.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/25.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/25.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/26.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/26.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/27.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/27.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/28.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/28.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/29.png" alt="">
-
-                            </div>
-
-
-                            <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/16.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/17.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/18.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/19.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/20.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/21.png" alt="">
-
-                                <img class="features-icon" src="/assets/images/logos/22.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/29.png" alt="feature-icon">
 
                             </div>
 
 
                             <div class="features-track">
-                                <img class="features-icon" src="/assets/images/logos/23.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/16.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/24.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/17.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/25.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/18.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/26.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/19.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/27.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/20.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/28.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/21.png" alt="feature-icon">
 
-                                <img class="features-icon" src="/assets/images/logos/29.png" alt="">
+                                <img class="features-icon" src="/assets/images/logos/22.png" alt="feature-icon">
+
+                            </div>
+
+
+                            <div class="features-track">
+                                <img class="features-icon" src="/assets/images/logos/23.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/24.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/25.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/26.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/27.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/28.png" alt="feature-icon">
+
+                                <img class="features-icon" src="/assets/images/logos/29.png" alt="feature-icon">
 
                             </div>
                         </div>
@@ -818,7 +797,7 @@
                 <div class="section-title section-left sal-animate">
 
                     <span class="pre-title">Latest Articles</span>
-                    <h2 class="title">Get News with Indo European</h2>
+                    <h1 class="title">Get News with Indo European</h1>
                     <span class="shape-line"><i class="icon-19"></i></span>
                 </div>
             </li>
@@ -841,7 +820,7 @@
                         </div>
                         <div class="content">
 
-                            <h3 class="title blogh"><a href="#l">Study in UK, Canada, USA,  Australia & New Zealand </a></h3>
+                            <h3 class="title blogh"><a asp-controller="home" asp-action="index">Study in UK, Canada, USA,  Australia & New Zealand </a></h3>
                             <ul class="blog-meta">
                                 <li><i class="icon-27"></i>Sat, 29<sup>th</sup>June'24 </li>
                                 <li><i class="icon-23"></i>11am to 5pm </li>
@@ -866,8 +845,7 @@
                             </div>
                             <h5 class="title"><a href="#">Top 7 Reasons to Study in Europe in 2024?</a></h5>
                             <ul class="blog-meta">
-                                <li><i class="icon-27"></i>29 June, 2024</li>
-                                <br>
+                                <li style="margin-bottom: 12px"><i class="icon-27"></i>29 June, 2024</li>
                                 <li><i class="icon-23 "></i>Study in Europe Day</li>
                             </ul>
                         </div>
@@ -878,13 +856,13 @@
                 <div class="edu-blog blog-style-2 blog-style-10">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="#">
+                            <p>
                                 <img src="/assets/images/blogs/3.jpg" alt="Blog Images">
-                            </a>
+                            </p>
                         </div>
                         <div class="content">
                             <div class="category-wrap">
-                                <a href="#" class="blog-category small-category">Study Abroad</a>
+                                <p class="blog-category small-category">Study Abroad</p>
                             </div>
                             <h5 class="title"><a href="#">Why Indian Students are choosing Ukraine for studying abroad?</a></h5>
                             <ul class="blog-meta">
@@ -901,8 +879,9 @@
 <script>
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
 <script src="~/assets/js/config.js"></script>
 <script src="~/assets/js/landingpage.js"></script>
-<script src="/assets/js/main.js"></script>
-<script src="/assets/js/jquery.min.js" type="text/javascript"></script>
+@* <script src="/assets/js/jquery.min.js" type="text/javascript"></script> *@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

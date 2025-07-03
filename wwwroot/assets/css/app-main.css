@@ -30710,6 +30710,7 @@ Countdown
 .edu-header .header-brand .logo {
     /* margin-right: 40px; */
     width: 100%;
+    max-width: 250px;
 }
 
 @media only screen and (max-width: 575px) {
@@ -43998,7 +43999,8 @@ display:none;
 
 
 
-/*student testimonail */
+/*
+    testimonail */
 .testimonial-card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

@@ -1,6 +1,11 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
+
+@{
+    ViewData["Title"] = "Thank You";
+}
+
 @{
 }
 <!DOCTYPE html>
@@ -91,10 +96,8 @@
                     font-weight: 600;
                 }
 
-        media screen and (max-width: 600px) {
-            h1
-
-        {
+        @@media screen and (max-width: 600px) {
+        h1{
             font-size: 40px;
         }
 
@@ -104,10 +107,8 @@
 
         }
 
-        media screen and (max-width: 480px) {
-            .content
-
-        {
+        @@media screen and (max-width: 480px) {
+        .content{
             max-width: 1000px;
             margin: 0 auto;
         }

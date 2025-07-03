@@ -19,3 +19,6 @@
 =======
         .vs
 >>>>>>> ca5ab205fafdbad1a3ef49be38c4c63a7f2ebd66
+
+obj/
+bin/
