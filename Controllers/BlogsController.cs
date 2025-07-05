@@ -4,6 +4,7 @@ namespace indoeuropean.Controllers
 {
     public class BlogsController : Controller
     {
+        
         public IActionResult Europeblog()
         {
             return View();
@@ -17,6 +18,14 @@ namespace indoeuropean.Controllers
             return View();
         }
         public IActionResult germanyblog()
+        {
+            return View();
+        }
+        public IActionResult franceblog()
+        {
+            return View();
+        }
+        public IActionResult denmarkblog()
         {
             return View();
         }
