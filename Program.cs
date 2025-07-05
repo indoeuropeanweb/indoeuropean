@@ -12,11 +12,6 @@ builder.Services.AddRouting(options =>
     options.LowercaseQueryStrings = true; // optional
 });
 
-//builder.Services.AddControllersWithViews(options =>
-//{
-//    options.Conventions.Add(new RouteTokenTransformerConvention(new SlugifyParameterTransformer()));
-//});
-
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {
     serverOptions.AddServerHeader = false;
