@@ -37,5 +37,10 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
+        [Route("rtu")]
+        public IActionResult Rigablog()
+        {
+            return View();
+        }
     }
 }

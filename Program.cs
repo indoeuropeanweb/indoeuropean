@@ -1,5 +1,4 @@
-﻿using indoeuropean.Class;
-using Microsoft.AspNetCore.Mvc.ApplicationModels;
+﻿using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Routing;
 using System.Text.RegularExpressions;
 
