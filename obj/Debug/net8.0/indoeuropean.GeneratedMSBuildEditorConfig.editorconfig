@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/Bootstrap-work/indoeuropean/Views/Blogs/denmarkblog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZGVubWFya2Jsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Bootstrap-work/indoeuropean/Views/Blogs/europeblog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZXVyb3BlYmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bootstrap-work/indoeuropean/Views/Blogs/franceblog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZnJhbmNlYmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Bootstrap-work/indoeuropean/Views/Blogs/germanyblog.cshtml]

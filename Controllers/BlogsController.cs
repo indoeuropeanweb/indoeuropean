@@ -20,5 +20,13 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
+        public IActionResult franceblog()
+        {
+            return View();
+        }
+        public IActionResult denmarkblog()
+        {
+            return View();
+        }
     }
 }
