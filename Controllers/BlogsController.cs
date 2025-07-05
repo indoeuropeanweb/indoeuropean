@@ -2,30 +2,40 @@
 
 namespace indoeuropean.Controllers
 {
+    [Route("blogs")]
     public class BlogsController : Controller
     {
+<<<<<<< HEAD
         
+=======
+        [Route("europe")]
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
         public IActionResult Europeblog()
         {
             return View();
         }
-        public IActionResult latviablog()
+        [Route("latvia")]
+        public IActionResult Latviablog()
         {
             return View();
         }
-        public IActionResult studyabroadblog()
+        [Route("studyabroad")]
+        public IActionResult Studyabroadblog()
         {
             return View();
         }
-        public IActionResult germanyblog()
+        [Route("germany")]
+        public IActionResult Germanyblog()
         {
             return View();
         }
-        public IActionResult franceblog()
+        [Route("france")]
+        public IActionResult Franceblog()
         {
             return View();
         }
-        public IActionResult denmarkblog()
+        [Route("denmark")]
+        public IActionResult Denmarkblog()
         {
             return View();
         }

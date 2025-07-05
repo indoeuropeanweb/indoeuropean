@@ -712,12 +712,17 @@ Custom Row
             list-style: none;
             margin: 2% 1% !important;
         }
-
-
-
-
-
-
+        .free-badge {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 10px 20px;
+            border-radius: 50px;
+            backdrop-filter: blur(5px);
+            font-size: 1.2rem !important;
+            margin-top: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
 
         .in-box {
             float: left;

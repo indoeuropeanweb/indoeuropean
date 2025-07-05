@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "D:\\Bootstrap-work\\indoeuropean\\",
   "Documents": [
     {
+<<<<<<< HEAD
+=======
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\bootstrap-work\\indoeuropean\\wwwroot\\assets\\css\\app-main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:wwwroot\\assets\\css\\app-main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\bootstrap-work\\indoeuropean\\views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\ireland.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\bootstrap-work\\indoeuropean\\views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -30,7 +41,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 378,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +53,37 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 0,
+              "Title": "app-main.css",
+              "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\app-main.css",
+              "ToolTip": "D:\\Bootstrap-work\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\app-main.css",
+              "ViewState": "AgIAAL4CAAAAAAAAAAAcwMECAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-05T06:12:14.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ireland.cshtml",
+              "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\Views\\Destinations\\Ireland.cshtml",
+              "RelativeDocumentMoniker": "Views\\Destinations\\Ireland.cshtml",
+              "ToolTip": "D:\\Bootstrap-work\\indoeuropean\\Views\\Destinations\\Ireland.cshtml",
+              "RelativeToolTip": "Views\\Destinations\\Ireland.cshtml",
+              "ViewState": "AgIAAJYBAAAAAAAAAAAAwJ4BAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T06:02:55.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
               "Title": "denmarkblog.cshtml",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\Views\\Blogs\\denmarkblog.cshtml",
               "RelativeDocumentMoniker": "Views\\Blogs\\denmarkblog.cshtml",
@@ -50,7 +95,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
+=======
+              "DocumentIndex": 5,
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
               "Title": "franceblog.cshtml",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\Views\\Blogs\\franceblog.cshtml",
               "RelativeDocumentMoniker": "Views\\Blogs\\franceblog.cshtml",
@@ -62,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BlogsController.cs",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\Controllers\\BlogsController.cs",
               "RelativeDocumentMoniker": "Controllers\\BlogsController.cs",
@@ -74,20 +123,32 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 2,
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
               "Title": "Blog.cshtml",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\Views\\Home\\Blog.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Blog.cshtml",
               "ToolTip": "D:\\Bootstrap-work\\indoeuropean\\Views\\Home\\Blog.cshtml",
               "RelativeToolTip": "Views\\Home\\Blog.cshtml",
+<<<<<<< HEAD
               "ViewState": "AgIAAK0AAAAAAAAAAAAAwK8AAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAK8AAAAAAAAAAAAAAA==",
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-04T06:47:35.774Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 6,
+>>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
               "Title": "germanyblog.cshtml",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\Views\\Blogs\\germanyblog.cshtml",
               "RelativeDocumentMoniker": "Views\\Blogs\\germanyblog.cshtml",
