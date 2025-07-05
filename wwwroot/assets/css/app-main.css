@@ -30711,6 +30711,7 @@ Countdown
     /* margin-right: 40px; */
     width: 100%;
     max-width: 250px;
+    height: -moz-fit-content;
 }
 
 @media only screen and (max-width: 575px) {
@@ -32107,7 +32108,6 @@ Countdown
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        margin: 0 10px;
         float:right;
     }
 
@@ -32118,7 +32118,7 @@ Countdown
     }
 
     .header-action li {
-        margin: 0 20px;
+        margin: 0 10px;
         line-height: 1;
         width:auto;
     }
@@ -44549,6 +44549,42 @@ display:none;
         text-decoration: underline;
     }
 
+.enquiry_form h1 {
+    font-size: 30px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.enquiry_form h2 {
+    font-size: 35px;
+    color: #4936b0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.enquiry_form h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.sub-title{
+    font-size: 20px;
+    text-align:center;
+}
+
+.sub-title h3{
+    font-size: 15px; 
+    float:right;
+}
+
+
+    .testimonial-heading h3 {
+        font-size: 18px;
+        color: #898585;
+        margin-top:5px
+    }
 
 /* Europe blog*/
 
