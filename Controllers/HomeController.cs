@@ -104,10 +104,6 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-        [Route("blogs")]
-        public IActionResult Blog()
-        {
-            return View();
-        }
+    
     }
 }
