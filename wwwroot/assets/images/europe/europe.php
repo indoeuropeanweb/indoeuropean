@@ -106,9 +106,9 @@
 
                                                          <div class="col-lg-6">
                                                             <div class="about-image-gallery">
-                                                                <img class="main-img-1" src="assets/images/europe/3.png" alt="About Image">
+                                                                <img class="main-img-1" src="assets/images/europe/3.png" alt="About Image" loading="lazy"/>
                                                                 <div class="author-box">
-                                                                    <img src="assets/images/europe/4.png" alt="About Images">
+                                                                    <img src="assets/images/europe/4.png" alt="About Images" loading="lazy">
                                                                 </div>
                                                               
                                                             </div>
