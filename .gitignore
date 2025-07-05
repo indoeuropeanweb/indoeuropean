@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 .vs/
 obj/
 bin/
+=======
+obj/
+bin/
+.vs
+>>>>>>> 8e202d01c33d115124439fd5a098d5b09ebd571e
