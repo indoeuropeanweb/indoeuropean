@@ -20,6 +20,22 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Blogs/europeblog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZXVyb3BlYmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Blogs/germanyblog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZ2VybWFueWJsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Blogs/latviablog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcbGF0dmlhYmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Blogs/studyabroadblog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3Ncc3R1ZHlhYnJvYWRibG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Destinations/Australia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXEF1c3RyYWxpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -54,6 +70,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Home/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCbG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Vinay-Dev/New_Indoeuropean/indoeuropean/indoeuropean/Views/Home/Coaching.cshtml]

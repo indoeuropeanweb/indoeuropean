@@ -199,6 +199,10 @@
 .bg-image--55 {
     background-image: url(../images/bg-image-55.jpg);
 }
+.bg-image--56 {
+    background-image: url(../images/blogs/bg-image-56.jpg);
+}
+
 
 /*===================
 Custom Row
@@ -30707,6 +30711,7 @@ Countdown
     /* margin-right: 40px; */
     width: 100%;
     max-width: 250px;
+    height: -moz-fit-content;
 }
 
 @media only screen and (max-width: 575px) {
@@ -32103,7 +32108,6 @@ Countdown
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        margin: 0 10px;
         float:right;
     }
 
@@ -32114,7 +32118,7 @@ Countdown
     }
 
     .header-action li {
-        margin: 0 20px;
+        margin: 0 10px;
         line-height: 1;
         width:auto;
     }
@@ -44495,3 +44499,94 @@ display:none;
         grid-template-columns: 1fr;
     }
 }
+
+
+
+/* Blog Sections */
+.blog-card {
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background: #fff;
+}
+
+    .blog-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .blog-card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+.blog-title {
+    font-weight: 700;
+    color: #343a40;
+    font-size: 1.5rem;
+}
+
+.blog-meta {
+    font-size: 1.4rem;
+    color: #6c757d;
+    padding-left: 15px;
+}
+
+.blog-section-title {
+    font-weight: 700;
+    color: #4829ff;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.read-more {
+    color: #4829ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.read-more:hover {
+        text-decoration: underline;
+    }
+
+.enquiry_form h1 {
+    font-size: 30px;
+    text-align:center;
+    margin-bottom: 10px;
+}
+
+.enquiry_form h2 {
+    font-size: 35px;
+    color: #4936b0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.enquiry_form h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.sub-title{
+    font-size: 20px;
+    text-align:center;
+}
+
+.sub-title h3{
+    font-size: 15px; 
+    float:right;
+}
+
+
+    .testimonial-heading h3 {
+        font-size: 18px;
+        color: #898585;
+        margin-top:5px
+    }
+
+/* Europe blog*/
+
+/* latvia blog*/
+

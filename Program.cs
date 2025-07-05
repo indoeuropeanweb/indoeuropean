@@ -9,15 +9,39 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
+//builder.Services.AddControllersWithViews(options =>
+//{
+//    options.Conventions.Add(new RouteTokenTransformerConvention(new SlugifyParameterTransformer()));
+//});
 
-builder.Services.AddControllersWithViews(options =>
+builder.WebHost.ConfigureKestrel(serverOptions =>
 {
-    options.Conventions.Add(new RouteTokenTransformerConvention(new SlugifyParameterTransformer()));
+    serverOptions.AddServerHeader = false;
 });
+
 
 var app = builder.Build();
 
-    // Force lowercase path before routing
+app.Use(async (context, next) =>
+{
+    context.Response.Headers.Append("X-Frame-Options", "DENY");
+    context.Response.Headers.Append("X-Content-Type-Options", "nosniff");
+    await next();
+});
+
+app.Use(async (context, next) =>
+{
+    context.Response.OnStarting(() =>
+    {
+        context.Response.Headers.Remove("Server");
+        context.Response.Headers.Remove("X-Powered-By");
+        return Task.CompletedTask;
+    });
+
+    await next();
+});
+
+// Force lowercase path before routing
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
