@@ -4769,8 +4769,8 @@ Countdown
     .front {
         z-index: 9;
         margin: 0 auto;
-        width: 600px;
-        height: 300px;
+        max-width: 600px;
+        max-height: 300px;
     }
 
     .fimg {

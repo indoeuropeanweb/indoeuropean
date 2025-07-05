@@ -39,11 +39,11 @@ namespace indoeuropean.Controllers
             return View();
         }
 
-        [Route("index_new")]
-        public IActionResult Index_New()
-        {
-            return View();
-        }
+        //[Route("index_new")]
+        //public IActionResult Index_New()
+        //{
+        //    return View();
+        //}
 
         [Route("testimonials")]
         public IActionResult Testimonials()
@@ -104,11 +104,10 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-        [Route("blog")]
+        [Route("blogs")]
         public IActionResult Blog()
         {
             return View();
         }
-
     }
 }

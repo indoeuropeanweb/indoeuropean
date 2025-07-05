@@ -5,15 +5,13 @@ namespace indoeuropean.Controllers
     [Route("blogs")]
     public class BlogsController : Controller
     {
-<<<<<<< HEAD
-        
-=======
+
         [Route("europe")]
->>>>>>> cf1526ab6aa60f6509f241f503c504ce59378924
         public IActionResult Europeblog()
         {
             return View();
         }
+
         [Route("latvia")]
         public IActionResult Latviablog()
         {
