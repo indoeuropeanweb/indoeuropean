@@ -3420,7 +3420,7 @@ Scroll Down Button Animation
 ---------------------------*/
     .edu-breadcrumb-area {
         background-color: #f5f9fa;
-        padding: 95px 0 85px;
+/*        padding: 95px 0 85px;*/
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -3429,13 +3429,13 @@ Scroll Down Button Animation
 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
         .edu-breadcrumb-area {
-            padding: 70px 0 60px;
+/*            padding: 70px 0 60px;*/
         }
     }
 
 @media only screen and (max-width: 767px) {
     .edu-breadcrumb-area {
-        padding: 50px 0 50px;
+/*        padding: 50px 0 50px;*/
         margin-top: 50px;
     }
 }
@@ -44046,6 +44046,24 @@ display:none;
 
 
 /*Ireland*/
+.bg-ireland
+{
+    background-image: url(../images/ireland/ireland.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ireland-global-text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+    flex-direction:column;
+}
+.bg-ireland-color {
+    background: rgba(0,0,0, 0.6)
+}
 .university-columns-container {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px 0;

@@ -200,6 +200,92 @@ function formValidation() {
 
 }
 
+function formIrelandSubmit() {
+    Fname = $("#txtFName_10").val() || '';
+    Lname = $('#txtLName_10').val() || '';
+    CountryCodeid = $("#ddlCountryCodeid_10").val() || '';
+    PhoneNo = $("#txtPhone_10").val() || '';
+    WhatsappNo = '';
+    Emailid = $("#txtEmail_10").val() || '';
+    Country1 = $("#ddlDestinationCodeid_10").val();
+    if (Country1 === 'Select' || Country1 === null || Country1 === undefined) {
+        Country1 = '';
+    }
+    PrefferedBranchID = 0; // $("#ddlBranchCodeId").val();
+    //if (PrefferedBranchID === 'Select' || PrefferedBranchID === null || PrefferedBranchID === undefined) {
+    //    PrefferedBranchID = '';
+    //}
+    Levelid = $("#ddlCourseCodeId_10").val();
+    if (Levelid === 'Select' || Levelid === null || Levelid === undefined) {
+        Levelid = '';
+    }
+    //TermsAccept = $("#terms_accept").is(':checked');
+    Address1Citytext = $("#txtCity_10").val();
+    Intakeid = '';
+    EnquirySourceCategoryID = window.EnquirySourceCategoryID;
+    EnquirySourceID = window.EnquirySourceID;
+    EnqStageid = window.EnqStageid;
+    Isstatusid = '1';
+    EnqDate = '';
+    Dob = '';
+    PrefferedCallBackTime = $("#ddlPreferredCallBackTime_10").val();
+    if (PrefferedCallBackTime === 'Select' || PrefferedCallBackTime === null || PrefferedCallBackTime === undefined) {
+        PrefferedCallBackTime = '';
+    }
+    HighestQualifcation = $("#ddlHighestQualifcation_10").val();
+    if (HighestQualifcation === 'Select' || HighestQualifcation === null || HighestQualifcation === undefined) {
+        HighestQualifcation = '';
+    }
+    branchid = window.branchid;
+    LandingPageUrl = window.location.href;
+    phoneRegex = /^\d{10}$/;
+
+
+    if (!Fname) {
+        alert("Please enter your first name.");
+        return false;
+    }
+    if (!Emailid) {
+        alert("Please enter your email address.");
+        return false;
+    }
+    if (!CountryCodeid) {
+        alert("Please select your country code.");
+        return false;
+    }
+    if (!PhoneNo) {
+        alert("Please enter your phone number.");
+        return false;
+    }
+    if (CountryCodeid !== 67 && PhoneNo.length !== 10) {
+        alert("Please enter a valid 10-digit phone number.");
+        return false;
+    }
+    if (HighestQualifcation === "Select" || HighestQualifcation === "") {
+        alert("Please select a highest qualification.");
+        return false;
+    }
+    if (Levelid === "Select" || Levelid === "") {
+        alert("Please select a Course.");
+        return false;
+    }
+    if (!Address1Citytext) {
+        alert("Please enter your city.");
+        return false;
+    }
+    if (Country1 === "Select" || Country1 === "") {
+        alert("Please select a valid study destination.");
+        return false;
+    }
+    if (PrefferedCallBackTime === "Select" || PrefferedCallBackTime === "") {
+        alert("Please select a best time to call.");
+        return false;
+    }
+
+
+    Create_Lead();
+}
+
 
 //Call on Contact Us form 
 function formValidation_Contactus() {
@@ -324,6 +410,7 @@ function Create_Lead() {
 
     //API End
 }
+
 
 //function validateCaptcha() {
 //    const userAnswer = document.getElementById('user-captcha').value;
@@ -505,6 +592,21 @@ function bindCourseDropdown(data) {
     $.each(data, function (key, entry) {
         dropdown.append($('<option></option>').attr('value', entry.QUALLEVELID).text(entry.QUALDESC));
         dropdown_1.append($('<option></option>').attr('value', entry.QUALLEVELID).text(entry.QUALDESC));
+    });
+}
+
+function bindCourseDropdown(data) {
+    var dropdown_10 = $('#ddlCourseCodeId_10');
+    dropdown_10.empty();
+    dropdown_10.append('<option value="Select">Select Course</option>');
+
+    var dropdown_10 = $('#ddlCourseCodeId_1');
+    dropdown_10.empty();
+    dropdown_10.append('<option value="Select">Select Course</option>');
+
+    $.each(data, function (key, entry) {
+        dropdown_10.append($('<option></option>').attr('value', entry.QUALLEVELID).text(entry.QUALDESC));
+        dropdown_10.append($('<option></option>').attr('value', entry.QUALLEVELID).text(entry.QUALDESC));
     });
 }
 
