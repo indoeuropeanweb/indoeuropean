@@ -53,11 +53,7 @@ namespace indoeuropean.Controllers
             return View();
         }
 
-        [Route("our_services")]
-        public IActionResult Our_Services()
-        {
-            return View();
-        }
+      
 
     }
 }
