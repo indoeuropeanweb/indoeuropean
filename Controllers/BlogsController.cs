@@ -6,7 +6,7 @@ namespace indoeuropean.Controllers
     public class BlogsController : Controller
     {
 
-        [Route("europe")]
+        [Route("study-in-europe")]
         public IActionResult Europeblog()
         {
             return View();
@@ -17,7 +17,7 @@ namespace indoeuropean.Controllers
             return View();
         }
 
-        [Route("latvia")]
+        [Route("study-in-latvia")]
         public IActionResult Latviablog()
         {
             return View();
@@ -27,17 +27,17 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-        [Route("germany")]
+        [Route("study-in-germany")]
         public IActionResult Germanyblog()
         {
             return View();
         }
-        [Route("france")]
+        [Route("study-in-france")]
         public IActionResult Franceblog()
         {
             return View();
         }
-        [Route("denmark")]
+        [Route("study-in-denmark")]
         public IActionResult Denmarkblog()
         {
             return View();
