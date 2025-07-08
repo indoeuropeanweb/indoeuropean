@@ -19,17 +19,29 @@
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\bootstrap-work\\indoeuropean\\wwwroot\\assets\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:wwwroot\\assets\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
 =======
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\rigablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\rigablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\studyabroadblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\studyabroadblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\rigablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\rigablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
->>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\latviablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\latviablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\germanyblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\germanyblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\franceblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\franceblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\europeblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,18 +50,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\denmarkblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\denmarkblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\franceblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\franceblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\germanyblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\germanyblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\views\\blogs\\latviablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\blogs\\latviablog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\vinay-dev\\new_indoeuropean\\indoeuropean\\indoeuropean\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -230,11 +230,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 378,
-<<<<<<< HEAD
           "SelectedChildIndex": 1,
-=======
-          "SelectedChildIndex": 3,
->>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
           "Children": [
             {
               "$type": "Bookmark",
@@ -242,59 +238,21 @@
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "LandingPage.js",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\wwwroot\\assets\\js\\LandingPage.js",
               "RelativeDocumentMoniker": "wwwroot\\assets\\js\\LandingPage.js",
               "ToolTip": "D:\\Bootstrap-work\\indoeuropean\\wwwroot\\assets\\js\\LandingPage.js",
               "RelativeToolTip": "wwwroot\\assets\\js\\LandingPage.js",
-              "ViewState": "AgIAABoCAAAAAAAAAAAQwFoCAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABwCAAAAAAAAAAAgwFoCAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-05T12:30:42.653Z",
-=======
-              "DocumentIndex": 2,
-              "Title": "Rigablog.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\Rigablog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\Rigablog.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\Rigablog.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\Rigablog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-07T06:29:21.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "franceblog.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\franceblog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\franceblog.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\franceblog.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\franceblog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-07T06:29:11.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\index.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\index.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-04T10:09:27.772Z",
->>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-<<<<<<< HEAD
               "Title": "app.js",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\wwwroot\\assets\\js\\app.js",
               "RelativeDocumentMoniker": "wwwroot\\assets\\js\\app.js",
@@ -303,10 +261,21 @@
               "ViewState": "AgIAALQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-05T12:30:10.147Z",
+=======
+              "Title": "Rigablog.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\Rigablog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\Rigablog.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\Rigablog.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\Rigablog.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwC0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T06:29:21.333Z",
+>>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean\\Views\\Home\\Index.cshtml",
@@ -317,14 +286,15 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-05T11:20:01.062Z",
 =======
-              "Title": "europeblog.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\europeblog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\europeblog.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\europeblog.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\europeblog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABEAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "franceblog.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\franceblog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\franceblog.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\franceblog.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\franceblog.cshtml",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAKAAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-04T10:24:35.731Z",
+              "WhenOpened": "2025-07-07T06:29:11.828Z",
 >>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
               "EditorCaption": ""
             },
@@ -341,15 +311,28 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-05T10:55:36.305Z",
 =======
-              "DocumentIndex": 7,
-              "Title": "latviablog.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\latviablog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\latviablog.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\latviablog.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\latviablog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\index.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\index.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\index.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJQAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-04T10:24:41.034Z",
+              "WhenOpened": "2025-07-04T10:09:27.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "europeblog.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\europeblog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\europeblog.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\europeblog.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\europeblog.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAD4AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T10:24:35.731Z",
 >>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
               "EditorCaption": ""
             },
@@ -366,14 +349,28 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-07-05T06:12:14.737Z",
 =======
-              "Title": "denmarkblog.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\denmarkblog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\denmarkblog.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\denmarkblog.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\denmarkblog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAADQAAAAAAAAAA==",
+              "Title": "germanyblog.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\germanyblog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\germanyblog.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\germanyblog.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\germanyblog.cshtml",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAAAJcAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T07:08:30.769Z",
+              "WhenOpened": "2025-07-04T10:24:39.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "latviablog.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\latviablog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\latviablog.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\latviablog.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\latviablog.cshtml",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAAAGUAAAClAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-04T10:24:41.034Z",
+>>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
               "EditorCaption": ""
             },
             {
@@ -384,10 +381,22 @@
               "RelativeDocumentMoniker": "Views\\Blogs\\studyabroadblog.cshtml",
               "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\studyabroadblog.cshtml",
               "RelativeToolTip": "Views\\Blogs\\studyabroadblog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-04T10:24:44.837Z",
->>>>>>> 15ededfa4917f2894c241253d40bfe9547842a3c
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "denmarkblog.cshtml",
+              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\denmarkblog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\denmarkblog.cshtml",
+              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\denmarkblog.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\denmarkblog.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAKEAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-05T07:08:30.769Z",
               "EditorCaption": ""
             },
             {
@@ -439,19 +448,6 @@
               "ViewState": "AgIAAIsAAAAAAAAAAAAqwDcBAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-04T05:06:42.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "germanyblog.cshtml",
-              "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\germanyblog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\germanyblog.cshtml",
-              "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\germanyblog.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\germanyblog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-04T10:24:39.51Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
