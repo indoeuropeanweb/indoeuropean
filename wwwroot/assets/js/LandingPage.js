@@ -111,7 +111,7 @@ function btnclick() {
     Create_Lead();
 }
 
-function formIrelandSubmit() {
+function formCountrySubmit() {
 
     Fname = $("#txtFName_2").val() || '';
     Lname = $('#txtLName').val() || '';
@@ -194,6 +194,89 @@ function formIrelandSubmit() {
     }
     Create_Lead();
 }
+
+//function formUKSubmit() {
+//    Fname = $("#txtFName_2").val() || '';
+//    Lname = $('#txtLName').val() || '';
+//    CountryCodeid = $("#ddlCountryCodeid_2").val() || '67';
+//    PhoneNo = $("#txtPhone_2").val() || '';
+//    WhatsappNo = '';
+//    Emailid = $("#txtEmail_2").val() || '';
+//    Country1 = $("#ddlDestinationCodeid_2").val();
+//    if (Country1 === 'Select' || Country1 === null || Country1 === undefined) {
+//        Country1 = '';
+//    }
+//    PrefferedBranchID = 0; // $("#ddlBranchCodeId_1").val();
+//    //if (PrefferedBranchID === 'Select' || PrefferedBranchID === null || PrefferedBranchID === undefined) {
+//    //    PrefferedBranchID = '';
+//    //}
+//    Levelid = $("#ddlCourseCodeId_2").val();
+//    if (Levelid === 'Select' || Levelid === null || Levelid === undefined) {
+//        Levelid = '';
+//    }
+//    // TermsAccept = $("#terms_accept").is(':checked');
+//    Address1Citytext = $("#txtCity_2").val();
+//    Intakeid = '';
+//    EnquirySourceCategoryID = window.EnquirySourceCategoryID;
+//    EnquirySourceID = window.EnquirySourceID;
+//    EnqStageid = window.EnqStageid;
+//    Isstatusid = '1';
+//    EnqDate = '';
+//    Dob = '';
+//    PrefferedCallBackTime = $("#ddlPreferredCallBackTime_2").val();
+//    if (PrefferedCallBackTime === 'Select' || PrefferedCallBackTime === null || PrefferedCallBackTime === undefined) {
+//        PrefferedCallBackTime = '';
+//    }
+//    HighestQualifcation = $("#ddlHighestQualifcation_2").val();
+//    if (HighestQualifcation === 'Select' || HighestQualifcation === null || HighestQualifcation === undefined) {
+//        HighestQualifcation = '';
+//    }
+//    branchid = window.branchid;
+//    LandingPageUrl = window.location.href;
+//    phoneRegex = /^\d{10}$/;
+
+//    if (!Fname) {
+//        alert("Please enter your first name.");
+//        return false;
+//    }
+//    if (!Emailid) {
+//        alert("Please enter your email address.");
+//        return false;
+//    }
+//    if (!CountryCodeid) {
+//        alert("Please select your country code.");
+//        return false;
+//    }
+//    if (!PhoneNo) {
+//        alert("Please enter your phone number.");
+//        return false;
+//    }
+//    if (CountryCodeid !== 67 && PhoneNo.length !== 10) {
+//        alert("Please enter a valid 10-digit phone number.");
+//        return false;
+//    }
+//    if (HighestQualifcation === "Select" || HighestQualifcation === "") {
+//        alert("Please select a highest qualification.");
+//        return false;
+//    }
+//    if (Levelid === "Select" || Levelid === "") {
+//        alert("Please select a  Course.");
+//        return false;
+//    }
+//    if (!Address1Citytext) {
+//        alert("Please enter your city.");
+//        return false;
+//    }
+//    if (Country1 === "Select" || Country1 === "") {
+//        alert("Please select a valid study destination.");
+//        return false;
+//    }
+//    if (PrefferedCallBackTime === "Select" || PrefferedCallBackTime === "") {
+//        alert("Please select a best time to call.");
+//        return false;
+//    }
+//    Create_Lead();
+//}
 
 
 
@@ -486,27 +569,6 @@ function getCountryCode() {
     });
 }
 
-//function bindDropdown(data) {
-//    var dropdown = $('.ddlCountryCodeid');
-//    dropdown.each(() => {
-//        dropdown.empty();
-//        dropdown.append('<option value="Select">Select Country</option>');
-
-//        //var dropdown_1 = $('#ddlCountryCodeid_1');
-//        //dropdown_1.empty();
-//        //dropdown_1.append('<option value="Select">Select Country</option>');
-
-//        $.each(data, function (key, entry) {
-//            var option = $('<option></option>').attr('value', entry.ID).text(entry.Code);
-//            if (entry.Code.includes("India")) {
-//                option.attr('selected', 'selected');
-//            }
-//            dropdown.append(option);
-//            /*  dropdown_1.append(option);*/
-//        });
-//    })
-//}
-
 function bindDropdown(data) {
     // Select all dropdowns with class 'ddlCountryCodeid'
     $('.ddlCountryCodeid').each(function () {
@@ -526,32 +588,6 @@ function bindDropdown(data) {
         });
     });
 }
-
-
-//function bindDropdown(data) {
-//    var dropdown = $('#ddlCountryCodeid');
-//    dropdown.empty();
-//    dropdown.append('<option value="Select">Select Country</option>');
-
-//    var dropdown_1 = $('#ddlCountryCodeid_1');
-//    dropdown_1.empty();
-//    dropdown_1.append('<option value="Select">Select Country</option>');
-
-//    var dropdown_2 = $('#ddlCountryCodeid_2');
-//    dropdown_2.empty();
-//    dropdown_2.append('<option value="Select">Select Country</option>');
-
-//        $.each(data, function (key, entry) {
-//            var option = $('<option></option>').attr('value', entry.ID).text(entry.Code);
-//            if (entry.Code.includes("India")) {
-//                option.attr('selected', 'selected');
-//            }
-//            dropdown.append(option);
-//            dropdown_1.append(option);
-//            dropdown_2.append(option);
-//        });
-//}
-
 
 //end------
 
