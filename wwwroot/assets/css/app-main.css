@@ -44045,7 +44045,75 @@ display:none;
 }
 
 
-/*Ireland*/
+/*the canada web page start*/
+.bg-canada {
+    background-image: url(../images/canada/canada-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.canada-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-canada-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the canada web page end*/
+
+
+
+/*the Usa web page start*/
+.bg-usa {
+    background-image: url(../images/usa/usa-bridge.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.usa-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-usa-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the Usa web page end*/
+
+/*the Uk web page start*/
+.bg-uk {
+    background-image: url(../images/banner/uk-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.uk-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-uk-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the Uk web page end*/
+
+/*Ireland web page*/
 .bg-ireland
 {
     background-image: url(../images/ireland/ireland.jpg);
