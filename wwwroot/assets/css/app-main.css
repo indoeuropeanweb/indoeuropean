@@ -44045,6 +44045,55 @@ display:none;
 }
 
 
+
+
+/**the Germany web page start*/
+.bg-germany {
+    background-image: url(../images/germany/germany.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.germany-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-germany-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the Germany web page end*/
+
+
+
+/**the finland web page start*/
+.bg-finland {
+    background-image: url(../images/finland/finland.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.finland-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-finland-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the finland web page end*/
+
+
 /*the canada web page start*/
 .bg-canada {
     background-image: url(../images/canada/canada-banner.jpg);

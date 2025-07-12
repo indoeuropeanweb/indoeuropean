@@ -1,0 +1,662 @@
+﻿@{
+    ViewData["Title"] = "Finland";
+    ViewData["Description"] = "Know about top-ranked universities, cultural diversity, and career opportunities in Canada. Study abroad with Indo European and achieve your global dreams!";
+}
+
+<style type="text/css">
+    .about-content .features-list li {
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+        .about-content .features-list li:before {
+            content: "\e913";
+            font-family: 'icomoon';
+            color: #150958;
+            font-size: 19px;
+            position: absolute;
+            left: 0;
+            top: -3px;
+        }
+
+    .about-style-9 .about-content {
+        padding-left: 0px;
+    }
+
+    td {
+        border: 1px solid #d1cfcf;
+        padding: 7px 10px;
+        color: #000;
+    }
+</style>
+
+@* <div class="edu-breadcrumb-area breadcrumb-style-6" style="background:#f0f6fd; padding: 50px 0px 100px;">
+    <div class="container">
+        <div class="breadcrumb-inner">
+
+            <div class="page-title">
+                <h1 style="text-align: center; color: #150958; text-shadow: 2px 2px 2px #afabab; font-size: 50px;">Explore Canada as a Top Study Destination!</h1>
+
+                <h3 style="text-align: center; color: #000; font-size: 22px;">Unlock Your Potential : Study in Canada!</h3>
+            </div><br>
+            <div class="col-lg-12 fimg">
+                <img src="~/assets/images/banner/c-1.png" style=" border-radius: 80px;
+    box-shadow: 2px 5px 6px #afafaf" class="front" alt="Study Abroad Canada" title="Study Abroad Canada" loading="lazy" height="300" width="600">
+            </div>
+
+        </div>
+    </div>
+</div> *@
+
+
+
+<div class="edu-breadcrumb-area bg-finland breadcrumb-style-6">
+    <div class="bg-finland-color py-5">
+        <div class="container">
+            <div class="row">
+                <div class="page-title col-lg-6 finland-global-text">
+                    <h1 style="text-align: center; color: #fff; font-size: 50px;"> Why Study in Finland? </h1>
+
+                    <h3 style="text-align: center; color: #fff; font-size: 22px;">Get strong post-study work visa and career opportunities</h3>
+                </div>
+                <div class="contact-form col-lg-6" style="margin-bottom: 20px;">
+                    <form class="rnt-contact-form rwt-dynamic-form">
+                        <h3 class="title" style="padding: 10px 0px; color:#000;">Get in touch</h3>
+                        <div class="row row--10">
+                            <div class="form-group col-lg-6">
+                                <input type="text" name="contact-name" id="txtFName_2" placeholder="Your Name">
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input type="email" name="contact-email" id="txtEmail_2" placeholder="Your Email">
+                            </div>
+                            <div class="form-group col-12">
+                                <div class="select-box">
+                                    <div class="selected-option">
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc35340367290"><g id="IconifyId19135992cc35340mbasd453291"><g id="IconifyId19135992cc35340mnbah54292"><g id="IconifyId19135992cc3534083294" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340293" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340oiauec292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc3534mnsbfiu350291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc3534082290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340362290" transform="rotate(-120)"></use></g></svg>
+                                        </div>
+                                        <input type="tel" name="txtPhone_2" id="txtPhone_2" placeholder="+91">
+                                    </div>
+                                    <div class="options">
+                                        <select id="ddlCountryCodeid_2" name="ddlCountryCodeid_2" class="form-control form-list">
+                                        </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-12">
+                                <select name="ddlHighestQualifcation_2" id="ddlHighestQualifcation_2">
+                                </select>
+                            </div>
+
+                            <div class="form-group col-12">
+                                <select name="ddlCourseCodeId_2" id="ddlCourseCodeId_2" required="">
+                                </select>
+                            </div>
+
+
+                            <div class="form-group col-12">
+                                <input type="text" name="txtCity_2" id="txtCity_2" placeholder="City" required="">
+                            </div>
+
+                            <div class="form-group col-12">
+                                <select name="ddlDestinationCodeid_2" required="" id="ddlDestinationCodeid_2">
+                                </select>
+                            </div>
+
+                            <div class="form-group col-12">
+                                <select name="PreferredCallBackTime_2" required="" id="ddlPreferredCallBackTime_2">
+                                </select>
+                            </div>
+
+                            <div class="form-group col-12 text-center">
+                                <input type="button" value="Submit" class="rn-btn edu-btn submit-btn" onclick="formIrelandSubmit();" />
+                                @* <button class="rn-btn edu-btn submit-btn" name="submit" type="submit" onclick="formValidation();">Submit Now <i class="icon-4"></i></button> *@
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="gap-bottom-equal edu-about-area about-style-9" style="background:#0060ff2e; padding: 60px 10px;">
+    <div class="container edublink-animated-shape">
+        <div class="row g-5 align-items-center">
+
+            <div class="col-lg-8">
+                <div class="about-content">
+                    <div class="section-title section-left sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                        <h2 class="title">Why study in Finland?</h2>
+                        <span class="shape-line"><i class="icon-19"></i></span>
+                    </div>
+                    <ul class="features-list sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                        <li style="text-align: left; font-weight: 600;">
+                            One of the Safest & Happiest Countries
+                            <p class="fs-5">Ranked #1 in the UN World Happiness Report. Extremely low crime rate and clean, green environment. Peaceful, student-friendly society with excellent mental health support systems.</p>
+                        </li>
+                        <li style="text-align: left; font-weight: 600;">
+                            Globally Recognized Education
+                            <p class="fs-5">Finland has one of the best education systems in the world (PISA-ranked). Emphasis on innovation, real-world problem-solving & interdisciplinary learning, no rote learning.</p>
+                        </li>
+                        <li style="text-align: left; font-weight: 600;">
+                            500+ English-Taught Programs
+                            <p class="fs-5">All programs are available at bachelor's, master’s, and PhD levels. Students don’t need to learn Finnish to get an admission.</p>
+                        </li>
+                        <li style="text-align: left; font-weight: 600;">
+                            Spouse Visa Allowed
+                            <p class="fs-5">Spouses and children can join the student on a dependent residence permit and the spouse can work full-time without restrictions. Children can attend public schools for free.</p>
+                        </li>
+                        <li style="text-align: left; font-weight: 600;">
+                            Part-Time Work While Studying
+                            <p class="fs-5">
+                                Students can work 30 hours/week during academic terms, this is highest among all countries.
+                                However, students can work full-time during holidays (e.g., summer break).
+                            </p>
+                        </li>
+                        <li style="text-align: left; font-weight: 600;">
+                            Strong Post-Study & Career Opportunities
+                            <p class="fs-5">Apply for a 2-year post-study work permit (Job Seeker Visa). High demand for IT, engineering, healthcare, logistics, AI, and education professionals.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <img src="~/assets/images/finland/finland-2.jpg" style="border-radius: 5px;
+    box-shadow: 10px 10px 10px #3a397d54;" alt="Study Abroad Finland" title="Study Abroad Finland" loading="lazy">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<section class="mb-5">
+    <div class="container">
+
+        <div class="row row--45">
+            <div class="section-title-flex section-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                <div class="col-lg-12">
+                    <h2 class="title" style="margin-bottom: 5px;text-align: center;margin-top: 40px;"> <span class="color-secondary">  Top Programs to Study In Finland </span> </h2>
+                    <span class="shape-line"><i class="icon-19"></i></span>
+                    <p>
+                        Find the best study programs in Finland from multiple options available.<br />
+                        Select a specialization aligned with your passion and build a strong foundation for a successful global career!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="justify-content: center;">
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Information-Technology.svg" alt="Information Technology" title="Information Technology" loading="lazy" />
+                <h4>Information Technology</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Computer-Science.svg" alt="Computer Science" title="Computer Science" loading="lazy" />
+                <h4>Computer Science</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Engineering.svg" alt="Engineering" title="Engineering" loading="lazy" />
+                <h4>Engineering </h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Accounts-and-Finance.svg" alt="Business" title="Business" loading="lazy" />
+                <h4>Business</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Management.svg" alt="Management" title="Management" loading="lazy" />
+                <h4>Management</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/entrepreneurship.svg" alt="Entrepreneurship" title="Entrepreneurship" loading="lazy" />
+                <h4>Entrepreneurship</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Nurse.svg" alt="Nursing" title="Nursing" loading="lazy" />
+                <h4>Nursing</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Supply-Chain-Management.svg" alt="Supply Chain Management" title="Supply Chain Management" loading="lazy" />
+                <h4>Supply Chain Management</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/education.svg" alt="Education" title="Education" loading="lazy" />
+                <h4>Education</h4>
+            </div>
+
+
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/learning sciences.svg" alt="Learning Sciences" title="Learning Sciences" loading="lazy" />
+                <h4>Learning Sciences</h4>
+            </div>
+
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/designing.svg" alt="Designing" title="Designing" loading="lazy" />
+                <h4>Designing</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Health-Care.svg" alt="Healthcare" title="Healthcare" loading="lazy" />
+                <h4>Healthcare</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Cyber-Security.svg" alt="Cyber security" title="Cyber security" loading="lazy" />
+                <h4>Cyber<br> Security</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Artificial-Intelligence.svg" alt="Artificial Intelligence" title="Artificial Intelligence" loading="lazy" />
+                <h4>Artificial Intelligence</h4>
+            </div>
+            @* <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/MBA.svg" alt="MBA" title="MBA" loading="lazy" />
+                <h4>MBA</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Mechanical-Engineering.svg" alt="Mechanical engineering" title="Mechanical engineering" loading="lazy" />
+                <h4>Mechanical Engineering</h4>
+            </div>
+
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/Robotics.svg" alt="Robotics" title="Robotics" loading="lazy" />
+                <h4>Robotics</h4>
+            </div>
+            <div class="courses">
+                <img class="items-center" src="/assets/images/franchise/icon/LAW.svg" alt="LAW" title="LAW" loading="lazy" />
+                <h4>LAW</h4>
+            </div> *@
+        </div>
+    </div>
+</section>
+
+
+
+<div class="gap-bottom-equal edu-about-area about-style-9" style="background: linear-gradient(135deg, rgba(0, 96, 255, 0.08) 0%, rgba(0, 179, 255, 0.08) 100%); padding: 60px 0;">
+    <div class="container edublink-animated-shape">
+        <div class="row align-items-center">
+            <div class="row row--45">
+                <div class="section-title-flex section-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                    <div class="col-lg-12 mb-5">
+                        <h2 class="title" style="margin-bottom: 5px;text-align: center;margin-top: 40px;"> <span class="color-dark">Top Universities of Finland</span> </h2>
+                        <span class="shape-line"><i class="icon-19"></i></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12">
+                <div class="row justify-content-center g-4">
+                    <!-- University Card 1 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/arcada.png" alt="Arcada University of Applied Sciences" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 2 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/eastern.png" alt="University of Eastern" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 3 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/hanken.png" alt="Hanken School of Economics" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 4 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/helsinki.png" alt="University of Helsinki" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 5 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/kamk.png" alt="Kajaani University of Applied Sciences" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 6 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/lab.png" alt="LAB University of Applied Sciences" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 7 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/lapland.png" alt="University of Lapland" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 8 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/lut.png" alt="LUT University" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 9 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/metropolia.png" alt="Metropolia University of Applied Sciences" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 10 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/samk.png" alt="Satakunta University of Applied Sciences" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 11 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/tempere.png" alt="Tampere University" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 12 -->
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/finland/turku.png" alt="University of Turku" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- University Card 13 -->
+                    @* <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/uk/sheffield.png" alt="Dublin Business School" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div> *@
+
+                    <!-- University Card 14 -->
+                    @* <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/uk/southampton.png" alt="Griffith College" class="img-fluid" style="max-height: 80px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div> *@
+
+                    <!-- University Card 15 -->
+                    @* <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 mb-4">
+                        <div class="university-card text-center p-4" style="background: white; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 96, 255, 0.1); height: 100%; transition: all 0.3s ease; border: 1px solid rgba(0, 96, 255, 0.1);">
+                            <div class="university-logo-container" style="height: 100px; display: flex; align-items: center; justify-content: center;">
+                                <img src="~/assets/images/uk/uoy.png" alt="Institute of Technology Carlow" class="img-fluid" style="max-height: 100px; width: auto; object-fit: contain; transition: all 0.3s ease;" loading="lazy" />
+                            </div>
+                        </div>
+                    </div> *@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Journey Section -->
+<!-- Creative Journey Section -->
+<section class="creative-journey">
+    <div class="container">
+        <div class="journey-content">
+            <h1 class="journey-title"><i class="fa fa-map-marker"></i> Your Journey Begins Here</h1>
+            <div class="journey-subtitle">
+                <span>The</span>
+                <div class="agency-name">Indo European</div>
+                <span>Advantage</span>
+            </div>
+            <p class="journey-text">Studying abroad is a major decision, but the process can be stress-free.<br /><span class="ireland-text"> Indo European </span> makes your move to Ireland simple, providing support at every step of your journey.</p>
+            <div class="free-badge">
+                <i class="fa fa-graduation-cap"></i>
+                <span>Many of Our Core Services Are <strong>Absolutely FREE!</strong></span>
+            </div>
+            <p class="journey-text2">Yes, you read that right. We're committed to making your dream of studying in Finland accessible and stress-free.</p>
+        </div>
+        <div class="journey-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Creative Features Section -->
+<section class="creative-features">
+    <div class="container">
+        <div class="section-header">
+            <h2>Why Choose <span class="highlight">Indo European</span>?</h2>
+            <div class="header-divider">
+                <div class="divider-line"></div>
+                <i class="fa fa-star"></i>
+                <div class="divider-line"></div>
+            </div>
+            @* <p class="section-subtitle">Your complete support system for studying in Ireland</p> *@
+        </div>
+
+        <div class="features-grid">
+            <!-- Feature 1 -->
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Expert Profile Evaluation & University Matching :</h3>
+                    <p>Our experienced team meticulously assesses your profile to pinpoint the ideal Irish universities and programs for your goals. This includes prestigious institutions like Trinity College Dublin, University College Dublin, Dublin City University, Maynooth University, and more.</p>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-2">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-comments"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Personalized Guidance, Always Accessible :</h3>
+                    <p>Have questions? Our seasoned counsellors are always just a phone call away, providing tailored advice and support from initial inquiry to post-arrival.</p>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-3">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-solid fa-thumbs-up"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Decades of Trusted Experience :</h3>
+                    <p>Since 2004 Indo European has built strong relationships with all universities across Ireland, ensuring you benefit from our extensive network and insights.</p>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-4">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-solid fa-clipboard"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Exclusive Application Benefits :</h3>
+                    <p>As a Indo European student, you may qualify for application fee waivers at select partner universities, saving you money upfront.</p>
+                </div>
+            </div>
+
+            <!-- Feature 5 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-5">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-eur"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Stress-Free Financial Planning :</h3>
+                    <p>
+                        Money matters are crucial. Money matters are crucial. We connect you with our trusted banking partners to secure the best-suited finance plans for your education.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Feature 6 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-6">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-brands fa-cc-visa"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Visa Success, Simplified :</h3>
+                    <p>Our expert visa team boasts an exceptionally high visa success rate, meticulously guiding you through every document and step to ensure a smooth application process.</p>
+                </div>
+            </div>
+
+            <!-- Feature 7 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-7">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-plane"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Comprehensive Pre- & Post-Arrival Support :</h3>
+                    <p>Visa approved? Our support doesn't end there! We provide crucial pre-departure briefings and post-arrival assistance, ensuring a seamless transition to your new life in Ireland.</p>
+                </div>
+            </div>
+
+            <!-- Feature 8 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-8">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-home"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Accommodation Support   :</h3>
+                    <p>Finding a place to stay is easy with us. We connect you with our trusted accommodation partners to help you secure comfortable housing.</p>
+                </div>
+            </div>
+
+            <!-- Feature 9 -->
+            <div class="feature-card">
+                <div class="feature-icon" id="partner-9">
+                    <div class="features-bg">
+                        <div class="icon-wrapper">
+                            <i class="fa fa-university"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <h3>Connect Directly with Universities :</h3>
+                    <p>Gain invaluable insights by participating in our exclusive Education Fairs and Webinars, offering direct interaction opportunities with university representatives. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="container edu-section-gap">
+    <div class="row row--45">
+        <div class="section-title-flex section-title sal-animate" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+            <div class="col-lg-12">
+                <h2 class="title" style="margin-bottom: 40px;text-align: center;margin-top: 40px;"> <span class="color-secondary">  Student's Experience </span> </h2>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row" style="display: flex; justify-content: center; text-align: center;">
+        <div class="col-lg-4">
+            <iframe height="215" src="https://www.youtube.com/embed/F5JmS74zXKw?si=n4aunw7Gft2A9pLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:10px;"></iframe>
+        </div>
+        <div class="col-lg-4">
+            <iframe height="215" src="https://www.youtube.com/embed/rckMqCL5ZIM?si=PDFdR1aFegWcI9z6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:10px;"></iframe>
+        </div>
+        <div class="col-lg-4">
+            <iframe height="215" src="https://www.youtube.com/embed/t-W2-bXhL9c?si=expfWTN8dJW2KCYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:10px;"></iframe>
+        </div>
+    </div>
+</div>
+
+<section class="">
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 btn-enquiry">
+                <div class="row">
+                    <div class="col-sm-10">
+                        <div class="contect-sec">
+                            <h3 style="margin-top:10px;">Need guidance? Let us help you.</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <a asp-controller="home" asp-action="contact" style="width:100%;">
+                            <h4 class="btn-en">
+                                contact us
+                            </h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
