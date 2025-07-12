@@ -3420,7 +3420,7 @@ Scroll Down Button Animation
 ---------------------------*/
     .edu-breadcrumb-area {
         background-color: #f5f9fa;
-/*        padding: 95px 0 85px;*/
+        padding: 95px 0 85px;
         position: relative;
         z-index: 1;
         overflow: hidden;
@@ -3429,13 +3429,13 @@ Scroll Down Button Animation
 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
         .edu-breadcrumb-area {
-/*            padding: 70px 0 60px;*/
+            padding: 70px 0 60px;
         }
     }
 
 @media only screen and (max-width: 767px) {
     .edu-breadcrumb-area {
-/*        padding: 50px 0 50px;*/
+        padding: 50px 0 50px;
         margin-top: 50px;
     }
 }
@@ -44727,6 +44727,11 @@ display:none;
     }
 
 /* Europe blog*/
+
+.hero-back-space{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
 
 /* latvia blog*/
 
