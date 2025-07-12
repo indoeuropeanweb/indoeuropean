@@ -507,53 +507,50 @@ function getCountryCode() {
 //    })
 //}
 
-//function bindDropdown(data) {
-//    // Select all dropdowns with class 'ddlCountryCodeid'
-//    $('.ddlCountryCodeid').each(function () {
-//        const dropdown = $(this);
-//        dropdown.empty();
-//        dropdown.append('<option value="">Select Country</option>');
-
-//        $.each(data, function (key, entry) {
-//            const option = $('<option></option>')
-//                .attr('value', entry.ID)
-//                .text(entry.Code);
-
-//            // Optional: Preselect India
-//            if (entry.Code.toLowerCase().includes("india")) {
-//                option.prop('selected', true);
-//            }
-
-//            dropdown.append(option);
-//        });
-//    });
-//}
-
-
 function bindDropdown(data) {
-    var dropdown = $('#ddlCountryCodeid');
-    dropdown.empty();
-    dropdown.append('<option value="Select">Select Country</option>');
-
-
-        var dropdown_1 = $('#ddlCountryCodeid_1');
-        dropdown_1.empty();
-    dropdown_1.append('<option value="Select">Select Country</option>');
-
-    var dropdown_2 = $('#ddlCountryCodeid_2');
-    dropdown_2.empty();
-    dropdown_2.append('<option value="Select">Select Country</option>');
+    // Select all dropdowns with class 'ddlCountryCodeid'
+    $('.ddlCountryCodeid').each(function () {
+        const dropdown = $(this);
+        dropdown.empty();
+        dropdown.append('<option value="">Select Country</option>');
 
         $.each(data, function (key, entry) {
-            var option = $('<option></option>').attr('value', entry.ID).text(entry.Code);
-            if (entry.Code.includes("India")) {
-                option.attr('selected', 'selected');
+        const option = $('<option></option>').attr('value', entry.ID).text(entry.Code);
+
+            // Optional: Preselect India
+            if (entry.Code.toLowerCase().includes("india")) {
+                option.prop('selected', true);
             }
+
             dropdown.append(option);
-            dropdown_1.append(option);
-            dropdown_2.append(option);
         });
+    });
 }
+
+
+//function bindDropdown(data) {
+//    var dropdown = $('#ddlCountryCodeid');
+//    dropdown.empty();
+//    dropdown.append('<option value="Select">Select Country</option>');
+
+//    var dropdown_1 = $('#ddlCountryCodeid_1');
+//    dropdown_1.empty();
+//    dropdown_1.append('<option value="Select">Select Country</option>');
+
+//    var dropdown_2 = $('#ddlCountryCodeid_2');
+//    dropdown_2.empty();
+//    dropdown_2.append('<option value="Select">Select Country</option>');
+
+//        $.each(data, function (key, entry) {
+//            var option = $('<option></option>').attr('value', entry.ID).text(entry.Code);
+//            if (entry.Code.includes("India")) {
+//                option.attr('selected', 'selected');
+//            }
+//            dropdown.append(option);
+//            dropdown_1.append(option);
+//            dropdown_2.append(option);
+//        });
+//}
 
 
 //end------
