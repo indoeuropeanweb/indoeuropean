@@ -44045,8 +44045,32 @@ display:none;
 }
 
 
+/**the singapore web page start*/
+.bg-singapore {
+    background-image: url(../images/Singapore/singapore.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-/**the New Zealand web page start*/
+.singapore-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-singapore-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the singapore web page end*/
+
+
+
+
+/**the australia web page start*/
 .bg-australia {
     background-image: url(../images/australia/australia.jpg);
     background-repeat: no-repeat;
@@ -44066,7 +44090,7 @@ display:none;
 .bg-australia-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Zealand web page end*/
+/*the australia web page end*/
 
 
 
