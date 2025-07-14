@@ -44046,6 +44046,53 @@ display:none;
 
 
 
+/**the New Zealand web page start*/
+.bg-australia {
+    background-image: url(../images/australia/australia.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.australia-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-australia-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the Zealand web page end*/
+
+
+
+/**the New Zealand web page start*/
+.bg-zealand {
+    background-image: url(../images/new_zealand/zealand.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.zealand-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-zealand-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the Zealand web page end*/
+
+
 
 /**the Germany web page start*/
 .bg-germany {
@@ -44734,4 +44781,7 @@ display:none;
 }
 
 /* latvia blog*/
+
+/*Europe Countries */
+
 
