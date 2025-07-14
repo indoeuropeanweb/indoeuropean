@@ -217,8 +217,12 @@
       "DocumentGroups": [
         {
           "DockedHeight": 378,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -301,7 +305,7 @@
               "RelativeDocumentMoniker": "Views\\Blogs\\Index.cshtml",
               "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\Views\\Blogs\\Index.cshtml",
               "RelativeToolTip": "Views\\Blogs\\Index.cshtml",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAKMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAIUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-04T10:09:27.772Z",
               "EditorCaption": ""
@@ -333,10 +337,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Uk.cshtml",
@@ -356,7 +356,7 @@
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\app-main.css",
               "ToolTip": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
               "RelativeToolTip": "wwwroot\\assets\\css\\app-main.css",
-              "ViewState": "AgIAAHmuAAAAAAAAAAAAAH+uAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKquAAAAAAAAAAAAALCuAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-07-05T06:43:32.822Z",
               "EditorCaption": ""
