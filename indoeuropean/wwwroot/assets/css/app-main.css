@@ -44855,4 +44855,26 @@ display:none;
 
 /*Europe Countries */
 
+.country-box{
+    padding: 5%;
+/*    margin: 0 auto;*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.country-place {
+    width: 18rem;
+}
+
+.country-flag {
+    width: 12rem;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+.country-place h4{
+    text-align:center;
+    margin-top: 10px
+}
 

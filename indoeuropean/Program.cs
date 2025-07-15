@@ -1,11 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc.ApplicationModels;
+﻿using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.AspNetCore.Routing;
-using System.Text.RegularExpressions;
-using Microsoft.AspNetCore.WebUtilities;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Enable lowercase URL generation globally
+// ✅ Configure MVC with lowercase URLs
 builder.Services.AddControllersWithViews();
 builder.Services.Configure<RouteOptions>(options =>
 {
@@ -13,7 +11,7 @@ builder.Services.Configure<RouteOptions>(options =>
     options.LowercaseQueryStrings = true;
 });
 
-// Remove server header for security
+// ✅ Remove 'Server' header from Kestrel (security best practice)
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {
     serverOptions.AddServerHeader = false;
@@ -21,11 +19,14 @@ builder.WebHost.ConfigureKestrel(serverOptions =>
 
 var app = builder.Build();
 
-// Middleware: Security headers
+// ✅ Security headers
 app.Use(async (context, next) =>
 {
     context.Response.Headers.Append("X-Frame-Options", "DENY");
     context.Response.Headers.Append("X-Content-Type-Options", "nosniff");
+    context.Response.Headers.Append("Referrer-Policy", "strict-origin-when-cross-origin");
+    context.Response.Headers.Append("X-XSS-Protection", "1; mode=block");
+    context.Response.Headers.Append("Permissions-Policy", "geolocation=(), microphone=()");
 
     context.Response.OnStarting(() =>
     {
@@ -37,70 +38,54 @@ app.Use(async (context, next) =>
     await next();
 });
 
-// Middleware: Normalize www to non-www and force HTTPS
+// ✅ Canonical URL middleware (lowercase + remove slash + sort query)
 app.Use(async (context, next) =>
 {
-    var host = context.Request.Host.Host;
-    var isHttps = context.Request.IsHttps;
+    var originalPath = context.Request.Path.Value ?? "/";
+    var originalQuery = context.Request.QueryString.Value ?? "";
 
-    if (!isHttps || host.StartsWith("www."))
+    string normalizedPath = originalPath;
+    string normalizedQuery = originalQuery;
+    bool redirectNeeded = false;
+
+    // Normalize path to lowercase and remove trailing slash (not for root)
+    if (originalPath != "/" && originalPath != originalPath.ToLowerInvariant())
     {
-        var redirectHost = host.Replace("www.", "");
-        var redirectUrl = $"https://{redirectHost}{context.Request.Path}{context.Request.QueryString}";
-        context.Response.Redirect(redirectUrl, permanent: true);
-        return;
+        normalizedPath = originalPath.ToLowerInvariant();
+        redirectNeeded = true;
     }
 
-    await next();
-});
-
-// ✅ Middleware: Normalize URL path casing (redirect uppercase to lowercase)
-app.Use(async (context, next) =>
-{
-    var path = context.Request.Path.Value;
-    if (!string.IsNullOrEmpty(path) && Regex.IsMatch(path, "[A-Z]"))
+    if (normalizedPath.EndsWith("/") && normalizedPath != "/")
     {
-        var lowercasePath = path.ToLowerInvariant();
-        var query = context.Request.QueryString;
-        context.Response.Redirect($"{lowercasePath}{query}", permanent: true);
-        return;
+        normalizedPath = normalizedPath.TrimEnd('/');
+        redirectNeeded = true;
     }
 
-    await next();
-});
-
-// ✅ Middleware: Remove trailing slashes (except for root)
-app.Use(async (context, next) =>
-{
-    var path = context.Request.Path.Value;
-    if (!string.IsNullOrEmpty(path) && path != "/" && path.EndsWith("/"))
+    // Normalize query string (sorted order)
+    if (originalQuery.Contains("&"))
     {
-        var newPath = path.TrimEnd('/');
-        context.Response.Redirect($"{newPath}{context.Request.QueryString}", permanent: true);
-        return;
-    }
-
-    await next();
-});
-
-// ✅ Middleware: Sort query string parameters
-app.Use(async (context, next) =>
-{
-    var query = context.Request.QueryString.Value;
-
-    if (!string.IsNullOrEmpty(query) && query.Contains("&"))
-    {
-        var parsedQuery = QueryHelpers.ParseQuery(query);
+        var parsedQuery = QueryHelpers.ParseQuery(originalQuery);
         var sortedQuery = parsedQuery.OrderBy(q => q.Key)
             .SelectMany(kv => kv.Value.Select(v => $"{kv.Key}={v}"))
             .ToArray();
 
-        var sortedQueryString = "?" + string.Join("&", sortedQuery);
+        normalizedQuery = "?" + string.Join("&", sortedQuery);
 
-        if (query != sortedQueryString)
+        if (normalizedQuery != originalQuery)
         {
-            var redirectUrl = $"{context.Request.Path}{sortedQueryString}";
-            context.Response.Redirect(redirectUrl, permanent: true);
+            redirectNeeded = true;
+        }
+    }
+
+    // Perform safe redirect if needed
+    if (redirectNeeded)
+    {
+        var finalUrl = normalizedPath + normalizedQuery;
+        var currentUrl = originalPath + originalQuery;
+
+        if (finalUrl != currentUrl)
+        {
+            context.Response.Redirect(finalUrl, permanent: true);
             return;
         }
     }
@@ -108,17 +93,20 @@ app.Use(async (context, next) =>
     await next();
 });
 
+// ✅ Exception handling & HSTS
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/home/error");
     app.UseHsts();
 }
 
+// ✅ Core middleware pipeline
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseAuthorization();
 
+// ✅ MVC routing
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=home}/{action=index}/{id?}");
