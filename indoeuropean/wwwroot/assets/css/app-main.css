@@ -44045,6 +44045,31 @@ display:none;
 }
 
 
+
+/**the denmark web page start*/
+.bg-denmark {
+    background-image: url(../images/denmark/denmark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.denmark-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-denmark-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the denmark web page end*/
+
+
+
 /**the singapore web page start*/
 .bg-singapore {
     background-image: url(../images/Singapore/singapore.jpg);
