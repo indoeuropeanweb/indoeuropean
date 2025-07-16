@@ -44882,7 +44882,6 @@ display:none;
 
 .country-box{
     padding: 5%;
-/*    margin: 0 auto;*/
     display:flex;
     justify-content:center;
     align-items:center;
@@ -44901,5 +44900,27 @@ display:none;
 .country-place h4{
     text-align:center;
     margin-top: 10px
+}
+
+.europe-parent {
+    position: relative;
+}
+
+.europe-submenus {
+    position: absolute;
+    right: -165px;
+    top: -5px;
+    background-color: #fff;
+    padding: 6px 24px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.europe-parent:hover .europe-submenus {
+    opacity: 1;
+    visibility:visible;
+    transition: opacity 0.3s ease-in-out;
 }
 
