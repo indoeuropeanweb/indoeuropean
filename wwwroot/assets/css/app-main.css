@@ -44913,12 +44913,8 @@ display:none;
 /*Europe Countries */
 
 .country-box{
-<<<<<<< HEAD
     padding: 5%;
-=======
     padding: 10%;
-/*    margin: 0 auto;*/
->>>>>>> c3a59935beabf12be004ed1ba9c176703c95582f
     display:flex;
     justify-content:center;
     align-items:center;
@@ -44933,14 +44929,19 @@ display:none;
 .country-flag {
     width: 10rem;
     margin: 10px auto;
-    margin-top: -30px;
     box-shadow: 0px 0px 4px #000;
+    transition: transform 0.3s ease-in-out;
 }
 
-.country-place h4{
-    text-align:center;
-    margin-top: 10px
-}
+    .country-flag:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .country-place h4 {
+        text-align: center;
+        margin-top: 10px
+    }
 
 .europe-parent {
     position: relative;
@@ -44962,6 +44963,10 @@ display:none;
     opacity: 1;
     visibility:visible;
     transition: opacity 0.3s ease-in-out;
+}
+
+.europe-parent a{
+    width: 100%;
 }
 
 .europe-submenus-1 {
