@@ -468,6 +468,26 @@ $(document).ready(function () {
     getCourse();
     GetPreferredCallBackTime();
 });
+
+$(document).ready(function () {
+    let MenuChild = $('.europe-submenus-1');
+    let PlusIcon = $('#mobile-europe-icon');
+    MenuChild.slideUp();
+
+    PlusIcon.on("click", () => {
+        if (PlusIcon.hasClass("fa-plus")) {
+            PlusIcon.removeClass("fa-plus");
+            PlusIcon.addClass("fa-minus");
+            MenuChild.slideDown(600);
+        } else {
+            PlusIcon.removeClass("fa-minus");
+            PlusIcon.addClass("fa-plus");
+            MenuChild.slideUp(600);
+        }
+
+    })
+});
+
 //--------CountryCode---------------//
 function getCountryCode() {
     $.ajax({
