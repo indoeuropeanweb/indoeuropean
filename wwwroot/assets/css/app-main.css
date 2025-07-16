@@ -44046,6 +44046,38 @@ display:none;
 
 
 
+
+.country-name{
+    font-size: 1.5rem;
+}
+
+
+
+
+/**the Europe web page start*/
+.bg-europe {
+    background-image: url(../images/europe/Countries/europe-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.europe-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-europe-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the Europe web page end*/
+
+
+
 /**the denmark web page start*/
 .bg-denmark {
     background-image: url(../images/denmark/denmark.jpg);
@@ -44881,7 +44913,12 @@ display:none;
 /*Europe Countries */
 
 .country-box{
+<<<<<<< HEAD
     padding: 5%;
+=======
+    padding: 10%;
+/*    margin: 0 auto;*/
+>>>>>>> c3a59935beabf12be004ed1ba9c176703c95582f
     display:flex;
     justify-content:center;
     align-items:center;
@@ -44889,12 +44926,15 @@ display:none;
 
 .country-place {
     width: 18rem;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .country-flag {
-    width: 12rem;
-    margin: 0 auto;
+    width: 10rem;
+    margin: 10px auto;
     margin-top: -30px;
+    box-shadow: 0px 0px 4px #000;
 }
 
 .country-place h4{

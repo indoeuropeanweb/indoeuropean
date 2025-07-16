@@ -1,3 +1,7 @@
-﻿.vs/
-obj/
+﻿# Ignore build output
 bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.json
