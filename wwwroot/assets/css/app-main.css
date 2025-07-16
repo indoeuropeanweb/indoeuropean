@@ -44964,3 +44964,20 @@ display:none;
     transition: opacity 0.3s ease-in-out;
 }
 
+.europe-submenus-1 {
+    list-style: none;
+}
+
+.europe-link-1 {
+    display: flex;
+    align-items: center;
+}
+
+    .europe-link-1:hover, .europe-link-1:hover a {
+        color: #1ab69d;
+    }
+
+    .europe-link-1 a {
+        width: 90%;
+    }
+
