@@ -44053,6 +44053,58 @@ display:none;
 
 
 
+/**the Latvia web page start*/
+.bg-latvia {
+    background-image: url(../images/latvia/latvia-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.latvia-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-latvia-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the latvia web page end*/
+
+
+
+
+
+/**the Lithuania web page start*/
+.bg-lithuania {
+    background-image: url(../images/lithuania/lithuania.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lithuania-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-lithuania-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the lithuania web page end*/
+
+
+
+
+
 
 /**the Europe web page start*/
 .bg-europe {

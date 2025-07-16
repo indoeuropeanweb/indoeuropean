@@ -1,4 +1,5 @@
 ﻿# Ignore build output
+.vs/
 bin/
 obj/
 *.dll
