@@ -77,5 +77,15 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
+        [Route("france")]
+        public IActionResult France()
+        {
+            return View();
+        }
+        [Route("sweden")]
+        public IActionResult Sweden()
+        {
+            return View();
+        }
     }
 }

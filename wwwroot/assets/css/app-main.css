@@ -44053,6 +44053,57 @@ display:none;
 
 
 
+
+/**the sweden web page start*/
+.bg-sweden {
+    background-image: url(../images/france/france-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sweden-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-sweden-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the sweden web page end*/
+
+
+
+
+/**the france web page start*/
+.bg-france {
+    background-image: url(../images/france/france-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.france-global-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.bg-france-color {
+    background: rgba(0,0,0, 0.6)
+}
+/*the france web page end*/
+
+
+
+
 /**the Latvia web page start*/
 .bg-latvia {
     background-image: url(../images/latvia/latvia.jpg);
