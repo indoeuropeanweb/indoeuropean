@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bootstrap-work\\indoeuropean\\indoeuropean.csproj": {}
+    "D:\\Bootstrap-work\\indoeuropean_New\\indoeuropean\\indoeuropean.csproj": {}
   },
   "projects": {
-    "D:\\Bootstrap-work\\indoeuropean\\indoeuropean.csproj": {
+    "D:\\Bootstrap-work\\indoeuropean_New\\indoeuropean\\indoeuropean.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bootstrap-work\\indoeuropean\\indoeuropean.csproj",
+        "projectUniqueName": "D:\\Bootstrap-work\\indoeuropean_New\\indoeuropean\\indoeuropean.csproj",
         "projectName": "indoeuropean",
-        "projectPath": "D:\\Bootstrap-work\\indoeuropean\\indoeuropean.csproj",
+        "projectPath": "D:\\Bootstrap-work\\indoeuropean_New\\indoeuropean\\indoeuropean.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Bootstrap-work\\indoeuropean\\obj\\",
+        "outputPath": "D:\\Bootstrap-work\\indoeuropean_New\\indoeuropean\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
