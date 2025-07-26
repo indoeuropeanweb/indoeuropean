@@ -630,6 +630,18 @@ function getCourse() {
 
 function bindCourseDropdown(data) {
     var dropdown = $('#ddlCourseCodeId');
+
+    const excludedOptions = [
+        "Bachelors Pursuing",
+        "English Test Preparation",
+        "Foundation",
+        "Language program",
+        "Pathway Program",
+        "Top up",
+        "VGTU Bachelor",
+        "Vocational Courses"
+    ];
+
     dropdown.empty();
     dropdown.append('<option value="Select">Select Course</option>');
 
@@ -642,9 +654,20 @@ function bindCourseDropdown(data) {
     dropdown_2.append('<option value="Select">Select Course</option>');
 
     $.each(data, function (key, entry) {
+
         dropdown.append($('<option></option>').attr('value', entry.QUALLEVELID).text(entry.QUALDESC));
-        dropdown_1.append($('<option></option>').attr('value', entry.QUALLEVELID).text(entry.QUALDESC));
-        dropdown_2.append($('<option></option>').attr('value', entry.QUALLEVELID).text(entry.QUALDESC));
+        if (!excludedOptions.includes(entry.QUALDESC)) {
+            dropdown_1.append(
+                $('<option></option>')
+                    .attr('value', entry.QUALLEVELID)
+                    .text(entry.QUALDESC)
+            );
+            dropdown_2.append(
+                $('<option></option>')
+                    .attr('value', entry.QUALLEVELID)
+                    .text(entry.QUALDESC)
+            );
+        }
     });
 }
 

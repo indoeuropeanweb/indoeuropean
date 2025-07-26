@@ -130,6 +130,10 @@
         padding-right: 15px;
         padding-left: 15px;
     }
+
+    .sec-title h2{
+        font-size: 30px !important;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -688,12 +692,6 @@ Custom Row
     .feedback {display: none;}
 
 
-
-
-
-
-
-
     @media only screen and (min-width: 1300px) {
       
 
@@ -712,6 +710,11 @@ Custom Row
             list-style: none;
             margin: 2% 1% !important;
         }
+
+        .sec-title h2{
+            font-size: 24px !important;
+        }
+
         .free-badge {
             display: inline-flex;
             align-items: center;
@@ -33460,7 +33463,7 @@ Countdown
 
     @media only screen and (max-width: 1199px) {
         .blog-meta {
-            margin: -5px -10px;
+/*            margin: -5px -10px;*/
         }
     }
 
@@ -33472,7 +33475,7 @@ Countdown
 
     @media only screen and (max-width: 1199px) {
         .blog-meta li {
-            margin: 5px 10px;
+/*            margin: 5px 10px;*/
         }
     }
 
@@ -33801,7 +33804,7 @@ Countdown
 
     .edu-blog.blog-style-2.first-large-blog .thumbnail {
         margin-right: 0;
-        margin-bottom: 20px;
+/*        margin-bottom: 20px;*/
     }
 
         .edu-blog.blog-style-2.first-large-blog .thumbnail a:after {
@@ -41370,7 +41373,7 @@ Countdown
 
     html[dir="rtl"] .blog-meta li i {
         padding-right: inherit;
-        padding-left: 10px;
+/*        padding-left: 10px;*/
     }
 
     html[dir="rtl"] .edu-blog.blog-style-2.first-large-blog .content {
@@ -43019,7 +43022,6 @@ Countdown
         color: #f58220;
         /* color: #777777; */
         font-size: 36px;
-        line-height: 48px;
         font-weight: 400;
         text-transform: capitalize;
         margin: 14px 0 0;
@@ -43089,7 +43091,6 @@ Countdown
         color: #f58220;
         /* color: #777777; */
         font-size: 36px;
-        line-height: 48px;
         font-weight: 400;
         text-transform: capitalize;
         margin: 14px 0 0;
@@ -44948,7 +44949,7 @@ display:none;
 .blog-meta {
     font-size: 1.4rem;
     color: #6c757d;
-    padding-left: 15px;
+/*    padding-left: 15px;*/
 }
 
 .blog-section-title {
@@ -45088,4 +45089,213 @@ display:none;
     .europe-link-1 a {
         width: 90%;
     }
+
+
+/* Our Services Section Start */
+
+.our-services-breadcrumb{
+    margin-top: 100px;
+    padding: 25px 0;
+    color: #fff;
+    min-height: 410px;
+}
+
+.edu-breadcrumb-services {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-decoration: none;
+        padding-left: 0;
+    }
+
+    .edu-breadcrumb-services li, .edu-breadcrumb-services li a {
+        color: #fff;
+    }
+
+        .edu-breadcrumb-services.active {
+            text-decoration:underline;
+        }
+
+.services-title {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+    .services-title h1{
+        color: #fff;
+    }
+
+    .services-title h1, .services-subtitle h2 {
+        font-size: 2.5rem;
+    }
+
+    .services-title h2{
+        color: #fff;
+    }
+
+    .services-title h2 {
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+
+    .services-title p {
+        color: #fff;
+        text-align: justify;
+    }
+
+    .services-title p, .services-subtitle p {
+        font-size: 1.25rem;
+    }
+        .services-subtitle p{
+            text-align:center;
+        }
+
+        .services-subtitle {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+            padding: 50px 0;
+            text-align:center;
+        }
+
+    .services-subtitle-content span {
+    color: #f5851f;
+     }
+
+.our-services-breadcrumb {
+    background: #150958;
+    background: linear-gradient(90deg, rgba(21, 9, 88, 1) 45%, rgba(255, 255, 255, 0) 100%);
+    padding-top: 50px;
+}
+
+.edu-breadcrumb-services li{
+    list-style:none;
+}
+.breadcrumb-services-back {
+    background-image: url('../images/services/services-back.png');
+}
+
+.breadcrumb-collabroate-back {
+    background-image: url('../images/banner/collabroates/collaborate-back.png');
+}
+
+.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.breadcrumb-contactus-back {
+    background-image: url('../images/contactus/contact-back.jpg');
+}
+
+.services-form-img {
+    transform: scale(1.45);
+}
+
+.edu-breadcrumb-services li a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.box-forstudents{
+    padding: 25px;
+}
+
+.box-forstudents img {
+    aspect-ratio: 4/3;
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .services-title h1, .services-subtitle h2 {
+        font-size: 2.5rem;
+    }
+
+    .services-title h2 {
+        font-size: 1.35rem;
+    }
+
+    .services-title p, .services-subtitle p {
+        font-size: 1rem;
+    }
+
+    .services-form-img {
+        transform: scale(1);
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .services-title h1, .services-subtitle h2 {
+        font-size: 3rem;
+    }
+
+    .services-title h2 {
+        font-size: 1.65rem;
+    }
+
+    .services-title p, .services-subtitle p {
+        font-size: 1.25rem;
+    }
+
+    .services-form-img {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services-title h1, .services-subtitle h2 {
+        font-size: 3.2rem;
+    }
+
+    .services-title h2 {
+        font-size: 1.85rem;
+    }
+
+    .services-title p, .services-subtitle p {
+        font-size: 1.35rem;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1439px) {
+    .services-title h1, .services-subtitle h2 {
+        font-size: 3.5rem;
+    }
+
+    .services-title h2 {
+        font-size: 2rem;
+    }
+
+    .services-title p, .services-subtitle p {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1600px) {
+    .services-title h1, .services-subtitle h2 {
+        font-size: 4rem;
+    }
+
+    .services-title h2 {
+        font-size: 2.25rem;
+    }
+
+    .services-title p, .services-subtitle p {
+        font-size: 1.75rem;
+    }
+}
+
+
+/* Hide Dropdowns from form */
+
+#ddlCourseCodeId option[value="155"], #ddlCourseCodeId option[value="164"], #ddlCourseCodeId option[value="7"], #ddlCourseCodeId option[value="169"], #ddlCourseCodeId option[value="168"], #ddlCourseCodeId option[value="171"], #ddlCourseCodeId option[value="167"], #ddlCourseCodeId option[value="163"] {
+    display: none;
+}
 

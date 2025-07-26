@@ -792,18 +792,18 @@
 
 <div class="edu-blog-area blog-area-3  sales-coach-blog  edu-section-gap">
     <div class="container">
-        <ul class="blog-section-title">
+        <ul class="blog-section-title" style="margin-bottom: 20px;">
             <li>
                 <div class="section-title section-left sal-animate">
 
-                    <span class="pre-title">Latest Articles</span>
-                    <h2 class="title">Get News with Indo European</h2>
+                    @* <span class="pre-title">Latest Articles</span> *@
+                    <h2 class="title">Latest Study Abroad Blogs</h2>
                     <span class="shape-line"><i class="icon-19"></i></span>
                 </div>
             </li>
             <li>
                 <div class="blog-view-all sal-animate">
-                    <a href="#" class="edu-btn">More Article <i class="icon-4"></i></a>
+                    <a asp-controller="blogs" asp-action="index" class="edu-btn">More Blogs <i class="icon-4"></i></a>
                 </div>
             </li>
         </ul>
@@ -813,19 +813,20 @@
                 <div class="edu-blog blog-style-2 blog-style-10 first-large-blog">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="#">
-                                <img src="/assets/images/blogs/1.jpg" alt="Blog Images" loading="lazy">
+                            <a asp-controller="blogs" asp-action="studyinlatvia">
+                                <img src="~/assets/images/blogs/blog-latvia.jpg" alt="Study in Latvia" loading="lazy">
                             </a>
-
                         </div>
+                        
                         <div class="content">
-
-                            <h3 class="title blogh"><a asp-controller="home" asp-action="index">Study in UK, Canada, USA,  Australia & New Zealand </a></h3>
+                            <h3 class="title blogh"><a asp-controller="blogs" asp-action="studyinlatvia">Study in Latvia - Find Best Programmes to Study & Fees</a></h3>
                             <ul class="blog-meta">
-                                <li><i class="icon-27"></i>Sat, 29<sup>th</sup>June'24 </li>
-                                <li><i class="icon-23"></i>11am to 5pm </li>
-
+                                <li><i class="icon-27"></i>June 25, 2025 </li>
                             </ul>
+                            <hr class="blog-line" />
+                            <p>
+                                Latvia is emerging as a popular destination for international students seeking quality education in Europe.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -835,19 +836,23 @@
                 <div class="edu-blog blog-style-2 blog-style-10">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="#">
-                                <img src="/assets/images/blogs/2.jpg" alt="Blog Images" loading="lazy">
+                            <a asp-controller="blogs" asp-action="studyineurope">
+                                <img src="~/assets/images/blogs/blog-europe.jpg" alt="Study in Europe Day" loading="lazy">
                             </a>
                         </div>
                         <div class="content">
                             <div class="category-wrap">
-                                <a href="#" class="blog-category small-category">Study Abroad</a>
+                                <a asp-controller="blogs" asp-action="studyineurope" class="blog-category small-category">Study Abroad</a>
                             </div>
-                            <h5 class="title"><a href="#">Top 7 Reasons to Study in Europe in 2024?</a></h5>
+                            <h5 class="title"><a asp-controller="blogs" asp-action="studyineurope">Top 7 Reasons to Study in Europe in 2025</a></h5>
                             <ul class="blog-meta">
-                                <li style="margin-bottom: 12px"><i class="icon-27"></i>29 June, 2024</li>
-                                <li><i class="icon-23 "></i>Study in Europe Day</li>
+                                <li style="margin-bottom: 12px"><i class="icon-27"></i>June 30, 2025</li>
+                                @* <li><i class="icon-23 "></i>Study in Europe Day</li> *@
                             </ul>
+                            <hr class="blog-line" />
+                            <p>
+                                Latvia is emerging as a popular destination for international students seeking quality education in Europe.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -856,19 +861,23 @@
                 <div class="edu-blog blog-style-2 blog-style-10">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="#">
-                                <img src="/assets/images/blogs/3.jpg" alt="Blog Images" loading="lazy">
+                            <a asp-controller="blogs" asp-action="studyingermany">
+                                <img src="~/assets/images/blogs/germany-blog.jpg" alt="Study Abroad Germany" loading="lazy">
                             </a>
                         </div>
                         <div class="content">
                             <div class="category-wrap">
                                 <p class="blog-category small-category">Study Abroad</p>
                             </div>
-                            <h5 class="title"><a href="#">Why Indian Students are choosing Ukraine for studying abroad?</a></h5>
+                            <h5 class="title"><a asp-controller="blogs" asp-action="studyingermany">Why are Indian Students Choosing Germany for Studying Abroad?</a></h5>
                             <ul class="blog-meta">
-                                <li><i class="icon-27"></i>29 June, 2024</li>
-                                <li><i class="icon-23 "></i>Study in Europe Day</li>
+                                <li><i class="icon-27"></i>June 20, 2025</li>
+                                @* <li><i class="icon-23 "></i>Study in Germany Day</li> *@
                             </ul>
+                            <hr class="blog-line" />
+                            <p>
+                                Germany has emerged as one of the top destinations for Indian students pursuing higher education abroad.
+                            </p>
                         </div>
                     </div>
                 </div>
