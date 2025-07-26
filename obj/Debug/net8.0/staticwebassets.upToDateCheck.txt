@@ -145,7 +145,6 @@ wwwroot\assets\images\banner\france.jpg
 wwwroot\assets\images\banner\georgia.jpg
 wwwroot\assets\images\banner\germany.jpg
 wwwroot\assets\images\banner\girl-old.png
-wwwroot\assets\images\banner\girl.png
 wwwroot\assets\images\banner\greece.jpg
 wwwroot\assets\images\banner\hungary.jpg
 wwwroot\assets\images\banner\ielts.png
@@ -1084,3 +1083,4 @@ wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
 wwwroot\robots.txt
 wwwroot\sitemap.xml
+wwwroot\assets\images\banner\girl.png
