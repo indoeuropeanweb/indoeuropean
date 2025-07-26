@@ -1,6 +1,9 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
+@{
+    ViewData["Title"] = "Thank You";
+    ViewData["Description"] = "thank you so much to visit Indoeuropean website follow us for more.";
+}
+
 @{
 }
 <!DOCTYPE html>
@@ -91,10 +94,8 @@
                     font-weight: 600;
                 }
 
-        media screen and (max-width: 600px) {
-            h1
-
-        {
+        @@media screen and (max-width: 600px) {
+        h1{
             font-size: 40px;
         }
 
@@ -104,10 +105,8 @@
 
         }
 
-        media screen and (max-width: 480px) {
-            .content
-
-        {
+        @@media screen and (max-width: 480px) {
+        .content{
             max-width: 1000px;
             margin: 0 auto;
         }
@@ -139,7 +138,7 @@
     <div class=content>
         <div class="container">
             <div class="wrapper-2">
-                <img src="assets/img/logo.png">
+				<img style="background-color: #fff; border-radius: 5px;" src="~/assets/images/logo/ie-logo.png" alt="indoeuropean study abroad consultancy" title="indoeuropean study abroad consultancy" loading="lazy" height="80px" width="250px"/>
                 <h1>Thank you !</h1>
                 <p>Your Request has been submitted Succesfully!  </p>
                 <p>Our Student Counselor will get in Touch with you shortly  </p>
@@ -152,7 +151,7 @@
     </div>
     <script>
         function GoToHomePage() {
-            window.location.href = "/Home/Index";
+            window.location.href = "/home/index";
         }
     </script>
 
