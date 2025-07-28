@@ -44,7 +44,6 @@ D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\indoeuropean.cs
 D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\indoeuropean.MvcApplicationPartsAssemblyInfo.cache
 D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\indoeuropean.RazorAssemblyInfo.cache
 D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\indoeuropean.RazorAssemblyInfo.cs
-D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\indoeuropean.sourcelink.json
 D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\rjimswa.dswa.cache.json
 D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\Bootstrap-work\indoeuropean_New\indoeuropean\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
