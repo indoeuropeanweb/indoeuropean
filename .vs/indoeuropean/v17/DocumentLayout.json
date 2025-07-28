@@ -119,6 +119,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "LandingPage.js",
               "DocumentMoniker": "D:\\Vinay-Dev\\New_Indoeuropean\\indoeuropean\\wwwroot\\assets\\js\\LandingPage.js",
               "RelativeDocumentMoniker": "wwwroot\\assets\\js\\LandingPage.js",
@@ -127,6 +128,16 @@
               "ViewState": "AgIAAFICAAAAAAAAAAAowFoCAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-25T11:50:51.282Z",
+=======
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Bootstrap-work\\indoeuropean_New\\indoeuropean\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Bootstrap-work\\indoeuropean_New\\indoeuropean\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-26T05:03:15.346Z",
+>>>>>>> 269a3c533f24fb577c0945ddbac9f845d7940ae0
               "EditorCaption": ""
             },
             {
