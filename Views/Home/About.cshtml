@@ -4,16 +4,65 @@
     ViewData["Description"] = "Discover Indo-European, a leading global education consultancy with 20+ years of expertise connecting Indian students to top international universities worldwide.";
 }
 
-<div class="edu-breadcrumb-area  bg-image bg-image--54">
-    <div class="container">
-        <div class="breadcrumb-inner" style="text-align:left;">
-            <div class="page-title">
-                <h1 class="title" style="color:#fff; padding:40px 0px;">Who We Are</h1>
+<section class="breadcrumb-coaching-back">
+    <div class="our-services-breadcrumb">
+        <div class="container">
+            <ul class="edu-breadcrumb-services">
+                <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Home</a></li>
+                <li class="separator"><i class="icon-angle-right"></i></li>
+                <li class="breadcrumb-item" aria-current="page">About Us</li>
+            </ul>
+            <div class="breadcrumb-inner">
+                <div class="services-title">
+                    <h1 class="title">About Us</h1>
+                    <h2>
+                       20+ Years of Experience in Study Abroad Consultancy
+                    </h2>
+                    <p>Welcome to Indo-European, your premier global education consultancy with over 20 years of excellence in connecting Indian students with prestigious international universities. We are dedicated to guiding students towards their academic goals and fostering strategic partnerships with top institutions worldwide.</p>
+                </div>
             </div>
-          
         </div>
     </div>
-</div>
+    <div class="aboutsus-bottom">
+        <div class="row g-3">
+            <div class="col-sm-3">
+                <div class="">
+                    <h5>+41</h5>
+                    <p>Countries</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="">
+                    <h5>+126</h5>
+                    <p>Universities</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="">
+                    <h5> +18k</h5>
+                    <p>Courses</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="">
+                    <h5> FREE</h5>
+                    <p>Counselling for students & parents</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    @* <ul class="shape-group">
+        <li class="shape-1">
+            <span></span>
+        </li>
+
+        <li class="shape-3 scene"><img data-depth="-2" src="~/assets/images/about/shape-15.png" alt="shape" loading="lazy"></li>
+        <li class="shape-4">
+            <span></span>
+        </li>
+        <li class="shape-5 scene"><img data-depth="2" src="~/assets/images/about/shape-07.png" alt="shape" loading="lazy"></li>
+    </ul> *@
+</section>
 
         <!--=====================================-->
         <!--=       Why Choose Area Start       =-->
@@ -22,12 +71,12 @@
         <section class="why-choose-area-3 edu-section-gap">
             <div class="container">
                 <div class="row row--45">
-                    <div class="section-title-flex section-title">
-                        <div class="col-lg-12">
-                    <h2 class="title">About <span class="color-secondary">  Indo-European </span> </h2>
-                            <span class="shape-line"><i class="icon-19"></i></span>
+                    <div class="section-title-flex section-indo-title">
+                        <div class="col-lg-12 mt-3">
+                    <h2 class="title">Why <span class="color-secondary">  Indo-European </span> ?</h2>
+                    <span class="shape-line" style="color: #f88121"><i class="icon-19"></i></span>
 
-                    <p style="text-align: justify;">
+@*                     <p style="text-align: justify;">
                         <b>Welcome to Indo-European,</b> your premier global education consultancy with over 20 years of excellence in connecting Indian students with prestigious international universities. We are dedicated to guiding students towards their academic goals and fostering strategic partnerships with top institutions worldwide.
                     </p>
 
@@ -48,7 +97,60 @@
                         <li><p style="margin-bottom: 0; margin-top: 0;text-align:justify"><b>Proven Results: </b> Our commitment to delivering outstanding results and our strategic approach make us a top choice for students and an ideal partner for universities.</p></li>
                         <li><p style="margin-bottom: 0; margin-top: 0;text-align:justify"><b>Diverse Talent Pool:</b> We connect universities with a broad spectrum of talent from across India, ensuring a diverse and high-quality applicant pool.</li>
                     </ul>
-                    <br>
+                    <br> *@
+
+                    <div class="row g-5 abooutus-card">
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/expert.png" alt="Card image cap">
+							<div class="card-body">
+                                <h5 class="card-title">Expert Guidance for European Universities</h5>
+                                <p class="card-text">
+                                    Leverage our in-depth knowledge of European education systems to find the perfect university and program tailored to your goals.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/resume.png" alt="Card image cap">
+							<div class="card-body">
+                                <h5 class="card-title">Personalized Application Support</h5>
+                                <p class="card-text">
+                                    From selecting the right course to crafting standout applications, we provide one-on-one assistance to maximize your chances of acceptance.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/passport.png" alt="Card image cap">
+							<div class="card-body">
+                                <h5 class="card-title">Visa Assistance Made Simple</h5>
+                                <p class="card-text">Our team simplifies the complex visa process, ensuring all documentation is accurate and submitted on time for a hassle-free experience.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/degree.png" alt="Card image cap">
+							<div class="card-body">
+                                <h5 class="card-title">
+                                    Scholarships and Financial Aid Guidance
+                                </h5>
+                                <p class="card-text">
+                                    We help you explore and apply for scholarships, grants, and financial aid opportunities to make studying abroad more affordable.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/arrivals.png" alt="Card image cap">
+							<div class="card-body">
+                                <h5 class="card-title">Pre-Departure and Post-Arrival Support</h5>
+                                <p class="card-text">From travel arrangements to settling in, we’re with you every step of the way to ensure a smooth transition to your new life abroad.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/networking.png" alt="Card image cap">
+							<div class="card-body">
+                                <h5 class="card-title">Strong Network Across Europe</h5>
+                                <p class="card-text">With partnerships and connections across top European institutions, we provide exclusive insights and opportunities for your academic journey.</p>
+                            </div>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>
@@ -57,4 +159,348 @@
             </div>
 
         </section>
+
+<section class="why-choose-area-3">
+    <div class="container">
+        <div class="row row--45">
+            <div class="section-title-flex section-title">
+                <div class="col-lg-12">
+                    <h2 class="title">
+                        Know Your <span class="color-secondary"> Destination</span> ?
+                    </h2>
+                    <span class="shape-line"><i class="icon-19"></i></span>
+                    <div class="row mt-5">
+                        <ul class="flag-row">
+                            <li>
+                                <a asp-controller="destinations" asp-action="europe">
+                                    <img src="/assets/images/flag/europe.png" alt="Europe Flag" loading="lazy" />
+                                    <h5 class="title-flag"> Europe</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="destinations" asp-action="uk">
+                                    <img src="/assets/images/flag/uk.png" alt="UK Flag" loading="lazy" />
+                                    <h5 class="title-flag"> UK</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="destinations" asp-action="canada">
+                                    <img src="/assets/images/flag/canada.png" alt="Canada Flag" loading="lazy" />
+                                    <h5 class="title-flag"> Canada</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="destinations" asp-action="usa">
+                                    <img src="/assets/images/flag/usa.png" alt="USA Flag" loading="lazy" />
+                                    <h5 class="title-flag">USA</h5>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a asp-controller="destinations" asp-action="new_zealand">
+                                    <img src="/assets/images/flag/newzealand.png" alt="New Zealand Flag" loading="lazy" />
+                                    <h5 class="title-flag">New Zealand</h5>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="destinations" asp-action="australia">
+                                    <img src="/assets/images/flag/australia.png" alt="Australia Flag" loading="lazy" />
+                                    <h5 class="title-flag">Australia</h5>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="modern-schooling-cta-wrapper edu-cta-banner-area-6 bg-image">
+    <div class="container">
+        <div class="edu-cta-banner">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="thumbnail">
+                        <img src="/assets/images/services/form.png" alt="girls image" loading="lazy" />
+                    </div>
+                    <ul class="shape-group">
+                        <li class="shape-01 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                            <img data-depth="2.5" src="/assets/images/cta/shape-43.png" alt="shape-icon" style="transform: translate3d(4.8px, -8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
+                        </li>
+                        <li class="shape-02 sal-animate">
+                            <img src="/assets/images/cta/shape-42.png" alt="shape-image-icon" loading="lazy" />
+                        </li>
+                        <li class="shape-03 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                            <img data-depth="-2" src="/assets/images/cta/shape-40.png" alt="shape-icon" style="transform: translate3d(-5.7px, 9.4px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
+                        </li>
+                        <li class="shape-04 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                            <img data-depth="2" src="/assets/images/cta/shape-38.png" alt="shape-icon" style="transform: translate3d(4.4px, -8.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+
+                    <div class="contact-form" style="margin-top:50px; margin-bottom: 20px;">
+                        <form class="rnt-contact-form rwt-dynamic-form">
+                            <h3 class="title" style="padding: 10px 0px; color:#000;">Connect with us</h3>
+                            <div class="row row--10">
+                                <div class="form-group col-lg-6">
+                                    <input type="text" name="contact-name" id="txtFName_1" placeholder="Your Name">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <input type="email" name="contact-email" id="txtEmail_1" placeholder="Your Email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <div class="select-box">
+                                        <div class="selected-option">
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc7935340290"><g id="IconifyId19135992cc353402bvcbret5491"><g id="IconifyId19135992cc353402bkchdmnab92"><g id="IconifyId19135992cc35340294" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340295" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340bawabkchd3292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340cxvret54291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc359240340290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340483290" transform="rotate(-120)"></use></g></svg>
+
+                                            </div>
+                                            <input type="tel" name="txtPhone" id="txtPhone_1" placeholder="+91">
+                                        </div>
+                                        <div class="options">
+                                            <select id="ddlCountryCodeid_1" name="ddlCountryCodeid_1" class="ddlCountryCodeid form-control form-list">
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-12">
+                                    <select name="HighestQualifcation" id="ddlHighestQualifcation_1">
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <select name="ddlCourseCodeId" id="ddlCourseCodeId_1" required="">
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group col-12">
+                                    <input type="text" name="txtCity" id="txtCity_1" placeholder="City" required="">
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <select name="Programm" required="" id="ddlDestinationCodeid_1">
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <select name="PreferredCallBackTime" required="" id="ddlPreferredCallBackTime_1">
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group col-12 text-center">
+                                    <input type="button" value="Submit" class="rn-btn edu-btn submit-btn" onclick="btnclick();" />
+                                    @*                                     <button class="rn-btn edu-btn submit-btn" name="submit" type="submit" onclick="btnclick();">Submit Now <i class="icon-4"></i></button>
+ *@                                </div>
+                            </div>
+                        </form>
+
+                        @*                         <form class="rnt-contact-form rwt-dynamic-form" id="contact-form" method="POST" action="#">
+                            <div class="row row--10">
+                                <div class="form-group col-lg-6">
+                                    <input type="text" name="contact-name" id="contact-name" placeholder="Your Name">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <input type="email" name="contact-email" id="contact-email" placeholder="Your Email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <div class="select-box">
+                                        <div class="selected-option">
+                                            <div>
+                                                <span class="iconify" data-icon="flag:in-4x3"></span>
+
+                                            </div>
+                                            <input type="tel" name="tel" placeholder="+91">
+                                        </div>
+                                        <div class="options">
+                                            <input type="text" class="search-box" placeholder="Search Country Name">
+                                            <ol>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-12">
+                                    <select name="Qualification" id="Qualification">
+                                        <option value="Pursuing 12th">Highest Qualification</option>
+                                        <option value="Intermediate">Intermediate</option>
+                                        <option value="Bachelors">Bachelors</option>
+                                        <option value="Masters">Masters</option>
+                                        <option value="PHD">PHD</option>
+                                        <option value="Diploma">Diploma </option>
+
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <select name="Programm" id="contact-name" required="">
+                                        <option value="Program Interested">Program Interested</option>
+                                        <option value="Bachelors">Bachelors</option>
+                                        <option value="Masters">Masters</option>
+                                        <option value="Diploma">Diploma </option>
+                                        <option value="PHD">PHD</option>
+
+                                        <option value="PG Diploma">PG Diploma</option>
+
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group col-12">
+                                    <input type="text" name="contact-name" id="" placeholder="City">
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <select name="Programm" required="">
+                                        <option value="Choose Country">Choose Country</option>
+                                        <option value="Canada">Canada</option>
+                                        <option value="United Kingdom">United Kingdom </option>
+                                        <option value="New Zealand">New Zealand</option>
+                                        <option value="Australia">Australia</option>
+                                        <option value="Ireland">Ireland</option>
+                                        <option value="United States">United States </option>
+                                        <option value="Europe">Europe</option>
+                                        <option value="austria">Austria</option>
+                                        <option value="armenia">Armenia</option>
+                                        <option value="bulgaria">Bulgaria</option>
+                                        <option value="cyprus">Cyprus</option>
+                                        <option value="czech-republic">Czech Republic</option>
+                                        <option value="denmark">Denmark</option>
+                                        <option value="estonia">Estonia</option>
+                                        <option value="france">France</option>
+                                        <option value="germany">Germany</option>
+                                        <option value="greece">Greece</option>
+                                        <option value="georgia">Georgia</option>
+                                        <option value="hungary">Hungary</option>
+                                        <option value="switzerland">Switzerland</option>
+                                        <option value="italy">Italy</option>
+                                        <option value="ireland">Ireland</option>
+                                        <option value="latvia">Latvia</option>
+                                        <option value="lithuania">Lithuania</option>
+                                        <option value="macedonia">Macedonia</option>
+                                        <option value="malta">Malta</option>
+                                        <option value="moldova">Moldova</option>
+                                        <option value="ukraine">Ukraine</option>
+                                        <option value="northern-cyprus">Northern Cyprus</option>
+                                        <option value="norway">Norway</option>
+                                        <option value="poland">Poland</option>
+                                        <option value="romania">Romania</option>
+                                        <option value="sweden">Sweden</option>
+                                        <option value="spain">Spain</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-12">
+                                    <select name="Programm" required="">
+                                        <option value="Best Time to Call">Best Time to Call</option>
+                                        <option value="09am - 10am">09am - 10am</option>
+                                        <option value="10am - 11am">10am - 11am</option>
+                                        <option value="11am - 12pm">11am - 12pm</option>
+                                        <option value="12pm - 01pm">12pm - 01pm </option>
+                                        <option value="01pm - 02pm">01pm - 02pm</option>
+                                        <option value="02pm - 03pm">02pm - 03pm</option>
+                                        <option value="03pm - 04pm">03pm - 04pm</option>
+                                        <option value="04pm - 05pm">04pm - 05pm </option>
+                                        <option value="05pm - 06pm">05pm - 06pm</option>
+                                        <option value="06pm - 07pm">06pm - 07pm</option>
+
+                                    </select>
+                                </div>
+
+
+                                <div class="form-group col-12 text-center">
+                                    <button class="rn-btn edu-btn submit-btn" name="submit" type="submit">Submit Now <i class="icon-4"></i></button>
+                                </div>
+                            </div>
+                        </form>
+ *@                    </div>
+                </div>
+            </div>
+            <ul class="shape-group">
+                <li class="shape-05 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                    <img data-depth="1.5" src="/assets/images/cta/shape-39.png" alt="shape" style="transform: translate3d(4.7px, -7.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy">
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="why-choose-area-3">
+    <div class="container">
+        <div class="row row--45">
+            <div class="section-title-flex section-title">
+                <div class="col-lg-12 mt-5">
+                    <h2 class="title">
+                        Your Study Abroad <span class="color-secondary"> Journey</span> ?
+                    </h2>
+                    <span class="shape-line"><i class="icon-19"></i></span>
+                    <div class="row my-5 g-5 abooutus-card">
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/admission.png" alt="Card image cap">
+                            <div class="card-body">
+								<h5 class="card-title">Course and University Selection</h5><img src="" />
+                                <p class="card-text">
+                                    We help you identify the best courses and universities that align with your academic background, career goals, and personal preferences. Our expert counselors provide tailored recommendations to ensure the perfect fit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/software-application.png" alt="Card image cap">
+                            <div class="card-body">
+								<h5 class="card-title">Application Assistance</h5>
+                                <p class="card-text">
+                                    Crafting a strong application is key to standing out. We guide you through the entire process, from filling out forms to writing compelling statements of purpose and essays, ensuring your application shines.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/visa.png" alt="Card image cap">
+                            <div class="card-body">
+								<h5 class="card-title">
+                                    Visa Guidance
+                                </h5>
+                                <p class="card-text">Navigating the visa process can be overwhelming, but we make it simple. Our team ensures you have all the required documents, prepares you for interviews, and helps you submit your visa application successfully.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/budget.png" alt="Card image cap">
+                            <div class="card-body">
+								<h5 class="card-title">
+                                    Financial Planning and Scholarships
+                                </h5>
+                                <p class="card-text">
+                                    Studying abroad can be expensive, but we assist you in exploring scholarships, grants, and financial aid options to ease the financial burden. We also provide guidance on budgeting and managing expenses.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/departure.png" alt="Card image cap">
+                            <div class="card-body">
+								<h5 class="card-title">
+                                    Pre-Departure Support
+                                </h5>
+                                <p class="card-text">From booking flights to arranging accommodation and understanding cultural nuances, we prepare you for a smooth transition to your new destination. We also provide checklists to ensure you’re fully ready.</p>
+                            </div>
+                        </div>
+                        <div class="card col-md-4">
+                            <img class="card-img-top aboutus-icon" src="~/assets/images/aboutus/icons/customer-support.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Post-Arrival Assistance</h5>
+                                <p class="card-text">Once you reach your university, our support doesn’t stop. We help you settle in, connect with local resources, and provide guidance on adapting to your new environment, ensuring a stress-free start to your academic journey.</p>
+							</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Get Ready for Study Abroad Journey</h3>
+                        <p>Simplify your university application process and find out in just minutes if you qualify for the university of your dreams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- End Why Choose Area  -->

@@ -33461,7 +33461,7 @@ Countdown
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         padding-bottom: 18px;
-        margin: -5px -16px;
+/*        margin: -5px -16px;*/
     }
 
     @media only screen and (max-width: 1199px) {
@@ -45186,7 +45186,11 @@ display:none;
     background-image: url('../images/banner/collabroates/collaborate-back.png');
 }
 
-.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back {
+.breadcrumb-coaching-back {
+    background-image: url('../images/banner/Coaching/Coaching-hero-banner.png');
+}
+
+.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45214,6 +45218,123 @@ display:none;
     width: 100%;
 }
 
+.coaching-card .card-body .card-title {
+    font-size: 1.75rem;
+    text-align:justify;
+}
+
+.coaching-card .card-body .card-text {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.coaching-card .card-img-top{
+    aspect-ratio: 4/2;
+    height: 15rem;
+}
+
+.coaching-section h3{
+    text-align: justify;
+}
+
+.coaching-section p{
+    text-align: justify;
+}
+
+
+.exam-features {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exam-title {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.exam-subtitle {
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.exam-accordion {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.exam-card {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px !important;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.exam-card-header {
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+.exam-card-btn {
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    text-align: left;
+    border: none;
+    background: white;
+    color: #2c3e50;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+    .exam-card-btn:hover {
+        background-color: #f8f9fa;
+    }
+
+    .exam-card-btn:not(.collapsed) {
+        background-color: #f8f9fa;
+        color: #150958;
+    }
+
+    .exam-card-btn::after {
+        margin-left: auto;
+        transition: transform 0.3s ease;
+    }
+
+.exam-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #f1f2f6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e74c3c;
+}
+
+.exam-card-btn:not(.collapsed) .exam-icon {
+    background-color: #150958;
+    color: white;
+}
+
+.exam-card-body {
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    color: #34495e;
+    line-height: 1.7;
+    text-align: justify;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .services-title h1, .services-subtitle h2 {
@@ -45231,6 +45352,25 @@ display:none;
     .services-form-img {
         transform: scale(1);
     }
+
+    .coaching-card .card-body .card-title{
+        font-size: 1.5rem;
+    }
+
+    .coaching-card .card-body .card-text{
+        font-size: 1.3rem;
+    }
+
+/*    About us section*/
+
+    .aboutsus-bottom {
+        display: none;
+    }
+
+    .edu-section-gap {
+        padding-top: 25px;
+    }
+
 }
 
 
@@ -45250,6 +45390,24 @@ display:none;
     .services-form-img {
         transform: scale(1);
     }
+
+    .coaching-card .card-body .card-title {
+        font-size: 1.55rem;
+    }
+
+    .coaching-card .card-body .card-text {
+        font-size: 1.35rem;
+    }
+
+    /*    About us section*/
+    .aboutsus-bottom{
+        display: none;
+    }
+
+    .edu-section-gap{
+        padding-top: 25px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -45264,6 +45422,15 @@ display:none;
     .services-title p, .services-subtitle p {
         font-size: 1.35rem;
     }
+
+    .coaching-card .card-body .card-title {
+        font-size: 1.65rem;
+    }
+
+    .coaching-card .card-body .card-text {
+        font-size: 1.4rem;
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1439px) {
@@ -45278,6 +45445,15 @@ display:none;
     .services-title p, .services-subtitle p {
         font-size: 1.5rem;
     }
+
+    .coaching-card .card-body .card-title {
+        font-size: 1.75rem;
+    }
+
+    .coaching-card .card-body .card-text {
+        font-size: 1.45rem;
+    }
+
 }
 
 
@@ -45293,6 +45469,15 @@ display:none;
     .services-title p, .services-subtitle p {
         font-size: 1.75rem;
     }
+
+    .coaching-card .card-body .card-title {
+        font-size: 1.8rem;
+    }
+
+    .coaching-card .card-body .card-text {
+        font-size: 1.5rem;
+    }
+
 }
 
 
@@ -45321,4 +45506,47 @@ display:none;
 .shape-04.scene.sal-animate{
     display: none;
 }
->>>>>>> 7ece1c03de8806df8b193b638f6a6bf973c5e994
+
+/*Aboutsus Section*/
+
+.breadcrumb-coaching-back{
+    position: relative;
+}
+
+.aboutsus-bottom {
+    background-color: #fff;
+    padding: 24px 16px;
+    position: absolute;
+    bottom: -100px;
+    width: 90%;
+    left: 50px;
+    text-align: center;
+    box-shadow: 0 0 12px 2px #ccc;
+}
+
+.aboutsus-bottom h5{
+    font-size: 2rem;
+}
+
+.aboutsus-bottom p{
+    font-size: 1.6rem;
+}
+
+.aboutus-icon {
+    width: 8rem;
+    margin: 0 auto;
+}
+
+.section-indo-title{
+    margin-top: 60px;
+    text-align:center;
+}
+
+.abooutus-card {
+    margin-top: 16px;
+}
+
+.abooutus-card .card {
+    padding: 16px 10px;
+}
+
