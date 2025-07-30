@@ -69,6 +69,13 @@ namespace indoeuropean.Controllers
             return View();
         }
 
+
+        [Route("events")]
+        public IActionResult Events()
+        {
+            return View();
+        }
+
         [Route("termsandconditions")]
         public IActionResult Termsandconditions()
         {
