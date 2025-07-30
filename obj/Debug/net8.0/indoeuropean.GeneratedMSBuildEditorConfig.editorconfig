@@ -9,197 +9,197 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = indoeuropean
 build_property.RootNamespace = indoeuropean
-build_property.ProjectDir = D:\Bootstrap-work\indoeuropean_New\indoeuropean\
+build_property.ProjectDir = D:\Vinay-Dev\New_Indoeuropean\indoeuropean\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Bootstrap-work\indoeuropean_New\indoeuropean
+build_property.MSBuildProjectDirectory = D:\Vinay-Dev\New_Indoeuropean\indoeuropean
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/denmarkblog.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/denmarkblog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZGVubWFya2Jsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/europeblog.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/europeblog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZXVyb3BlYmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/franceblog.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/franceblog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZnJhbmNlYmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/germanyblog.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/germanyblog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcZ2VybWFueWJsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/index.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/latviablog.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/latviablog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcbGF0dmlhYmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/Rigablog.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/Rigablog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcUmlnYWJsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Blogs/studyabroadblog.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Blogs/studyabroadblog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3Ncc3R1ZHlhYnJvYWRibG9nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Australia.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Australia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXEF1c3RyYWxpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Canada.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Canada.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXENhbmFkYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Denmark.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Denmark.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXERlbm1hcmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Europe.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Europe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXEV1cm9wZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Finland.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Finland.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXEZpbmxhbmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/France.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/France.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXEZyYW5jZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Germany.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Germany.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXEdlcm1hbnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Ireland.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Ireland.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXElyZWxhbmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Latvia.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Latvia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXExhdHZpYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Lithuania.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Lithuania.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXExpdGh1YW5pYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/New_Zealand.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/New_Zealand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXE5ld19aZWFsYW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Singapore.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Singapore.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXFNpbmdhcG9yZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Sweden.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Sweden.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXFN3ZWRlbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Uk.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Uk.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXFVrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Destinations/Usa.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Destinations/Usa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVzdGluYXRpb25zXFVzYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/About.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Coaching.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Coaching.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb2FjaGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Coaching_Centres.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Coaching_Centres.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb2FjaGluZ19DZW50cmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Collaborate.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Collaborate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb2xsYWJvcmF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Contact.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Enquiry.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Enquiry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbnF1aXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Index.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Index_New.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Index_New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleF9OZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Our_Services.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Our_Services.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPdXJfU2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Privacy.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Termsandconditions.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Termsandconditions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtc2FuZGNvbmRpdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Testimonials.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Testimonials.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0aW1vbmlhbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Home/Thankyou.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Home/Thankyou.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUaGFua3lvdS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Partners/Associate_Agents.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Partners/Associate_Agents.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcQXNzb2NpYXRlX0FnZW50cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Partners/Indian_Universities.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Partners/Indian_Universities.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcSW5kaWFuX1VuaXZlcnNpdGllcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Partners/Other_Businesses.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Partners/Other_Businesses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcT3RoZXJfQnVzaW5lc3Nlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Partners/Overseas_Institute.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Partners/Overseas_Institute.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcT3ZlcnNlYXNfSW5zdGl0dXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Partners/Partner_Franchise.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Partners/Partner_Franchise.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydG5lcnNcUGFydG5lcl9GcmFuY2hpc2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Shared/Error.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/_ViewImports.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/_ViewStart.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Bootstrap-work/indoeuropean_New/indoeuropean/Views/Shared/_Layout.cshtml]
+[D:/Vinay-Dev/New_Indoeuropean/indoeuropean/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-f49k7a9z4e
