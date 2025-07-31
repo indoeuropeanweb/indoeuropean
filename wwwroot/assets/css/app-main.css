@@ -45190,7 +45190,7 @@ display:none;
     background-image: url('../images/banner/Coaching/Coaching-hero-banner.png');
 }
 
-.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back {
+.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45487,11 +45487,6 @@ display:none;
     display: none;
 }
 
-<<<<<<< HEAD
-=======
-
-
-
 
 /* what we offer*/
 .bg-offer {
@@ -45550,3 +45545,10 @@ display:none;
     padding: 16px 10px;
 }
 
+.breadcrumb-events-back {
+    background-image: url('../images/events/events-banner.png');
+}
+
+.search-event button{
+    background-color: rgba(21, 9, 88, 1);
+}
