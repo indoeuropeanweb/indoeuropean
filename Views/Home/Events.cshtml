@@ -13,11 +13,11 @@
             </ul>
             <div class="breadcrumb-inner">
                 <div class="services-title">
-                    <h1 class="title">STUDY IN EUROPE VIRTUAL EVENT</h1>
+                    <h1 class="title">EXPLORE EXCLUSIVE EVENTS OF STUDY ABROAD</h1>
                     <h2>
-                        Exclusive event for students planning to study abroad
+                        Be a part of online and in-person events
                     </h2>
-                    <p>Join the Study in Europe Virtual Event to explore affordable study options, learn about visa opportunities, and get complete guidance from an expert. It offers benefits like studying without IELTS, spouse visa availability, and more.</p>
+                    <p>All the events related to study abroad conducted by Indo European are here. Engage with university representatives and experts to delve into your academic opportunities, campus experiences, and more through discussions.</p>
                 </div>
             </div>
         </div>
@@ -36,23 +36,184 @@
 </section>
 <section>
     <div class="container">
-        <div class="row">
+        <div class="events-container">
+        <div class="row mb-5">
+            <div class="event-heading">
+            <h3>Ready to Go Abroad? Join Top Study Abroad Events of Indo European!</h3>
+                <span class="shape-line"><i class="icon-19"></i></span>
+                </div>
             <div class="col-md-6">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend search-event">
-                        <button class="btn btn-outline-secondary" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
-                    <input type="text" class="form-control" placeholder="Search Events" aria-label="" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control search-input" placeholder="Search Events"u aria-describedby="basic-addon1" id="search-event">
                 </div>
             </div>
             <div class="col-md-6 row">
                 <div class="col-md-6">
-
+                    <select class="form-select event-select" aria-label="Event Type" id="event-type-selection">
+                        <option value="" selected>Event Type</option>
+                            <option value="inperson">In Person Only</option>
+                            <option value="online">Online Only</option>
+                            <option value="both">In-Person &amp; Online</option>
+                    </select>
                 </div>
                 <div class="col-md-6">
-
+                        <select class="form-select event-select" aria-label="Location" id="event-location-selection">
+                        <option value="" selected>Location</option>
+                        <option value="new-delhi">New Delhi (Head Office)</option>
+                        <option value="amritsar">Amritsar</option>
+                        <option value="bathinda">Bathinda</option>
+                        <option value="chandigarh">Chandigarh</option>
+                        <option value="jalandhar">Jalandhar</option>
+                        <option value="ludhiana">Ludhiana</option>
+                        <option value="patiala">Patiala</option>
+                    </select>
                 </div>
             </div>
+        </div>
+        <div class="events-grid" id="Events-Container">
+                <!-- Event 1 -->
+                @* <div class="feature-card">
+                        <div class="feature-icon">
+                            <div class="event-bg">
+                            <img class="w-100" src="~/assets/images/events/events/europe.jpg" alt="Study in Europe" loading="lazy" />
+                            </div>
+                        </div>
+                        <div class="event-content">
+                         <span>In-Person</span>
+                         <h3>Study in Europe Virtual Event</h3>
+                         <ul>
+                            <li><i class="fa-regular fa-calendar-days"></i>&nbsp;Aug 29, 2025</li>
+                            <li><i class="fa-regular fa-clock"></i>&nbsp;10:00 AM - 01:00 PM</li>
+                            <li><i class="fa-solid fa-location-crosshairs"></i>&nbsp; Delhi</li>
+                         </ul>
+                        <button>View Details &nbsp;<i class="fa-solid fa-angle-right"></i> </button>
+                        </div>
+                    </div> *@
+
+                <!-- Event 2 -->
+                @* <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="event-bg">
+                            <img class="w-100" src="~/assets/images/events/events/latvia.jpg" alt="Study in Latvia" loading="lazy" />
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <span>Online</span>
+                        <h3>Study in Latvia Virtual Event</h3>
+                        <ul>
+                            <li><i class="fa-regular fa-calendar-days"></i>&nbsp;Aug 30, 2025</li>
+                            <li><i class="fa-regular fa-clock"></i>&nbsp;10:00 AM - 01:00 PM</li>
+                            <li><i class="fa-solid fa-location-crosshairs"></i>&nbsp;Patiala</li>
+                        </ul>
+                        <button>View Details &nbsp;<i class="fa-solid fa-angle-right"></i> </button>
+                    </div>
+                </div> *@
+
+                <!-- Event 3 -->
+                @* <div class="feature-card">
+                    <div class="feature-icon">
+                        <div class="event-bg">
+                            <img class="w-100" src="~/assets/images/events/events/lithuania.jpg" alt="Study in Lithuania" loading="lazy" />
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <span>Online & In-Person</span>
+                        <h3>Study in Lithuania Virtual Event</h3>
+                        <ul>
+                            <li><i class="fa-regular fa-calendar-days"></i>&nbsp;Aug 31, 2025</li>
+                            <li><i class="fa-regular fa-clock"></i>&nbsp;10:00 AM - 01:00 PM</li>
+                            <li><i class="fa-solid fa-location-crosshairs"></i>&nbsp; Bathinda</li>
+                        </ul>
+                        <button>View Details &nbsp;<i class="fa-solid fa-angle-right"></i> </button>
+                    </div>
+                </div> *@
+         
+                </div>
+                @* <div class="event-pagination">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" onclick="" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" onclick="" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                </div> *@
+        <div class="event-features-container">
+            <div class="event-heading">
+            <h3>Why You Should Attend Our Events</h3>
+                <span class="shape-line"><i class="icon-19"></i></span>
+                </div>
+                <div class="row event-features">
+                    <div class="card mb-3 event-card" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="~/assets/images/events/16341.jpg" class="img-fluid rounded-start" alt="Connect with University Representatives">
+							</div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Connect with University Representatives  </h5>
+                                    <p class="card-text">
+                                        Connect Directly with University Representatives
+                                        Take your study abroad journey to the next level! Get first-hand, exclusive insights straight from the source by interacting with official university representatives from top global institutions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 event-card" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="~/assets/images/events/2.jpg" class="img-fluid rounded-start" alt="Discover Universities and Courses">
+							</div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Discover Universities and Courses</h5>
+                                    <p class="card-text">Explore a wide range of top-ranked universities and in-demand courses tailored to match your academic interests and long-term career goals. Whether you're aiming for a specialized degree or a globally recognized qualification, we help you find the perfect fit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 event-card" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="~/assets/images/events/3.jpg" class="img-fluid rounded-start" alt="Get Personalised Guidance">
+							</div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Get Personalised Guidance</h5>
+                                    <p class="card-text">Receive dedicated, one-on-one support from our team of expert counsellors who are here to guide you at every step of your journey. From identifying the right course and university to navigating the application and visa process, we offer tailored advice based on your goals, interests, and academic background.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 event-card" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="~/assets/images/events/4.jpg" class="img-fluid rounded-start" alt="Scholarships and Financial Aid">
+							</div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Scholarships and Financial Aid</h5>
+                                    <p class="card-text">Don’t let finances hold you back from achieving your international education goals. Explore a wide range of scholarships, grants, and financial aid options offered by universities, governments, and private organizations to help you manage the cost of studying abroad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
         </div>
     </div>
 </section>
