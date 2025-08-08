@@ -9,4 +9,8 @@
   <ItemGroup>
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
   </ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\images\Associtae-Agents\" />
+  </ItemGroup>
 </Project>

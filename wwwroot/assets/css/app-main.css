@@ -45190,7 +45190,11 @@ display:none;
     background-image: url('../images/banner/Coaching/Coaching-hero-banner.png');
 }
 
-.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back{
+.breadcrumb-associate-back {
+    background-image: url('../images/associtae-agents/associate-agents-banner.png');
+}
+
+.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45220,7 +45224,6 @@ display:none;
 
 .coaching-card .card-body .card-title {
     font-size: 1.75rem;
-    text-align:justify;
 }
 
 .coaching-card .card-body .card-text {
@@ -45719,3 +45722,16 @@ div.input-group-prepend {
     margin-top: 25px;
     color: #ff0000;
 }
+
+.agents-title, .associate-agents-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 25px;
+   padding-top: 25px;
+}
+
+    .agents-title span {
+        color: #f58220
+    }
