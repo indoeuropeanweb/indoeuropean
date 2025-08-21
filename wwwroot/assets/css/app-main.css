@@ -45194,7 +45194,19 @@ display:none;
     background-image: url('../images/associtae-agents/associate-agents-banner.png');
 }
 
-.breadcrumb-services-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
+.breadcrumb-franchise-back {  
+    background-image: url('../images/for-partners/partner-franchise.png');
+}
+
+.breadcrumb-testimonial-back {
+    background-image: url('../images/testimonial/testimonial-back.png');
+}
+
+.breadcrumb-conditions-back {
+    background-image: url('../images/termsandconditions/termsandconditions-back.png');
+}
+
+.breadcrumb-services-back, .breadcrumb-conditions-back, .breadcrumb-testimonial-back, .breadcrumb-franchise-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45434,6 +45446,14 @@ display:none;
         font-size: 1.4rem;
     }
 
+    .fp-box h5{
+        font-size: 1.25rem;
+    }
+
+    .fp-box ul li{
+        font-size: 1.05rem;
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1439px) {
@@ -45455,6 +45475,14 @@ display:none;
 
     .coaching-card .card-body .card-text {
         font-size: 1.45rem;
+    }
+
+    .fp-box h5 {
+        font-size: 1.45rem;
+    }
+
+    .fp-box ul li {
+        font-size: 1.3rem;
     }
 
 }
@@ -45735,3 +45763,60 @@ div.input-group-prepend {
     .agents-title span {
         color: #f58220
     }
+
+.partner-subtitle-content{
+    text-align:center;
+    display: flex;
+    place-content:center;
+    flex-direction:column;
+    margin: 25px 0;
+}
+
+    .partner-subtitle-content span {
+        color: #f5851f;
+    }
+
+
+/*    terms and conditions*/
+.conditions-accordion .accordion {
+    background-color: initial;
+    border: 1px solid #ccc;
+}
+
+    .conditions-accordion .accordion .accordion-header {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .conditions-accordion button {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+.conditions-branch-btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    margin: 16px 0;
+}
+
+    .conditions-branch-btn p{
+        margin-top: 12px;
+    }
+
+    .check-branches-btn {
+        border: none;
+        background: linear-gradient(-90deg, #150958 0%, #5d48d3 100%);
+        color: #fff;
+        font-weight: 600;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 18px;
+    }
+
+        .check-branches-btn:hover {
+            transform: scale(0.95) rotate(-5deg);
+            color: #fff;
+        }
