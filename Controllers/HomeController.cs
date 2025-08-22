@@ -111,6 +111,13 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-    
+
+
+        [Route("scholarships")]
+        public IActionResult Scholarships()
+        {
+            return View();
+        }
+
     }
 }

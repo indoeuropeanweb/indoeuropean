@@ -45206,11 +45206,15 @@ display:none;
     background-image: url('../images/termsandconditions/termsandconditions-back.png');
 }
 
-.breadcrumb-services-back, .breadcrumb-conditions-back, .breadcrumb-testimonial-back, .breadcrumb-franchise-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+.breadcrumb-scholarships-back {
+    background-image: url('../images/scholarships/scholarships-back.png');
 }
+
+    .breadcrumb-services-back, .breadcrumb-scholarships-back, .breadcrumb-conditions-back, .breadcrumb-testimonial-back, .breadcrumb-franchise-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 
 .breadcrumb-contactus-back {
     background-image: url('../images/contactus/contact-back.jpg');
@@ -45816,7 +45820,58 @@ div.input-group-prepend {
         font-size: 18px;
     }
 
-        .check-branches-btn:hover {
-            transform: scale(0.95) rotate(-5deg);
-            color: #fff;
-        }
+    .check-branches-btn:hover {
+        transform: scale(0.95) rotate(-5deg);
+        color: #fff;
+    }
+
+
+/*scholarships section*/
+
+/*.scholarship-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}*/
+
+.scholarship-card .card-body {
+    padding: 1.5rem;
+}
+
+.scholarship-card .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.scholarship-card .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+
+.scholarship-faq-section{
+    background-color: #fff;
+}
+
+.scholarship-faq-section .accordion-item .accordion-header button{
+    font-size: 1.65rem;
+    font-weight: 600;
+}
+
+    .scholarship-faq-section .accordion-item .accordion-body{
+        font-size: 1.6rem;
+    }
+
+    .scholarship-faq-section .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+        background-color: #150958;
+        color: #fff;
+        box-shadow: none;
+    }
+
+    .scholarship-faq-section .accordion-item .accordion-header .accordion-button:focus{
+        border-color: unset;
+        box-shadow: none;
+    }
+
+.scholarships-section .card-body .card-title{
+    font-size: 1.75rem;
+}
