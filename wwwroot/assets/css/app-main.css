@@ -45210,11 +45210,35 @@ display:none;
     background-image: url('../images/scholarships/scholarships-back.png');
 }
 
-    .breadcrumb-services-back, .breadcrumb-scholarships-back, .breadcrumb-conditions-back, .breadcrumb-testimonial-back, .breadcrumb-franchise-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+.breadcrumb-LoadAdvice-back {
+    background-image: url('../images/student-loan-advice/student-loan-advice.png');
+}
+
+.breadcrumb-accommodation-back {
+    background-image: url(../images/accommodation/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.breadcrumb-course-selection-back {
+    background-image: url(../images/course-selection/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.breadcrumb-university-selection-back {
+    background-image: url(../images/university-selection/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.breadcrumb-services-back, .breadcrumb-LoadAdvice-back, .breadcrumb-scholarships-back, .breadcrumb-conditions-back, .breadcrumb-testimonial-back, .breadcrumb-franchise-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .breadcrumb-contactus-back {
     background-image: url('../images/contactus/contact-back.jpg');
@@ -45875,3 +45899,60 @@ div.input-group-prepend {
 .scholarships-section .card-body .card-title{
     font-size: 1.75rem;
 }
+
+/*Student Loan Advice*/
+
+.company-logo-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 110px);
+    gap: 25px;
+    justify-content:center;
+    align-items:center;
+    margin-top: 25px;
+}
+
+.bank-img {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 2px 2px 8px #ccc;
+}
+
+.company-services ul {
+ list-style:none;
+}
+
+.company-services ul li {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.company-heading h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+    .company-heading h2 span {
+        color: #150958;
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+.indosupport-section ul{
+  margin-top: 25px;
+  list-style:none;
+}
+
+    .indosupport-section ul li {
+     margin: 10px 0;
+     font-size: 16px;
+     padding: 12px;
+     box-shadow: 2px 2px 8px #ccc;
+     border: 1px solid #ccc;
+     display: flex;
+     align-items:center;
+    }
+
+        .indosupport-section ul li i {
+            color: #f58220;
+            font-size: 24px;
+        }
