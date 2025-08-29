@@ -1,0 +1,448 @@
+﻿@{
+    ViewData["Title"] = "Student Accommodation Abroad – Safe, Affordable & Consultant-Assisted Housing | Contact Indo European";
+    ViewData["Description"] = "Worried about where to stay abroad? Our trusted study abroad consultants help you secure safe, budget-friendly, and comfortable student housing near your university. From shared apartments and hostels to private stays, we guide you every step. Contact Indo European today and book your perfect home abroad stress-free!";
+}
+
+
+<style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .accommodation-card {
+        position: relative;
+        overflow: hidden;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+        height: 100%;
+        background: #fff;
+    }
+
+        .accommodation-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+        }
+
+    .accommodation-img {
+        height: 200px;
+        object-fit: cover;
+        width: 100%;
+        transition: transform 0.5s ease;
+    }
+
+    .accommodation-card:hover .accommodation-img {
+        transform: scale(1.05);
+    }
+
+    .location-badge {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: rgba(255,255,255,0.9);
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .content-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+        padding: 20px;
+        color: white;
+        transition: all 0.3s ease;
+    }
+
+    .accommodation-card:hover .content-overlay {
+        background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
+    }
+
+    .btn-view {
+        background: rgba(255,255,255,0.2);
+        border: 1px solid rgba(255,255,255,0.5);
+        color: white;
+        border-radius: 20px;
+        padding: 5px 15px;
+        backdrop-filter: blur(5px);
+        transition: all 0.3s ease;
+    }
+
+        .btn-view:hover {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.05);
+        }
+
+    .section-title {
+        position: relative;
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+
+        .section-title .title {
+            font-weight: 700;
+            color: #2c3e50;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+    .shape-line {
+        display: block;
+        margin: 20px auto;
+        font-size: 24px;
+        color: #3498db;
+    }
+
+    .service-card {
+        background: white;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        border: none;
+    }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #150958, #f58220);
+        }
+
+        .service-card .card-content {
+            padding: 30px 20px;
+        }
+
+        .service-card h5 {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .service-card img {
+            height: 70px;
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .service-card p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+</style>
+
+
+
+
+
+
+<section class="breadcrumb-accommodation-back">
+    <div class="our-services-breadcrumb">
+        <div class="container">
+            <ul class="edu-breadcrumb-services">
+                <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Home</a></li>
+                <li class="separator"><i class="icon-angle-right"></i></li>
+                <li class="breadcrumb-item" aria-current="page">Accommodation</li>
+            </ul>
+            <div class="breadcrumb-inner">
+                <div class="services-title">
+                    <h1 class="title">Accommodation for Students Studying Abroad</h1>
+                    @* <h2>
+                        Indian scholarships and university scholarships included
+                    </h2> *@
+                    <p>Look for student accommodations near top universities and cities across the globe to ensure a convenient and enriching study experience. Whether you prefer dormitories, shared apartments, or private rentals, finding housing close to your university not only saves time but also enhances your access to campus facilities and vibrant city life.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row mt-5">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Popular Cities Across the Globe</h2>
+                <p>Book student accommodations near top cities and universities around the world.</p>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">London</div>
+                    <img src="~/assets/images/accommodation/london.jpg" class="image-fluid" alt="london" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">London</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Paris</div>
+                    <img src="~/assets/images/accommodation/paris.jpg" class="image-fluid" alt="Paris" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Paris</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Berlin</div>
+                    <img src="~/assets/images/accommodation/berlin.jpg" class="image-fluid" alt="Berlin" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Berlin</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Moscow</div>
+                    <img src="~/assets/images/accommodation/moscow.jpg" class="image-fluid" alt="Moscow" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Moscow</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Madrid</div>
+                    <img src="~/assets/images/accommodation/madrid.jpg" class="image-fluid" alt="Madrid" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Madrid</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Barcelona</div>
+                    <img src="~/assets/images/accommodation/barcelona.jpg" class="image-fluid" alt="Barcelona" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Barcelona</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Rome</div>
+                    <img src="~/assets/images/accommodation/rome.jpg" class="image-fluid" alt="Rome" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Rome</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Valencia</div>
+                    <img src="~/assets/images/accommodation/valencia.jpg" class="image-fluid" alt="Valencia" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Valencia</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Frankfurt</div>
+                    <img src="~/assets/images/accommodation/frankfurt.jpg" class="image-fluid" alt="Frankfurt" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Frankfurt</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Glasgow</div>
+                    <img src="~/assets/images/accommodation/glasgow.jpg" class="image-fluid" alt="Glasgow" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Glasgow</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Coventry</div>
+                    <img src="~/assets/images/accommodation/coventry.jpg" class="image-fluid" alt="Coventry" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Coventry</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="accommodation-card">
+                    <div class="location-badge">Liverpool</div>
+                    <img src="~/assets/images/accommodation/liverpool.jpg" class="image-fluid" alt="Liverpool" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Liverpool</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container mt-5 pt-5">
+    <div class="row mt-3">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">How to Choose the Right Accommodation?</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="mt-3">
+            <h4>Safe Place for Stay Near Universities</h4>
+            <p class="mt-3">Your safety is our top priority. We provide accommodations located in secure neighborhoods, close to top universities, so you can focus on your studies without worrying about long commutes or safety concerns. With 24/7 security measures and a student-friendly environment, you’ll feel at home from day one.</p>
+        </div>
+        <div class="mt-3">
+            <h4>Transparent Prices</h4>
+            <p class="mt-3">No hidden fees, no surprises! Our pricing is completely transparent, ensuring you know exactly what you’re paying for. From rent to utilities, everything is clearly outlined, so you can plan your budget with confidence and avoid unexpected expenses.</p>
+        </div>
+        <div class="mt-3">
+            <h4>All-Inclusive Utilities</h4>
+            <p class="mt-3">
+                Say goodbye to the hassle of managing multiple bills. Our accommodations come with all-inclusive utilities, covering essentials like electricity, water, heating, and high-speed Wi-Fi. This means you can enjoy a comfortable stay without worrying about extra costs or service disruptions.
+            </p>
+        </div>
+        <div class="mt-3">
+            <h4>Supportive Community</h4>
+            <p class="mt-3">
+                Living away from home can be challenging, but you’ll never feel alone. Our accommodations foster a supportive community where you can connect with fellow students, share experiences, and build lasting friendships. From social events to study groups, you’ll always have a network of peers to rely on.
+            </p>
+        </div>
+        <div class="mt-3">
+            <h4>Prime Location</h4>
+            <p class="mt-3">
+                Location matters, and we’ve got you covered! Our accommodations are situated in prime areas, offering easy access to universities, public transport, restaurants, and city attractions. Whether you’re heading to class or exploring the city, everything you need is just a short walk or ride away.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container mt-5 pt-5">
+    <div class="row mt-3">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Why Trust Indo European for Accommodation Booking?</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="row mt-5 text-center">
+            <div class="col-md-4">
+                <img src="~/assets/images/accommodation/icon-1.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Reliable Accommodation Partners</h5>
+                <p class="mt-3">We collaborate with trusted partners to provide student-friendly housing options that are safe, secure, and welcoming.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="~/assets/images/accommodation/icon-2.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Expert Counsellor Assistance</h5>
+                <p class="mt-3">Our counselors are here to guide you every step of the way, select ideal accommodation and navigate the application process.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="~/assets/images/accommodation/icon-3.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Special Offers Just for You</h5>
+                <p class="mt-3">Get exclusive rates and deals through Indo European, you get the best value for your money while securing quality housing.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-lg-12 section-title text-center">
+            <div class="testimonial-heading">
+                <h2 class="title">Explore More Services</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Career Counselling</h5>
+                    <img src="~/assets/images/accommodation/icon-4.png" class="img-fluid" alt="Career Counselling">
+                    <p class="mt-3">Guidance for your career's biggest decision: your education journey</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Admission Service</h5>
+                    <img src="~/assets/images/accommodation/icon-5.png" class="img-fluid" alt="Admission Service">
+                    <p class="mt-3">Guaranteed admissions and offers supported by our assistance</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Visa Support</h5>
+                    <img src="~/assets/images/accommodation/icon-6.png" class="img-fluid" alt="Visa Support">
+                    <p class="mt-3">Visa file preparation for successful Embassy applications</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Coaching</h5>
+                    <img src="~/assets/images/accommodation/icon-7.png" class="img-fluid" alt="Coaching">
+                    <p class="mt-3">Expert coaching for exams such as IELTS, PTE, Duolingo, and PTE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

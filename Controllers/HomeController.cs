@@ -119,5 +119,25 @@ namespace indoeuropean.Controllers
             return View();
         }
 
+
+        [Route("accommodation")]
+        public IActionResult Accommodation()
+        {
+            return View();
+        }
+
+
+        [Route("courseselection")]
+        public IActionResult CourseSelection()
+        {
+            return View();
+        }
+
+        [Route("universityselection")]
+        public IActionResult UniversitySelection()
+        {
+            return View();
+        }
+
     }
 }

@@ -1,0 +1,409 @@
+﻿@{
+    ViewData["Title"] = "Study Abroad Course Selection – Get Expert Guidance From Indo European for Your Career Path";
+    ViewData["Description"] = "Confused about which course to choose abroad? Indo European expert study abroad consultants help you pick the right program, university, and country based on your goals. Get personalized guidance and secure your future—contact us today!";
+}
+
+
+<style>
+    .location-badge {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: rgba(255,255,255,0.9);
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .accommodation-card {
+        position: relative;
+        overflow: hidden;
+    }
+
+        .accommodation-card .content-flag::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            color: white;
+            font-size: 1.75rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out; 
+        }
+
+        .accommodation-card:hover .content-one::before {
+            content: 'Europe';
+            opacity: 1; 
+        }
+
+        .accommodation-card .content-two::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            color: white;
+            font-size: 1.75rem;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .accommodation-card:hover .content-two::before {
+            content: 'Australia';
+            opacity: 1;
+        }
+
+    .section-title {
+        position: relative;
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+
+        .section-title .title {
+            font-weight: 700;
+            color: #2c3e50;
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+    .shape-line {
+        display: block;
+        margin: 20px auto;
+        font-size: 24px;
+        color: #3498db;
+    }
+
+    .service-card {
+        background: white;
+        border-radius: 12px;
+        transition: all 0.3s ease;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        border: none;
+    }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #150958, #f58220);
+        }
+
+        .service-card .card-content {
+            padding: 30px 20px;
+        }
+
+        .service-card h5 {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .service-card img {
+            height: 70px;
+            margin: 15px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .service-card:hover img {
+            transform: scale(1.1);
+        }
+
+        .service-card p {
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+</style>
+
+
+
+
+
+
+<section class="breadcrumb-university-selection-back">
+    <div class="our-services-breadcrumb">
+        <div class="container">
+            <ul class="edu-breadcrumb-services">
+                <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Home</a></li>
+                <li class="separator"><i class="icon-angle-right"></i></li>
+                <li class="breadcrumb-item" aria-current="page">University Selection</li>
+            </ul>
+            <div class="breadcrumb-inner">
+                <div class="services-title">
+                    <h1 class="title">University Selection for Study Abroad</h1>
+                    @* <h2>
+                        Indian scholarships and university scholarships included
+                    </h2> *@
+                    <p>Choosing a right university is one of the most important steps in your study abroad journey. The university you select will shape your academic experience, career opportunities, and personal growth. From the quality of education and research opportunities to networking and career prospects, the right university sets the foundation for your success.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row mt-5">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Check Best Universities in These Top Countries</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="row text-center g-4">
+            <!-- Card 1 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+               <a asp-controller="destinations" asp-action="europe"><div class="accommodation-card">
+                    @* <div class="location-badge">London</div> *@
+                    <img src="~/assets/images/university-selection/europe.png" class="image-fluid" alt="Europe-flag" />
+                        <div class="content-flag content-one">
+                        @* <h5 class="text-white">Europe</h5> *@
+                    </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <a asp-controller="destinations" asp-action="australia"> <div class="accommodation-card">
+                    @* <div class="location-badge">Paris</div> *@
+                    <img src="~/assets/images/university-selection/australia.png" class="image-fluid" alt="Australia-falg" />
+                        <div class="content-flag content-two">
+                        @* <h5 class="text-white">Australia</h5> *@
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+               <a asp-controller="destinations" asp-action="canada"> <div class="accommodation-card">
+                    @* <div class="location-badge">Berlin</div> *@
+                    <img src="~/assets/images/university-selection/canada.png" class="image-fluid" alt="Canada-flag" />
+                        <div class="content-flag content-overlay">
+                        @* <h5 class="text-white">Canada</h5> *@
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <a asp-controller="destinations" asp-action="new_zealand">
+                    <div class="accommodation-card">
+                    @* <div class="location-badge">Moscow</div> *@
+                    <img src="~/assets/images/university-selection/zealand.png" class="image-fluid" alt="New Zealand flag" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">New Zealand</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+        <div class="row text-center g-4">
+            <!-- Card 1 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <a asp-controller="destinations" asp-action="singapore"><div class="accommodation-card">
+                    @* <div class="location-badge">Rome</div> *@
+                    <img src="~/assets/images/university-selection/singapore.png" class="image-fluid" alt="Singapore-flag" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Singapore</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <a asp-controller="destinations" asp-action="uk"><div class="accommodation-card">
+                    @* <div class="location-badge">Valencia</div> *@
+                    <img src="~/assets/images/university-selection/uk.png" class="image-fluid" alt="UK flag" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">UK</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <a asp-controller="destinations" asp-action="usa"><div class="accommodation-card">
+                    @* <div class="location-badge">Frankfurt</div> *@
+                    <img src="~/assets/images/university-selection/usa.png" class="image-fluid" alt="USA-flag" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">USA</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-sm-6 col-md-6 col-lg-3">
+                <a asp-controller="destinations" asp-action="ireland"><div class="accommodation-card">
+                    @* <div class="location-badge">Glasgow</div> *@
+                    <img src="~/assets/images/university-selection/ireland.png" class="image-fluid" alt="Ireland-flag" />
+                    <div class="content-overlay">
+                        <h5 class="text-white">Ireland</h5>
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container mt-5 pt-5">
+    <div class="row mt-3">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">How to Choose the Right Course?</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="mt-3">
+            <h4>Identify Your Interests and Goals</h4>
+            <p class="mt-3">Start by understanding your passions and long-term career aspirations. Choose a course that excites you and aligns with your professional objectives.</p>
+        </div>
+        <div class="mt-3">
+            <h4>Research Universities and Programs</h4>
+            <p class="mt-3">Look for universities that are renowned for your chosen field of study. Consider factors like global rankings, faculty expertise, and program structure.</p>
+        </div>
+        <div class="mt-3">
+            <h4>Consider Future Opportunities</h4>
+            <p class="mt-3">
+                Evaluate the career prospects and industry demand for your chosen course. Opt for programs that offer internships, research opportunities, and strong industry connections.
+            </p>
+        </div>
+        <div class="mt-3">
+            <h4>Check Entry Requirements</h4>
+            <p class="mt-3">
+                Ensure you meet the academic and language requirements for the course. If needed, seek guidance on preparing for entrance exams or language proficiency tests.
+            </p>
+        </div>
+        <div class="mt-3">
+            <h4>Seek Expert Guidance</h4>
+            <p class="mt-3">
+                Our experienced counselors can help you navigate the overwhelming options, shortlist the best courses, and guide you through the application process.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container mt-5 pt-5">
+    <div class="row mt-3">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Why Trust Indo European for Course Selection?</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="row mt-5 text-center">
+            <div class="col-md-6">
+                <img src="~/assets/images/course-selection/icon-1.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Personalized Guidance</h5>
+                <p class="mt-3">We take the time to understand your interests, strengths, and career goals to recommend the best courses and universities tailored to you.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="~/assets/images/course-selection/icon-2.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Extensive University Network</h5>
+                <p class="mt-3">With partnerships across top universities worldwide, we provide access to a wide range of programs in diverse fields.</p>
+            </div>
+        </div>
+        <div class="row mt-5 text-center">
+            <div class="col-md-6">
+                <img src="~/assets/images/course-selection/icon-3.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Expert Counsellor Support</h5>
+                <p class="mt-3">Our counselors are here to assist you at every step, from course selection to application submission, ensuring a smooth and stress-free process.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="~/assets/images/course-selection/icon-4.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Exclusive Resources</h5>
+                <p class="mt-3">Gain access to exclusive resources, including program insights, scholarship opportunities, and application tips, to make informed decisions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-lg-12 section-title text-center">
+            <div class="testimonial-heading">
+                <h2 class="title">Explore More Services</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Career Counselling</h5>
+                    <img src="~/assets/images/accommodation/icon-4.png" class="img-fluid" alt="Career Counselling">
+                    <p class="mt-3">Guidance for your career's biggest decision: your education journey</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Admission Service</h5>
+                    <img src="~/assets/images/accommodation/icon-5.png" class="img-fluid" alt="Admission Service">
+                    <p class="mt-3">Guaranteed admissions and offers supported by our assistance</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Visa Support</h5>
+                    <img src="~/assets/images/accommodation/icon-6.png" class="img-fluid" alt="Visa Support">
+                    <p class="mt-3">Visa file preparation for successful Embassy applications</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 mb-4">
+            <div class="service-card text-center">
+                <div class="card-content">
+                    <h5>Coaching</h5>
+                    <img src="~/assets/images/accommodation/icon-7.png" class="img-fluid" alt="Coaching">
+                    <p class="mt-3">Expert coaching for exams such as IELTS, PTE, Duolingo, and PTE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
