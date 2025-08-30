@@ -138,9 +138,12 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-
         [Route("loanadvice")]
-        public IActionResult LoanAdvice()
+        public IActionResult LoanAdvice() { 
+         return View();
+        }
+        [Route("countryselection")]
+        public IActionResult CountrySelection()
         {
             return View();
         }

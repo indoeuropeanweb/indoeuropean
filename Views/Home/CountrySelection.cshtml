@@ -1,0 +1,511 @@
+﻿@{
+    ViewData["Title"] = "Study Abroad Course Selection – Get Expert Guidance From Indo European for Your Career Path";
+    ViewData["Description"] = "Confused about which course to choose abroad? Indo European expert study abroad consultants help you pick the right program, university, and country based on your goals. Get personalized guidance and secure your future—contact us today!";
+}
+
+
+<style>
+    .country-card {
+        max-width: 320px;
+        overflow: hidden;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+        .country-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+
+    .bg {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/europe.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .bg-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/australia.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .bg-2 { 
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/canada.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .bg-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/new-zealand.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .bg-4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/singapore.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .bg-5 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/uk.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .bg-6 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/usa.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .bg-7 {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/ireland.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        border-radius: 16px;
+    }
+
+    .country-selection {
+        display: block;
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(1.2px);
+        border-radius: 12px;
+        padding: 15px 20px;
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+        .country-selection:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+    .flag-img {
+        width: 55px;
+        height: 55px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid white;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+
+    .country-selection:hover .flag-img {
+        transform: scale(1.1);
+    }
+
+    .text-heading {
+        padding: 20px;
+        margin: 0;
+        font-size: 2.3rem;
+        font-weight: 700;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .accordion
+    {
+        background: none;
+    }
+
+</style>
+
+<section class="breadcrumb-country-selection-back">
+    <div class="our-services-breadcrumb">
+        <div class="container">
+            <ul class="edu-breadcrumb-services">
+                <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Home</a></li>
+                <li class="separator"><i class="icon-angle-right"></i></li>
+                <li class="breadcrumb-item" aria-current="page">Country Selection</li>
+            </ul>
+            <div class="breadcrumb-inner">
+                <div class="services-title">
+                    <h1 class="title">Study Abroad Country Selection</h1>
+                    @* <h2>
+                        Indian scholarships and university scholarships included
+                    </h2> *@
+                    <p>Choosing a right study abroad country is a crucial decision as it significantly impacts your academic and professional growth. Several factors should be considered when making this decision, including academic goals, budget, post-study opportunities, and various other aspects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row mt-5">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Student-Friendly Countries</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="row justify-content-center text-center g-4">
+            <!-- Card 1 -->
+            <div class="country-card">
+                <div class="bg">
+                    <a asp-controller="destinations" asp-action="europe" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/europe.png" class="flag-img" alt="Europe Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">Europe</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="country-card">
+                <div class="bg-1">
+                    <a asp-controller="destinations" asp-action="australia" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/australia.png" class="flag-img" alt="australia Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">Australia</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="country-card">
+                <div class="bg-2">
+                    <a asp-controller="destinations" asp-action="canada" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/canada.png" class="flag-img" alt="Canada Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">Canada</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="country-card">
+                <div class="bg-3">
+                    <a asp-controller="destinations" asp-action="new_zealand" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/zealand.png" class="flag-img" alt="New Zealand Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">New Zealand</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center g-4">
+            <!-- Card 1 -->
+            <div class="country-card">
+                <div class="bg-4">
+                    <a asp-controller="destinations" asp-action="singapore" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/singapore.png" class="flag-img" alt="Singapore Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">Singapore</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="country-card">
+                <div class="bg-5">
+                    <a asp-controller="destinations" asp-action="uk" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/uk.png" class="flag-img" alt="UK Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">UK</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="country-card">
+                <div class="bg-6">
+                    <a asp-controller="destinations" asp-action="usa" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/usa.png" class="flag-img" alt="usa Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">USA</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="country-card">
+                <div class="bg-7">
+                    <a asp-controller="destinations" asp-action="ireland" class="country-selection">
+                        <div class="d-flex align-items-center">
+                            <div class="me-3">
+                                <img src="~/assets/images/university-selection/ireland.png" class="flag-img" alt="ireland Flag">
+                            </div>
+                            <div class="country-selection-text">
+                                <h5 class="text-white text-heading">Ireland</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container mt-5 pt-5">
+    <div class="row mt-3">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Reasons to Pick Right Country Abroad</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="mt-3">
+            <h4>Top-Notch Education</h4>
+            <p class="mt-3">Choosing a country with a strong education system means access to world-class universities, high-quality programs, and cutting-edge research. Some countries even offer specialised courses that perfectly match your career goals.</p>
+        </div>
+        <div class="mt-3">
+            <h4>Career Boost</h4>
+            <p class="mt-3">Studying in a country with a booming job market can lead to internships, networking opportunities, and even post-study work visas. This gives you the chance to gain valuable international work experience and kickstart your career.</p>
+        </div>
+        <div class="mt-3">
+            <h4>Affordable Options</h4>
+            <p class="mt-3">
+                Studying abroad doesn’t have to break the bank. Many countries offer affordable tuition fees, low living costs, and scholarships to help ease the financial burden, making your dream of studying abroad more achievable.
+            </p>
+        </div>
+        <div class="mt-3">
+            <h4>Cultural Adventure</h4>
+            <p class="mt-3">
+                Living in a new country is an adventure in itself! You’ll experience a different culture, learn new traditions, and maybe even pick up a new language. It’s a great way to grow personally and see the world from a fresh perspective.
+            </p>
+        </div>
+        <div class="mt-3">
+            <h4>Global Connections</h4>
+            <p class="mt-3">
+                Studying abroad helps you build a network of friends, professors, and professionals from all over the world. These connections can open doors to future collaborations, career opportunities, and lifelong friendships.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="container mt-5 pt-5">
+    <div class="row">
+        <div class="col-lg-12 section-title text-center">
+            <div class="testimonial-heading">
+                <h2 class="title">Consider Factors for Choosing Right Study Abroad Country</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+    </div>
+
+    <<div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    1. Know Your Academic Goals
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body fs-4">
+                    Start by figuring out what you want to study and where you see your career heading. Some countries are known for excelling in specific fields—like Germany for engineering, the UK for business, or Slovakia for affordable, high-quality education. Also, check if the programs are available in a language you’re comfortable with, like English.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    2. Think About Your Budget
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Money matters! Look into tuition fees and living costs in different countries. Some places, like Slovakia or Germany, are more budget-friendly, and many countries offer scholarships or financial aid. Don’t forget to factor in extra costs like travel, insurance, and visa fees.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    3. Look at Post-Study Opportunities
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    What happens after you graduate? Research countries that offer post-study work visas or have strong job markets in your field. Places like Canada, Australia, and Slovakia let you gain valuable work experience after your studies, which can be a huge career boost.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    4. Check the Language and Culture
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Ask yourself: Are you okay learning a new language, or do you prefer a country where English is widely spoken? Also, think about the culture—does it match your lifestyle and values? A welcoming, student-friendly environment can make all the difference in your experience.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    5. Research Universities and Their Reputation
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Not all universities are created equal. Look into schools that are strong in your field, check their global rankings, and make sure their degrees are recognized back home. Don’t forget to explore the quality of their faculty, facilities, and research opportunities.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    6. Understand Visa and Immigration Rules
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Every country has its own visa requirements, so make sure you know what’s needed. Some countries, like Slovakia or New Zealand, have simpler and more supportive visa processes. Be sure you meet the financial and documentation requirements before applying.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseseven" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    7. Think About Location and Travel
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseseven" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Do you love exploring? Choose a country that’s well-located for travel. For example, Slovakia is in the heart of Europe, making it easy to visit neighboring countries. Also, consider the climate and whether it suits your preferences.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseeight" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    8. Prioritize Safety and Quality of Life
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseeight" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Your safety and well-being are important. Research the country’s safety, healthcare, and overall quality of life. Look into things like political stability, crime rates, and the support services available for international students.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsenine" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    9. Get Advice from Others
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsenine" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Don’t go it alone—talk to people who’ve been there. Reach out to alumni, current students, or education consultants for advice. You can also join online forums or social media groups to get real-world insights.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseten" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    10. Trust Your Gut
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseten" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    At the end of the day, go with what feels right. After doing your research, choose a country that aligns with your academic, financial, and personal goals. This is a life-changing decision, so take your time and make it count!
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="container mt-5 pt-5">
+    <div class="row mt-3">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Why Connect with Indo European Counselling?</h2>
+                <p>When it comes to career counselling for abroad studies, you need a trusted partner who understands the nuances of global education. Here’s why Indo European stands out:</p>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <div class="row mt-5 text-center">
+            <div class="col-md-4">
+                <img src="~/assets/images/country-selection/icon-1.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Proven Track Record</h5>
+                <p class="mt-3">We’ve successfully helped thousands of students fulfill their study abroad aspirations.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="~/assets/images/country-selection/icon-2.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Global Network</h5>
+                <p class="mt-3">With connections to world-renowned universities and institutions, we ensure you have access to the best opportunities.</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="~/assets/images/country-selection/icon-3.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Commitment to Excellence</h5>
+                <p class="mt-3">Our passion for quality service means we go above and beyond to make your dreams come true.</p>
+            </div>
+        </div>
+    </div>
+</section>
+

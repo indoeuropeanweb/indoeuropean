@@ -19,6 +19,12 @@
     .accommodation-card {
         position: relative;
         overflow: hidden;
+        box-shadow: 0px 0px 3px #000;
+        transition: 0.5s ease-in-out;
+    }
+
+    .accommodation-card:hover {
+       transform: scale(1.1);
     }
 
         .accommodation-card .content-flag::before {
@@ -41,30 +47,46 @@
 
         .accommodation-card:hover .content-one::before {
             content: 'Europe';
-            opacity: 1; 
+            opacity: 1;
+            transform: scale(1.1);
         }
 
-        .accommodation-card .content-two::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.65);
-            color: white;
-            font-size: 1.75rem;
-            font-weight: 600;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            opacity: 0;
-            transition: opacity 0.5s ease-in-out;
-        }
         .accommodation-card:hover .content-two::before {
             content: 'Australia';
             opacity: 1;
         }
+
+        .accommodation-card:hover .content-three::before {
+            content: 'Canada';
+            opacity: 1;
+        }
+
+        .accommodation-card:hover .content-four::before {
+            content: 'New Zealand';
+            opacity: 1;
+        }
+
+
+        .accommodation-card:hover .content-five::before {
+            content: 'Singapore';
+            opacity: 1;
+        }
+
+        .accommodation-card:hover .content-six::before {
+            content: 'UK';
+            opacity: 1;
+        }
+
+        .accommodation-card:hover .content-seven::before {
+            content: 'USA';
+            opacity: 1;
+        }
+
+        .accommodation-card:hover .content-eight::before {
+            content: 'Ireland';
+            opacity: 1;
+        }
+
 
     .section-title {
         position: relative;
@@ -136,7 +158,11 @@
             color: #7f8c8d;
             line-height: 1.6;
         }
-
+        .accordion
+        {
+            border:none;
+            background: none
+        }
 </style>
 
 
@@ -203,7 +229,7 @@
                <a asp-controller="destinations" asp-action="canada"> <div class="accommodation-card">
                     @* <div class="location-badge">Berlin</div> *@
                     <img src="~/assets/images/university-selection/canada.png" class="image-fluid" alt="Canada-flag" />
-                        <div class="content-flag content-overlay">
+                        <div class="content-flag content-three">
                         @* <h5 class="text-white">Canada</h5> *@
                     </div>
                 </div>
@@ -216,8 +242,8 @@
                     <div class="accommodation-card">
                     @* <div class="location-badge">Moscow</div> *@
                     <img src="~/assets/images/university-selection/zealand.png" class="image-fluid" alt="New Zealand flag" />
-                    <div class="content-overlay">
-                        <h5 class="text-white">New Zealand</h5>
+                        <div class="content-flag content-four">
+                        @* <h5 class="text-white">New Zealand</h5> *@
                     </div>
                 </div>
                 </a>
@@ -229,8 +255,8 @@
                 <a asp-controller="destinations" asp-action="singapore"><div class="accommodation-card">
                     @* <div class="location-badge">Rome</div> *@
                     <img src="~/assets/images/university-selection/singapore.png" class="image-fluid" alt="Singapore-flag" />
-                    <div class="content-overlay">
-                        <h5 class="text-white">Singapore</h5>
+                        <div class="content-flag content-five">
+                        @* <h5 class="text-white">Singapore</h5> *@
                     </div>
                 </div>
                 </a>
@@ -241,8 +267,8 @@
                 <a asp-controller="destinations" asp-action="uk"><div class="accommodation-card">
                     @* <div class="location-badge">Valencia</div> *@
                     <img src="~/assets/images/university-selection/uk.png" class="image-fluid" alt="UK flag" />
-                    <div class="content-overlay">
-                        <h5 class="text-white">UK</h5>
+                        <div class="content-flag content-six">
+                        @* <h5 class="text-white">UK</h5> *@
                     </div>
                 </div>
                 </a>
@@ -253,8 +279,8 @@
                 <a asp-controller="destinations" asp-action="usa"><div class="accommodation-card">
                     @* <div class="location-badge">Frankfurt</div> *@
                     <img src="~/assets/images/university-selection/usa.png" class="image-fluid" alt="USA-flag" />
-                    <div class="content-overlay">
-                        <h5 class="text-white">USA</h5>
+                        <div class="content-flag content-seven">
+                        @* <h5 class="text-white">USA</h5> *@
                     </div>
                 </div>
                 </a>
@@ -265,8 +291,8 @@
                 <a asp-controller="destinations" asp-action="ireland"><div class="accommodation-card">
                     @* <div class="location-badge">Glasgow</div> *@
                     <img src="~/assets/images/university-selection/ireland.png" class="image-fluid" alt="Ireland-flag" />
-                    <div class="content-overlay">
-                        <h5 class="text-white">Ireland</h5>
+                        <div class="content-flag content-eight">
+                        @* <h5 class="text-white">Ireland</h5> *@
                     </div>
                 </div>
                 </a>
@@ -282,34 +308,49 @@
     <div class="row mt-3">
         <div class="col-lg-12 section-title">
             <div class="testimonial-heading">
-                <h2 class="title">How to Choose the Right Course?</h2>
+                <h2 class="title">Key Factors to Consider When Choosing a University</h2>
             </div>
             <span class="shape-line"><i class="icon-19"></i></span>
         </div>
         <div class="mt-3">
-            <h4>Identify Your Interests and Goals</h4>
-            <p class="mt-3">Start by understanding your passions and long-term career aspirations. Choose a course that excites you and aligns with your professional objectives.</p>
+            <h4>1. Program Availability</h4>
+            <p class="mt-3">Look for universities that are renowned for your chosen field of study. Confirm that the university offers the specific course or specialization you’re interested in. Go through the curriculum to ensure it matches your academic and professional aspirations.</p>
         </div>
         <div class="mt-3">
-            <h4>Research Universities and Programs</h4>
-            <p class="mt-3">Look for universities that are renowned for your chosen field of study. Consider factors like global rankings, faculty expertise, and program structure.</p>
+            <h4>2. Budget and Affordability</h4>
+            <p class="mt-3">Compare tuition fees and living costs across universities. You should look for scholarships, grants, or financial aid options offered by the university. Must consider whether the university provides affordable on-campus housing or other cost-saving options.</p>
         </div>
         <div class="mt-3">
-            <h4>Consider Future Opportunities</h4>
+            <h4>3. Location and Lifestyle</h4>
             <p class="mt-3">
-                Evaluate the career prospects and industry demand for your chosen course. Opt for programs that offer internships, research opportunities, and strong industry connections.
+                Think about the university’s location, climate, and proximity to major cities. Check if the cultural environment suits your lifestyle and preferences or not. Most importantly, check if the location offers opportunities for internships, part-time jobs, or industry exposure.
             </p>
         </div>
         <div class="mt-3">
-            <h4>Check Entry Requirements</h4>
+            <h4>4. Post-Study Opportunities</h4>
             <p class="mt-3">
-                Ensure you meet the academic and language requirements for the course. If needed, seek guidance on preparing for entrance exams or language proficiency tests.
+                Research the university’s career services and job placement stats. Look into post-study work visa policies in the country and check if the university has strong ties with industries and employers in your field.
             </p>
         </div>
         <div class="mt-3">
-            <h4>Seek Expert Guidance</h4>
+            <h4>5. University Reputation and Alumni Network</h4>
             <p class="mt-3">
-                Our experienced counselors can help you navigate the overwhelming options, shortlist the best courses, and guide you through the application process.
+                A university with a strong reputation can enhance your resume and open doors to global opportunities. Explore the alumni network to see how graduates have progressed in their careers.
+            </p>
+        </div>
+
+        <div class="mt-3">
+            <h4>6. Student Support Services</h4>
+            <p class="mt-3">
+                Look for universities that offer robust support for international students, including orientation programs, counseling, and academic assistance. Check if they provide language support, career guidance, and help with visa or accommodation.
+            </p>
+        </div>
+
+
+        <div class="mt-3">
+            <h4>7. Campus Facilities and Student Life</h4>
+            <p class="mt-3">
+                A vibrant campus life can make your study abroad experience more enjoyable. Explore the university’s facilities, such as libraries, labs, sports centres, and student clubs. Also, make sure if the university promotes diversity and inclusivity.
             </p>
         </div>
     </div>
@@ -322,32 +363,38 @@
     <div class="row mt-3">
         <div class="col-lg-12 section-title">
             <div class="testimonial-heading">
-                <h2 class="title">Why Trust Indo European for Course Selection?</h2>
+                <h2 class="title">Why Connect with Indo European for University Selection?</h2>
             </div>
             <span class="shape-line"><i class="icon-19"></i></span>
         </div>
         <div class="row mt-5 text-center">
-            <div class="col-md-6">
-                <img src="~/assets/images/course-selection/icon-1.png" style="width: 100px;" class="image-fluid" alt="icon" />
-                <h5>Personalized Guidance</h5>
-                <p class="mt-3">We take the time to understand your interests, strengths, and career goals to recommend the best courses and universities tailored to you.</p>
+            <div class="col-md-6 px-5 py-5">
+                <img src="~/assets/images/university-selection/icon-1.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Proven Expertise</h5>
+                <p class="mt-3">With years of experience, we’ve helped thousands of students find their ideal universities.</p>
             </div>
-            <div class="col-md-6">
-                <img src="~/assets/images/course-selection/icon-2.png" style="width: 100px;" class="image-fluid" alt="icon" />
-                <h5>Extensive University Network</h5>
-                <p class="mt-3">With partnerships across top universities worldwide, we provide access to a wide range of programs in diverse fields.</p>
+            <div class="col-md-6 px-5 py-5">
+                <img src="~/assets/images/university-selection/icon-2.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Global Network</h5>
+                <p class="mt-3">We’re connected with top universities worldwide, ensuring you have access to the best options.</p>
             </div>
         </div>
         <div class="row mt-5 text-center">
-            <div class="col-md-6">
-                <img src="~/assets/images/course-selection/icon-3.png" style="width: 100px;" class="image-fluid" alt="icon" />
-                <h5>Expert Counsellor Support</h5>
-                <p class="mt-3">Our counselors are here to assist you at every step, from course selection to application submission, ensuring a smooth and stress-free process.</p>
+            <div class="col-md-6 px-5 py-5">
+                <img src="~/assets/images/university-selection/icon-3.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Personalized Guidance</h5>
+                <p class="mt-3">Our counselors take the time to understand your goals and recommend universities that align with your aspirations.</p>
             </div>
-            <div class="col-md-6">
-                <img src="~/assets/images/course-selection/icon-4.png" style="width: 100px;" class="image-fluid" alt="icon" />
-                <h5>Exclusive Resources</h5>
-                <p class="mt-3">Gain access to exclusive resources, including program insights, scholarship opportunities, and application tips, to make informed decisions.</p>
+            <div class="col-md-6 px-5 py-5">
+                <img src="~/assets/images/university-selection/icon-4.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>End-to-End Support</h5>
+                <p class="mt-3">From shortlisting universities to application assistance, visa guidance, and pre-departure support, we’ve got you covered.</p>
+            </div>
+
+            <div class="col-md-12 px-5 py-5">
+                <img src="~/assets/images/university-selection/icon-5.png" style="width: 100px;" class="image-fluid" alt="icon" />
+                <h5>Commitment to Your Success</h5>
+                <p class="mt-3">Your dreams are our priority, and we go the extra mile to make them a reality.</p>
             </div>
         </div>
     </div>
@@ -359,49 +406,72 @@
     <div class="row">
         <div class="col-lg-12 section-title text-center">
             <div class="testimonial-heading">
-                <h2 class="title">Explore More Services</h2>
+                <h2 class="title">Frequently Asked Questions</h2>
             </div>
             <span class="shape-line"><i class="icon-19"></i></span>
         </div>
     </div>
 
-    <div class="row mt-5">
-        <div class="col-md-6 col-lg-3 mb-4">
-            <div class="service-card text-center">
-                <div class="card-content">
-                    <h5>Career Counselling</h5>
-                    <img src="~/assets/images/accommodation/icon-4.png" class="img-fluid" alt="Career Counselling">
-                    <p class="mt-3">Guidance for your career's biggest decision: your education journey</p>
+    <<div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    1. How do I choose the right university for my field of study?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body fs-4">
+                    Start by identifying your academic and career goals. Research universities that are renowned for your chosen field and check their global rankings, faculty expertise, and available programs. Look into the curriculum to ensure it aligns with your aspirations and offers opportunities for internships or research.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    2. What factors should I consider when selecting a university abroad?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Key factors include the university’s reputation, program availability, tuition fees, living costs, location, post-study opportunities, and student support services. Additionally, consider the cultural environment, language of instruction, and visa policies of the country where the university is located.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    3. How important are university rankings when making a decision?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    University rankings can provide a general idea of academic quality and reputation, but they shouldn’t be the sole deciding factor. Focus on rankings specific to your field of study, as well as other aspects like faculty expertise, research opportunities, and alumni success.
                 </div>
             </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 mb-4">
-            <div class="service-card text-center">
-                <div class="card-content">
-                    <h5>Admission Service</h5>
-                    <img src="~/assets/images/accommodation/icon-5.png" class="img-fluid" alt="Admission Service">
-                    <p class="mt-3">Guaranteed admissions and offers supported by our assistance</p>
+         <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    4. Are scholarships available for international students?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Yes, many universities and countries offer scholarships for international students. These can be merit-based, need-based, or specific to certain programs. Research the scholarships offered by your target universities and explore government or private funding options like Erasmus+ or country-specific programs.
                 </div>
             </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 mb-4">
-            <div class="service-card text-center">
-                <div class="card-content">
-                    <h5>Visa Support</h5>
-                    <img src="~/assets/images/accommodation/icon-6.png" class="img-fluid" alt="Visa Support">
-                    <p class="mt-3">Visa file preparation for successful Embassy applications</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 mb-4">
-            <div class="service-card text-center">
-                <div class="card-content">
-                    <h5>Coaching</h5>
-                    <img src="~/assets/images/accommodation/icon-7.png" class="img-fluid" alt="Coaching">
-                    <p class="mt-3">Expert coaching for exams such as IELTS, PTE, Duolingo, and PTE</p>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button fs-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    5. How can I ensure the university is a good fit for me?
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse">
+                <div class="accordion-body fs-4">
+                    Visit the university’s website to learn about its programs, campus facilities, and student life. Reach out to current students or alumni for insights, and join online forums or social media groups. Consider factors like location, class sizes, cultural fit, and the availability of support services for international students. Trust your instincts and choose a university that feels right for you academically, financially, and personally.
                 </div>
             </div>
         </div>
