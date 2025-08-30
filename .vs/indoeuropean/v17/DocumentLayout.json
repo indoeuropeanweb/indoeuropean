@@ -180,7 +180,7 @@
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\app-main.css",
               "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
               "RelativeToolTip": "wwwroot\\assets\\css\\app-main.css",
-              "ViewState": "AgIAADqzAAAAAAAAAAAAAEKzAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEyzAAAAAAAAAAAAAFWzAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-08-29T12:18:11.993Z",
               "EditorCaption": ""
@@ -195,8 +195,7 @@
               "RelativeToolTip": "Views\\Partners\\Indian_Universities.cshtml",
               "ViewState": "AgIAAGUAAAAAAAAAAAAiwG0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T11:25:02.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T11:25:02.785Z"
             },
             {
               "$type": "Document",
@@ -208,8 +207,7 @@
               "RelativeToolTip": "Views\\Home\\LoanAdvice.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAADwvyUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T06:15:27.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T06:15:27.154Z"
             },
             {
               "$type": "Document",
@@ -221,8 +219,7 @@
               "RelativeToolTip": "Controllers\\DestinationsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T06:14:07.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T06:14:07.858Z"
             },
             {
               "$type": "Document",
@@ -234,8 +231,7 @@
               "RelativeToolTip": "Views\\Home\\Termsandconditions.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-30T10:05:07.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T10:05:07.177Z"
             },
             {
               "$type": "Document",
@@ -247,8 +243,7 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAIYAAAAAAAAAAAAAwI4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T10:23:41.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T10:23:41.256Z"
             },
             {
               "$type": "Document",
@@ -260,8 +255,7 @@
               "RelativeToolTip": "Views\\Home\\Scholarships.cshtml",
               "ViewState": "AgIAAJkAAAAAAAAAAAAAAN4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T04:50:47.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-21T04:50:47.378Z"
             },
             {
               "$type": "Document",
@@ -273,8 +267,7 @@
               "RelativeToolTip": "Views\\Home\\UniversitySelection.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T06:16:11.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-29T06:16:11.414Z"
             },
             {
               "$type": "Document",
@@ -310,8 +303,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAN0BAAAAAAAAAAAAAB8DAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-28T12:56:07.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-28T12:56:07.05Z"
             },
             {
               "$type": "Document",
@@ -335,8 +327,7 @@
               "RelativeToolTip": "Views\\Destinations\\Europe.cshtml",
               "ViewState": "AgIAAOkBAAAAAAAAAADwv/0BAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-17T05:28:42.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T05:28:42.958Z"
             },
             {
               "$type": "Document",
@@ -661,6 +652,10 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-17T05:28:27.463Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
