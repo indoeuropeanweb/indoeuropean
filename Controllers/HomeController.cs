@@ -139,5 +139,11 @@ namespace indoeuropean.Controllers
             return View();
         }
 
+        [Route("countryselection")]
+        public IActionResult CountrySelection()
+        {
+            return View();
+        }
+
     }
 }

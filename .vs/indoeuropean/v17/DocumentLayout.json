@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\indoeuropean\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\views\\home\\countryselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\countryselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\views\\home\\universityselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\universityselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\views\\home\\courseselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\courseselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\views\\home\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\accommodation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\wwwroot\\assets\\css\\app-main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -25,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\views\\home\\coaching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\coaching.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean\\views\\home\\scholarships.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\scholarships.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 378,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,101 +38,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UniversitySelection.cshtml",
               "DocumentMoniker": "D:\\indoeuropean\\Views\\Home\\UniversitySelection.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\UniversitySelection.cshtml",
               "ToolTip": "D:\\indoeuropean\\Views\\Home\\UniversitySelection.cshtml",
               "RelativeToolTip": "Views\\Home\\UniversitySelection.cshtml",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAAALUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAAN4BAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T11:26:23.099Z",
+              "WhenOpened": "2025-08-29T11:57:36.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Coaching.cshtml",
-              "DocumentMoniker": "D:\\indoeuropean\\Views\\Home\\Coaching.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Coaching.cshtml",
-              "ToolTip": "D:\\indoeuropean\\Views\\Home\\Coaching.cshtml",
-              "RelativeToolTip": "Views\\Home\\Coaching.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CountrySelection.cshtml",
+              "DocumentMoniker": "D:\\indoeuropean\\Views\\Home\\CountrySelection.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CountrySelection.cshtml",
+              "ToolTip": "D:\\indoeuropean\\Views\\Home\\CountrySelection.cshtml",
+              "RelativeToolTip": "Views\\Home\\CountrySelection.cshtml",
+              "ViewState": "AgIAAAUBAAAAAAAAAAAAACIBAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T10:03:16.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CourseSelection.cshtml",
-              "DocumentMoniker": "D:\\indoeuropean\\Views\\Home\\CourseSelection.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\CourseSelection.cshtml",
-              "ToolTip": "D:\\indoeuropean\\Views\\Home\\CourseSelection.cshtml",
-              "RelativeToolTip": "Views\\Home\\CourseSelection.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-28T06:13:06.437Z",
+              "WhenOpened": "2025-08-29T08:59:34.333Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQBAAAAAAAAAAAQwDwBAACgAAAAAAAAAA==",
+              "ViewState": "AgIAACQBAAAAAAAAAAAAAD8BAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-28T05:17:04.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "app-main.css",
               "DocumentMoniker": "D:\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\app-main.css",
               "ToolTip": "D:\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
               "RelativeToolTip": "wwwroot\\assets\\css\\app-main.css",
-              "ViewState": "AgIAAHawAAAAAAAAAAAjwKuwAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAJGwAAAAAAAAAAAjwLWwAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-27T07:11:53.182Z"
+              "WhenOpened": "2025-08-27T07:11:53.182Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Accommodation.cshtml",
-              "DocumentMoniker": "D:\\indoeuropean\\Views\\Home\\Accommodation.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Accommodation.cshtml",
-              "ToolTip": "D:\\indoeuropean\\Views\\Home\\Accommodation.cshtml",
-              "RelativeToolTip": "Views\\Home\\Accommodation.cshtml",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAAAMUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T06:25:23.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\indoeuropean\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "D:\\indoeuropean\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAqwIcAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAI0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-27T06:23:26.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Scholarships.cshtml",
-              "DocumentMoniker": "D:\\indoeuropean\\Views\\Home\\Scholarships.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Scholarships.cshtml",
-              "ToolTip": "D:\\indoeuropean\\Views\\Home\\Scholarships.cshtml",
-              "RelativeToolTip": "Views\\Home\\Scholarships.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwDgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-27T06:22:30.49Z"
             }
           ]
         },

@@ -45231,6 +45231,13 @@ display:none;
     background-repeat: no-repeat;
 }
 
+.breadcrumb-country-selection-back {
+    background-image: url(../images/country-selection/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .breadcrumb-services-back, .breadcrumb-scholarships-back, .breadcrumb-conditions-back, .breadcrumb-testimonial-back, .breadcrumb-franchise-back, .breadcrumb-collabroate-back, .breadcrumb-contactus-back, .breadcrumb-coaching-back, .breadcrumb-events-back, .breadcrumb-associate-back {
     background-position: center;
     background-size: cover;
