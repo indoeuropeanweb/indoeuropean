@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\wwwroot\\assets\\css\\app-main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:wwwroot\\assets\\css\\app-main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\home\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\home\\loanadvice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\partners\\indian_universities.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\home\\scholarships.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\scholarships.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\home\\termsandconditions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\termsandconditions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\home\\universityselection.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -97,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\destinations\\uk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\destinations\\uk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\home\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|solutionrelative:views\\home\\coaching_centres.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D006153-A6FD-773B-D266-A2E5FEA686C0}|indoeuropean.csproj|d:\\indoeuropean_new\\indoeuropean_new\\indoeuropean\\views\\destinations\\singapore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -174,59 +170,30 @@
       "DocumentGroups": [
         {
           "DockedHeight": 378,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAiwBIBAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T07:19:26.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app-main.css",
-              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\app-main.css",
-              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
-              "RelativeToolTip": "wwwroot\\assets\\css\\app-main.css",
-              "ViewState": "AgIAANSwAAAAAAAAAAAcwL+wAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-29T12:18:11.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Indian_Universities.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Partners\\Indian_Universities.cshtml",
               "RelativeDocumentMoniker": "Views\\Partners\\Indian_Universities.cshtml",
               "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Partners\\Indian_Universities.cshtml",
               "RelativeToolTip": "Views\\Partners\\Indian_Universities.cshtml",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAiwG0AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAG4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-29T11:25:02.785Z"
+              "WhenOpened": "2025-08-29T11:25:02.785Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoanAdvice.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\LoanAdvice.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\LoanAdvice.cshtml",
               "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\LoanAdvice.cshtml",
               "RelativeToolTip": "Views\\Home\\LoanAdvice.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-29T06:15:27.154Z",
               "EditorCaption": ""
@@ -234,18 +201,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DestinationsController.cs",
-              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Controllers\\DestinationsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DestinationsController.cs",
-              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Controllers\\DestinationsController.cs",
-              "RelativeToolTip": "Controllers\\DestinationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-29T06:14:07.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Termsandconditions.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Termsandconditions.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Termsandconditions.cshtml",
@@ -257,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -270,7 +225,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "Coaching_Centres.cshtml",
+              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Coaching_Centres.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Coaching_Centres.cshtml",
+              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Coaching_Centres.cshtml",
+              "RelativeToolTip": "Views\\Home\\Coaching_Centres.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T09:17:50.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app-main.css",
+              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\css\\app-main.css",
+              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\wwwroot\\assets\\css\\app-main.css",
+              "RelativeToolTip": "wwwroot\\assets\\css\\app-main.css",
+              "ViewState": "AgIAAJGzAAAAAAAAAAAAAJazAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-29T12:18:11.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DestinationsController.cs",
+              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Controllers\\DestinationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DestinationsController.cs",
+              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Controllers\\DestinationsController.cs",
+              "RelativeToolTip": "Controllers\\DestinationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T06:14:07.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Scholarships.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Scholarships.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Scholarships.cshtml",
@@ -475,18 +469,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "Coaching_Centres.cshtml",
-              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Coaching_Centres.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Coaching_Centres.cshtml",
-              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Coaching_Centres.cshtml",
-              "RelativeToolTip": "Views\\Home\\Coaching_Centres.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-24T09:17:50.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "Singapore.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Singapore.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Singapore.cshtml",
@@ -498,7 +480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -510,7 +492,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "index.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Blogs\\index.cshtml",
               "RelativeDocumentMoniker": "Views\\Blogs\\index.cshtml",
@@ -522,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "indoeuropean.csproj",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\indoeuropean.csproj",
               "RelativeDocumentMoniker": "indoeuropean.csproj",
@@ -534,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "Collaborate.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Collaborate.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Collaborate.cshtml",
@@ -546,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "New_Zealand.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\New_Zealand.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\New_Zealand.cshtml",
@@ -558,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "BlogsController.cs",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Controllers\\BlogsController.cs",
               "RelativeDocumentMoniker": "Controllers\\BlogsController.cs",
@@ -570,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Usa.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Usa.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Usa.cshtml",
@@ -582,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Latvia.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Latvia.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Latvia.cshtml",
@@ -594,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "Lithuania.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Lithuania.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Lithuania.cshtml",
@@ -606,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "Canada.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Canada.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Canada.cshtml",
@@ -618,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "France.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\France.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\France.cshtml",
@@ -630,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Australia.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Australia.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Australia.cshtml",
@@ -642,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "Germany.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Germany.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Germany.cshtml",
@@ -654,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "Finland.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Finland.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Finland.cshtml",
@@ -666,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "Denmark.cshtml",
               "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Destinations\\Denmark.cshtml",
               "RelativeDocumentMoniker": "Views\\Destinations\\Denmark.cshtml",

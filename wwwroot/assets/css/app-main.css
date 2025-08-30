@@ -45233,6 +45233,10 @@ display:none;
     background-image: url('../images/indian-universities/indian-universities-banner.png');
 }
 
+.breadcrumb-coachingcentres-back {
+    background-image: url('../images/coaching/coaching-center-banner.png');
+}
+
 .breadcrumb-LoadAdvice-back,
 .breadcrumb-indian-back,
 .breadcrumb-scholarships-back,
@@ -45248,7 +45252,7 @@ display:none;
 .breadcrumb-contactus-back,
 .breadcrumb-coaching-back,
 .breadcrumb-events-back,
-.breadcrumb-associate-back {
+.breadcrumb-associate-back, .breadcrumb-coachingcentres-back {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45562,16 +45566,6 @@ display:none;
 }
 
 
-/* what we offer*/
-.bg-offer {
-    /*  background-image:url(../images/we-offer/career.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;*/
-/*    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;*/
-}
-
 .shape-04.scene.sal-animate{
     display: none;
 }
@@ -45864,14 +45858,6 @@ div.input-group-prepend {
         color: #fff;
     }
 
-
-/*scholarships section*/
-
-/*.scholarship-card .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-}*/
-
 .scholarship-card .card-body, .Indian-Students-Card .card-body {
     padding: 1.5rem;
 }
@@ -45981,4 +45967,12 @@ div.input-group-prepend {
     .country-card {
         max-width: 450px !important;
     }
+}
+
+.benefits-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
