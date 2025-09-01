@@ -45976,3 +45976,100 @@ div.input-group-prepend {
     justify-content: center;
     align-items: center;
 }
+
+/* Container Styling */
+.Coaching-centre-section {
+    padding: 20px;
+}
+
+/* Section Header */
+    .Coaching-centre-section .Coaching-centre-header {
+        margin-bottom: 30px;
+    }
+
+        .Coaching-centre-section .Coaching-centre-header .title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+/* Description */
+    .Coaching-centre-section .description {
+        font-size: 1.75rem;
+        color: #7f8c8d;
+        line-height: 1.6;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
+/* Benefits List Styling */
+    .Coaching-centre-section .benefits {
+        margin-top: 30px;
+    }
+
+    .Coaching-centre-section .benefits-title {
+        font-size: 1.95rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 20px;
+/*        text-align: center;*/
+    }
+
+
+    .Coaching-centre-section .benefits-list {
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .Coaching-centre-section  .benefits-list .list-group-item {
+            padding: 14px;
+            background-color: #ecf0f1;
+            border: 1px solid #bdc3c7;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: all 0.3s ease-in-out;
+        }
+
+            .Coaching-centre-section .benefits-list .list-group-item:hover {
+                background-color: #150958;
+                color: white;
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+            .Coaching-centre-section .benefits-list .list-group-item strong {
+                font-weight: bold;
+            }
+
+        .Coaching-centre-section .benefits-list .icon {
+            position: absolute;
+            left: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2rem;
+            color: #3498db;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .Coaching-centre-section .benefits-list .list-group-item:hover .icon {
+            transform: translateY(-50%) scale(1.1);
+        }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .Coaching-centre-section .title {
+        font-size: 1.95rem;
+    }
+
+    .Coaching-centre-section .description {
+        font-size: 0.95rem;
+    }
+
+    .Coaching-centre-section .benefits-title {
+        font-size: 1.4rem;
+    }
+}
+
