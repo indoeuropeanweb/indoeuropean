@@ -45237,32 +45237,39 @@ display:none;
 .breadcrumb-coachingcentres-back {
     background-image: url('../images/coaching/coaching-center-banner.png');
 }
+.breadcrumb-other-business-back
+{
+    background-image: url(../images/other-business/banner.jpg);
+}
+
 
 .breadcrumb-Overseas-back {
     background-image: url('../images/overseas-institues/overseas-institutes-banner.png');
 }
 
-    .breadcrumb-LoadAdvice-back,
-    .breadcrumb-indian-back,
-    .breadcrumb-scholarships-back,
-    .breadcrumb-services-back,
-    .breadcrumb-accommodation-back,
-    .breadcrumb-country-selection-back,
-    .breadcrumb-course-selection-back,
-    .breadcrumb-university-selection-back,
-    .breadcrumb-conditions-back,
-    .breadcrumb-testimonial-back,
-    .breadcrumb-franchise-back,
-    .breadcrumb-collaborate-back,
-    .breadcrumb-contactus-back,
-    .breadcrumb-coaching-back,
-    .breadcrumb-Overseas-back,
-    .breadcrumb-events-back,
-    .breadcrumb-associate-back, .breadcrumb-coachingcentres-back {
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+.breadcrumb-LoadAdvice-back,
+.breadcrumb-indian-back,
+.breadcrumb-scholarships-back,
+.breadcrumb-services-back,
+.breadcrumb-accommodation-back,
+.breadcrumb-country-selection-back,
+.breadcrumb-course-selection-back,
+.breadcrumb-university-selection-back,
+.breadcrumb-conditions-back,
+.breadcrumb-testimonial-back,
+.breadcrumb-franchise-back,
+.breadcrumb-collaborate-back,
+.breadcrumb-contactus-back,
+.breadcrumb-coaching-back,
+.breadcrumb-events-back,
+.breadcrumb-associate-back, 
+.breadcrumb-coachingcentres-back, 
+.breadcrumb-other-business-back, 
+.breadcrumb-Overseas-back{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 .breadcrumb-contactus-back {
