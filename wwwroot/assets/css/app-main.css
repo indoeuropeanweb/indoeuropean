@@ -42854,7 +42854,8 @@ Countdown
     .getin-touch-area {
         position: relative;
         display: block;
-        background-color: #031f4b;
+/*        background-color: #031f4b;*/
+        background-color: #fff;
         background-attachment: scroll;
         background-position: top right;
         background-repeat: no-repeat;
@@ -45242,6 +45243,10 @@ display:none;
 }
 
 
+.breadcrumb-Overseas-back {
+    background-image: url('../images/overseas-institues/overseas-institutes-banner.png');
+}
+
 .breadcrumb-LoadAdvice-back,
 .breadcrumb-indian-back,
 .breadcrumb-scholarships-back,
@@ -45257,7 +45262,10 @@ display:none;
 .breadcrumb-contactus-back,
 .breadcrumb-coaching-back,
 .breadcrumb-events-back,
-.breadcrumb-associate-back, .breadcrumb-coachingcentres-back, .breadcrumb-other-business-back {
+.breadcrumb-associate-back, 
+.breadcrumb-coachingcentres-back, 
+.breadcrumb-other-business-back, 
+.breadcrumb-Overseas-back{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46078,3 +46086,106 @@ div.input-group-prepend {
     }
 }
 
+.europe-flags-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.overseas-institute-card h3 {
+    font-size: 2.45rem;
+    color: #150958;
+}
+
+.overseas-institute-card h4 {
+    font-size: 2.25rem;
+    color: #150958;
+}
+
+.overseas-institute-card h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.overseas-institute-card p{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #150958;
+}
+
+.overseas-institute-card img{
+    border-radius: 12px;
+}
+
+.overseas-institute-card ul{
+    list-style: disc;
+}
+
+.overseas-institute-card ul li {
+    font-size: 1.5rem;
+}
+
+.overseas-institute-section p {
+    font-size: 1.65rem;
+    text-align:justify;
+}
+
+.overseas-institute-content{
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+}
+
+.overseas-bottom-banner {
+    background-image: url('../images/overseas-institues/overseas-bottom-banner.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.overseas-bottom-overlays {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 10px 25px;
+    backdrop-filter:blur(1.5)
+}
+
+.overseas-bottom-banner h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+    .overseas-bottom-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+.overseas-bottom-content div img {
+    width: 32rem;
+    padding-bottom: 15px;
+}
+
+.overseas-bottom-content ul {
+    list-style: decimal;
+}
+
+    .overseas-bottom-content ul li {
+        font-size: 1.75rem;
+        margin: 15px 0;
+        color: #fff;
+    }
+
+
+    @media screen and (max-width: 992px){
+        .overseas-bottom-content{
+            flex-direction:column;
+        }
+
+        .overseas-column-reverse{
+            flex-direction:column-reverse;
+        }
+    }
