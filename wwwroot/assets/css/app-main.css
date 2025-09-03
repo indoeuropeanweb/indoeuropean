@@ -45236,6 +45236,11 @@ display:none;
 .breadcrumb-coachingcentres-back {
     background-image: url('../images/coaching/coaching-center-banner.png');
 }
+.breadcrumb-other-business-back
+{
+    background-image: url(../images/other-business/banner.jpg);
+}
+
 
 .breadcrumb-LoadAdvice-back,
 .breadcrumb-indian-back,
@@ -45252,7 +45257,7 @@ display:none;
 .breadcrumb-contactus-back,
 .breadcrumb-coaching-back,
 .breadcrumb-events-back,
-.breadcrumb-associate-back, .breadcrumb-coachingcentres-back {
+.breadcrumb-associate-back, .breadcrumb-coachingcentres-back, .breadcrumb-other-business-back {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
