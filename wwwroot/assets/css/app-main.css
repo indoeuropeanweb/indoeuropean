@@ -45242,7 +45242,6 @@ display:none;
     background-image: url(../images/other-business/banner.jpg);
 }
 
-
 .breadcrumb-Overseas-back {
     background-image: url('../images/overseas-institues/overseas-institutes-banner.png');
 }
@@ -45651,8 +45650,6 @@ div.input-group-prepend {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
-/*    max-width: 350px;*/
-/*    margin: 0 auto;*/
 }
 
 .feature-card{
