@@ -31571,7 +31571,7 @@ Countdown
 
 .mainmenu-nav .mainmenu > li > a {
     color: var(--color-heading);
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 400;
     padding: 0 21px;
     display: block;
@@ -31589,7 +31589,7 @@ Countdown
 
     .mainmenu-nav .mainmenu > li > a {
         color: var(--color-heading);
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 400;
         padding: 0 15px;
         display: block;
