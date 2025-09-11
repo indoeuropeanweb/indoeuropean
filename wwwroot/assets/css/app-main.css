@@ -35129,18 +35129,18 @@ Countdown
     Spacing
 -------------------------*/
     .edu-section-gap {
-        padding: 60px 0 60px;
+        padding-top: 60px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 991px) {
         .edu-section-gap {
-            padding: 95px 0 100px;
+           padding-top: 75px;
         }
     }
 
     @media only screen and (max-width: 767px) {
         .edu-section-gap {
-            padding: 75px 0 20px;
+            padding-top: 75px;
         }
     }
 
@@ -42870,6 +42870,7 @@ Countdown
         border-radius: 10px 10px 0px 0px;
         color: white;
         padding: 10px;
+        height: 55px;
     }
 
 
