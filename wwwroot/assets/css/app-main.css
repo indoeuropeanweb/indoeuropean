@@ -94,10 +94,6 @@
     --h6-lineHeight: 1.62;
 }
 
-/*==============================
- *  Shortcode
-=================================*/
-/*--------------------------------------*/
 .container-custom,
 .container-custom-1520 {
     width: 100%;
@@ -118,7 +114,7 @@
 
 
 @media only screen and (max-width: 767px) {
-    .container,
+  .container,
   .container-fluid,
   .container-lg,
   .container-md,
@@ -884,7 +880,7 @@ Custom Row
             font-weight: 400;
             padding: 0 15px !important;
             display: block;
-            height: 90px;
+            height: 75px;
             line-height: 94px;
             -webkit-transition: 0.3s;
             transition: 0.3s;
@@ -30621,15 +30617,6 @@ Countdown
     border: none;
 }
 
-/*=======================================================================
-     Styles End
-=========================================================================*/
-/*=======================================================================
-4.Blocks Styles 
-=========================================================================*/
-/*--------------------------
-    Header Styles  
---------------------------*/
 .edu-header {
     z-index: 99;
 }
@@ -30742,17 +30729,11 @@ Countdown
     display: block;
 }
 
-.edu-header .header-category {
-   
-    
-}
-
 @media only screen and (max-width: 1350px) {
     .edu-header .header-category {
         margin: 0 40px;
         display: none;
     }
-    
 }
 
 .edu-header .header-category .mainmenu li.has-droupdown > a {
@@ -30793,9 +30774,6 @@ Countdown
     }
 }
 
-/*------------------------
-    Header Style One  
---------------------------*/
 .header-style-1 {
     position: relative;
 }
@@ -31071,7 +31049,6 @@ Countdown
 .header-style-3 .header-top .header-info li i {
     color: var(--color-primary);
 }
-
 /*------------------------
     Header Style Four  
 --------------------------*/
@@ -32120,6 +32097,7 @@ Countdown
         -ms-flex-align: center;
         align-items: center;
         float:right;
+        height: 75px;
     }
 
     @media only screen and (max-width: 575px) {
@@ -35122,12 +35100,6 @@ Countdown
                     opacity: 1;
                 }
 
-    /*=======================================================================
-6. Spacing/Dark
-=========================================================================*/
-    /*-------------------------
-    Spacing
--------------------------*/
     .edu-section-gap {
         padding-top: 60px;
     }
@@ -36581,93 +36553,6 @@ Countdown
         .dark-mode .edu-course-area.course-area-9 ul .course-view-all a.edu-btn:hover {
             color: var(--color-white) !important;
         }
-
-    .dark-mode {
-        /*-------------------
-    About Dark Styles
-    ---------------------*/
-        /*-------------------
-    Breadcrumb Dark Styles
-    ---------------------*/
-        /*-------------------
-    Brand Dark Styles
-    ---------------------*/
-        /*-------------------
-    Blog Dark Styles
-    ---------------------*/
-        /*-------------------
-    Call To Action Dark Styles
-    ---------------------*/
-        /*-------------------
-    Categorie Dark Styles
-    ---------------------*/
-        /*-------------------------
-        Counterup Styles  
-    --------------------------*/
-        /*-------------------------
-        Landing Page Dark Styles  
-    --------------------------*/
-        /*-------------------------
-        Course Styles  
-    --------------------------*/
-        /*-------------------------
-        Campus Styles  
-    --------------------------*/
-        /*-------------------------
-        Copyright Styles  
-    --------------------------*/
-        /*-------------------
-    Event Dark Styles
-    ---------------------*/
-        /*-------------------
-    Features Dark Styles
-    ---------------------*/
-        /*-------------------
-    FAQ Dark Styles
-    ---------------------*/
-        /*-------------------
-    Footer Dark Styles
-    ---------------------*/
-        /*-------------------
-    Header Dark Styles
-    ---------------------*/
-        /*-------------------
-    Hero Banner Dark Styles
-    ---------------------*/
-        /*-------------------
-    Instagram Dark Styles
-    ---------------------*/
-        /*-------------------
-    Shop Dark Styles
-    ---------------------*/
-        /*-------------------
-    Team Dark Styles
-    ---------------------*/
-        /*-------------------
-    Testimonial Dark Styles
-    ---------------------*/
-        /*-------------------
-    Video Dark Styles
-    ---------------------*/
-        /*--------------------------
-    why-choose-us Dark Styles
-    ----------------------------*/
-        /*----------------------------------------
-    Coming Soon/Gallery/Pagination Dark Styles
-    ------------------------------------------*/
-        /*-------------------
-    Section Dark Styles
-    ---------------------*/
-        /*-------------------
-    Button Dark Styles
-    ---------------------*/
-        /*-------------------
-    Form Dark Styles
-    ---------------------*/
-        /*-------------------
-    Swiper Slider Dark Styles
-    ---------------------*/
-    }
 
         .dark-mode p {
             color: var(--color-title);
@@ -41376,7 +41261,6 @@ Countdown
 
     html[dir="rtl"] .blog-meta li i {
         padding-right: inherit;
-/*        padding-left: 10px;*/
     }
 
     html[dir="rtl"] .edu-blog.blog-style-2.first-large-blog .content {
@@ -42688,9 +42572,6 @@ Countdown
         background: #ddd;
     }
 
-
-
-
     .read-more p {
         text-align: center;
         margin: 20px 0px 5px;
@@ -42752,8 +42633,6 @@ Countdown
     svg:not(:root) {
         overflow: hidden;
         margin-right: 10px !important;
-        /* margin-left: 8px; */
-        /* margin-bottom: 35px; */
     }
 
 
@@ -42778,8 +42657,6 @@ Countdown
         .popup .popuptext {
             visibility: hidden;
             width: 100%;
-            /* background-color: #523ec1; */
-            /* color: #fff; */
             text-align: center;
             border-radius: 6px;
             padding: 8px 0;
@@ -42854,7 +42731,6 @@ Countdown
     .getin-touch-area {
         position: relative;
         display: block;
-/*        background-color: #031f4b;*/
         background-color: #fff;
         background-attachment: scroll;
         background-position: top right;
@@ -42862,7 +42738,6 @@ Countdown
         background-size: auto;
         padding-bottom: 180px;
     }
-
 
     .counrty-form-tittle {
         text-align: center;
@@ -42872,8 +42747,6 @@ Countdown
         padding: 10px;
         height: 55px;
     }
-
-
 
     .getin-touch-content .inner-content .contact-info .single {
         margin-bottom: 10px;
@@ -43006,7 +42879,6 @@ Countdown
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center top;
-        /* margin-top: -190px; */
         background: #ffffff;
         border-radius: 20px;
         padding: 80px 70px 70px;
@@ -43025,7 +42897,6 @@ Countdown
 
     .sec-title h2 {
         color: #f58220;
-        /* color: #777777; */
         font-size: 36px;
         font-weight: 400;
         text-transform: capitalize;
@@ -43094,7 +42965,6 @@ Countdown
 
     .sec-title h2 {
         color: #f58220;
-        /* color: #777777; */
         font-size: 36px;
         font-weight: 400;
         text-transform: capitalize;
@@ -43209,7 +43079,7 @@ Countdown
         font-family: 'Georgia', serif;
     }
 
-        #demo:after { /* clearfix */
+        #demo:after {
             content: "";
             clear: both;
             display: block;
@@ -43267,9 +43137,7 @@ Countdown
         border-radius: 100%;
         width: 50px;
         height: 50px;
-        /* margin-left: -50px; */
         position: absolute;
-        /* top: 110px; */
         color: white;
         text-align: center;
         line-height: 50px;
@@ -43334,9 +43202,6 @@ Countdown
     .float-btn {
         position: fixed;
         right: 90px;
-        /* margin-left: -186px; */
-        /* padding-top: 53px; */
-        /* padding-left: 194px; */
         width: 80px;
         height: 0px;
         box-sizing: border-box;
@@ -43463,7 +43328,6 @@ Countdown
             -webkit-transform: translate3d(0.08361px, -104.99997px, 0);
             transform: translate3d(0.08361px, -104.99997px, 0);
             margin-top: 50px;
-            /* padding: 4px; */
         }
 
         .float-open:checked ~ .float-item:nth-child(4) {
@@ -43503,16 +43367,6 @@ Countdown
         }
 
 
-
-
-
-    @include keyframes(ripple) {
-        to {
-            @include transform(scale(1.8));
-            opacity: 0;
-        }
-    }
-
     .main-ctr {
         display: table-cell;
         vertical-align: middle;
@@ -43529,20 +43383,11 @@ Countdown
         text-align: center;
         padding: 20px 10px;
         box-sizing: border-box;
-        .ripple {
-    @include position(absolute, x 10px 10px x);
-    @include transform-origin(center center);
-    @include transform(scale(.9));
-    @include animation(1.5s ripple ease infinite);
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: 1px solid #4285F4;
     box-sizing: border-box;
-    
-    &.off {
-      opacity: 0;
-    }
   }
   
   .par-ctr {
@@ -43554,10 +43399,6 @@ Countdown
     width: 100%;
     height: 20px;
     margin-bottom: 10px;
-    
-    &.half {
-      width: 50%;
-    }
   }
   
   .img {
@@ -43565,99 +43406,7 @@ Countdown
     height: 200px;
     background: #eee;
     margin-bottom: 30px;
-    
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
-  
-  .nav {
-    @include position(absolute, x 0 0 0);
-    height: 80px;
-    
-    &.active {
-      overflow: hidden;
-    }
-  }
-  
-  .fab-ctr {
-    z-index: 9;
-    width: 100%;
-    @include position(absolute, x 0 0 x);
-    @include transform-origin(center center);
-    @include transform(rotate(0) translateX(0) translateY(0));
-    padding: 10px;
-    will-change: transform;
-    transition: $animDuration all ease-in-out;
-    
-    &.active {
-      @include transform(rotate(-45deg) translateX(-142.5px) translateY(7px));
-    }
-    
-    &.active .fab {
-      color: transparent;
-      box-shadow: none;
-    }
-  }
-  
-  .fab {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background: #4285F4;
-    float: right;
-    will-change: transform;
-    transition: $animDuration all ease-in-out;
-    cursor: pointer;
-    z-index: 999;
-    color: white;
-    line-height: 60px;
-    font-size: 20px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.35);
-   
-    
-    &:hover {
-      background: lighten(#4285F4, 5%);
-    }
-    
-    &.active {
-      @include transform(scale(6.5));
-      transition: $animDuration all ease-in-out;
-      pointer-events: none;
-    }
-  }
-  
-  .links {
-    @include position(absolute, x 0 0 0);
-    z-index: 999;
-    pointer-events: none;
-    opacity: 0;
-    transition: .3s all ease;
-    color: white;
-    
-    &.active {
-      pointer-events: auto;
-      opacity: 1;
-    }
-    
-    li {
-      width: 25%;
-      height: 80px;
-      float: left;
-      background: transparent;
-      text-align: center;
-      line-height: 80px;
-      font-size: 26px;
-      
-      &.close {
-        cursor: pointer;
-      }
-    }
-  }
-}
-
-
-
 
 .flags-heading{
     text-align:center; font-size:20px; font-family:poppins; letter-spacing: 0.5px;
@@ -43785,7 +43534,6 @@ transform: scale(1.05);
 
 
 .courses {
-    /* border: 1px solid #b7b7b7; */
     width: 110px!important;
     height: auto;
     padding: 5px;
@@ -43829,7 +43577,6 @@ transform: scale(1.05);
   
     
 .courses {
-    /* border: 1px solid #b7b7b7; */
     width: 150px!important;
     height: auto;
     padding: 5px;
@@ -43905,8 +43652,6 @@ display:block;
 display:none;
 }
 
-
-
 /* Modal styles */
 .modal {
     display: none;
@@ -43914,7 +43659,6 @@ display:none;
     z-index: 1;
     left: 0;
     top: 0;
-    /* width: 100%;*/
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
@@ -44007,11 +43751,6 @@ display:none;
     font-weight: 400;
 }
 
-
-
-
-/*
-    testimonail */
 .testimonial-card {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -44050,17 +43789,10 @@ display:none;
     text-align: center;
 }
 
-
-
-
 .country-name{
     font-size: 1.5rem;
 }
 
-
-
-
-/**the sweden web page start*/
 .bg-sweden {
     background-image: url(../images/sweden/sweden-2.jpg);
     background-repeat: no-repeat;
@@ -44080,12 +43812,7 @@ display:none;
 .bg-sweden-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the sweden web page end*/
 
-
-
-
-/**the france web page start*/
 .bg-france {
     background-image: url(../images/france/france-2.jpg);
     background-repeat: no-repeat;
@@ -44105,12 +43832,7 @@ display:none;
 .bg-france-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the france web page end*/
 
-
-
-
-/**the Latvia web page start*/
 .bg-latvia {
     background-image: url(../images/latvia/latvia.jpg);
     background-repeat: no-repeat;
@@ -44130,13 +43852,7 @@ display:none;
 .bg-latvia-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the latvia web page end*/
 
-
-
-
-
-/**the Lithuania web page start*/
 .bg-lithuania {
     background-image: url(../images/lithuania/lithuania.jpg);
     background-repeat: no-repeat;
@@ -44156,14 +43872,7 @@ display:none;
 .bg-lithuania-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the lithuania web page end*/
 
-
-
-
-
-
-/**the Europe web page start*/
 .bg-europe {
     background-image: url(../images/europe/Countries/europe-2.jpg);
     background-repeat: no-repeat;
@@ -44183,11 +43892,7 @@ display:none;
 .bg-europe-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Europe web page end*/
 
-
-
-/**the denmark web page start*/
 .bg-denmark {
     background-image: url(../images/denmark/denmark.jpg);
     background-repeat: no-repeat;
@@ -44207,11 +43912,7 @@ display:none;
 .bg-denmark-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the denmark web page end*/
 
-
-
-/**the singapore web page start*/
 .bg-singapore {
     background-image: url(../images/Singapore/singapore.jpg);
     background-repeat: no-repeat;
@@ -44256,11 +43957,7 @@ display:none;
 .bg-australia-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the australia web page end*/
 
-
-
-/**the New Zealand web page start*/
 .bg-zealand {
     background-image: url(../images/new_zealand/zealand.jpg);
     background-repeat: no-repeat;
@@ -44280,10 +43977,7 @@ display:none;
 .bg-zealand-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Zealand web page end*/
 
-
-/**the New Zealand web page start*/
 .bg-australia {
     background-image: url(../images/australia/australia.jpg);
     background-repeat: no-repeat;
@@ -44303,11 +43997,7 @@ display:none;
 .bg-australia-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Zealand web page end*/
 
-
-
-/**the New Zealand web page start*/
 .bg-zealand {
     background-image: url(../images/new_zealand/zealand.jpg);
     background-repeat: no-repeat;
@@ -44327,11 +44017,7 @@ display:none;
 .bg-zealand-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Zealand web page end*/
 
-
-
-/**the Germany web page start*/
 .bg-germany {
     background-image: url(../images/germany/germany.jpg);
     background-repeat: no-repeat;
@@ -44351,11 +44037,7 @@ display:none;
 .bg-germany-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Germany web page end*/
 
-
-
-/**the finland web page start*/
 .bg-finland {
     background-image: url(../images/finland/finland.jpg);
     background-repeat: no-repeat;
@@ -44375,10 +44057,7 @@ display:none;
 .bg-finland-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the finland web page end*/
 
-
-/*the canada web page start*/
 .bg-canada {
     background-image: url(../images/canada/canada-banner.jpg);
     background-repeat: no-repeat;
@@ -44398,11 +44077,7 @@ display:none;
 .bg-canada-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the canada web page end*/
 
-
-
-/*the Usa web page start*/
 .bg-usa {
     background-image: url(../images/usa/usa-bridge.jpg);
     background-repeat: no-repeat;
@@ -44422,9 +44097,7 @@ display:none;
 .bg-usa-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Usa web page end*/
 
-/*the Uk web page start*/
 .bg-uk {
     background-image: url(../images/banner/uk-2.jpg);
     background-repeat: no-repeat;
@@ -44444,9 +44117,7 @@ display:none;
 .bg-uk-color {
     background: rgba(0,0,0, 0.6)
 }
-/*the Uk web page end*/
 
-/*Ireland web page*/
 .bg-ireland
 {
     background-image: url(../images/ireland/ireland.jpg);
@@ -44597,11 +44268,6 @@ display:none;
     }
 }
 
-
-
-
-/* Joureny Section of Ireland */
-/* Creative Journey Section */
 .creative-journey {
     background: linear-gradient(135deg, #150958 0%, #150958 100%);
     color: white;
@@ -44651,7 +44317,6 @@ display:none;
     padding: 5px 15px;
     border-radius: 30px;
     display: inline-block;
-/*    transform: rotate(-2deg);*/
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
@@ -44810,7 +44475,6 @@ display:none;
     }
 
 .feature-icon {
-/*    background-color: rgba(255, 99, 71, 0.2);*/
     text-align: center;
     background-image: url(../images/ireland/partner-1.jpg);
     background-position: center;
@@ -44954,7 +44618,6 @@ display:none;
 .blog-meta {
     font-size: 1.4rem;
     color: #6c757d;
-/*    padding-left: 15px;*/
 }
 
 .blog-section-title {
@@ -45010,16 +44673,11 @@ display:none;
         margin-top:5px
     }
 
-/* Europe blog*/
 
 .hero-back-space{
     padding-top: 150px;
     padding-bottom: 20px;
 }
-
-/* latvia blog*/
-
-/*Europe Countries */
 
 .country-box{
     padding: 5%;
@@ -45094,9 +44752,6 @@ display:none;
     .europe-link-1 a {
         width: 90%;
     }
-
-
-/* Our Services Section Start */
 
 .our-services-breadcrumb{
     margin-top: 100px;
@@ -45436,8 +45091,6 @@ display:none;
         font-size: 1.3rem;
     }
 
-/*    About us section*/
-
     .aboutsus-bottom {
         display: none;
     }
@@ -45510,6 +45163,10 @@ display:none;
         font-size: 1.25rem;
     }
 
+    .aboutsus-bottom {
+        display: none;
+    }
+
     .fp-box ul li{
         font-size: 1.05rem;
     }
@@ -45545,8 +45202,15 @@ display:none;
         font-size: 1.3rem;
     }
 
-}
+    .aboutsus-bottom h5 {
+        font-size: 1.5rem;
+    }
 
+    .aboutsus-bottom p {
+        font-size: 1.35rem;
+    }
+
+}
 
 @media only screen and (min-width: 1440px) and (max-width: 1600px) {
     .services-title h1, .services-subtitle h2 {
@@ -45569,10 +45233,15 @@ display:none;
         font-size: 1.5rem;
     }
 
+    .aboutsus-bottom h5 {
+        font-size: 1.45rem;
+    }
+
+    .aboutsus-bottom p {
+        font-size: 1.25rem;
+    }
+
 }
-
-
-/* Hide Dropdowns from form */
 
 #ddlCourseCodeId option[value="155"], #ddlCourseCodeId option[value="164"], #ddlCourseCodeId option[value="7"], #ddlCourseCodeId option[value="169"], #ddlCourseCodeId option[value="168"], #ddlCourseCodeId option[value="171"], #ddlCourseCodeId option[value="167"], #ddlCourseCodeId option[value="163"] {
     display: none;
@@ -45583,29 +45252,29 @@ display:none;
     display: none;
 }
 
-/*Aboutsus Section*/
-
 .breadcrumb-coaching-back{
     position: relative;
 }
 
 .aboutsus-bottom {
     background-color: #fff;
-    padding: 24px 16px;
+    padding: 16px;
     position: absolute;
-    bottom: -100px;
+    bottom: -90px;
     width: 90%;
     left: 50px;
     text-align: center;
     box-shadow: 0 0 12px 2px #ccc;
+    z-index: 5;
+    border-radius: 4px;
 }
 
 .aboutsus-bottom h5{
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .aboutsus-bottom p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .aboutus-icon {
@@ -45667,7 +45336,6 @@ div.input-group-prepend {
         font-weight: 600;
         color: rgba(21, 9, 88, 1);
         text-align:center;
- 
     }
 
     .search-input {
@@ -45746,8 +45414,6 @@ div.input-group-prepend {
     margin-bottom: 50px;
 }
 
-/*Pagination*/
-
 .event-pagination {
     margin: 35px 0;
     display: flex;
@@ -45824,8 +45490,6 @@ div.input-group-prepend {
         color: #f5851f;
     }
 
-
-/*    terms and conditions*/
 .conditions-accordion .accordion {
     background-color: initial;
     border: 1px solid #ccc;
@@ -45912,8 +45576,6 @@ div.input-group-prepend {
     font-size: 1.75rem;
 }
 
-/*Student Loan Advice*/
-
 .company-logo-section{
     display: grid;
     grid-template-columns: repeat(auto-fit, 110px);
@@ -45988,12 +45650,10 @@ div.input-group-prepend {
     align-items: center;
 }
 
-/* Container Styling */
 .Coaching-centre-section {
     padding: 20px;
 }
 
-/* Section Header */
     .Coaching-centre-section .Coaching-centre-header {
         margin-bottom: 30px;
     }
@@ -46005,7 +45665,6 @@ div.input-group-prepend {
             margin-bottom: 10px;
         }
 
-/* Description */
     .Coaching-centre-section .description {
         font-size: 1.75rem;
         color: #7f8c8d;
@@ -46014,7 +45673,6 @@ div.input-group-prepend {
         margin-bottom: 40px;
     }
 
-/* Benefits List Styling */
     .Coaching-centre-section .benefits {
         margin-top: 30px;
     }
@@ -46024,7 +45682,6 @@ div.input-group-prepend {
         font-weight: 600;
         color: #333;
         margin-bottom: 20px;
-/*        text-align: center;*/
     }
 
 
@@ -46069,7 +45726,6 @@ div.input-group-prepend {
             transform: translateY(-50%) scale(1.1);
         }
 
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
     .Coaching-centre-section .title {
         font-size: 1.95rem;
