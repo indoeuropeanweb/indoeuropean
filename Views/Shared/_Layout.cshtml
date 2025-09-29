@@ -2,12 +2,9 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V436130YDY"></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-V436130YDY'); </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>@ViewData["Title"] - Indoeuropean</title>
+    <title>@ViewData["Title"]</title>
     <meta name="description" content="@ViewData["Description"]">
     <meta name="keywords" content="@ViewData["Keywords"]"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,21 +19,22 @@
     <link rel="stylesheet" href="~/assets/css/vendor/odometer.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/lightbox.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/animation.min.css">
-    @* <link rel="stylesheet" href="~/assets/css/vendor/jquery-ui.min.css"> *@
     <link rel="stylesheet" href="~/assets/css/vendor/swiper-bundle.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/tipped.min.css">
     <link rel="stylesheet" href="~/assets/css/international-telephone-input.css">
     
     <!-- Site Stylesheet -->
-    <link rel="stylesheet" href="/assets/css/app-main.css">
+    <link rel="stylesheet" href="~/assets/css/app-main.css"/>
+	<link rel="stylesheet" href="~/assets/css/app-main2.css"/>
+	<link rel="stylesheet" href="~/assets/css/app-main3.css"/>
+	<link rel="stylesheet" href="~/assets/css/app-main4.css"/>
+	<link rel="stylesheet" href="~/assets/css/app-main5.css"/>
 
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="canonical" href="@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}")" />
     <link rel="stylesheet" href="https://unpkg.com/sal.js/dist/sal.css" />
-
-    @* CSP Header *@
-    @* <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self';"> *@
-    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-ie.png"/>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
 <body class="sticky-header">
@@ -70,7 +68,7 @@
                                 <ul class="header-info">
 
                                     <li><a href="http://payment.indoeuropean.in/payment-link.aspx"> <i class="fa fa-money"></i> Pay Online</a></li>
-                                    <li><a href="tel:+91-9650133355"><i class="icon-phone"></i>+91-9650133355</a></li>
+                                    <li><a href="tel:+919650133355"><i class="icon-phone"></i>+91-9650133355</a></li>
 
                                     <li class="social-icon">
                                         <a href="https://www.facebook.com/Indoeuropean.in" target="blank"><i class="fa fa-facebook"></i></a>
@@ -306,7 +304,7 @@
                                             <li><a asp-controller="home" asp-action="coaching"><i class="fa fa-star" target="_blank"></i> &nbsp; IELTS Classes  </a></li>
                                             <li><a href="http://payment.indoeuropean.in/payment-link.aspx" target="_blank"><i class="fa fa-star"></i> &nbsp; Pay Online </a></li>
                                             <li><a href="https://zoom.us/j/91022278457#success" target="_blank"><i class="fa fa-star"></i> &nbsp; Free Counselling</a></li>
-                                            <li><a href="tel:9650133355"><i class="fa fa-star"></i> &nbsp; Call Our Experts </a></li>
+                                            <li><a href="tel:+919650133355"><i class="fa fa-star"></i> &nbsp; Call Our Experts </a></li>
                                             <li><a asp-controller="home" asp-action="testimonials"><i class="fa fa-star"></i> &nbsp; Testimonials </a></li>
                                             <li><a asp-controller="blogs" asp-action="index"><i class="fa fa-star"></i> &nbsp; Blogs </a></li>
                                             <li><a href="/sitemap.xml"><i class="fa fa-star"></i> &nbsp; Sitemap </a></li>
@@ -462,8 +460,6 @@
         </div>
     </div>
 
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
     </a>
@@ -471,7 +467,7 @@
 
     <div class="call-float">
         <div class="trigger">
-            <a href="tel:+91 9650133355" class="text-white"><i class="fa fa-phone" aria-hidden="true"></i></a>
+            <a href="tel:+919650133355" class="text-white"><i class="fa fa-phone" aria-hidden="true"></i></a>
         </div>
 
     </div>
@@ -497,80 +493,70 @@
 
      -->
     <!-- jQuery Core (via CDN) -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-            crossorigin="anonymous"></script>
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <!-- ✅ Core Vendor JS (local) -->
-    <script src="~/assets/js/vendor/jquery-ui.min.js"></script>
-    <script src="~/assets/js/vendor/modernizr.min.js"></script>
-    <script src="~/assets/js/vendor/bootstrap.min.js"></script>
-    <script src="~/assets/js/vendor/jquery.waypoints.js"></script>
+  @*<script src="~/assets/js/vendor/modernizr.min.js"></script>
     <script src="~/assets/js/vendor/backtotop.min.js"></script>
-    <script src="~/assets/js/vendor/magnifypopup.min.js"></script>
     <script src="~/assets/js/vendor/jquery.countdown.min.js"></script>
     <script src="~/assets/js/vendor/jQuery.rProgressbar.min.js"></script>
     <script src="~/assets/js/vendor/easypie.js"></script>
     <script src="~/assets/js/vendor/odometer.min.js"></script>
     <script src="~/assets/js/vendor/isotop.min.js"></script>
     <script src="~/assets/js/vendor/imageloaded.min.js"></script>
-    <script src="~/assets/js/vendor/lightbox.min.js"></script>
-    <script src="~/assets/js/vendor/paralax.min.js"></script>
-    <script src="~/assets/js/vendor/paralax-scroll.min.js"></script>
-    <script src="~/assets/js/vendor/swiper-bundle.min.js"></script>
-    <script src="~/assets/js/vendor/svg-inject.min.js"></script>
-    <script src="~/assets/js/vendor/vivus.min.js"></script>
-    <script src="~/assets/js/vendor/tipped.min.js"></script>
+    <script src="~/assets/js/vendor/bootstrap.min.js"></script>
     <script src="~/assets/js/vendor/smooth-scroll.min.js"></script>
-    <script src="~/assets/js/vendor/isInViewport.jquery.min.js"></script>
+    <script src="~/assets/js/vendor/isInViewport.jquery.min.js"></script> *@
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/assets/js/vendor/jquery.min.js"></script>
+    <script src="~/assets/js/vendor/jquery-ui.min.js"></script> 
+    <script src="~/assets/js/vendor/magnifypopup.min.js"></script>
+    <script src="~/assets/js/vendor/jquery.waypoints.js"></script>
+    <script src="~/assets/js/vendor/tipped.min.js"></script>
+    <script src="~/assets/js/vendor/paralax-scroll.min.js"></script>
+    <script src="~/assets/js/vendor/paralax.min.js"></script>
+    <script src="~/assets/js/vendor/lightbox.min.js"></script>
     <script src="~/assets/js/vendor/sal.min.js"></script>
-   
+    <script src="~/assets/js/vendor/swiper-bundle.min.js"></script>
 
-    <!-- ✅ Plugins -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V436130YDY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];0
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-V436130YDY');
+    </script>
+
     <script src="~/assets/js/international-telephone-input.js"></script>
-
-    <!-- ✅ App-Specific Scripts -->
     <script src="~/assets/js/app.js"></script>
     <script src="~/assets/js/config.js"></script>
     <script src="~/assets/js/landingpage.js"></script>
     <script src="~/assets/js/Events.js"></script>
 
-    <!-- Modernizer JS -->
     <script type="text/javascript">
         $('#exampleModal').on('show.bs.modal', function (event) {
-            var button = $(event.relatedTarget) // Button that triggered the modal
-            var recipient = button.data('whatever') // Extract info from data-* attributes
-            // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-            // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
-            var modal = $(this)
-            modal.find('.modal-title').text('New message to ' + recipient)
-            modal.find('.modal-body input').val(recipient)
-        })
+            var button = $(event.relatedTarget); 
+            var recipient = button.data('whatever');
+            var modal = $(this);
+            modal.find('.modal-title').text('New message to ' + recipient);
+            modal.find('.modal-body input').val(recipient);
+        });
 
-            var acc = document.getElementsByClassName("accordion");
-        var i;
+        // var acc = document.getElementsByClassName("accordion");
+        // for (var i = 0; i < acc.length; i++) {
+        //     acc[i].addEventListener("click", function () {
+        //         this.classList.toggle("active");
+        //         var panel = this.nextElementSibling;
+        //         panel.style.display = (panel.style.display === "block") ? "none" : "block";
+        //     });
+        // }
 
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                } else {
-                    panel.style.display = "block";
-                }
-            });
-        }
-
-          function myFunction() {
+        // Popup functionality
+        function myFunction() {
             var popup = document.getElementById("myPopup");
             popup.classList.toggle("show");
         }
-
     </script>
+
 
 </body>
 

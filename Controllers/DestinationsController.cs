@@ -29,7 +29,7 @@ namespace indoeuropean.Controllers
             return View();
         }
 
-        [Route("new_zealand")]
+        [Route("newzealand")]
         public IActionResult New_Zealand()
         {
             return View();

@@ -6,29 +6,29 @@ namespace indoeuropean.Controllers
     public class PartnersController : Controller
     {
      
-        [Route("associate_agents")]
+        [Route("associateagents")]
         public IActionResult Associate_Agents()
         {
             return View();
         }
 
-        [Route("partner_franchise")]
+        [Route("partnerfranchise")]
         public IActionResult Partner_Franchise()
         {
             return View();
         }
-        [Route("indian_universities")]
+        [Route("indianuniversities")]
         public IActionResult Indian_Universities()
         {
             return View();
         }
         
-        [Route("other_businesses")]
+        [Route("otherbusinesses")]
         public IActionResult Other_Businesses()
         {
             return View();
         }
-        [Route("overseas_institute")]
+        [Route("overseasinstitute")]
         public IActionResult Overseas_Institute()
         {
             return View();

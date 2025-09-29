@@ -82,7 +82,7 @@ namespace indoeuropean.Controllers
             return View();
         }
 
-        [Route("coaching_centres")]
+        [Route("coachingcentres")]
         public IActionResult Coaching_Centres()
         {
             return View();
@@ -100,7 +100,7 @@ namespace indoeuropean.Controllers
             return View();
         }
 
-        [Route("our_services")]
+        [Route("ourservices")]
         public IActionResult Our_Services()
         {
             return View();
