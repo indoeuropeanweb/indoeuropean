@@ -39,10 +39,6 @@
 
 <body class="sticky-header">
 
-    <!--=====================================-->
-    <!--=        Header Area Start          =-->
-    <!--=====================================-->
-
     <header class="edu-header header-style-1 header-fullwidth">
         <div class="header-top-bar edu-sticky">
             <div class="container">
@@ -50,26 +46,12 @@
 
                     <div class="header-top">
                         <div class="col-md-5">
-                            @* <div class="header-top-left">
-                                <div class="header-notify">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <span><marquee direction="left" width="100%">   European Higher Education Fair 2024 |  German Higher Education Fair 2024 | Study in Canada, Australia, UK, USA, Ireland,                                                   Newzealand  </marquee></span>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <a class="animate-charcter" href="#"> &nbsp; Upcoming Events</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> *@ 
                         </div>
                         <div class="col-md-7">
                             <div class="header-top-right">
                                 <ul class="header-info">
-
-                                    <li><a href="http://payment.indoeuropean.in/payment-link.aspx"> <i class="fa fa-money"></i> Pay Online</a></li>
+                                    <li><a href="https://payment.indoeuropean.in/payment-link.aspx"> <i class="fa fa-money"></i> Pay Online</a></li>
                                     <li><a href="tel:+919650133355"><i class="icon-phone"></i>+91-9650133355</a></li>
-
                                     <li class="social-icon">
                                         <a href="https://www.facebook.com/Indoeuropean.in" target="blank"><i class="fa fa-facebook"></i></a>
                                         <a href="https://www.instagram.com/indo_european" target="blank"><i class="icon-instagram"></i></a>
@@ -93,7 +75,7 @@
                       
                             <div class="col-md-2">
                                 <div class="logo">
-                                    <a asp-controller="home" asp-action="index">
+                                    <a href="/">
                                         <img class="logo-light" src="~/assets/images/logo/logo-dark.webp" alt="Corporate Logo" loading="lazy">
                                     </a>
                                 </div>
@@ -104,35 +86,34 @@
                                 <nav class="mainmenu-nav">
                                     <ul class="mainmenu">
                                         <li class="has-droupdown">
-                                            <a asp-controller="home" asp-action="index"> Study Destinations </a>
+                                            <a href="/"> Study Destinations </a>
                                             <ul class="submenu">
                                                     <li class="europe-parent">
-                                                        <a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;" class="europe-link"><img src="~/assets/images/flag/europe.jpg" alt="Explore Europe" title="Explore Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe &nbsp;&nbsp;&nbsp;<i class="fa fa-solid fa-caret-right" style="margin-left: 25px;"></i></a>
+                                                        <a href="/destinations/europe" style="font-size: 16px; font-weight: 500;" class="europe-link"><img src="~/assets/images/flag/europe.jpg" alt="Explore Europe" title="Explore Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe &nbsp;&nbsp;&nbsp;<i class="fa fa-solid fa-caret-right" style="margin-left: 25px;"></i></a>
                                                     <ul class="europe-submenus">
-                                                            <li><a asp-controller="destinations" asp-action="germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Explore Germany" title="Explore Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
-                                                            <li><a asp-controller="destinations" asp-action="denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Explore Denmark" title="Explore Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
-                                                            <li><a asp-controller="destinations" asp-action="finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Explore Finland" title="Explore Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
-                                                            <li><a asp-controller="destinations" asp-action="latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Explore Latvia" title="Explore Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
-                                                            <li><a asp-controller="destinations" asp-action="lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Explore Lithuania" title="Explore Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
-                                                            <li><a asp-controller="destinations" asp-action="france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Explore France" title="Explore France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
-                                                            <li><a asp-controller="destinations" asp-action="sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Explore Sweden" title="Explore Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
+                                                            <li><a href="/destinations/germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Explore Germany" title="Explore Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
+                                                            <li><a href="/destinations/denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Explore Denmark" title="Explore Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
+                                                            <li><a href="/destinations/finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Explore Finland" title="Explore Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
+                                                            <li><a href="/destinations/latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Explore Latvia" title="Explore Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
+                                                            <li><a href="/destinations/lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Explore Lithuania" title="Explore Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
+                                                            <li><a href="/destinations/france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Explore France" title="Explore France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
+                                                            <li><a href="/destinations/sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Explore Sweden" title="Explore Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
 														</ul>   
                                                     </li>
-                                                    <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="Explore Australia" title="Explore Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
-                                                    <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="Explore Canada" title="Explore Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
-                                                    <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="Explore New Zealand" title="Explore New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
-                                                    <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="Explore Singapore" title="Explore Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
-                                                    <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="Study Uk" title="Study Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
-                                                    <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="Explore USA" title="Explore USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
-                                                    <li><a asp-controller="destinations" asp-action="ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Explore Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
+                                                    <li><a href="/destinations/australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="Explore Australia" title="Explore Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
+                                                    <li><a href="/destinations/canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="Explore Canada" title="Explore Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
+                                                    <li><a href="/destinations/newzealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="Explore New Zealand" title="Explore New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
+                                                    <li><a href="/destinations/singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="Explore Singapore" title="Explore Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
+                                                    <li><a href="/destinations/uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="Study Uk" title="Study Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
+                                                    <li><a href="/destinations/usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="Explore USA" title="Explore USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
+                                                    <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Explore Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
                                             </ul>
                                         </li>
-                                        <li><a asp-controller="home" asp-action="our_services">Our Services</a></li>
-                                        <li><a asp-controller="home" asp-action="collaborate">Collaborate </a></li>
-                                        <li><a asp-controller="home" asp-action="coaching">Coaching </a></li>
-                                        <li><a asp-controller="home" asp-action="about">About Us</a></li>
-                                        <li><a asp-controller="home" asp-action="contact">Contact Us </a></li>
-
+                                        <li><a href="/ourservices">Our Services</a></li>
+                                        <li><a href="/collaborate">Collaborate </a></li>
+                                        <li><a href="/coaching">Coaching </a></li>
+                                        <li><a href="/about">About Us</a></li>
+                                        <li><a href="/contact">Contact Us </a></li>
                                     </ul>
                                 </nav>
                         </div>
@@ -165,7 +146,7 @@
             <div class="inner">
                 <div class="header-top">
                     <div class="logo">
-                            <a asp-controller="home" asp-action="index">
+                            <a href="/">
                             <img class="logo-light" src="~/assets/images/logo/logo-dark.webp" alt="Indoeuropean-Logo" title="IndoEuropean-Logo" loading="lazy" height="75" width="150" />
                             </a>
                     </div>
@@ -177,37 +158,37 @@
                 </div>
                     <ul class="mainmenu">
                         <li class="has-droupdown">
-                            <a asp-controller="home" asp-action="index"> Study Destinations </a>
+                            <a href="/"> Study Destinations </a>
                             <ul class="submenu">
                             <li class="europe-parent-1">
                                 <span class="europe-link-1">
-                                    <a asp-controller="destinations" asp-action="europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="study-in-europe" title="Study in Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe</a>
+                                    <a href="/destinations/europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="study-in-europe" title="Study in Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe</a>
                                     &nbsp; &nbsp; <i id="mobile-europe-icon" class="fa fa-solid fa-plus"></i>
                                 </span>
                                 <ul class="europe-submenus-1">
-                                    <li><a asp-controller="destinations" asp-action="germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Explore Germany" title="Explore Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
-                                    <li><a asp-controller="destinations" asp-action="denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Explore Denmark" title="Explore Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
-                                    <li><a asp-controller="destinations" asp-action="finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Explore Finland" title="Explore Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
-                                    <li><a asp-controller="destinations" asp-action="latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Explore Latvia" title="Explore Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
-                                    <li><a asp-controller="destinations" asp-action="lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Explore Lithuania" title="Explore Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
-                                    <li><a asp-controller="destinations" asp-action="france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Explore France" title="Explore France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
-                                    <li><a asp-controller="destinations" asp-action="sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Explore Sweden" title="Explore Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
+                                    <li><a href="/destinations/germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Explore Germany" title="Explore Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
+                                    <li><a href="/destinations/denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Explore Denmark" title="Explore Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
+                                    <li><a href="/destinations/finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Explore Finland" title="Explore Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
+                                    <li><a href="/destinations/latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Explore Latvia" title="Explore Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
+                                    <li><a href="/destinations/lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Explore Lithuania" title="Explore Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
+                                    <li><a href="/destinations/france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Explore France" title="Explore France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
+                                    <li><a href="/destinations/sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Explore Sweden" title="Explore Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
                                 </ul>
                             </li>
-                            <li><a asp-controller="destinations" asp-action="australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="study-in-australia" title="Study in Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
-                            <li><a asp-controller="destinations" asp-action="canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="study-in-Canada" title="Study in Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
-                            <li><a asp-controller="destinations" asp-action="new_zealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="study-in-newzealand" title="Study in New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
-                            <li><a asp-controller="destinations" asp-action="singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="study-in-singapore" title="Study in Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
-                            <li><a asp-controller="destinations" asp-action="uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="study-in-uk" title="Study in Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
-                            <li><a asp-controller="destinations" asp-action="usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="study-in-usa" title="Study in USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
-                            <li><a asp-controller="destinations" asp-action="ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Study-in-Ireland" title="Study-in-Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
+                            <li><a href="/destinations/australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="study-in-australia" title="Study in Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
+                            <li><a href="/destinations/canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="study-in-Canada" title="Study in Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
+                            <li><a href="/destinations/newzealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="study-in-newzealand" title="Study in New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
+                            <li><a href="/destinations/singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="study-in-singapore" title="Study in Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
+                            <li><a href="/destinations/uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="study-in-uk" title="Study in Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
+                            <li><a href="/destinations/usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="study-in-usa" title="Study in USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
+                            <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Study-in-Ireland" title="Study-in-Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
                             </ul>
                         </li>
-                        <li><a asp-controller="home" asp-action="our_services">Services</a></li>
-                        <li><a asp-controller="home" asp-action="collaborate">Collaborate </a></li>
-                        <li><a asp-controller="home" asp-action="coaching">Coaching</a></li>
-                        <li><a asp-controller="home" asp-action="about">About </a></li>
-                        <li><a asp-controller="home" asp-action="contact">Contact  </a></li>
+                    <li><a href="/ourservices">Services</a></li>
+                        <li><a href="/collaborate">Collaborate </a></li>
+                        <li><a href="/coaching">Coaching</a></li>
+                        <li><a href="/about">About </a></li>
+                        <li><a href="/contact">Contact  </a></li>
                     </ul>
             </div>
         </div>
@@ -256,13 +237,13 @@
                                     <h4 class="widget-title">Useful Links</h4>
                                     <div class="widget-information">
                                         <ul class="information-list">
-                                            <li><a asp-controller="home" asp-action="index"><i class="fa fa-star"></i> &nbsp; Home </a></li>
-                                            <li><a asp-controller="home" asp-action="our_services"><i class="fa fa-star"></i> &nbsp; Our Services</a></li>
-                                            <li><a asp-controller="home" asp-action="collaborate"><i class="fa fa-star"></i> &nbsp; Collaborate </a></li>
-                                            <li><a asp-controller="home" asp-action="coaching"><i class="fa fa-star"></i> &nbsp; Coaching </a></li>
-                                            <li><a asp-controller="home" asp-action="about"><i class="fa fa-star"></i> &nbsp; About Us</a></li>
-                                            <li><a asp-controller="home" asp-action="contact"><i class="fa fa-star"></i> &nbsp; Contact Us </a></li>
-                                            <li><a asp-controller="home" asp-action="termsandconditions"><i class="fa fa-star"></i> &nbsp; Terms & Conditions </a></li>
+                                            <li><a href="/"><i class="fa fa-star"></i> &nbsp; Home </a></li>
+                                            <li><a href="/ourservices"><i class="fa fa-star"></i> &nbsp; Our Services</a></li>
+                                            <li><a href="/collaborate"><i class="fa fa-star"></i> &nbsp; Collaborate </a></li>
+                                            <li><a href="/coaching"><i class="fa fa-star"></i> &nbsp; Coaching </a></li>
+                                            <li><a href="/about"><i class="fa fa-star"></i> &nbsp; About Us</a></li>
+                                            <li><a href="/contact"><i class="fa fa-star"></i> &nbsp; Contact Us </a></li>
+                                            <li><a href="/termsandconditions"><i class="fa fa-star"></i> &nbsp; Terms & Conditions </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -271,13 +252,13 @@
                                     <h4 class="widget-title">Study Assistance</h4>
                                     <div class="widget-information">
                                         <ul class="information-list">
-                                            <li><a asp-controller="home" asp-action="accommodation"><i class="fa fa-star"></i> &nbsp; Accommodation </a></li>
-                                            <li><a asp-controller="home" asp-action="courseselection"><i class="fa fa-star"></i> &nbsp; Course Selection </a></li>
-                                            <li><a asp-controller="home" asp-action="universityselection"><i class="fa fa-star"></i> &nbsp; University Selection </a></li>
-                                            <li><a asp-controller="home" asp-action="countryselection"><i class="fa fa-star"></i> &nbsp; Country Selection </a></li>
-                                            <li><a asp-controller="home" asp-action="scholarships"><i class="fa fa-star"></i> &nbsp; Scholarships </a></li>
-                                            <li><a asp-controller="home" asp-action="coaching_centres"><i class="fa fa-star"></i> &nbsp; Coaching Centres </a></li>
-                                            <li><a asp-controller="home" asp-action="loanadvice"><i class="fa fa-star"></i> &nbsp; Student Loan Advice</a></li>
+                                            <li><a href="/accommodation"><i class="fa fa-star"></i> &nbsp; Accommodation </a></li>
+                                            <li><a href="/courseselection"><i class="fa fa-star"></i> &nbsp; Course Selection </a></li>
+                                            <li><a href="/universityselection"><i class="fa fa-star"></i> &nbsp; University Selection </a></li>
+                                            <li><a href="/countryselection"><i class="fa fa-star"></i> &nbsp; Country Selection </a></li>
+                                            <li><a href="/scholarships"><i class="fa fa-star"></i> &nbsp; Scholarships </a></li>
+                                            <li><a href="/coachingcentres"><i class="fa fa-star"></i> &nbsp; Coaching Centres </a></li>
+                                            <li><a href="/loanadvice"><i class="fa fa-star"></i> &nbsp; Student Loan Advice</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -286,11 +267,11 @@
                                     <h4 class="widget-title">Partnership with Us </h4>
                                     <div class="widget-information">
                                         <ul class="information-list">
-                                            <li><a asp-controller="partners" asp-action="associate_agents"><i class="fa fa-star"></i> &nbsp; Associate Agents </a></li>
-                                            <li><a asp-controller="partners" asp-action="partner_franchise"><i class="fa fa-star"></i> &nbsp; Partner Franchisee</a></li>
-                                            <li><a asp-controller="partners" asp-action="indian_universities"><i class="fa fa-star"></i> &nbsp; Indian Universities </a></li>
-                                            <li><a asp-controller="partners" asp-action="other_businesses"><i class="fa fa-star"></i> &nbsp; Other Businesses</a></li>
-                                            <li><a asp-controller="partners" asp-action="overseas_institute"><i class="fa fa-star"></i> &nbsp; Overseas Institutes </a></li>
+                                            <li><a href="/partners/associateagents"><i class="fa fa-star"></i> &nbsp; Associate Agents </a></li>
+                                            <li><a href="/partners/partnerfranchise"><i class="fa fa-star"></i> &nbsp; Partner Franchisee</a></li>
+                                            <li><a href="/partners/indianuniversities"><i class="fa fa-star"></i> &nbsp; Indian Universities </a></li>
+                                            <li><a href="/partners/otherbusinesses"><i class="fa fa-star"></i> &nbsp; Other Businesses</a></li>
+                                            <li><a href="/partners/overseasinstitute"><i class="fa fa-star"></i> &nbsp; Overseas Institutes </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -301,12 +282,12 @@
                                         <ul class="information-list">
                                             <li><a href="https://crm.indoeuropean.in/" target="_blank"><i class="fa fa-star"></i> &nbsp; CRM </a></li>
                                             @* <li><a href="http://search.indoeuropean.in/Home/Menu" target="_blank"><i class="fa fa-star"></i> &nbsp; Course Finder</a></li> *@
-                                            <li><a asp-controller="home" asp-action="coaching"><i class="fa fa-star" target="_blank"></i> &nbsp; IELTS Classes  </a></li>
-                                            <li><a href="http://payment.indoeuropean.in/payment-link.aspx" target="_blank"><i class="fa fa-star"></i> &nbsp; Pay Online </a></li>
+                                            @* <li><a href="/coaching"><i class="fa fa-star" target="_blank"></i> &nbsp; IELTS Classes  </a></li> *@
+                                            <li><a href="https://payment.indoeuropean.in/payment-link.aspx" target="_blank"><i class="fa fa-star"></i> &nbsp; Pay Online </a></li>
                                             <li><a href="https://zoom.us/j/91022278457#success" target="_blank"><i class="fa fa-star"></i> &nbsp; Free Counselling</a></li>
                                             <li><a href="tel:+919650133355"><i class="fa fa-star"></i> &nbsp; Call Our Experts </a></li>
-                                            <li><a asp-controller="home" asp-action="testimonials"><i class="fa fa-star"></i> &nbsp; Testimonials </a></li>
-                                            <li><a asp-controller="blogs" asp-action="index"><i class="fa fa-star"></i> &nbsp; Blogs </a></li>
+                                            <li><a href="/testimonials"><i class="fa fa-star"></i> &nbsp; Testimonials </a></li>
+                                            <li><a href="/blogs"><i class="fa fa-star"></i> &nbsp; Blogs </a></li>
                                             <li><a href="/sitemap.xml"><i class="fa fa-star"></i> &nbsp; Sitemap </a></li>
                                         </ul>
                                     </div>
@@ -322,7 +303,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="inner text-center ">
-                            <p class="text-white">Copyright 2025 <a asp-controller="home" asp-action="index" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
+                            <p class="text-white">Copyright 2025 <a href="/" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
@@ -464,46 +445,11 @@
         <i class="fa fa-whatsapp my-float"></i>
     </a>
 
-
     <div class="call-float">
         <div class="trigger">
             <a href="tel:+919650133355" class="text-white"><i class="fa fa-phone" aria-hidden="true"></i></a>
         </div>
-
     </div>
-
-
-   <!-- <nav class="float-btn">
-       
-        <input type="checkbox" href="#" class="float-open" name="float-open" id="float-open" />
-       
-        <label class="float-open-button" for="float-open" style="padding-left: 0px;
-    padding-top: 9px;
-    font-size: 20px;
-    color: #fff;">
-            <i class="fa fa-paper-plane"></i>
-        </label>
-
-        <a href="tel:+91-9650133355" class="float-item"> <i class="fa fa-phone"></i> </a>
-        <a href="" class="float-item" target="blank"> <i class="fa fa-whatsapp"></i> </a>
-        <a href="#" class="float-item" data-toggle="modal" data-target="#exampleModalShort"> <i class="fa fa-envelope"></i> </a>
-        <a href="#" class="float-item" data-toggle="modal" data-target="#regular_modal"> <i class="fa fa-retweet"></i> </a>
-        <a href="/home/contact" class="float-item" target="blank"> <i class="fa fa-map-marker"></i> </a>
-    </nav>
-
-     -->
-    <!-- jQuery Core (via CDN) -->
-  @*<script src="~/assets/js/vendor/modernizr.min.js"></script>
-    <script src="~/assets/js/vendor/backtotop.min.js"></script>
-    <script src="~/assets/js/vendor/jquery.countdown.min.js"></script>
-    <script src="~/assets/js/vendor/jQuery.rProgressbar.min.js"></script>
-    <script src="~/assets/js/vendor/easypie.js"></script>
-    <script src="~/assets/js/vendor/odometer.min.js"></script>
-    <script src="~/assets/js/vendor/isotop.min.js"></script>
-    <script src="~/assets/js/vendor/imageloaded.min.js"></script>
-    <script src="~/assets/js/vendor/bootstrap.min.js"></script>
-    <script src="~/assets/js/vendor/smooth-scroll.min.js"></script>
-    <script src="~/assets/js/vendor/isInViewport.jquery.min.js"></script> *@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -519,52 +465,13 @@
     <script src="~/assets/js/vendor/swiper-bundle.min.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V436130YDY"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];0
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-V436130YDY');
-    </script>
 
     <script src="~/assets/js/international-telephone-input.js"></script>
     <script src="~/assets/js/app.js"></script>
     <script src="~/assets/js/config.js"></script>
     <script src="~/assets/js/landingpage.js"></script>
     <script src="~/assets/js/Events.js"></script>
-
-    <script type="text/javascript">
-        $('#exampleModal').on('show.bs.modal', function (event) {
-            var button = $(event.relatedTarget); 
-            var recipient = button.data('whatever');
-            var modal = $(this);
-            modal.find('.modal-title').text('New message to ' + recipient);
-            modal.find('.modal-body input').val(recipient);
-        });
-
-        // var acc = document.getElementsByClassName("accordion");
-        // for (var i = 0; i < acc.length; i++) {
-        //     acc[i].addEventListener("click", function () {
-        //         this.classList.toggle("active");
-        //         var panel = this.nextElementSibling;
-        //         panel.style.display = (panel.style.display === "block") ? "none" : "block";
-        //     });
-        // }
-
-        // Popup functionality
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-    </script>
-
-
 </body>
-
-
-
-<!-- ❌ Old/unused jQuery (commented out for reference) -->
-
-
 </html>
 
 

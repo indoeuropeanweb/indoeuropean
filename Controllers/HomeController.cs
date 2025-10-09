@@ -33,11 +33,11 @@ namespace indoeuropean.Controllers
             return View();
         }
 
-        [Route("privacy")]
-        public IActionResult Privacy()
-        {
-            return View();
-        }
+        //[Route("privacy")]
+        //public IActionResult Privacy()
+        //{
+        //    return View();
+        //}
 
         //[Route("index_new")]
         //public IActionResult Index_New()

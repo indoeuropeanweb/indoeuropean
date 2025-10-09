@@ -4,152 +4,17 @@
     ViewData["Keywords"] = "study abroad country selection, country selection for study abroad, best countries to study abroad, study abroad consultants India, university and course guidance, international education advisors, career-oriented study programs";
 }
 
-
-<style>
-    .country-card {
-        max-width: 320px;
-        overflow: hidden;
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-    }
-
-        .country-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-        }
-
-    .bg {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/europe.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .bg-1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/australia.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .bg-2 { 
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/canada.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .bg-3 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/new-zealand.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .bg-4 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/singapore.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .bg-5 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/uk.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .bg-6 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/usa.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .bg-7 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('assets/images/country-selection/ireland.webp');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        padding: 0px;
-        border-radius: 16px;
-    }
-
-    .country-selection {
-        display: block;
-        background: rgba(255, 255, 255, 0.15);
-        backdrop-filter: blur(1.2px);
-        border-radius: 12px;
-        padding: 15px 20px;
-        color: #fff;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-        .country-selection:hover {
-            background: rgba(255, 255, 255, 0.25);
-        }
-
-    .flag-img {
-        width: 55px;
-        height: 55px;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 2px solid white;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-    }
-
-    .country-selection:hover .flag-img {
-        transform: scale(1.1);
-    }
-
-    .text-heading {
-        padding: 20px;
-        margin: 0;
-        font-size: 2.3rem;
-        font-weight: 700;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    .accordion
-    {
-        background: none;
-    }
-
-</style>
-
 <section class="breadcrumb-country-selection-back">
     <div class="our-services-breadcrumb">
         <div class="container">
             <ul class="edu-breadcrumb-services">
-                <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Home</a></li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
                 <li class="separator"><i class="icon-angle-right"></i></li>
                 <li class="breadcrumb-item" aria-current="page">Country Selection</li>
             </ul>
             <div class="breadcrumb-inner">
                 <div class="services-title">
                     <h1 class="title">Study Abroad Country Selection</h1>
-                    @* <h2>
-                        Indian scholarships and university scholarships included
-                    </h2> *@
                     <p>Choosing a right study abroad country is a crucial decision as it significantly impacts your academic and professional growth. Several factors should be considered when making this decision, including academic goals, budget, post-study opportunities, and various other aspects.</p>
                 </div>
             </div>
@@ -166,10 +31,9 @@
             </div>
         </div>
         <div class="row justify-content-center text-center g-4">
-            <!-- Card 1 -->
             <div class="country-card">
                 <div class="bg">
-                    <a asp-controller="destinations" asp-action="europe" class="country-selection">
+                    <a href="/destinations/europe" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/europe.png" class="flag-img" alt="Europe Flag">
@@ -181,11 +45,9 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Card 2 -->
             <div class="country-card">
                 <div class="bg-1">
-                    <a asp-controller="destinations" asp-action="australia" class="country-selection">
+                    <a href="/destinations/australia" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/australia.png" class="flag-img" alt="australia Flag">
@@ -197,11 +59,9 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Card 3 -->
             <div class="country-card">
                 <div class="bg-2">
-                    <a asp-controller="destinations" asp-action="canada" class="country-selection">
+                    <a href="/destinations/canada" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/canada.png" class="flag-img" alt="Canada Flag">
@@ -213,11 +73,9 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Card 4 -->
             <div class="country-card">
                 <div class="bg-3">
-                    <a asp-controller="destinations" asp-action="new_zealand" class="country-selection">
+                    <a href="/destinations/newzealand" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/zealand.png" class="flag-img" alt="New Zealand Flag">
@@ -231,10 +89,9 @@
             </div>
         </div>
         <div class="row justify-content-center text-center g-4">
-            <!-- Card 1 -->
             <div class="country-card">
                 <div class="bg-4">
-                    <a asp-controller="destinations" asp-action="singapore" class="country-selection">
+                    <a href="/destinations/singapore" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/singapore.png" class="flag-img" alt="Singapore Flag">
@@ -246,11 +103,9 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Card 2 -->
             <div class="country-card">
                 <div class="bg-5">
-                    <a asp-controller="destinations" asp-action="uk" class="country-selection">
+                    <a href="/destinations/uk" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/uk.png" class="flag-img" alt="UK Flag">
@@ -262,11 +117,9 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Card 3 -->
             <div class="country-card">
                 <div class="bg-6">
-                    <a asp-controller="destinations" asp-action="usa" class="country-selection">
+                    <a href="/destinations/usa" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/usa.png" class="flag-img" alt="usa Flag">
@@ -278,11 +131,9 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Card 4 -->
             <div class="country-card">
                 <div class="bg-7">
-                    <a asp-controller="destinations" asp-action="ireland" class="country-selection">
+                    <a href="/destinations/ireland" class="country-selection">
                         <div class="d-flex align-items-center">
                             <div class="me-3">
                                 <img src="~/assets/images/university-selection/ireland.png" class="flag-img" alt="ireland Flag">
@@ -348,7 +199,7 @@
         </div>
     </div>
 
-    <<div class="accordion" id="accordionPanelsStayOpenExample">
+    <<div class="accordion" id="accordionPanelsStayOpenExample" style="backgroud:none">
         <div class="accordion-item">
             <h2 class="accordion-header">
                 <button class="accordion-button fs-3" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -478,8 +329,6 @@
         </div>
     </div>
 </section>
-
-
 <section class="container mt-5 pt-5">
     <div class="row mt-3">
         <div class="col-lg-12 section-title">

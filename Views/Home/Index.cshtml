@@ -1,7 +1,7 @@
 ﻿@{
 ViewData["Title"] = "Apply to Study Abroad with Indo European Today";
 ViewData["Description"] = "Expert study abroad help from Indo European: 126+ universities, scholarships, visa support, IELTS/PTE coaching. Apply now!";
-ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India, study abroad consultancy apply now, best student visa consultants India, apply to universities abroad, IELTS coaching apply, PTE exam training India";
+ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India, study abroad consultancy apply now, best student visa consultants India, apply to universities abroad, IELTS coaching apply, PTE exam training India, study in latvia, study in lithuania, study in sweden, study in denmark";
 } 
 
 <div class="hero-banner hero-style-10">  
@@ -15,9 +15,9 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                 </div>
             </div>
             <div class="col-lg-5">
-                <div class="contact-form" style="margin-bottom: 20px;">
+                <div class="contact-form">
                         <form class="rnt-contact-form rwt-dynamic-form">
-                        <h3 class="title" style="padding: 10px 0px; color:#000;">Get in touch</h3>
+                        <h3 class="title">Get in touch</h3>
                             <div class="row row--10">
                                 <div class="form-group col-lg-6">
                                 <input type="text" name="contact-name" id="txtFName" placeholder="Your Name">
@@ -30,42 +30,30 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                                         <div class="selected-option">
                                             <div>
                                                 <svg xmlns="https://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc35340367290"><g id="IconifyId19135992cc35340mbasd453291"><g id="IconifyId19135992cc35340mnbah54292"><g id="IconifyId19135992cc3534083294" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340293" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340oiauec292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc3534mnsbfiu350291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc3534082290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340362290" transform="rotate(-120)"></use></g></svg>
-
                                             </div>
                                         <input type="tel" name="txtPhone" id="txtPhone" placeholder="+91">
                                         </div>
                                         <div class="options">
                                         <select id="ddlCountryCodeid" name="ddlCountryCode" class="ddlCountryCodeid form-control form-list">
                                         </select>
-                                            
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group col-12">
                                 <select name="HighestQualifcation" id="ddlHighestQualifcation">
-                                      
-
                                     </select>
                                 </div>
-
                                 <div class="form-group col-12">
                                 <select id="ddlCourseCodeId" name="ddlCourseCodeId" required>
-                                     
-
-                                    </select>
+                                </select>
                                 </div>
-
-
                                 <div class="form-group col-12">
                                 <input type="text" name="txtCity" id="txtCity" placeholder="City" required="">
                                 </div>
-
                                 <div class="form-group col-12">
                                 <select class="ddlDestinationCodeid" name="Programm" required="" id="ddlDestinationCodeid">
-                                      
-                                    </select>
+                                </select>
                                 </div>
-
                                 <div class="form-group col-12">
                                 <select name="PreferredCallBackTime" required="" id="ddlPreferredCallBackTime">
                                     </select>
@@ -73,28 +61,21 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
 
                                 <div class="form-group col-12 text-center">
                                  <input type="button" value="Submit" class="rn-btn edu-btn submit-btn" onclick="formValidation();" />
-                                @* <button class="rn-btn edu-btn submit-btn" name="submit" type="submit" onclick="formValidation();">Submit Now <i class="icon-4"></i></button> *@
                                </div>
                             </div>
                         </form>
                 </div>
             </div>
 
-
             <div class="col-lg-7">
                 <div class="banner-thumbnail mobile">
                     <div class="thumbnail">
                         <img src="/assets/images/banner/girl.webp" alt="Girl Image" loading="lazy">
                     </div>
-
                 </div>
-
-
-            </div>
-           
+            </div> 
         </div>
     </div>
-   
 </div>
 
 <!-- Start Categories Area  -->
@@ -136,11 +117,7 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
         </div>
     </div>
 </div>
-<!-- End Categories Area  -->
-<!--=====================================-->
-<!--=       Categories Area Start      =-->
-<!--=====================================-->
-<!-- Start Categories Area  -->
+
 <div class="edu-categorie-area categorie-area-2 edu-section-gap">
     <div class="container">
         <div class="section-title section-center">
@@ -154,38 +131,38 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
         <div class="row">
             <ul class="flag-row">
                 <li>
-                    <a asp-controller="destinations" asp-action="europe">
+                    <a href="/destinations/europe">
                         <img src="/assets/images/flag/europe.webp" alt="Europe Flag" loading="lazy" />
                         <h5 class="title-flag"> Europe</h5>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="destinations" asp-action="uk">
+                    <a href="/destinations/uk">
                         <img src="/assets/images/flag/uk.webp" alt="UK Flag" loading="lazy" />
                         <h5 class="title-flag"> UK</h5>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="destinations" asp-action="canada">
+                    <a href="/destinations/canada">
                         <img src="/assets/images/flag/canada.webp" alt="Canada Flag" loading="lazy" />
                         <h5 class="title-flag"> Canada</h5>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="destinations" asp-action="usa">
+                    <a href="/destinations/usa">
                         <img src="/assets/images/flag/usa.webp" alt="USA Flag" loading="lazy" />
                         <h5 class="title-flag">USA</h5>
                     </a>
                 </li>
 
                 <li>
-                    <a asp-controller="destinations" asp-action="new_zealand">
+                    <a href="/destinations/newzealand">
                         <img src="/assets/images/flag/newzealand.webp" alt="New Zealand Flag" loading="lazy" />
                         <h5 class="title-flag">New Zealand</h5>
                     </a>
                 </li>
                 <li>
-                    <a asp-controller="destinations" asp-action="australia">
+                    <a href="/destinations/australia">
                         <img src="/assets/images/flag/australia.webp" alt="Australia Flag" loading="lazy" />
                         <h5 class="title-flag">Australia</h5>
                     </a>
@@ -193,19 +170,10 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                 </ul>
         </div>
     </div>
-
-
-
-
 </div>
-<!-- End Categories Area  -->
-<!--=====================================-->
-<!--=       About Us Area Start      	=-->
-<!--=====================================-->
 
 
-
-<section class="why-choose-area-2 edu-section-gap" style="padding-bottom:60px;">
+<section class="why-choose-area-2 edu-section-gap">
     <div class="container edublink-animated-shape">
         <div class="section-title section-center sal-animate gap">
             <span class="pre-title">Why choose Indo European</span>
@@ -214,63 +182,51 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
         </div>
         <div class="row g-5">
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/career.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Career Counseling" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/career.webp" alt="Career Counseling" loading="lazy" />
                 <div class="why-choose-box features-box color-primary-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/1.png" alt="icon-img" loading="lazy" />
-                    </div> *@
                     <div class="content">
                         <h4 class="title">Career Counseling</h4>
                         <p>In order to provide exceptional services to students, we provide full-fledged information about.</p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/coaching"> <p><i class="fa fa-arrow-right"></i> Career Help</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/selection.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Country Selection" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/selection.webp" alt="Country Selection" loading="lazy" />
                 <div class="why-choose-box features-box color-secondary-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/2.png" alt="icon-img" loading="lazy" />
-                    </div> *@
                     <div class="content">
                         <h4 class="title">Country Selection</h4>
                         <p>Today, students are aspiring for grasping global opportunities and therefore they want to establish. </p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/countryselection"> <p><i class="fa fa-arrow-right"></i> Pick a Country</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/university.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="University Selection" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/university.webp" alt="University Selection" loading="lazy" />
                 <div class="why-choose-box features-box color-extra08-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/3.png" alt="icon-img" loading="lazy" />
-                    </div> *@
                     <div class="content">
                         <h4 class="title">University Selection</h4>
                         <p>After selecting the country, the next and major step is to select the University for pursuing higher. </p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/universityselection"> <p><i class="fa fa-arrow-right"></i> Choose University</p></a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/course.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Course Selection" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/course.webp" alt="Course Selection" loading="lazy" />
                 <div class="why-choose-box features-box color-extra08-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/4.png" alt="icon-img" loading="lazy" />
-                    </div> *@
                     <div class="content">
                         <h4 class="title">Course Selection</h4>
                         <p>This is one of the crucial stepsin the entire process of study abroad as it will determine the field of education.</p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/courseselection"> <p><i class="fa fa-arrow-right"></i> Pick a Course</p></a>
                     </div>
                 </div>
             </div>
@@ -279,69 +235,54 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
         <br>
         <div class="row g-5">
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/visa.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Student Visa" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/visa.webp" alt="Student Visa" loading="lazy" />
                 <div class="why-choose-box features-box color-primary-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/5.png" alt="icon-img" loading="lazy" />
-                    </div> *@
                     <div class="content">
                         <h4 class="title">Student Visa</h4>
                         <p>Student Visa Processing and Visa file preparation keeps high importance in the entire process.</p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/about"> <p><i class="fa fa-arrow-right"></i> Visa Info</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/accommodation.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Accommodation" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/accommodation.webp" alt="Accommodation" loading="lazy" />
                 <div class="why-choose-box features-box color-secondary-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/6.png" alt="icn-img" loading="lazy">
-                    </div> *@
                     <div class="content">
                         <h4 class="title">Accommodation</h4>
                         <p>Most of the students are totally unaware about the living expenses and accommodation part.  </p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/accommodation"> <p><i class="fa fa-arrow-right"></i> Stay Options</p></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/loan.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Education Loans" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/loan.webp" alt="Education Loans" loading="lazy" />
                 <div class="why-choose-box features-box color-extra08-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/7.png" alt="icon-img" loading="lazy">
-                    </div> *@
                     <div class="content">
                         <h4 class="title">Education Loans</h4>
                         <p>Along with other services, we also have financial agents that provide complete guidance on education.</p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/loanadvice"> <p><i class="fa fa-arrow-right"></i> Loan Help</p></a>
                     </div>
                 </div>
             </div>
 
             <div class="col-lg-3 sal-animate">
-                <img class="image-fluid we-offer" src="~/assets/images/we-offer/admission.webp" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;" alt="Admission Formalities" loading="lazy" />
+                <img class="image-fluid we-offer" src="~/assets/images/we-offer/admission.webp" alt="Admission Formalities" loading="lazy" />
                 <div class="why-choose-box features-box color-extra08-style">
-                    @* <div class="icon">
-                        <img src="/assets/images/icons/8.png" alt="icon-img" loading="lazy">
-                    </div> *@
                     <div class="content">
                         <h4 class="title">Admission Formalities</h4>
                         <p>Being your career consultant, we are responsible to undergo all the admission and visa formalities.</p>
                     </div>
                     <div class="read-more">
-                        <a asp-controller="home" asp-action="our_services"> <p><i class="fa fa-arrow-right"></i> Read More</p></a>
+                        <a href="/contact"><p><i class="fa fa-arrow-right"></i> Admission Info</p></a>
                     </div>
                 </div>
             </div>
-
-
-
         </div>
         <ul class="shape-group">
             <li class="shape-5 sal-animate">
@@ -350,26 +291,158 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
         </ul>
     </div>
     <ul class="shape-group">
-        <li class="shape-1 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-            <span data-depth="1" style="transform: translate3d(-6.7px, -12px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"></span>
+        <li class="shape-1 scene sal-animate sal-shape">
+            <span data-depth="1"></span>
         </li>
-        <li class="shape-2 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-            <img data-depth="-2" src="/assets/images/about/shape-13.png" alt="shape" style="transform: translate3d(5.2px, 9.4px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
+        <li class="shape-2 scene sal-animate sal-shape">
+            <img data-depth="-2" src="/assets/images/about/shape-13.png" alt="shape" loading="lazy" />
         </li>
-        <li class="shape-3 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-            <span data-depth="-1" style="transform: translate3d(6.7px, 12px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;"></span>
+        <li class="shape-3 scene sal-animate sal-shape">
+            <span data-depth="-1"></span>
         </li>
-        <li class="shape-4 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
-            <img data-depth="2" src="/assets/images/about/shape-40.png" alt="shape" style="transform: translate3d(-3.5px, -7px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
+        <li class="shape-4 scene sal-animate sal-shape">
+            <img data-depth="2" src="/assets/images/about/shape-40.png" alt="shape" loading="lazy" />
         </li>
     </ul>
 </section>
+<section class="mt-5">
+    <div class="container">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Student Success <span class="color-secondary">Stories </span></h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+            <br>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card">
+                    <div class="card-img-top">
+                        <iframe style="width: 100%" src="https://www.youtube.com/embed/4J69ZoSUvik?si=ocC0a3bi6D1EJc2y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Samyrah</h5>
+                        <p class="card-text">Germany</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-img-top">
+                        <iframe style="width:100%" src="https://www.youtube.com/embed/mKnexHEnc9o?si=o8cXa1QAgfMdllA_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pari Sanan</h5>
+                        <p class="card-text">Germany</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-img-top">
+                        <iframe style="width: 100%" src="https://www.youtube.com/embed/ICqL7vnEH5o?si=gUHrfD00zN91q34I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Parshant</h5>
+                        <p class="card-text">Germany</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-img-top">
+                        <iframe style="width: 100%" src="https://www.youtube.com/embed/NpH9aM7WEB8?si=oLrA7vMtrMRAc-6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Sachin</h5>
+                        <p class="card-text">France</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="why-choose-area-3 edu-section-gap">
+    <div class="container">
+        <div class="row row--45">
+            <div class="section-title-flex section-title">
+                <div class="col-lg-12">
+                    <div class="testimonial-heading">
+                        <h2 class="title">Student <span class="color-secondary"> Testimonials </span> </h2>
+                        <h3>(Student Reviews)</h3>
+                    </div>
+                    <span class="shape-line"><i class="icon-19"></i></span>
+                    <br>
+                </div>
+            </div>
+            <div class="container py-1">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header d-flex align-items-center">
+                                <div class="me-3">
+                                    <img class="rounded-circle" width="80" height="80" src="~/assets/images/testimonial/testimonial-04.png" alt="Samyrah" style="object-fit: cover; border: 3px solid #f0f0f0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name mb-1">Samyrah</h4>
+                                    <div class="testimonial-location">
+                                        <i class="fas fa-map-marker-alt me-1"></i> Delhi — Germany
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text mt-0">
+                                I am incredibly grateful to Indo European for their unwavering support throughout my journey. Your guidance and assistance.
+                            </p>
+                        </div>
+                    </div>
 
-<!--modal-->
-<!--end-->
-<!--=====================================-->
-<!--=       Course Area Start      		=-->
-<!--=====================================-->
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header d-flex align-items-center">
+                                <div class="me-3">
+                                    <img class="rounded-circle" width="80" height="80" src="~/assets/images/testimonial/testimonial-05.png" alt="pari sanan" style="object-fit: cover; border: 3px solid #f0f0f0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy" />
+                                </div>
+
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name mb-1">Pari Sanan</h4>
+                                    <div class="testimonial-location">
+                                        <i class="fas fa-map-marker-alt me-1"></i> Delhi — Germany
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text mt-0">
+                                Thank you, Indo European, for your unwavering support and guidance. I overcame the 8-year study gap and achieved my dream of securing a Germany Study Visa.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="testimonial-card">
+                            <div class="testimonial-header d-flex align-items-center">
+                                <div class="me-3">
+                                    <img class="rounded-circle" width="80" height="80" src="~/assets/images/testimonial/testimonial-06.png" alt="parshant" style="object-fit: cover; border: 3px solid #f0f0f0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" loading="lazy" />
+                                </div>
+                                <div class="testimonial-info">
+                                    <h4 class="testimonial-name mb-1">Parshant</h4>
+                                    <div class="testimonial-location">
+                                        <i class="fas fa-map-marker-alt me-1"></i> Delhi — Germany
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="testimonial-text mt-0">
+                                Indo European has made my journey to success possible. With their guidance, my study visa for Germany and Bachelor of Business Administration!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="more_testimonials">
+                        <a href="/testimonials">More Testimonials <i class="icon-4"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div class="modern-schooling-cta-wrapper edu-cta-banner-area-6 bg-image">
     <div class="container">
@@ -380,25 +453,24 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                         <img src="/assets/images/services/form.webp" alt="girl image" loading="lazy" />
                     </div>
                     <ul class="shape-group">
-                        <li class="shape-01 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                        <li class="shape-01 scene sal-animate sal-shape">
                             <img data-depth="2.5" src="/assets/images/cta/shape-43.png" alt="shape-icon" style="transform: translate3d(4.8px, -8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
                         </li>
-                        <li class="shape-02 sal-animate">
+                        <li class="shape-02 sal-animate sal-shape">
                             <img src="/assets/images/cta/shape-42.png" alt="shape-image-icon" loading="lazy" />
                         </li>
-                        <li class="shape-03 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                        <li class="shape-03 scene sal-animate sal-shape">
                             <img data-depth="-2" src="/assets/images/cta/shape-40.png" alt="shape-icon" style="transform: translate3d(-5.7px, 9.4px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
                         </li>
-                        <li class="shape-04 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                        <li class="shape-04 scene sal-animate">
                             <img data-depth="2" src="/assets/images/cta/shape-38.png" alt="shape-icon" style="transform: translate3d(4.4px, -8.2px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy" />
                         </li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
-
-                    <div class="contact-form" style="margin-top:50px; margin-bottom: 20px;">
+                    <div class="contact-form">
                         <form class="rnt-contact-form rwt-dynamic-form">
-                            <h3 class="title" style="padding: 10px 0px; color:#000;">Connect with us</h3>
+                            <h3 class="title">Connect with us</h3>
                             <div class="row row--10">
                                 <div class="form-group col-lg-6">
                                     <input type="text" name="contact-name" id="txtFName_1" placeholder="Your Name">
@@ -411,7 +483,6 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                                         <div class="selected-option">
                                             <div>
                                                 <svg xmlns="https://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.34em" height="1em" viewBox="0 0 640 480" data-icon="flag:in-4x3" class="iconify iconify--flag"><path fill="#f93" d="M0 0h640v160H0z"></path><path fill="#fff" d="M0 160h640v160H0z"></path><path fill="#128807" d="M0 320h640v160H0z"></path><g transform="matrix(3.2 0 0 3.2 320 240)"><circle r="20" fill="#008"></circle><circle r="17.5" fill="#fff"></circle><circle r="3.5" fill="#008"></circle><g id="IconifyId19135992cc7935340290"><g id="IconifyId19135992cc353402bvcbret5491"><g id="IconifyId19135992cc353402bkchdmnab92"><g id="IconifyId19135992cc35340294" fill="#008"><circle r=".9" transform="rotate(7.5 -8.8 133.5)"></circle><path d="M0 17.5L.6 7L0 2l-.6 5z"></path></g><use width="100%" height="100%" href="#IconifyId19135992cc35340295" transform="rotate(15)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340bawabkchd3292" transform="rotate(30)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc35340cxvret54291" transform="rotate(60)"></use></g><use width="100%" height="100%" href="#IconifyId19135992cc359240340290" transform="rotate(120)"></use><use width="100%" height="100%" href="#IconifyId19135992cc35340483290" transform="rotate(-120)"></use></g></svg>
-
                                             </div>
                                             <input type="tel" name="txtPhone" id="txtPhone_1" placeholder="+91">
                                         </div>
@@ -449,133 +520,14 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
 
                                 <div class="form-group col-12 text-center">
                                     <input type="button" value="Submit" class="rn-btn edu-btn submit-btn" onclick="btnclick();" />
-@*                                     <button class="rn-btn edu-btn submit-btn" name="submit" type="submit" onclick="btnclick();">Submit Now <i class="icon-4"></i></button>
- *@                                </div>
+                               </div>
                             </div>
                         </form>
-
-@*                         <form class="rnt-contact-form rwt-dynamic-form" id="contact-form" method="POST" action="#">
-                            <div class="row row--10">
-                                <div class="form-group col-lg-6">
-                                    <input type="text" name="contact-name" id="contact-name" placeholder="Your Name">
-                                </div>
-                                <div class="form-group col-lg-6">
-                                    <input type="email" name="contact-email" id="contact-email" placeholder="Your Email">
-                                </div>
-                                <div class="form-group col-12">
-                                    <div class="select-box">
-                                        <div class="selected-option">
-                                            <div>
-                                                <span class="iconify" data-icon="flag:in-4x3"></span>
-
-                                            </div>
-                                            <input type="tel" name="tel" placeholder="+91">
-                                        </div>
-                                        <div class="options">
-                                            <input type="text" class="search-box" placeholder="Search Country Name">
-                                            <ol>
-                                            </ol>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group col-12">
-                                    <select name="Qualification" id="Qualification">
-                                        <option value="Pursuing 12th">Highest Qualification</option>
-                                        <option value="Intermediate">Intermediate</option>
-                                        <option value="Bachelors">Bachelors</option>
-                                        <option value="Masters">Masters</option>
-                                        <option value="PHD">PHD</option>
-                                        <option value="Diploma">Diploma </option>
-
-                                    </select>
-                                </div>
-
-                                <div class="form-group col-12">
-                                    <select name="Programm" id="contact-name" required="">
-                                        <option value="Program Interested">Program Interested</option>
-                                        <option value="Bachelors">Bachelors</option>
-                                        <option value="Masters">Masters</option>
-                                        <option value="Diploma">Diploma </option>
-                                        <option value="PHD">PHD</option>
-
-                                        <option value="PG Diploma">PG Diploma</option>
-
-                                    </select>
-                                </div>
-
-
-                                <div class="form-group col-12">
-                                    <input type="text" name="contact-name" id="" placeholder="City">
-                                </div>
-
-                                <div class="form-group col-12">
-                                    <select name="Programm" required="">
-                                        <option value="Choose Country">Choose Country</option>
-                                        <option value="Canada">Canada</option>
-                                        <option value="United Kingdom">United Kingdom </option>
-                                        <option value="New Zealand">New Zealand</option>
-                                        <option value="Australia">Australia</option>
-                                        <option value="Ireland">Ireland</option>
-                                        <option value="United States">United States </option>
-                                        <option value="Europe">Europe</option>
-                                        <option value="austria">Austria</option>
-                                        <option value="armenia">Armenia</option>
-                                        <option value="bulgaria">Bulgaria</option>
-                                        <option value="cyprus">Cyprus</option>
-                                        <option value="czech-republic">Czech Republic</option>
-                                        <option value="denmark">Denmark</option>
-                                        <option value="estonia">Estonia</option>
-                                        <option value="france">France</option>
-                                        <option value="germany">Germany</option>
-                                        <option value="greece">Greece</option>
-                                        <option value="georgia">Georgia</option>
-                                        <option value="hungary">Hungary</option>
-                                        <option value="switzerland">Switzerland</option>
-                                        <option value="italy">Italy</option>
-                                        <option value="ireland">Ireland</option>
-                                        <option value="latvia">Latvia</option>
-                                        <option value="lithuania">Lithuania</option>
-                                        <option value="macedonia">Macedonia</option>
-                                        <option value="malta">Malta</option>
-                                        <option value="moldova">Moldova</option>
-                                        <option value="ukraine">Ukraine</option>
-                                        <option value="northern-cyprus">Northern Cyprus</option>
-                                        <option value="norway">Norway</option>
-                                        <option value="poland">Poland</option>
-                                        <option value="romania">Romania</option>
-                                        <option value="sweden">Sweden</option>
-                                        <option value="spain">Spain</option>
-                                    </select>
-                                </div>
-
-                                <div class="form-group col-12">
-                                    <select name="Programm" required="">
-                                        <option value="Best Time to Call">Best Time to Call</option>
-                                        <option value="09am - 10am">09am - 10am</option>
-                                        <option value="10am - 11am">10am - 11am</option>
-                                        <option value="11am - 12pm">11am - 12pm</option>
-                                        <option value="12pm - 01pm">12pm - 01pm </option>
-                                        <option value="01pm - 02pm">01pm - 02pm</option>
-                                        <option value="02pm - 03pm">02pm - 03pm</option>
-                                        <option value="03pm - 04pm">03pm - 04pm</option>
-                                        <option value="04pm - 05pm">04pm - 05pm </option>
-                                        <option value="05pm - 06pm">05pm - 06pm</option>
-                                        <option value="06pm - 07pm">06pm - 07pm</option>
-
-                                    </select>
-                                </div>
-
-
-                                <div class="form-group col-12 text-center">
-                                    <button class="rn-btn edu-btn submit-btn" name="submit" type="submit">Submit Now <i class="icon-4"></i></button>
-                                </div>
-                            </div>
-                        </form>
- *@                    </div>
+                </div>
                 </div>
             </div>
             <ul class="shape-group">
-                <li class="shape-05 scene sal-animate" style="transform: translate3d(0px, 0px, 0px) rotate(0.0001deg); transform-style: preserve-3d; backface-visibility: hidden; pointer-events: none;">
+                <li class="shape-05 scene sal-animate sal-shape">
                     <img data-depth="1.5" src="/assets/images/cta/shape-39.png" alt="shape" style="transform: translate3d(4.7px, -7.8px, 0px); transform-style: preserve-3d; backface-visibility: hidden; position: relative; display: block; left: 0px; top: 0px;" loading="lazy">
                 </li>
 
@@ -584,7 +536,7 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
     </div>
 </div>
 
-<div class="about-style-1" style="background: linear-gradient(95deg, #ffffff 0%, #f7f7f7 100%); padding-top:80px;">
+<div class="about-style-1">
     <div class="container">
         <div class="row g-5 align-items-center">
 
@@ -592,7 +544,7 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                 <div class="about-content">
                     <div class="section-title section-center align-items-center">
                         <span class="pre-title">About Indo European Study Abroad Consultant</span>
-                        <h2 class="title" style="font-size: 30px; ">Right Advice Leads to Right Career  <span class="color-secondary">Our Experience Speaks</span></h2>
+                        <h2 class="title">Right Advice Leads to Right Career  <span class="color-secondary">Our Experience Speaks</span></h2>
                         <span class="shape-line"><i class="icon-19"></i></span>
                         <p style="text-align: center;">
                             <b> Welcome to Indo European,</b> your premier global education consultancy with over 20 years of excellence in connecting Indian students with prestigious international universities. We are dedicated to guiding students towards their academic goals and fostering strategic partnerships with top institutions worldwide. <br>
@@ -601,7 +553,7 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                         </p>
                     </div>
                     <ul style="text-align: center; list-style:none;">
-                        <li><a asp-controller="home" asp-action="about"> Read More &nbsp;<i class="fa fa-solid fa-chevron-down"></i> </a></li>
+                        <li><a href="about"> About Indo European &nbsp;<i class="fa fa-solid fa-chevron-down"></i> </a></li>
                     </ul>
                 </div>
             </div>
@@ -614,14 +566,13 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
 
 
 
-<div class="edu-brand-area brand-area-1" style="background: linear-gradient(90deg, rgb(181 170 239) 0%, rgb(229 217 217) 45%, rgb(243 170 108) 100%);
-    padding: 80px 0px 80px;">
+<div class="edu-brand-area brand-area-1">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="brand-section-heading">
                     <div class="section-title section-center sal-animate">
-                        <span class="pre-title" style="color: #000;">Top Universities</span>
+                        <span class="pre-title">Top Universities</span>
                         <h2 class="title">Our Partner Universities</h2>
                         <span class="shape-line"><i class="icon-19"></i></span>
                     </div>
@@ -783,40 +734,34 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
         </div>
     </div>
 </div>
-<!--=====================================-->
-<!--=       CounterUp Area Start      	=-->
-
 
 <div class="edu-blog-area blog-area-3 sales-coach-blog edu-section-gap">
     <div class="container">
-        <ul class="blog-section-title" style="margin-bottom: 20px;">
+        <ul class="blog-section-title">
             <li>
                 <div class="section-title section-left sal-animate">
-
-                    @* <span class="pre-title">Latest Articles</span> *@
                     <h2 class="title">Latest Study Abroad Blogs</h2>
                     <span class="shape-line"><i class="icon-19"></i></span>
                 </div>
             </li>
             <li>
                 <div class="blog-view-all sal-animate">
-                    <a asp-controller="blogs" asp-action="index" class="edu-btn">More Blogs <i class="icon-4"></i></a>
+                    <a href="/blogs" class="edu-btn">More Blogs <i class="icon-4"></i></a>
                 </div>
             </li>
         </ul>
         <div class="row g-5 container">
-            <!-- Start Blog Grid  -->
             <div class="col-lg-6 col-12 sal-animate">
                 <div class="edu-blog blog-style-2 blog-style-10 first-large-blog">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a asp-controller="blogs" asp-action="studyinlatvia">
+                            <a href="/blogs/studyinlatvia">
                                 <img src="~/assets/images/blogs/blog-latvia.webp" alt="Study in Latvia">
                             </a>
                         </div>
                         
                         <div class="content">
-                            <h3 class="title blogh"><a asp-controller="blogs" asp-action="studyinlatvia">Study in Latvia - Find Best Programmes to Study & Fees</a></h3>
+                            <h3 class="title blogh"><a href="/blogs/studyinlatvia">Study in Latvia - Find Best Programmes to Study & Fees</a></h3>
                             <ul class="blog-meta">
                                 <li><i class="icon-27"></i>June 25, 2025 </li>
                             </ul>
@@ -828,20 +773,19 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                     </div>
                 </div>
             </div>
-            <!-- End Blog Grid  -->
             <div class="col-lg-3 sal-animate">
                 <div class="edu-blog blog-style-2 blog-style-10">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a asp-controller="blogs" asp-action="studyineurope">
+                            <a href="/blogs/studyineurope">
                                 <img src="~/assets/images/blogs/blog-europe.webp" alt="Study in Europe Day">
                             </a>
                         </div>
                         <div class="content">
                             <div class="category-wrap">
-                                <a asp-controller="blogs" asp-action="studyineurope" class="blog-category small-category">Study Abroad</a>
+                                <a href="/blogs/studyineurope" class="blog-category small-category">Study Abroad</a>
                             </div>
-                            <h5 class="title"><a asp-controller="blogs" asp-action="studyineurope">Top 7 Reasons to Study in Europe in 2025</a></h5>
+                            <h5 class="title"><a href="/blogs/studyineurope">Top 7 Reasons to Study in Europe in 2025</a></h5>
                             <ul class="blog-meta">
                                 <li style="margin-bottom: 12px"><i class="icon-27"></i>June 30, 2025</li>
                             </ul>
@@ -857,7 +801,7 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                 <div class="edu-blog blog-style-2 blog-style-10">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a asp-controller="blogs" asp-action="studyingermany">
+                            <a href="/blogs/studyingermany">
                                 <img src="~/assets/images/blogs/germany-blog.webp" alt="Study Abroad Germany">
                             </a>
                         </div>
@@ -865,12 +809,11 @@ ViewData["Keywords"] = "study abroad consultants delhi, apply study abroad India
                             <div class="category-wrap">
                                 <p class="blog-category small-category">Study Abroad</p>
                             </div>
-                            <h5 class="title"><a asp-controller="blogs" asp-action="studyingermany">Why are Indian Students Choosing Germany for Studying Abroad?</a></h5>
+                            <h5 class="title"><a href="/blogs/studyingermany">Why are Indian Students Choosing Germany for Studying Abroad?</a></h5>
                             <ul class="blog-meta">
                                 <li><i class="icon-27"></i>June 20, 2025</li>
-                                @* <li><i class="icon-23 "></i>Study in Germany Day</li> *@
                             </ul>
-                            <hr class="blog-line" />
+                            <hr class="blog-line"/>
                             <p>
                                 Germany has emerged as one of the top destinations for Indian students pursuing higher education abroad.
                             </p>

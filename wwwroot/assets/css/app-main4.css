@@ -4166,8 +4166,7 @@ body.dark-mode {
 .dark-mode .header-photography .header-mainmenu.edu-sticky .header-action li.icon a,
 .dark-mode .hero-style-12.hero-banner .banner-content .banner-btn-video .video-btn span,
 .dark-mode .why-choose-area-5 .why-choose-content .features-list li,
-.dark-mode .about-style-17 .about-content p,
-.dark-mode .about-style-17 .about-content .features-list li,
+.dark-mode .about-content p, .dark-mode .about-style-17 .about-content .features-list li,
 .dark-mode .hero-style-19 .banner-content .banner-search .input-group .search-btn,
 .dark-mode .expert-area-1 .expert-progressbar .single-progressbar .progress-title,
 .dark-mode .expert-area-1 .expert-progressbar .single-progressbar .percentCount,
@@ -11260,7 +11259,6 @@ img.jsx-4289485022 {
         text-align: center;
     }
 
-
 svg:not(:root) {
     overflow: hidden;
     margin-right: 10px !important;
@@ -11284,7 +11282,6 @@ svg:not(:root) {
     margin: 30px auto 0px auto;
 }
 
-    /* The actual popup */
     .popup .popuptext {
         visibility: hidden;
         width: 100%;

@@ -22,7 +22,7 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-        [Route("studyabroad")]
+        [Route("studyabroadeurope")]
         public IActionResult Studyabroadblog()
         {
             return View();
@@ -42,7 +42,7 @@ namespace indoeuropean.Controllers
         {
             return View();
         }
-        [Route("rtu")]
+        [Route("rigatechnicaluniversity")]
         public IActionResult Rigablog()
         {
             return View();
