@@ -33,6 +33,12 @@ namespace indoeuropean.Controllers
             return View();
         }
 
+        [Route("eventspage")]
+        public IActionResult EuropeEvents()
+        {
+            return View();
+        }
+
         //[Route("privacy")]
         //public IActionResult Privacy()
         //{
@@ -144,6 +150,12 @@ namespace indoeuropean.Controllers
         }
         [Route("countryselection")]
         public IActionResult CountrySelection()
+        {
+            return View();
+        }
+
+        [Route("newsletter")]
+        public IActionResult NewsLetter()
         {
             return View();
         }

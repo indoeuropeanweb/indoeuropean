@@ -741,8 +741,7 @@ input[type="tel"] {
         transition: all 200ms linear;
     }
 
-a.edu-btn,
-button.edu-btn, .more_testimonials a {
+a.edu-btn, button.edu-btn, .more_testimonials a {
     text-align: center;
     border-radius: 5px;
     display: inline-block;
@@ -751,7 +750,6 @@ button.edu-btn, .more_testimonials a {
     padding: 0 30px;
     font-size: 15px;
     font-weight: 500;
-    -webkit-transition: 0.4s;
     transition: 0.4s;
     font-family: var(--font-secondary);
     border: 0 none;

@@ -1,11 +1,51 @@
 ﻿
 @{
-    ViewData["Title"] = "Blogs | Indo European";
+    ViewData["Title"] = "Explore Study Abroad Insights | Indo European";
     ViewData["Description"] = "Read expert insights, tips, and the latest updates on studying abroad in Europe. Discover scholarships, top destinations, and student success stories.";
     ViewData["Keywords"] = "Study Abroad Guidance, Universities in Europe, Indian Students in Germany, Best Study Destinations, Courses & Scholarship Advice";
 }
 
-<div class="edu-breadcrumb-area  bg-image bg-image--56">
+<style type="text/css">
+    .page-item.active .page-link{
+        color: #fff;
+        background-color: #150958;
+    }
+
+    .page-item .page-link{
+        color: #150958;
+    }
+
+</style>
+
+<section class="breadcrumb-blogs-back">
+    <div class="our-services-breadcrumb">
+        <div class="container">
+            <ul class="edu-breadcrumb-services">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="separator"><i class="icon-angle-right"></i></li>
+                <li class="breadcrumb-item" aria-current="page">Blogs</li>
+            </ul>
+            <div class="breadcrumb-inner">
+                <div class="services-title">
+                    <div class="blogs-title">
+                        <h1 class="title">Explore Our Study Abroad Blogs</h1>
+                        <h2>
+                            Explore expert advice, student stories, and global education Insights
+                        </h2>
+                        <p>
+                            Stay informed and inspired with our curated collection of study abroad blogs.
+                            Learn from real student experiences, get valuable tips from education experts,
+                            and discover the latest updates about universities, visas, scholarships, and
+                            international student life — all in one place.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@* <div class="edu-breadcrumb-area  bg-image bg-image--56">
     <div class="container">
         <div class="breadcrumb-inner" style="text-align:left;">
             <div class="page-title">
@@ -13,9 +53,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> *@
 
-<section class="why-choose-area-3 edu-section-gap">
+<section class="why-choose-area-3 edu-section-gap my-5">
     <div class="container">
         <div class="row row--45">
             <div class="section-title-flex section-title">
@@ -23,10 +63,58 @@
                     <h2 class="blog-section-title"><span class="color-secondary"> Our Latest Blog Post's </span> </h2>
                     <span class="shape-line"><i class="icon-19"></i></span>
                     <br>
-                    <p>Discover expert advice, study abroad tips, university updates, scholarship news, and much more. Our blog is designed to keep you informed and inspired on your journey to studying overseas. Dive in and stay ahead with the latest from Indo European!</p>
+                    <p>Explore expert guidance, study abroad tips, and the latest updates on universities, visas, and scholarships with Indo European. Our blog is your trusted source for practical advice, inspiring success stories, and global education trends. Whether you’re just starting your journey or preparing for the next step, we’re here to keep you informed, motivated, and ready to achieve your study abroad dreams. Dive in and stay ahead with Indo European!</p>
                 </div>
             </div> 
-                <div class="row g-4 mt-4">
+            <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend search-event">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" class="form-control search-input" placeholder="Search Blogs" u aria-describedby="basic-addon1" id="search-blog">
+                </div>
+            </div>
+            <div class="col-md-6 row">
+                <div class="col-md-6">
+                    <select class="form-select event-select" aria-label="Blog Type" id="blog-type-selection">
+                        <option value="" selected>Countries</option>
+                        <option value="austria">Austria</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="czechrepublic">Czech Republic</option>
+                        <option value="denmark">Denmark</option>
+                        <option value="europe">Europe</option>
+                        <option value="finland">Finland</option>
+                        <option value="france">France</option>
+                        <option value="germany">Germany</option>
+                        <option value="ireland">Ireland</option>
+                        <option value="latvia">Latvia</option>
+                        <option value="lithuania">Lithuania</option>
+                        <option value="newzealand">New Zealand</option>
+                        <option value="sweden">Sweden</option>
+                        <option value="singapore">Singapore</option>
+                        <option value="switzerland">Switzerland</option>
+                        <option value="uk">UK</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    @* <select class="form-select event-select" aria-label="Location" id="blog-location-selection">
+                        <option value="" selected>Location</option>
+                        <option value="new-delhi">New Delhi (Head Office)</option>
+                        <option value="amritsar">Amritsar</option>
+                        <option value="bathinda">Bathinda</option>
+                        <option value="chandigarh">Chandigarh</option>
+                        <option value="jalandhar">Jalandhar</option>
+                        <option value="ludhiana">Ludhiana</option>
+                        <option value="patiala">Patiala</option>
+                    </select> *@
+                </div>
+                </div>
+            </div>
+
+            @* <div class="row g-4 mt-4">
                     <div class="col-md-4">
                         <div class="card blog-card h-100">
                             <img src="~/assets/images/blogs/blog-europe.webp" class="card-img-top" alt="Study in Europe" loading="lazy">
@@ -126,8 +214,19 @@
                         </div>
                     </div>
                 </div>
-             </div>
+             </div> *@
+            </div>
+        <div class="events-grid mt-5" id="Blogs-Container">
+            <div class="loader-container">
+                <img style="max-width: 100px;" src="~/assets/images/icons/preloader.gif" alt="Indo-Loader" />
             </div>
         </div>
+        <div class="blogpagination">
+            <button id="prev-btn"><i class="fa-solid fa-arrow-left"></i>&nbsp;Prev</button>
+          <ul class="pagination-list" id="page-list">
+          </ul>
+            <button id="next-btn">Next&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
 </section>
 

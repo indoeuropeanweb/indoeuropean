@@ -12,5 +12,7 @@
 	
   <ItemGroup>
     <Folder Include="wwwroot\assets\images\Associtae-Agents\" />
+    <Folder Include="wwwroot\assets\images\banner\Newsletter\" />
+    <Folder Include="wwwroot\assets\images\NewFolder\" />
   </ItemGroup>
 </Project>

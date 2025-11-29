@@ -1,0 +1,211 @@
+﻿
+
+<style type="text/css">
+    .newsletter-table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    .newsletter-cell-3 {
+        width: 210px;
+    }
+
+    .newsletter-header {
+        background-color: #150958;
+        color: white;
+        padding: 12px;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .newsletter-cell {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ddd;
+        word-wrap: break-word;
+    }
+
+    .newsletter-row:nth-child(even) {
+        background-color: #f4f4f4;
+    }
+
+    .newsletter-row:hover {
+        background-color: #e2e2e2;
+    }
+
+    @@media screen and (max-width: 768px) {
+        .newsletter-table {
+            width: 100%;
+            box-shadow: none;
+        }
+
+            .newsletter-table thead {
+                display: none;
+            }
+
+            .newsletter-table,
+            .newsletter-table tbody,
+            .newsletter-table tr,
+            .newsletter-table td {
+                display: block;
+                width: 100%;
+            }
+
+        .newsletter-row {
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+
+        .newsletter-cell {
+            text-align: left; /* Change alignment for better readability */
+            padding: 8px 16px;
+            position: relative;
+            border: none;
+            border-bottom: 1px solid #eee;
+            white-space: normal;
+            word-break: break-word;
+        }
+
+            .newsletter-cell::before {
+                content: attr(data-label);
+                display: block;
+                font-weight: bold;
+                color: #150958;
+                margin-bottom: 4px;
+            }
+
+        .newsletter-row .newsletter-cell:last-child {
+            border-bottom: none;
+        }
+    }
+
+    @@media screen and (max-width: 480px) {
+        .newsletter-cell {
+            padding: 10px;
+        }
+    }
+
+    .register-number {
+        max-width: 90%;
+    }
+
+        .register-number h4 {
+            font-size: 18px;
+            text-align: end;
+        }
+
+
+    .newsletter-btn {
+          color: #150958;
+          border: 1px solid #150958;
+          padding: 8px 16px;
+          margin: 5px 8px;
+          border-radius: 25px;
+        }
+
+</style>
+
+
+<section class="breadcrumb-newsletter-back">
+    <div class="our-services-breadcrumb">
+        <div class="container">
+            <ul class="edu-breadcrumb-services">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="separator"><i class="icon-angle-right"></i></li>
+                <li class="breadcrumb-item" aria-current="page">NewsLetter</li>
+            </ul>
+            <div class="breadcrumb-inner">
+                <div class="services-title">
+                    <h1 class="title">Stay updated with Indo European</h1>
+                    <h2>
+                        Discover Study Abroad Opportunities
+                    </h2>
+                    <p>
+                        Subscribe to the Indo-European Newsletter and get the latest insights on global study opportunities, scholarships, and visa updates. Each edition shares expert guidance, student stories, and upcoming newsletters to help you plan your study abroad journey with confidence. Stay connected and take the next step toward your international education goals.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <div class="row mt-5">
+        <div class="col-lg-12 section-title">
+            <div class="testimonial-heading">
+                <h2 class="title">Our Newsletter</h2>
+            </div>
+            <span class="shape-line"><i class="icon-19"></i></span>
+        </div>
+        <p class="text-center">Get exclusive study abroad guides and resources in downloadable PDF format. Each edition offers expert tips on admissions, scholarships, visas, and practical advice to help you plan your international education journey with confidence.</p>
+    </div>
+    <div class="newsletter-details">
+        <table class="newsletter-table">
+            <thead>
+                <tr class="newsletter-header">
+                    <th class="newsletter-cell">Month</th>
+                    <th class="newsletter-cell">First Edition</th>
+                    <th class="newsletter-cell">Second Edition</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="newsletter-row">
+                    <td class="newsletter-cell" data-label="Month">January 2025</td>
+                    <td class="newsletter-cell" data-label="First Edition">
+                        <a class="newsletter-btn" href="" target="_blank">View</a>
+                        <a class="newsletter-btn" href="" target="_blank">Download</a>
+                    </td>
+                    <td class="newsletter-cell" data-label="Second Edition"></td>
+                </tr>
+                <tr class="newsletter-row">
+                    <td class="newsletter-cell" data-label="Month">November 2024</td>
+                    <td class="newsletter-cell" data-label="First Edition">
+                        <a class="newsletter-btn" href="" target="_blank">View</a>
+                        <a class="newsletter-btn" href="" target="_blank">Download</a>
+                    </td>
+                    <td class="newsletter-cell" data-label="Second Edition">
+                        <a class="newsletter-btn" href="" target="_blank">View</a>
+                        <a class="newsletter-btn" href="" target="_blank">Download</a>
+                    </td>
+                </tr>
+                <tr class="newsletter-row">
+                    <td class="newsletter-cell" data-label="Month">October 2024</td>
+                    <td class="newsletter-cell" data-label="First Edition">
+                        <a class="newsletter-btn" href="" target="_blank">View</a>
+                        <a class="newsletter-btn" href="" target="_blank">Download</a>
+                    </td>
+                    <td class="newsletter-cell" data-label="Second Edition"></td>
+                </tr>
+                <tr class="newsletter-row">
+                    <td class="newsletter-cell" data-label="Month">September 2025</td>
+                    <td class="newsletter-cell" data-label="First Edition">
+                        <a class="newsletter-btn" href="" target="_blank">View</a>
+                        <a class="newsletter-btn" href="" target="_blank">Download</a>
+                    </td>
+                    <td class="newsletter-cell" data-label="Second Edition">
+                        <a class="newsletter-btn" href="" target="_blank">View</a>
+                        <a class="newsletter-btn" href="" target="_blank">Download</a>
+                    </td>
+                </tr>
+                <tr class="newsletter-row">
+                    <td class="newsletter-cell" data-label="Month">August 2024</td>
+                    <td class="newsletter-cell" data-label="First Edition">
+                        <a class="newsletter-btn" href="" target="_blank">View</a>
+                        <a class="newsletter-btn" href="" target="_blank">Download</a>
+                    </td>
+                    <td class="newsletter-cell" data-label="Second Edition"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

@@ -1,1 +1,483 @@
-﻿var generatedOTP, Fname, Lname, CountryCodeid, PhoneNo, WhatsappNo, Emailid, Country1, PrefferedBranchID, Levelid, TermsAccept, Address1Citytext, Intakeid, EnquirySourceCategoryID, EnquirySourceID, EnqStageid, Isstatusid, EnqDate, Dob, PrefferedCallBackTime, HighestQualifcation, branchid, LandingPageUrl, phoneRegex, PhonenoOTPStatus = "0"; function btnclick() { return Fname = $("#txtFName_1").val() || "", Lname = $("#txtLName").val() || "", CountryCodeid = $("#ddlCountryCodeid_1").val() || "67", PhoneNo = $("#txtPhone_1").val() || "", WhatsappNo = "", Emailid = $("#txtEmail_1").val() || "", "Select" !== (Country1 = $("#ddlDestinationCodeid_1").val()) && null != Country1 || (Country1 = ""), PrefferedBranchID = 0, "Select" !== (Levelid = $("#ddlCourseCodeId_1").val()) && null != Levelid || (Levelid = ""), Address1Citytext = $("#txtCity_1").val(), Intakeid = "", EnquirySourceCategoryID = window.EnquirySourceCategoryID, EnquirySourceID = window.EnquirySourceID, EnqStageid = window.EnqStageid, Isstatusid = "1", EnqDate = "", Dob = "", "Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime_1").val()) && null != PrefferedCallBackTime || (PrefferedCallBackTime = ""), "Select" !== (HighestQualifcation = $("#ddlHighestQualifcation_1").val()) && null != HighestQualifcation || (HighestQualifcation = ""), branchid = window.branchid, LandingPageUrl = window.location.href, phoneRegex = /^\d{10}$/, Fname ? Emailid ? CountryCodeid ? PhoneNo ? 67 !== CountryCodeid && 10 !== PhoneNo.length ? (alert("Please enter a valid 10-digit phone number."), !1) : "Select" === HighestQualifcation || "" === HighestQualifcation ? (alert("Please select a highest qualification."), !1) : "Select" === Levelid || "" === Levelid ? (alert("Please select a  Course."), !1) : Address1Citytext ? "Select" === Country1 || "" === Country1 ? (alert("Please select a valid study destination."), !1) : "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime ? (alert("Please select a best time to call."), !1) : void Create_Lead() : (alert("Please enter your city."), !1) : (alert("Please enter your phone number."), !1) : (alert("Please select your country code."), !1) : (alert("Please enter your email address."), !1) : (alert("Please enter your first name."), !1) } function formCountrySubmit() { return Fname = $("#txtFName_2").val() || "", Lname = $("#txtLName").val() || "", CountryCodeid = $("#ddlCountryCodeid_2").val() || "67", PhoneNo = $("#txtPhone_2").val() || "", WhatsappNo = "", Emailid = $("#txtEmail_2").val() || "", "Select" !== (Country1 = $("#ddlDestinationCodeid_2").val()) && null != Country1 || (Country1 = ""), PrefferedBranchID = 0, "Select" !== (Levelid = $("#ddlCourseCodeId_2").val()) && null != Levelid || (Levelid = ""), Address1Citytext = $("#txtCity_2").val(), Intakeid = "", EnquirySourceCategoryID = window.EnquirySourceCategoryID, EnquirySourceID = window.EnquirySourceID, EnqStageid = window.EnqStageid, Isstatusid = "1", EnqDate = "", Dob = "", "Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime_2").val()) && null != PrefferedCallBackTime || (PrefferedCallBackTime = ""), "Select" !== (HighestQualifcation = $("#ddlHighestQualifcation_2").val()) && null != HighestQualifcation || (HighestQualifcation = ""), branchid = window.branchid, LandingPageUrl = window.location.href, phoneRegex = /^\d{10}$/, Fname ? Emailid ? CountryCodeid ? PhoneNo ? 67 !== CountryCodeid && 10 !== PhoneNo.length ? (alert("Please enter a valid 10-digit phone number."), !1) : "Select" === HighestQualifcation || "" === HighestQualifcation ? (alert("Please select a highest qualification."), !1) : "Select" === Levelid || "" === Levelid ? (alert("Please select a  Course."), !1) : Address1Citytext ? "Select" === Country1 || "" === Country1 ? (alert("Please select a valid study destination."), !1) : "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime ? (alert("Please select a best time to call."), !1) : void Create_Lead() : (alert("Please enter your city."), !1) : (alert("Please enter your phone number."), !1) : (alert("Please select your country code."), !1) : (alert("Please enter your email address."), !1) : (alert("Please enter your first name."), !1) } function formValidation() { return Fname = $("#txtFName").val() || "", Lname = $("#txtLName").val() || "", CountryCodeid = $("#ddlCountryCodeid").val() || "", PhoneNo = $("#txtPhone").val() || "", WhatsappNo = "", Emailid = $("#txtEmail").val() || "", "Select" !== (Country1 = $("#ddlDestinationCodeid").val()) && null != Country1 || (Country1 = ""), PrefferedBranchID = 0, "Select" !== (Levelid = $("#ddlCourseCodeId").val()) && null != Levelid || (Levelid = ""), Address1Citytext = $("#txtCity").val(), Intakeid = "", EnquirySourceCategoryID = window.EnquirySourceCategoryID, EnquirySourceID = window.EnquirySourceID, EnqStageid = window.EnqStageid, Isstatusid = "1", EnqDate = "", Dob = "", "Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime").val()) && null != PrefferedCallBackTime || (PrefferedCallBackTime = ""), "Select" !== (HighestQualifcation = $("#ddlHighestQualifcation").val()) && null != HighestQualifcation || (HighestQualifcation = ""), branchid = window.branchid, LandingPageUrl = window.location.href, phoneRegex = /^\d{10}$/, Fname ? Emailid ? CountryCodeid ? PhoneNo ? 67 !== CountryCodeid && 10 !== PhoneNo.length ? (alert("Please enter a valid 10-digit phone number."), !1) : "Select" === HighestQualifcation || "" === HighestQualifcation ? (alert("Please select a highest qualification."), !1) : "Select" === Levelid || "" === Levelid ? (alert("Please select a Course."), !1) : Address1Citytext ? "Select" === Country1 || "" === Country1 ? (alert("Please select a valid study destination."), !1) : "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime ? (alert("Please select a best time to call."), !1) : void Create_Lead() : (alert("Please enter your city."), !1) : (alert("Please enter your phone number."), !1) : (alert("Please select your country code."), !1) : (alert("Please enter your email address."), !1) : (alert("Please enter your first name."), !1) } function formValidation_Contactus() { return Fname = $("#txtFName").val() || "", Lname = $("#txtLName").val() || "", CountryCodeid = $("#ddlCountryCodeid").val() || "", PhoneNo = $("#txtPhone").val() || "", WhatsappNo = "", Emailid = $("#txtEmail").val() || "", "Select" !== (Country1 = $("#ddlDestinationCodeid").val()) && null != Country1 || (Country1 = ""), "Select" !== (PrefferedBranchID = $("#ddlBranchCodeId").val()) && null != PrefferedBranchID || (PrefferedBranchID = ""), Levelid = 0, Address1Citytext = $("#txtCity").val(), Intakeid = "", EnquirySourceCategoryID = window.EnquirySourceCategoryID, EnquirySourceID = window.EnquirySourceID, EnqStageid = window.EnqStageid, Isstatusid = "1", EnqDate = "", Dob = "", "Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime").val()) && null != PrefferedCallBackTime || (PrefferedCallBackTime = ""), "Select" !== (HighestQualifcation = $("#ddlHighestQualifcation").val()) && null != HighestQualifcation || (HighestQualifcation = ""), branchid = window.branchid, LandingPageUrl = window.location.href, phoneRegex = /^\d{10}$/, Fname ? Emailid ? CountryCodeid ? PhoneNo ? 67 !== CountryCodeid && 10 !== PhoneNo.length ? (alert("Please enter a valid 10-digit phone number."), !1) : "Select" === HighestQualifcation || "" === HighestQualifcation ? (alert("Please select a highest qualification."), !1) : Address1Citytext ? "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime ? (alert("Please select a best time to call."), !1) : void Create_Lead() : (alert("Please enter your city."), !1) : (alert("Please enter your phone number."), !1) : (alert("Please select your country code."), !1) : (alert("Please enter your email address."), !1) : (alert("Please enter your first name."), !1) } function Create_Lead() { $.ajax({ url: "https://crm.indoeuropean.in/WebService/Lead.asmx/OnlineLead", type: "GET", dataType: "json", data: { Fname: Fname, Lname: Lname, CountryCodeid: CountryCodeid, PhoneNo: PhoneNo, WhatsappNo: WhatsappNo, Emailid: Emailid, EnquirySourceCategoryID: EnquirySourceCategoryID, EnquirySourceID: EnquirySourceID, EnqStageid: EnqStageid, branchid: branchid, Country1: Country1, Levelid: Levelid, Intakeid: Intakeid, Address1Citytext: Address1Citytext, Isstatusid: Isstatusid, EnqDate: EnqDate, Dob: Dob, PrefferedCallBackTime: PrefferedCallBackTime, HighestQualifcation: HighestQualifcation, PrefferedBranchID: PrefferedBranchID, LandingPageUrl: LandingPageUrl, PhonenoOTPStatus: PhonenoOTPStatus }, success: function (e) { window.location.href = "/thankyou" }, error: function () { alert("Query Submission Failed!") } }) } function formFieldsControl() { function e(e, t) { t ? $("#" + e).show() : $("#" + e).hide() } e("divFname", window.divFname), e("divLname", window.divLname), e("divEmail", window.divEmail), e("divCountryCodeId", window.divCountryCodeId), e("divCity", window.divCity), e("divDestinationCodeid", window.divDestinationCodeid), e("divBranchCodeId", window.divBranchCodeId), e("divCourseCodeId", window.divCourseCodeId), e("divterms_accept", window.divterms_accept), e("divCaptcha", window.divCaptcha) } function getCountryCode() { $.ajax({ url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetCountryCode", type: "GET", dataType: "json", success: function (e) { bindDropdown(e.data) }, error: function () { alert("Data not found") } }) } function bindDropdown(e) { $(".ddlCountryCodeid").each((function () { const t = $(this); t.empty(), t.append('<option value="">Select Country</option>'), $.each(e, (function (e, a) { const n = $("<option></option>").attr("value", a.ID).text(a.Code); a.Code.toLowerCase().includes("india") && n.prop("selected", !0), t.append(n) })) })) } function getDestinationCode() { $.ajax({ url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetCountry", type: "GET", dataType: "json", success: function (e) { bindDestinationDropdown(e.data) }, error: function () { alert("Data not found") } }) } function bindDestinationDropdown(e) { var t = $("#ddlDestinationCodeid"); t.empty(), t.append('<option value="Select">Select Destination</option>'); var a = $("#ddlDestinationCodeid_1"); a.empty(), a.append('<option value="Select">Select Destination</option>'); var n = $("#ddlDestinationCodeid_2"); n.empty(), n.append('<option value="Select">Select Destination</option>'), $.each(e, (function (e, i) { t.append($("<option></option>").attr("value", i.COUNTRYID).text(i.COUNTRYNAME)), a.append($("<option></option>").attr("value", i.COUNTRYID).text(i.COUNTRYNAME)), n.append($("<option></option>").attr("value", i.COUNTRYID).text(i.COUNTRYNAME)) })) } function getBranch() { $.ajax({ url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetBranch", type: "GET", dataType: "json", success: function (e) { bindBranchDropdown(e.data) }, error: function () { alert("Data not found") } }) } function bindBranchDropdown(e) { var t = $("#ddlBranchCodeId"); t.empty(), t.append('<option value="Select">Select Branch</option>'); var a = $("#ddlBranchCodeId_1"); a.empty(), a.append('<option value="Select">Select Branch</option>'); var n = $("#ddlBranchCodeId_2"); n.empty(), n.append('<option value="Select">Select Branch</option>'), $.each(e, (function (e, i) { t.append($("<option></option>").attr("value", i.BRANCHID).text(i.BRANCHNAME)), a.append($("<option></option>").attr("value", i.BRANCHID).text(i.BRANCHNAME)), n.append($("<option></option>").attr("value", i.BRANCHID).text(i.BRANCHNAME)) })) } function getCourse() { $.ajax({ url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetLevel", type: "GET", dataType: "json", success: function (e) { bindCourseDropdown(e.data) }, error: function () { alert("Data not found") } }) } function bindCourseDropdown(e) { var t = $("#ddlCourseCodeId"); const a = ["Bachelors Pursuing", "English Test Preparation", "Foundation", "Language program", "Pathway Program", "Top up", "VGTU Bachelor", "Vocational Courses"]; t.empty(), t.append('<option value="Select">Select Course</option>'); var n = $("#ddlCourseCodeId_1"); n.empty(), n.append('<option value="Select">Select Course</option>'); var i = $("#ddlCourseCodeId_2"); i.empty(), i.append('<option value="Select">Select Course</option>'), $.each(e, (function (e, o) { t.append($("<option></option>").attr("value", o.QUALLEVELID).text(o.QUALDESC)), a.includes(o.QUALDESC) || (n.append($("<option></option>").attr("value", o.QUALLEVELID).text(o.QUALDESC)), i.append($("<option></option>").attr("value", o.QUALLEVELID).text(o.QUALDESC))) })) } function GetHeighestQualification() { $.ajax({ url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetHighestQualification", type: "GET", dataType: "json", success: function (e) { bindHeighestQualification(e.data) }, error: function () { alert("Data not found") } }) } function bindHeighestQualification(e) { var t = $("#ddlHighestQualifcation"); t.empty(), t.append('<option value="Select"> Highest Qualification </option>'); var a = $("#ddlHighestQualifcation_1"); a.empty(), a.append('<option value="Select"> Highest Qualification </option>'); var n = $("#ddlHighestQualifcation_2"); n.empty(), n.append('<option value="Select"> Highest Qualification </option>'), $.each(e, (function (e, i) { t.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION)), a.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION)), n.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION)) })) } function GetPreferredCallBackTime() { $.ajax({ url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetPreferredCallBackTime", type: "GET", dataType: "json", success: function (e) { bindPreferredCallBackTime(e.data) }, error: function () { alert("Data not found") } }) } function bindPreferredCallBackTime(e) { var t = $("#ddlPreferredCallBackTime"); t.empty(), t.append('<option value="Select"> Best Time to Call </option>'); var a = $("#ddlPreferredCallBackTime_1"); a.empty(), a.append('<option value="Select"> Best Time to Call </option>'); var n = $("#ddlPreferredCallBackTime_2"); n.empty(), n.append('<option value="Select"> Best Time to Call </option>'), $.each(e, (function (e, i) { t.append($("<option></option>").attr("value", i.ID).text(i.CALL_BACK_TIME)), a.append($("<option></option>").attr("value", i.ID).text(i.CALL_BACK_TIME)), n.append($("<option></option>").attr("value", i.ID).text(i.CALL_BACK_TIME)) })) } $(document).ready((function () { formFieldsControl(), $("#errorCaptcha").css({ display: "none" }), getCountryCode(), GetHeighestQualification(), getDestinationCode(), getBranch(), getCourse(), GetPreferredCallBackTime() })), $(document).ready((function () { let e = $(".europe-submenus-1"), t = $("#mobile-europe-icon"); e.slideUp(), t.on("click", (() => { t.hasClass("fa-plus") ? (t.removeClass("fa-plus"), t.addClass("fa-minus"), e.slideDown(600)) : (t.removeClass("fa-minus"), t.addClass("fa-plus"), e.slideUp(600)) })) }));
+﻿var generatedOTP,
+    Fname,
+    Lname,
+    CountryCodeid,
+    PhoneNo,
+    WhatsappNo,
+    Emailid,
+    Country1,
+    PrefferedBranchID,
+    Levelid,
+    TermsAccept,
+    Address1Citytext,
+    Intakeid,
+    EnquirySourceCategoryID,
+    EnquirySourceID,
+    EnqStageid,
+    Isstatusid,
+    EnqDate,
+    Dob,
+    PrefferedCallBackTime,
+    HighestQualifcation,
+    branchid,
+    LandingPageUrl,
+    phoneRegex,
+    PhonenoOTPStatus = "0";
+function btnclick() {
+    return (
+        (Fname = $("#txtFName_1").val() || ""),
+        (Lname = $("#txtLName").val() || ""),
+        (CountryCodeid = $("#ddlCountryCodeid_1").val() || "67"),
+        (PhoneNo = $("#txtPhone_1").val() || ""),
+        (WhatsappNo = ""),
+        (Emailid = $("#txtEmail_1").val() || ""),
+        ("Select" !== (Country1 = $("#ddlDestinationCodeid_1").val()) && null != Country1) || (Country1 = ""),
+        (PrefferedBranchID = 0),
+        ("Select" !== (Levelid = $("#ddlCourseCodeId_1").val()) && null != Levelid) || (Levelid = ""),
+        (Address1Citytext = $("#txtCity_1").val()),
+        (Intakeid = ""),
+        (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
+        (EnquirySourceID = window.EnquirySourceID),
+        (EnqStageid = window.EnqStageid),
+        (Isstatusid = "1"),
+        (EnqDate = ""),
+        (Dob = ""),
+        ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime_1").val()) &&
+            null != PrefferedCallBackTime) ||
+        (PrefferedCallBackTime = ""),
+        ("Select" !== (HighestQualifcation = $("#ddlHighestQualifcation_1").val()) && null != HighestQualifcation) ||
+        (HighestQualifcation = ""),
+        (branchid = window.branchid),
+        (LandingPageUrl = window.location.href),
+        (phoneRegex = /^\d{10}$/),
+        Fname
+            ? Emailid
+                ? CountryCodeid
+                    ? PhoneNo
+                        ? 67 !== CountryCodeid && 10 !== PhoneNo.length
+                            ? (alert("Please enter a valid 10-digit phone number."), !1)
+                            : "Select" === HighestQualifcation || "" === HighestQualifcation
+                                ? (alert("Please select a highest qualification."), !1)
+                                : "Select" === Levelid || "" === Levelid
+                                    ? (alert("Please select a  Course."), !1)
+                                    : Address1Citytext
+                                        ? "Select" === Country1 || "" === Country1
+                                            ? (alert("Please select a valid study destination."), !1)
+                                            : "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime
+                                                ? (alert("Please select a best time to call."), !1)
+                                                : void Create_Lead()
+                                        : (alert("Please enter your city."), !1)
+                        : (alert("Please enter your phone number."), !1)
+                    : (alert("Please select your country code."), !1)
+                : (alert("Please enter your email address."), !1)
+            : (alert("Please enter your first name."), !1)
+    );
+}
+function formCountrySubmit() {
+    return (
+        (Fname = $("#txtFName_2").val() || ""),
+        (Lname = $("#txtLName").val() || ""),
+        (CountryCodeid = $("#ddlCountryCodeid_2").val() || "67"),
+        (PhoneNo = $("#txtPhone_2").val() || ""),
+        (WhatsappNo = ""),
+        (Emailid = $("#txtEmail_2").val() || ""),
+        ("Select" !== (Country1 = $("#ddlDestinationCodeid_2").val()) && null != Country1) || (Country1 = ""),
+        (PrefferedBranchID = 0),
+        ("Select" !== (Levelid = $("#ddlCourseCodeId_2").val()) && null != Levelid) || (Levelid = ""),
+        (Address1Citytext = $("#txtCity_2").val()),
+        (Intakeid = ""),
+        (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
+        (EnquirySourceID = window.EnquirySourceID),
+        (EnqStageid = window.EnqStageid),
+        (Isstatusid = "1"),
+        (EnqDate = ""),
+        (Dob = ""),
+        ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime_2").val()) &&
+            null != PrefferedCallBackTime) ||
+        (PrefferedCallBackTime = ""),
+        ("Select" !== (HighestQualifcation = $("#ddlHighestQualifcation_2").val()) && null != HighestQualifcation) ||
+        (HighestQualifcation = ""),
+        (branchid = window.branchid),
+        (LandingPageUrl = window.location.href),
+        (phoneRegex = /^\d{10}$/),
+        Fname
+            ? Emailid
+                ? CountryCodeid
+                    ? PhoneNo
+                        ? 67 !== CountryCodeid && 10 !== PhoneNo.length
+                            ? (alert("Please enter a valid 10-digit phone number."), !1)
+                            : "Select" === HighestQualifcation || "" === HighestQualifcation
+                                ? (alert("Please select a highest qualification."), !1)
+                                : "Select" === Levelid || "" === Levelid
+                                    ? (alert("Please select a  Course."), !1)
+                                    : Address1Citytext
+                                        ? "Select" === Country1 || "" === Country1
+                                            ? (alert("Please select a valid study destination."), !1)
+                                            : "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime
+                                                ? (alert("Please select a best time to call."), !1)
+                                                : void Create_Lead()
+                                        : (alert("Please enter your city."), !1)
+                        : (alert("Please enter your phone number."), !1)
+                    : (alert("Please select your country code."), !1)
+                : (alert("Please enter your email address."), !1)
+            : (alert("Please enter your first name."), !1)
+    );
+}
+function formValidation() {
+    return (
+        (Fname = $("#txtFName").val() || ""),
+        (Lname = $("#txtLName").val() || ""),
+        (CountryCodeid = $("#ddlCountryCodeid").val() || ""),
+        (PhoneNo = $("#txtPhone").val() || ""),
+        (WhatsappNo = ""),
+        (Emailid = $("#txtEmail").val() || ""),
+        ("Select" !== (Country1 = $("#ddlDestinationCodeid").val()) && null != Country1) || (Country1 = ""),
+        (PrefferedBranchID = 0),
+        ("Select" !== (Levelid = $("#ddlCourseCodeId").val()) && null != Levelid) || (Levelid = ""),
+        (Address1Citytext = $("#txtCity").val()),
+        (Intakeid = ""),
+        (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
+        (EnquirySourceID = window.EnquirySourceID),
+        (EnqStageid = window.EnqStageid),
+        (Isstatusid = "1"),
+        (EnqDate = ""),
+        (Dob = ""),
+        ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime").val()) &&
+            null != PrefferedCallBackTime) ||
+        (PrefferedCallBackTime = ""),
+        ("Select" !== (HighestQualifcation = $("#ddlHighestQualifcation").val()) && null != HighestQualifcation) ||
+        (HighestQualifcation = ""),
+        (branchid = window.branchid),
+        (LandingPageUrl = window.location.href),
+        (phoneRegex = /^\d{10}$/),
+        Fname
+            ? Emailid
+                ? CountryCodeid
+                    ? PhoneNo
+                        ? 67 !== CountryCodeid && 10 !== PhoneNo.length
+                            ? (alert("Please enter a valid 10-digit phone number."), !1)
+                            : "Select" === HighestQualifcation || "" === HighestQualifcation
+                                ? (alert("Please select a highest qualification."), !1)
+                                : "Select" === Levelid || "" === Levelid
+                                    ? (alert("Please select a Course."), !1)
+                                    : Address1Citytext
+                                        ? "Select" === Country1 || "" === Country1
+                                            ? (alert("Please select a valid study destination."), !1)
+                                            : "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime
+                                                ? (alert("Please select a best time to call."), !1)
+                                                : void Create_Lead()
+                                        : (alert("Please enter your city."), !1)
+                        : (alert("Please enter your phone number."), !1)
+                    : (alert("Please select your country code."), !1)
+                : (alert("Please enter your email address."), !1)
+            : (alert("Please enter your first name."), !1)
+    );
+}
+function formValidation_Contactus() {
+    return (
+        (Fname = $("#txtFName").val() || ""),
+        (Lname = $("#txtLName").val() || ""),
+        (CountryCodeid = $("#ddlCountryCodeid").val() || ""),
+        (PhoneNo = $("#txtPhone").val() || ""),
+        (WhatsappNo = ""),
+        (Emailid = $("#txtEmail").val() || ""),
+        ("Select" !== (Country1 = $("#ddlDestinationCodeid").val()) && null != Country1) || (Country1 = ""),
+        ("Select" !== (PrefferedBranchID = $("#ddlBranchCodeId").val()) && null != PrefferedBranchID) ||
+        (PrefferedBranchID = ""),
+        (Levelid = 0),
+        (Address1Citytext = $("#txtCity").val()),
+        (Intakeid = ""),
+        (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
+        (EnquirySourceID = window.EnquirySourceID),
+        (EnqStageid = window.EnqStageid),
+        (Isstatusid = "1"),
+        (EnqDate = ""),
+        (Dob = ""),
+        ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime").val()) &&
+            null != PrefferedCallBackTime) ||
+        (PrefferedCallBackTime = ""),
+        ("Select" !== (HighestQualifcation = $("#ddlHighestQualifcation").val()) && null != HighestQualifcation) ||
+        (HighestQualifcation = ""),
+        (branchid = window.branchid),
+        (LandingPageUrl = window.location.href),
+        (phoneRegex = /^\d{10}$/),
+        Fname
+            ? Emailid
+                ? CountryCodeid
+                    ? PhoneNo
+                        ? 67 !== CountryCodeid && 10 !== PhoneNo.length
+                            ? (alert("Please enter a valid 10-digit phone number."), !1)
+                            : "Select" === HighestQualifcation || "" === HighestQualifcation
+                                ? (alert("Please select a highest qualification."), !1)
+                                : Address1Citytext
+                                    ? "Select" === PrefferedCallBackTime || "" === PrefferedCallBackTime
+                                        ? (alert("Please select a best time to call."), !1)
+                                        : void Create_Lead()
+                                    : (alert("Please enter your city."), !1)
+                        : (alert("Please enter your phone number."), !1)
+                    : (alert("Please select your country code."), !1)
+                : (alert("Please enter your email address."), !1)
+            : (alert("Please enter your first name."), !1)
+    );
+}
+function Create_Lead() {
+    $.ajax({
+        url: "https://crm.indoeuropean.in/WebService/Lead.asmx/OnlineLead",
+        type: "GET",
+        dataType: "json",
+        data: {
+            Fname: Fname,
+            Lname: Lname,
+            CountryCodeid: CountryCodeid,
+            PhoneNo: PhoneNo,
+            WhatsappNo: WhatsappNo,
+            Emailid: Emailid,
+            EnquirySourceCategoryID: EnquirySourceCategoryID,
+            EnquirySourceID: EnquirySourceID,
+            EnqStageid: EnqStageid,
+            branchid: branchid,
+            Country1: Country1,
+            Levelid: Levelid,
+            Intakeid: Intakeid,
+            Address1Citytext: Address1Citytext,
+            Isstatusid: Isstatusid,
+            EnqDate: EnqDate,
+            Dob: Dob,
+            PrefferedCallBackTime: PrefferedCallBackTime,
+            HighestQualifcation: HighestQualifcation,
+            PrefferedBranchID: PrefferedBranchID,
+            LandingPageUrl: LandingPageUrl,
+            PhonenoOTPStatus: PhonenoOTPStatus,
+        },
+        success: function (e) {
+            window.location.href = "/thankyou";
+        },
+        error: function () {
+            alert("Query Submission Failed!");
+        },
+    });
+}
+function formFieldsControl() {
+    function e(e, t) {
+        t ? $("#" + e).show() : $("#" + e).hide();
+    }
+    e("divFname", window.divFname),
+        e("divLname", window.divLname),
+        e("divEmail", window.divEmail),
+        e("divCountryCodeId", window.divCountryCodeId),
+        e("divCity", window.divCity),
+        e("divDestinationCodeid", window.divDestinationCodeid),
+        e("divBranchCodeId", window.divBranchCodeId),
+        e("divCourseCodeId", window.divCourseCodeId),
+        e("divterms_accept", window.divterms_accept),
+        e("divCaptcha", window.divCaptcha);
+}
+function getCountryCode() {
+    $.ajax({
+        url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetCountryCode",
+        type: "GET",
+        dataType: "json",
+        success: function (e) {
+            bindDropdown(e.data);
+        },
+        error: function () {
+            alert("Data not found");
+        },
+    });
+}
+function bindDropdown(e) {
+    $(".ddlCountryCodeid").each(function () {
+        const t = $(this);
+        t.empty(),
+            t.append('<option value="">Select Country</option>'),
+            $.each(e, function (e, a) {
+                const n = $("<option></option>").attr("value", a.ID).text(a.Code);
+                a.Code.toLowerCase().includes("india") && n.prop("selected", !0), t.append(n);
+            });
+    });
+}
+function getDestinationCode() {
+    $.ajax({
+        url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetCountry",
+        type: "GET",
+        dataType: "json",
+        success: function (e) {
+            bindDestinationDropdown(e.data);
+        },
+        error: function () {
+            alert("Data not found");
+        },
+    });
+}
+function bindDestinationDropdown(e) {
+    var t = $("#ddlDestinationCodeid");
+    t.empty(), t.append('<option value="Select">Select Destination</option>');
+    var a = $("#ddlDestinationCodeid_1");
+    a.empty(), a.append('<option value="Select">Select Destination</option>');
+    var n = $("#ddlDestinationCodeid_2");
+    n.empty(),
+        n.append('<option value="Select">Select Destination</option>'),
+        $.each(e, function (e, i) {
+            t.append($("<option></option>").attr("value", i.COUNTRYID).text(i.COUNTRYNAME)),
+                a.append($("<option></option>").attr("value", i.COUNTRYID).text(i.COUNTRYNAME)),
+                n.append($("<option></option>").attr("value", i.COUNTRYID).text(i.COUNTRYNAME));
+        });
+}
+function getBranch() {
+    $.ajax({
+        url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetBranch",
+        type: "GET",
+        dataType: "json",
+        success: function (e) {
+            bindBranchDropdown(e.data);
+        },
+        error: function () {
+            alert("Data not found");
+        },
+    });
+}
+function bindBranchDropdown(e) {
+    var t = $("#ddlBranchCodeId");
+    t.empty(), t.append('<option value="Select">Select Branch</option>');
+    var a = $("#ddlBranchCodeId_1");
+    a.empty(), a.append('<option value="Select">Select Branch</option>');
+    var n = $("#ddlBranchCodeId_2");
+    n.empty(),
+        n.append('<option value="Select">Select Branch</option>'),
+        $.each(e, function (e, i) {
+            t.append($("<option></option>").attr("value", i.BRANCHID).text(i.BRANCHNAME)),
+                a.append($("<option></option>").attr("value", i.BRANCHID).text(i.BRANCHNAME)),
+                n.append($("<option></option>").attr("value", i.BRANCHID).text(i.BRANCHNAME));
+        });
+}
+function getCourse() {
+    $.ajax({
+        url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetLevel",
+        type: "GET",
+        dataType: "json",
+        success: function (e) {
+            bindCourseDropdown(e.data);
+        },
+        error: function () {
+            alert("Data not found");
+        },
+    });
+}
+function bindCourseDropdown(e) {
+    var t = $("#ddlCourseCodeId");
+    const a = [
+        "Bachelors Pursuing",
+        "English Test Preparation",
+        "Foundation",
+        "Language program",
+        "Pathway Program",
+        "Top up",
+        "VGTU Bachelor",
+        "Vocational Courses",
+    ];
+    t.empty(), t.append('<option value="Select">Select Course</option>');
+    var n = $("#ddlCourseCodeId_1");
+    n.empty(), n.append('<option value="Select">Select Course</option>');
+    var i = $("#ddlCourseCodeId_2");
+    i.empty(),
+        i.append('<option value="Select">Select Course</option>'),
+        $.each(e, function (e, o) {
+            t.append($("<option></option>").attr("value", o.QUALLEVELID).text(o.QUALDESC)),
+                a.includes(o.QUALDESC) ||
+                (n.append($("<option></option>").attr("value", o.QUALLEVELID).text(o.QUALDESC)),
+                    i.append($("<option></option>").attr("value", o.QUALLEVELID).text(o.QUALDESC)));
+        });
+}
+function GetHeighestQualification() {
+    $.ajax({
+        url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetHighestQualification",
+        type: "GET",
+        dataType: "json",
+        success: function (e) {
+            bindHeighestQualification(e.data);
+        },
+        error: function () {
+            alert("Data not found");
+        },
+    });
+}
+function bindHeighestQualification(e) {
+    var t = $("#ddlHighestQualifcation");
+    t.empty(), t.append('<option value="Select"> Highest Qualification </option>');
+    var a = $("#ddlHighestQualifcation_1");
+    a.empty(), a.append('<option value="Select"> Highest Qualification </option>');
+    var n = $("#ddlHighestQualifcation_2");
+    n.empty(),
+        n.append('<option value="Select"> Highest Qualification </option>'),
+        $.each(e, function (e, i) {
+            t.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION)),
+                a.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION)),
+                n.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION));
+        });
+}
+function GetPreferredCallBackTime() {
+    $.ajax({
+        url: "https://crm.indoeuropean.in/WebService/Lead.asmx/GetPreferredCallBackTime",
+        type: "GET",
+        dataType: "json",
+        success: function (e) {
+            bindPreferredCallBackTime(e.data);
+        },
+        error: function () {
+            alert("Data not found");
+        },
+    });
+}
+function bindPreferredCallBackTime(e) {
+    var t = $("#ddlPreferredCallBackTime");
+    t.empty(), t.append('<option value="Select"> Best Time to Call </option>');
+    var a = $("#ddlPreferredCallBackTime_1");
+    a.empty(), a.append('<option value="Select"> Best Time to Call </option>');
+    var n = $("#ddlPreferredCallBackTime_2");
+    n.empty(),
+        n.append('<option value="Select"> Best Time to Call </option>'),
+        $.each(e, function (e, i) {
+            t.append($("<option></option>").attr("value", i.ID).text(i.CALL_BACK_TIME)),
+                a.append($("<option></option>").attr("value", i.ID).text(i.CALL_BACK_TIME)),
+                n.append($("<option></option>").attr("value", i.ID).text(i.CALL_BACK_TIME));
+        });
+}
+$(document).ready(function () {
+    formFieldsControl(),
+        $("#errorCaptcha").css({ display: "none" }),
+        getCountryCode(),
+        GetHeighestQualification(),
+        getDestinationCode(),
+        getBranch(),
+        getCourse(),
+        GetPreferredCallBackTime();
+}),
+    $(document).ready(function () {
+        let e = $(".europe-submenus-1"),
+            t = $("#mobile-europe-icon");
+        e.slideUp(),
+            t.on("click", () => {
+                t.hasClass("fa-plus")
+                    ? (t.removeClass("fa-plus"), t.addClass("fa-minus"), e.slideDown(600))
+                    : (t.removeClass("fa-minus"), t.addClass("fa-plus"), e.slideUp(600));
+            });
+    });
+
+var toastElement = document.getElementById('universityToast');
+var toastClose = document.getElementById("universityToastClose");
+var toast = new bootstrap.Toast(toastElement);
+
+
+toastClose.addEventListener("click", () => {
+    showUniversityVisitPopup(5000);
+})
+
+function showUniversityVisitPopup(delay) {
+    setTimeout(function () {
+        toast.show();
+    }, delay);
+}
+
+showUniversityVisitPopup(5000);
+
+ 
