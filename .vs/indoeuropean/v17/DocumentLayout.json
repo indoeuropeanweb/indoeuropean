@@ -56,22 +56,9 @@
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAB6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-24T05:46:53.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UkBlog.cshtml",
-              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Blogs\\UkBlog.cshtml",
-              "RelativeDocumentMoniker": "Views\\Blogs\\UkBlog.cshtml",
-              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Blogs\\UkBlog.cshtml",
-              "RelativeToolTip": "Views\\Blogs\\UkBlog.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAACaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T05:45:53.939Z",
               "EditorCaption": ""
             },
             {
@@ -84,12 +71,7 @@
               "RelativeToolTip": "Views\\Blogs\\SwitzerlandBlog.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAACsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T05:44:22.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "WhenOpened": "2026-02-24T05:44:22.05Z"
             },
             {
               "$type": "Document",
@@ -101,8 +83,7 @@
               "RelativeToolTip": "Views\\Blogs\\USABlog.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-23T12:34:33.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T12:34:33.008Z"
             },
             {
               "$type": "Document",
@@ -114,8 +95,7 @@
               "RelativeToolTip": "wwwroot\\assets\\js\\Blogs.js",
               "ViewState": "AgIAAGYBAAAAAAAAAAAiwHQBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-02-23T11:18:12.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T11:18:12.299Z"
             },
             {
               "$type": "Document",
@@ -164,6 +144,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-02-06T10:16:29.83Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UkBlog.cshtml",
+              "DocumentMoniker": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Blogs\\UkBlog.cshtml",
+              "RelativeDocumentMoniker": "Views\\Blogs\\UkBlog.cshtml",
+              "ToolTip": "D:\\indoeuropean_New\\indoeuropean_New\\indoeuropean\\Views\\Blogs\\UkBlog.cshtml",
+              "RelativeToolTip": "Views\\Blogs\\UkBlog.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T05:45:53.939Z"
             }
           ]
         },
