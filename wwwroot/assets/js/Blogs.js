@@ -456,7 +456,7 @@ $(document).ready(function () {
             pagesArray.forEach(page => {
                 const pageItem = document.createElement("li");
 
-                if (currentPage == page) {
+                if (currentPage == page){
                     pageItem.classList.add("active");
                 } else {
                     pageItem.classList.remove("active");
@@ -487,7 +487,7 @@ $(document).ready(function () {
                         <div class="feature-card" id="${blog.id}">
                             <div class="feature-icon">
                                 <div class="event-bg">
-                                    <img class="w-100" src="${blog.image}" alt="${blog.alt}" loading="lazy" />
+                                    <img class="w-100" src="${blog.image}" alt="${blog.alt}" height="376" width="563"/>
                                 </div>
                             </div>
                             <div class="event-content">

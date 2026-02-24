@@ -2304,10 +2304,10 @@ div.input-group-prepend {
 }
 
 .notfound_text {
-    font-size: 1.75rem;
+    font-size: 2.8rem;
     text-align: center;
     margin-top: 25px;
-    color: #ff0000;
+    color: #f68826;
 }
 
 .agents-title, .associate-agents-heading {
@@ -4754,3 +4754,69 @@ margin: 0 auto;
         color: #fff;
         transition: all 0.4s ease-in-out;
     }
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+    .footer-social a i {
+        transition: box-shadow 0.2s ease-in-out;
+    }
+
+        .footer-social a i:hover {
+            box-shadow: 4px 4px 10px rgba(255,255,255,0.9);
+        }
+
+.classes-logos{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin-top: 24px;
+}
+
+.classes-logos li{
+    width: 9rem;
+}
+
+    .classes-logos li img {
+        border-radius: 5px;
+    }
+
+.accordion-button{
+    font-size: 1.6rem;
+}
+
+.circular-testimonials {
+    display: flex;
+    align-items: center;
+    animation: scroll 20s linear infinite;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    justify-content: center;
+    cursor: pointer;
+    gap: 20px;
+}
+
+    .circular-testimonials:hover{
+        animation-play-state: paused;
+    }
+
+.circular-track {
+    display: flex;
+    margin-left: 0;
+    padding-top: 32px;
+    padding-bottom: 0px;
+    align-items: center;
+    flex: 0 0 auto;
+    gap: 20px;
+}
+
+.circular-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}

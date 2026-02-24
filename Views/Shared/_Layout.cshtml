@@ -7,15 +7,13 @@
     <meta name="description" content="@ViewData["Description"]">
     <meta name="keywords" content="@ViewData["Keywords"]"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
-    <!-- CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="~/assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/icomoon.css">
     <link rel="stylesheet" href="~/assets/css/vendor/remixicon.css">
     <link rel="stylesheet" href="~/assets/css/vendor/magnifypopup.min.css">
-    @* <link rel="stylesheet" href="~/assets/css/vendor/odometer.min.css"> *@
+    @*<link rel="stylesheet" href="~/assets/css/vendor/odometer.min.css">*@
     <link rel="stylesheet" href="~/assets/css/vendor/lightbox.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/animation.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/swiper-bundle.min.css">
@@ -284,9 +282,43 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="inner text-center ">
-                            <p class="text-white">Copyright 2025 <a href="/" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
+                        <div class="row">
+                        <div class="col-md-3" style="width: 14rem;">
+                                @* <img class="w-100" src="/assets/images/achievements/icef-agency.png" alt="ICEF Certificate" /> *@
+                                <span id='iasBadge' data-account-id='1179'></span>
+                                <script async defer crossorigin="anonymous" src="https://www-cdn.icef.com/scripts/iasbadgeid.js"></script>
+                            </div>
+                            <div class="col-md-9">
+                            <ul class="classes-logos">
+                                <li>
+                                    <img class="w-100" src="/assets/images/coaching/tests/1.png" alt="IELTS" />
+								</li>
+                                <li>
+                                    <img class="w-100" src="/assets/images/coaching/tests/2.png" alt="Pearson" />
+                                </li>
+                                <li>
+                                    <img class="w-100" src="/assets/images/coaching/tests/3.png" alt="TOEFL" />
+                                </li>
+                                <li>
+                                    <img class="w-100" src="/assets/images/coaching/tests/4.png" alt="Duolingo" />
+                                </li>
+                            </ul>
+                            @* <ul class="w-100 pt-3">
+                                 <li class="footer-social">
+                                   <a href="https://www.facebook.com/Indoeuropean.in" target="blank"><i class="fa fa-facebook text-white" style="font-size: 1.5em"></i></a>
+                                   <a href="https://www.instagram.com/indo_european" target="blank"><i class="icon-instagram text-white fa-xl"></i></a>
+                                   <a href="https://twitter.com/indo_european" target="blank"><i class="icon-twitter text-white fa-xl"></i></a>
+                                   <a href="https://www.linkedin.com/company/indo-european-study-abroad-consultants/" target="blank"><i class="icon-linkedin2 text-white fa-xl"></i></a>
+                                   <a href="https://www.youtube.com/IEESIndoEuropean" target="_blank"><i class="icon-youtube text-white fa-xl"></i></a>
+                                 </li>
+                            </ul> *@
+                          
+                            <div class="inner text-center">
+                                <p class="text-white">Copyright 2026 <a href="/" target="_blank">Indo European Study Abroad Consultant. </a>  All Rights Reserved</p>
+                            </div>
+                            </div>
                         </div>
+                       
                     </div>
                 </div>
             </div>
@@ -395,7 +427,7 @@
                     <h5 class="modal-title">Follow Us</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button>
+                    </button> 
                 </div>
                 <div class="modal-body">
                     <ul style="list-style:none; padding:0px; margin:0px;">
@@ -410,7 +442,7 @@
         </div>
     </div>
 
-    @* <div class="toast-container university-visit-container">
+    <div class="toast-container university-visit-container">
         <div id="universityToast" class="toast" role="alert" data-bs-autohide="false" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
                 <i class="fa-solid fa-2xl fa-building-columns"></i>&nbsp;&nbsp;
@@ -418,29 +450,29 @@
                 <button id="universityToastClose" style="width: 2rem; height: 2rem;" type="button" class="btn-close ms-auto me-3" data-bs-dismiss="toast" aria-label="Close"><i class="fa-solid fa-2xl fa-xmark"></i></button>
             </div>
             <div class="toast-body">
-                <div id="carouselCaptions" class="carousel slide" data-bs-ride="false">
+                <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item">
+                        <div class="carousel-item active">
                             <div class="university-data">                          
                                 <div class="university-visit-img">
-                                    <img src="~/assets/images/Europe-Day-Event/sweden-flag.webp" class="d-block w-100" alt="Europe-University" />
+                                    <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                                 </div>
                                 <div class="university-visit-content">
-                                    <h5>Study in Sweden Day (Tilak Nagar)</h5>
-                                    <p>Mon 17th Nov 2025, 12:00 PM – 6:30 PM</p>
-                                    <a href="/events" target="_blank">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
+                                    <h5>Study in Europe Day (Ludhiana)</h5>
+                                    <p>Sun 1st Mar 2026, 10:30 AM - 05:30 PM</p>
+                                    <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item active">
+                        <div class="carousel-item">
                             <div class="university-data">
                             <div class="university-visit-img">
                             <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                             </div>
                             <div class="university-visit-content">
                                 <h5>Study In Europe Day (Jalandhar)</h5>
-                                <p>Sun 23rd Nov 2025, 10:00 AM - 05:30 PM</p>
-                                 <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
+                                <p>Mon 2nd Mar 2026, 10:30 AM - 05:30 PM</p>
+                                <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                             </div>
                             </div>
                         </div>
@@ -450,9 +482,9 @@
                             <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                             </div>
                             <div class="university-visit-content">
-                                <h5>Study in Europe Day (Ludhiana)</h5>
-                                <p>Tue 25th Nov 2025, 10:00 AM - 05:30 PM</p>
-                                 <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
+                                <h5>Study in Europe Day (Amritsar)</h5>
+                                <p>Tue 3rd Mar 2026, 10:30 AM - 05:30 PM</p>
+                                <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                             </div>
                             </div>
                         </div>
@@ -462,8 +494,8 @@
                                 <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                             </div>
                              <div class="university-visit-content">
-                                  <h5>Study in Europe Day (Chandigarh)</h5>
-                                  <p>Wed 26th Nov 2025, 10:00 AM - 05:30 PM</p>
+                                  <h5>Study in Europe Day (New Delhi)</h5>
+                                  <p>Sat 7th Mar 2026, 10:30 AM - 05:30 PM</p>
                                   <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                              </div>
                             </div>
@@ -474,20 +506,20 @@
                                     <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                                 </div>
                                 <div class="university-visit-content">
-                                    <h5>Study in Europe Day (Patiala)</h5>
-                                    <p>Thu 27th Nov 2025, 2:00 PM - 06:30 PM</p>
+                                    <h5>Study in Europe Day (Chandigarh)</h5>
+                                    <p>Sun 8th Mar 2026, 10:30 AM - 05:30 PM</p>
                                     <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item active">
+                        <div class="carousel-item">
                             <div class="university-data">
                                 <div class="university-visit-img">
                                     <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                                 </div>
                                 <div class="university-visit-content">
-                                    <h5>Study in Europe Day (New Delhi)</h5>
-                                    <p>Sat 29th Nov 2025, 10:30 AM - 05:30 PM</p>
+                                    <h5>Study in Europe Day (Patiala)</h5>
+                                    <p>Mon 9th Mar 2026, 10:30 AM - 05:30 PM</p>
                                     <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
@@ -496,7 +528,7 @@
                 </div>
             </div>
         </div>
-        </div> *@
+        </div>
 
     @* <a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
