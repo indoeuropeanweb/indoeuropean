@@ -1,436 +1,484 @@
 ﻿const BlogsDataJSON = [
     {
         "id": 1,
-        "title": "Top 7 Reasons to Study in Europe in 2025",
+        "title": "Top Reasons to Study in Europe for International Students",
         "date": "June 30, 2025",
         "author": "Indo European",
-        "description": "Thinking about studying abroad? Europe continues to be one of the best destinations for international students in 2025.",
+        "description": "Discover the top reasons to study in Europe, from world-class universities and affordable tuition to global career opportunities and cultural diversity.",
         "image": "/assets/images/blogs/blog-europe.webp",
         "alt": "Study in Europe",
         "country": "Europe",
         "location": "Europe",
-        "link": "/blogs/1"
+        "link": "/blogs/top-reasons-to-study-in-europe"
     },
     {
         "id": 2,
-        "title": "Study in Latvia - Find Best Programmes to Study & Fees",
+        "title": "Latvia Study Abroad Guide – Top Programs & Fees",
         "date": "June 25, 2025",
         "author": "Indo European",
-        "description": "Latvia is emerging as a popular destination for international students seeking quality education in Europe.",
+        "description": "Explore Latvia’s best universities and popular study programs with fees, admissions tips & student life info — a complete guide for international students",
         "image": "/assets/images/blogs/blog-latvia.webp",
         "alt": "Study in Latvia",
         "country": "Latvia",
         "location": "Latvia",
-        "link": "/blogs/2"
+        "link": "/blogs/study-in-latvia-universities-guide"
     },
     {
         "id": 3,
-        "title": "Why are Indian Students Choosing Germany for Studying Abroad?",
+        "title": "Study Abroad in France – Best Universities & Programs",
         "date": "June 20, 2025",
         "author": "Indo European",
-        "description": "Germany has emerged as one of the top destinations for Indian students pursuing higher education abroad.",
+        "description": "Explore the best universities and popular programs in France, plus study costs, admissions tips, and guidance for Indian students.",
         "image": "/assets/images/blogs/germany-blog.webp",
         "alt": "Study in Germany",
         "country": "Germany",
         "location": "Germany",
-        "link": "/blogs/3"
+        "link": "/blogs/study-in-germany-for-indian-students"
     },
     {
         "id": 4,
-        "title": "Riga Technical University: Ranking, Courses, and Fees",
+        "title": "Riga Technical University (RTU) Study Abroad Guide",
         "date": "June 30, 2025",
         "author": "Indo European",
-        "description": "Riga Technical University (RTU) is one of Latvia's most prestigious higher education institutions.",
+        "description": "Explore Riga Technical University in Latvia — rankings, top courses, tuition fees & opportunities for international students planning to study abroad.",
         "image": "/assets/images/blogs/rtu-university.webp",
         "alt": "Study in Latvia",
         "country": "Latvia",
         "location": "Latvia",
-        "link": "/blogs/4"
+        "link": "/blogs/study-at-rtu-latvia-guide"
     },
     {
         "id": 5,
-        "title": "Best Universities for Programs in France 2025",
+        "title": "Study Abroad in France – Best Universities & Programs",
         "date": "June 25, 2025",
         "author": "Indo European",
-        "description": "France has always been a dream destination for students worldwide, offering excellent education paired with unmatched cultural experiences.",
+        "description": "Explore the best universities and popular programs in France, plus study costs, admissions tips, and guidance for Indian students.",
         "image": "/assets/images/blogs/blog-france.webp",
         "alt": "Study in France",
         "country": "France",
         "location": "France",
-        "link": "/blogs/5"
+        "link": "/blogs/study-in-france-programs-and-universities"
     },
     {
         "id": 6,
-        "title": "Start Your Study Abroad Journey with Indo European",
+        "title": "Start Your Study Abroad Journey with Expert Help",
         "date": "June 20, 2025",
         "author": "Indo European",
-        "description": "Dreaming of traveling to a new country, immersing yourself in a different culture, and earning a top-quality education?",
+        "description": "Get expert career counseling for studying abroad with Indo European — from destination selection to visa help and admissions guidance.",
         "image": "/assets/images/blogs/study-abroad-blog-europe.webp",
         "alt": "Study Abroad in Europe",
         "country": "Europe",
         "location": "Europe",
-        "link": "/blogs/6"
+        "link": "/blogs/study-abroad-career-counseling"
     },
     {
         "id": 7,
-        "title": "Study in Denmark: Guide to Top Universities & Courses",
+        "title": "Study in Denmark: Top Universities & Courses Guide",
         "date": "July 03, 2025",
         "author": "Indo European",
-        "description": "Planning to study abroad but unsure where to start? Denmark, known for its innovative teaching methods, quality education system",
+        "description": "Planning to study in Denmark? Discover leading universities, available programs, tuition fees, and why Denmark is a top choice for global students.",
         "image": "/assets/images/blogs/study-in-denmark.webp",
         "alt": "Study in Denmark",
         "country": "Denmark",
         "location": "Denmark",
-        "link": "/blogs/7"
+        "link": "/blogs/study-in-denmark-guide"
     },
     {
         "id": 8,
-        "title": "Is Finland Right for You? Pros & Cons of Studying in Finland",
+        "title": "Study in Finland: Benefits & Challenges for International Students",
         "date": "Nov 05, 2025",
         "author": "Indo European",
-        "description": "Are you considering pursuing your education in Finland but unsure if it’s the right decision? Finland has built a global reputation for its high-quality education",
+        "description": "Thinking of studying in Finland? Understand the pros, cons, and opportunities available for Indian and international students.",
         "image": "/assets/images/blogs/finland/finland-main.webp",
         "alt": "Study in Finland",
         "country": "Finland",
         "location": "Finland",
-        "link": "/blogs/8"
+        "link": "/blogs/study-in-finland-for-indian-students"
     },
     {
         "id": 9,
-        "title": "Top Universities in Lithuania - Ranking, Fees & Best Programs",
+        "title": "Top Universities in Lithuania: Rankings & Fees Guide",
         "date": "Nov 06, 2025",
         "author": "Indo European",
-        "description": "Lithuania, a vibrant country in Northern Europe, is becoming a hub for international students thanks to its high-quality education system and affordable tuition fees.",
+        "description": "Explore the top universities in Lithuania, including rankings, tuition fees, and popular programs for international students seeking affordable European education.",
         "image": "/assets/images/blogs/lithuania/Lithuania-1.jpg",
         "alt": "Study in Lithuania",
         "country": "Lithuania",
         "location": "Lithuania",
-        "link": "/blogs/9"
+        "link": "/blogs/top-universities-in-lithuania"
     },
     {
         "id": 10,
-        "title": "Top 10 Universities in New Zealand & Their Best Programs",
+        "title": "Top Universities in New Zealand for International Students",
         "date": "Nov 07, 2025",
         "author": "Indo European",
-        "description": "New Zealand is quickly becoming a popular destination for international students seeking high-quality education and a unique cultural experience.",
+        "description": "Explore the top universities in New Zealand and their best programs. Discover rankings, popular courses, and why New Zealand is ideal for international students",
         "image": "/assets/images/blogs/New-Zealand/NewZealand-blog.jpg",
         "alt": "Study in New Zealand",
         "country": "New Zealand",
         "location": "New Zealand",
-        "link": "/blogs/10"
+        "link": "/blogs/top-universities-in-new-zealand"
     },
     {
         "id": 11,
-        "title": "Bachelor’s in Germany After 12th: Is It Worth It?",
+        "title": "Bachelor’s in Germany After 12th – Complete Guide",
         "date": "Nov 08, 2025",
         "author": "Indo European",
-        "description": "Germany has established itself as a global leader in education, drawing students from across the world with its renowned universities,",
+        "description": "Explore the benefits of studying a bachelor’s degree in Germany after 12th, including tuition fees, admission process, and job opportunities.",
         "image": "/assets/images/blogs/Germany/German-Bachelor.webp",
         "alt": "Study in Germany",
         "country": "Germany",
         "location": "Germany",
-        "link": "/blogs/11"
+        "link": "/blogs/bachelors-in-germany-after-12th"
     },
     {
         "id": 12,
-        "title": "France Spouse Visa – Application Process & Eligibility",
+        "title": "France Spouse Visa: Application Process & Eligibility Guide",
         "date": "Nov 10, 2025",
         "author": "Indo European",
-        "description": "When planning to reside in France with your spouse, understanding the spouse visa process is crucial. This comprehensive guide breaks down...",
+        "description": "Learn the complete France spouse visa application process, eligibility criteria, required documents, and key steps for joining your partner in France",
         "image": "/assets/images/blogs/France/France-Blog-2.webp",
         "alt": "Study in France",
         "country": "France",
         "location": "France",
-        "link": "/blogs/12"
+        "link": "/blogs/france-spouse-visa-application-process"
     },
     {
         "id": 13,
-        "title": "Top Universities in Copenhagen for International Students",
+        "title": "Best Universities in Copenhagen, Denmark for International Students",
         "date": "Nov 11, 2025",
         "author": "Indo European",
-        "description": "The University of Copenhagen Denmark (UCPH), also known as KU, is one of the oldest and most prestigious universities in Europe.",
+        "description": "Explore top universities in Copenhagen for international students, including UCPH, DTU, CBS & more — programs, advantages, and study options.",
         "image": "/assets/images/blogs/Denmark/Copenhagen.webp",
         "alt": "Study in Copenhagen",
         "country": "Denmark",
         "location": "Denmark",
-        "link": "/blogs/13"
+        "link": "/blogs/study-in-copenhagen-best-universities"
     },
     {
         "id": 14,
-        "title": "Study in Denmark: Guide to Top Universities & Courses",
+        "title": "Complete Guide to Study in Denmark – Best Universities & Programs for International Students",
         "date": "Nov 11, 2025",
         "author": "Indo European",
-        "description": "Planning to study abroad but unsure where to start? Denmark, known for its innovative teaching methods, quality education system...",
+        "description": "Planning to study in Denmark? Explore top universities, popular courses, admission process, tuition fees, and student life in this complete guide for international students.",
         "image": "/assets/images/blogs/Denmark/Denmark-3.webp",
         "alt": "Study in Denmark",
         "country": "Denmark",
         "location": "Denmark",
-        "link": "/blogs/14"
+        "link": "/blogs/study-in-denmark-top-universities-courses-guide"
     },
     {
         "id": 15,
-        "title": "Why Sweden is Perfect for International Students",
+        "title": "Why Study in Sweden? Benefits for International Students",
         "date": "Nov 12, 2025",
         "author": "Indo European",
-        "description": "Are you considering studying abroad and looking for a destination that combines world-class education, innovation, and quality of life? Sweden could be your perfect choice.",
+        "description": "Thinking about studying in Sweden? Learn why it’s one of the best destinations for global students seeking academic excellence and innovation.",
         "image": "/assets/images/blogs/Sweden/Sweden-bg.webp",
         "alt": "Study in Sweden",
         "country": "Sweden",
         "location": "Sweden",
-        "link": "/blogs/15"
+        "link": "/blogs/why-study-in-sweden"
     },
     {
         "id": 16,
-        "title": "Australia Intakes Explained: When and How to Apply for Admission",
+        "title": "Australia Intakes Explained: Application Timeline Guide",
         "date": "Nov 17, 2025",
         "author": "Indo European",
-        "description": "Planning to study in Australia? Understanding the admission intakes and their corresponding timelines is essential. This blog provides a detailed guide to Australia's intakes...",
+        "description": "Planning to study in Australia? Discover major intakes, timelines, and how to prepare your university application step-by-step.",
         "image": "/assets/images/blogs/Australia/Australia-blog.webp",
         "alt": "Study in Australia",
         "country": "Australia",
         "location": "Australia",
-        "link": "/blogs/16"
+        "link": "/blogs/australia-intakes-guide"
     },
     {
         "id": 17,
-        "title": "Cost of Studying and Living in Australia: A Complete Guide",
+        "title": "Cost of Studying in Australia: Tuition & Living Guide",
         "date": "Nov 17, 2025",
         "author": "Indo European",
-        "description": "Australia is an exciting destination for international students, offering quality education, a diverse culture, and world-renowned universities. However, understanding the cost...",
+        "description": "Planning to study in Australia? Learn about university tuition, student living costs, housing options, and financial planning tips",
         "image": "/assets/images/blogs/Australia/Australia-blog2.webp",
         "alt": "Cost of Studying and Living in Australia",
         "country": "Australia",
         "location": "Australia",
-        "link": "/blogs/17"
+        "link": "/blogs/why-study-in-finland"
     },
     {
         "id": 18,
-        "title": "Why Finland is Emerging as a Study Abroad Hotspot",
+        "title": "Why Finland Is Emerging as a Study Abroad Hotspot",
         "date": "Nov 18, 2025",
         "author": "Indo European",
-        "description": "Finland has quickly become a rising star for international students seeking high-quality education and an enriching experience. With its world-renowned Finland education system...",
+        "description": "Discover why Finland is becoming a top study abroad destination, offering world-class education, innovative teaching, and English-taught programs.",
         "image": "/assets/images/blogs/finland/Finland-blog2.webp",
         "alt": "Study in Finland",
         "country": "Finland",
         "location": "Finland",
-        "link": "/blogs/18"
+        "link": "/blogs/why-study-in-finland"
     },
     {
         "id": 19,
-        "title": "Cultural Shock in Europe: A Guide for Indian Students on Adapting",
+        "title": "Indian Students in Europe: Overcoming Cultural Shock & Adapting Successfully",
         "date": "Nov 18, 2025",
         "author": "Indo European",
-        "description": "For Indian students embarking on a study abroad journey in Europe, the experience is both exciting and challenging. Moving halfway across the globe involves stepping into a vastly different culture.",
+        "description": "Discover what cultural shock in Europe means for Indian students. Learn practical tips to adapt, adjust to new lifestyles, and thrive abroad.",
         "image": "/assets/images/blogs/Europe/Europe-Culture.webp",
         "alt": "Study in Europe",
         "country": "Europe",
         "location": "Europe",
-        "link": "/blogs/19"
+        "link": "/blogs/cultural-shock-in-europe-for-indian-students"
     },
     {
         "id": 20,
-        "title": "Is France the Best Place to Study Fashion, Art, and Design?",
+        "title": "Is France the Best Place to Study Fashion, Art & Design?",
         "date": "Nov 19, 2025",
         "author": "Indo European",
-        "description": "When picturing global hubs of fashion, art, and design, France inevitably stands out. With its rich cultural heritage, iconic creative industries...",
+        "description": "Planning to study fashion or design abroad? Learn why France offers world-class art schools, global exposure, and unmatched creative opportunities.",
         "image": "/assets/images/blogs/France/France-Blog-3.webp",
         "alt": "Study in France",
         "country": "France",
         "location": "France",
-        "link": "/blogs/20"
+        "link": "/blogs/study-fashion-art-design-in-france"
     },
     {
         "id": 21,
-        "title": "Lithuania: Europe’s Hidden Gem for Affordable Higher Education",
+        "title": "Study in Lithuania: Europe’s Hidden Gem for Affordable Higher Education",
         "date": "Nov 19, 2025",
         "author": "Indo European",
-        "description": "Looking to pursue a quality education abroad without breaking the bank? Lithuania, a lesser-known yet rapidly growing destination...",
+        "description": "Discover why Lithuania is becoming a top affordable study destination in Europe. Explore universities, tuition fees, student life, and career opportunities.",
         "image": "/assets/images/blogs/lithuania/Lithuania-2.webp",
         "alt": "Study in Lithuania",
         "country": "Lithuania",
         "location": "Lithuania",
-        "link": "/blogs/21"
+        "link": "/blogs/study-in-lithuania-affordable-higher-education"
     },
     {
         "id": 22,
-        "title": "Is Finland Right for You? Pros & Cons of Studying in Finland",
+        "title": "Study in Finland: Advantages & Challenges for International Students",
         "date": "Nov 20, 2025",
         "author": "Indo European",
-        "description": "Are you considering pursuing your education in Finland but unsure if it’s the right decision? Finland has built a global reputation...",
+        "description": "Thinking about studying in Finland? Learn about benefits, challenges, student life, fees, and how Indo European can support your journey.",
         "image": "/assets/images/blogs/denmark/denmark-4.webp",
         "alt": "Study in Denmark",
         "country": "Denmark",
         "location": "Denmark",
-        "link": "/blogs/22"
+        "link": "/blogs/study-in-finland-pros-and-cons"
     },
     {
         "id": 23,
-        "title": "Top Universities in Austria for International Students",
+        "title": "Best Universities in Austria for International Students – Complete Guide",
         "date": "Nov 21, 2025",
         "author": "Indo European",
-        "description": "Austria is a vibrant blend of historical heritage, cutting-edge innovation, and world-class education, making it a prime destination for international students.",
+        "description": "Planning to study in Austria? Learn about the best universities, affordable education, English-taught programs, and opportunities for international students.",
         "image": "/assets/images/blogs/Austria/Austria-Blog.webp",
         "alt": "Study in Austria",
         "country": "Austria",
         "location": "Austria",
-        "link": "/blogs/23"
+        "link": "/blogs/top-universities-in-austria-for-international-students"
     },
     {
         "id": 24,
-        "title": "Why the Czech Republic is becoming a Hotspot for Indian Students",
+        "title": "Why Study in Czech Republic? A Growing Hotspot for Indian Students",
         "date": "Nov 21, 2025",
         "author": "Indo European",
-        "description": "The Czech Republic is quickly emerging as a preferred study destination for Indian students. With its rich academic tradition, globally recognized universities...",
+        "description": "Discover why the Czech Republic is becoming a top study destination for Indian students. Explore universities, tuition fees, student life, and career opportunities.",
         "image": "/assets/images/blogs/CzechRepublic/CzechRepublic-1.webp",
         "alt": "Study in Czech Republic",
         "country": "Czech Republic",
         "location": "Czech Republic",
-        "link": "/blogs/24"
+        "link": "/blogs/why-study-in-czech-republic-for-indian-students"
     },
     {
         "id": 25,
-        "title": "Top Medicine Universities in Hungary for International Students",
+        "title": "Study Medicine in Hungary: Best Universities, Fees & Admission Guide",
         "date": "Nov 21, 2025",
         "author": "Indo European",
-        "description": "Studying medicine abroad offers a unique opportunity for students to gain high-quality education, global exposure, and international networking opportunities.",
+        "description": "Planning to study medicine abroad? Discover why Hungary offers affordable, globally recognized medical education for Indian students.",
         "image": "/assets/images/blogs/Hungary/Hungary-blog.webp",
         "alt": "Study in Hungary",
         "country": "Europe",
         "location": "Hungary",
-        "link": "/blogs/25"
+        "link": "/blogs/study-medicine-in-hungary-for-international-students"
     },
     {
         "id": 26,
-        "title": "Study in Italy: Affordable Education & Rich Culture",
+        "title": "Study in Italy: Affordable Education & Rich Cultural Experience",
         "date": "Nov 22, 2025",
         "author": "Indo European",
-        "description": "Italy has long been celebrated as a land of art, culture, and history. But for international students, it’s also becoming one of the top destinations for affordable...",
+        "description": "Planning to study in Italy? Explore universities, tuition fees, scholarships, and vibrant student life in this complete study abroad guide.",
         "image": "/assets/images/blogs/Italy/Italy-blog.webp",
         "alt": "Study in Italy",
         "country": "Europe",
         "location": "Italy",
-        "link": "/blogs/26"
+        "link": "/blogs/study-in-italy-affordable-education-guide"
     },
     {
         "id": 27,
-        "title": "Study in Netherlands: Why It’s the New Study Abroad Favourite",
+        "title": "Why Study in the Netherlands? Top Universities, Fees & Benefits",
         "date": "Nov 22, 2025",
         "author": "Indo European",
-        "description": "The Netherlands has5 rapidly emerged as a top study destination for international students. Known for its picturesque landscapes, renowned education system...",
+        "description": "Planning to study in the Netherlands? Learn about world-class universities, affordable tuition, global exposure, and student-friendly policies.",
         "image": "/assets/images/blogs/Netherlands/Netherlands-blog.webp",
         "alt": "Study in Netherlands",
         "country": "Europe",
         "location": "Netherlands",
-        "link": "/blogs/27"
+        "link": "/blogs/study-in-netherlands-new-study-abroad-favourite"
     },
     {
         "id": 28,
-        "title": "Study in Norway for Free: A Guide for Indian Students",
+        "title": "Study in Norway for Free: Complete Guide for Indian Students",
         "date": "Nov 22, 2025",
         "author": "Indo European",
-        "description": "If you've been dreaming of pursuing higher education abroad but are held back by financial constraints, Norway might just be your ideal destination.",
+        "description": "Want to study abroad without high tuition fees? Explore how Norway offers free education, top universities, and career opportunities for Indian students.",
         "image": "/assets/images/blogs/Norway/Norway-blog.webp",
         "alt": "Study in Norway",
         "country": "Europe",
         "location": "Norway",
-        "link": "/blogs/28"
+        "link": "/blogs/study-in-norway-for-free-indian-students"
     },
     {
         "id": 29,
         "title": "Study in Poland: Affordable Education with European Exposure",
         "date": "Nov 22, 2025",
         "author": "Indo European",
-        "description": "Poland has emerged as a top destination for international students seeking high-quality education combined with budget-friendly tuition fees.",
+        "description": "Discover why Poland is a top affordable study destination in Europe. Explore universities, tuition fees, popular courses, and career opportunities for international students.",
         "image": "/assets/images/blogs/Poland/Poland-blog.webp",
         "alt": "Study in Poland",
         "country": "Europe",
         "location": "Poland",
-        "link": "/blogs/29"
+        "link": "/blogs/study-in-poland-affordable-education-guide"
     },
     {
         "id": 30,
-        "title": "Study in Spain: A Blend of Culture, Affordability & Career Opportunities",
+        "title": "Study in Spain: Culture, Affordable Education & Career Opportunities",
         "date": "Nov 22, 2025",
         "author": "Indo European",
-        "description": "Considering studying abroad? Spain might just be the destination that offers everything—from world-class education to rich cultural experiences.",
+        "description": "Discover why Spain is a top study abroad destination. Explore affordable tuition, top universities, vibrant culture, and career opportunities for international students.",
         "image": "/assets/images/blogs/Spain/Spain-blog.webp",
         "alt": "Study in Spain",
         "country": "Europe",
         "location": "Spain",
-        "link": "/blogs/30"
+        "link": "/blogs/study-in-spain-affordable-education-guide"
     },
     {
         "id": 31,
-        "title": "Study in Switzerland: Hospitality, Innovation & Quality Education",
+        "title": "Why Study in Switzerland? Top Courses, Universities & Career Scope",
         "date": "Nov 24, 2025",
         "author": "Indo European",
-        "description": "Switzerland, a country renowned for its stunning landscapes, precision engineering, and global influence on education...",
+        "description": "Planning to study in Switzerland? Learn about hospitality courses, top universities, tuition costs, and global career prospects.",
         "image": "/assets/images/blogs/Switzerland/Switzerland-Blog.webp",
         "alt": "Study in Switzerland",
         "country": "Switzerland",
         "location": "Switzerland",
-        "link": "/blogs/31"
+        "link": "/blogs/study-in-switzerland-hospitality-innovation-guide"
     },
     {
         "id": 32,
-        "title": "Study in the UK: Courses, Scholarships, Visas & More",
+        "title": "Study in UK for Indian Students – Courses, Fees & Visa Guide",
         "date": "Nov 25, 2025",
         "author": "Indo European",
-        "description": "Studying in the UK is an exciting opportunity for Indian students seeking high-quality education and global exposure.",
+        "description": "Planning to study in the UK? Explore top universities, popular courses, scholarships, visa requirements, and post-study work options for Indian students.",
         "image": "/assets/images/blogs/UK/Uk-blog.webp",
         "alt": "Study in UK",
         "country": "UK",
         "location": "UK",
-        "link": "/blogs/32"
+        "link": "/blogs/study-in-uk-courses-scholarships-visa-guide"
     },
     {
         "id": 33,
-        "title": "Study in USA: Everything You Need to Know Before You Apply",
+        "title": "Study in USA for Indian Students – Admissions, Fees & Visa Guide",
         "date": "Nov 26, 2025",
         "author": "Indo European",
-        "description": "The United States of America has long been one of the most sought-after destinations for higher education among Indian students.",
+        "description": "Planning to study in the USA? Explore top universities, admission process, tuition fees, scholarships, and visa requirements for Indian students.",
         "image": "/assets/images/blogs/USA/Usa-Blog.webp",
         "alt": "Study in USA",
         "country": "USA",
         "location": "USA",
-        "link": "/blogs/33"
+        "link": "/blogs/study-in-usa-complete-guide-for-indian-students"
     },
     {
         "id": 34,
-        "title": "Top Reasons Indian Students Love New Zealand for Higher Education",
+        "title": "Why Study in New Zealand? Benefits for Indian Students",
         "date": "Nov 26, 2025",
         "author": "Indo European",
-        "description": "When it comes to higher education abroad, Indian students have plenty of options. Yet, over the years, New Zealand has emerged as...",
+        "description": "Planning to study abroad? Learn why New Zealand offers world-class education, safe campuses, and strong post-study work opportunities.",
         "image": "/assets/images/blogs/New-Zealand/NewZealand-blog2.webp",
         "alt": "Study in New Zealand",
         "country": "New Zealand",
         "location": "New Zealand",
-        "link": "/blogs/34"
+        "link": "/blogs/why-study-in-new-zealand-for-indian-students"
     },
     {
         "id": 35,
-        "title": "Top Tech & Engineering Destinations in Europe for Indian Students",
+        "title": "Best European Countries for Engineering & Technology Studies",
         "date": "Nov 27, 2025",
         "author": "Indo European",
-        "description": "For Indian students dreaming of a career in technology or engineering, Europe is emerging as an unbeatable destination.",
+        "description": "Discover the best tech and engineering destinations in Europe for Indian students. Explore top countries, universities, tuition fees, and job prospects.",
         "image": "/assets/images/blogs/Europe/Europe-Blogs-3.webp",
         "alt": "Study in Europe",
         "country": "Europe",
         "location": "Europe",
-        "link": "/blogs/35"
+        "link": "/blogs/top-tech-engineering-destinations-in-europe"
     },
     {
         "id": 36,
         "title": "Top 10 Universities in Australia for International Students",
         "date": "Nov 28, 2025",
         "author": "Indo European",
-        "description": "Australia is an excellent destination for international students seeking world-class education, diverse culture, and enriching experiences.",
+        "description": "Explore the top 10 universities in Australia for international students. Compare rankings, popular courses, tuition fees, and career opportunities.",
         "image": "/assets/images/blogs/Australia/Australia-blog3.webp",
         "alt": "Study in Australia",
         "country": "Australia",
         "location": "Australia",
-        "link": "/blogs/36"
-    }
+        "link": "/blogs/top-10-universities-in-australia-for-international-students"
+    },
+    {
+        "id": 37,
+        "title": "Study in Denmark for Indian Students | Universities, Fees & Visa Guide",
+        "date": "06 Mar, 2026",
+        "author": "Indo European",
+        "description": "Planning to study in Denmark? Explore top universities, tuition fees, scholarships, work opportunities, and student visa process...",
+        "image": "/assets/images/blogs/Denmark/Study-in-Denmark-2.webp",
+        "alt": "Study in Denmark for Indian students universities fees scholarships visa guide",
+        "country": "Denmark",
+        "location": "Denmark",
+        "link": "/blogs/study-in-denmark-for-indian-students"
+    },
+    {
+        "id": 38,
+        "title": "Study in Finland for Indian Students | Top Universities, Fees & Benefits",
+        "date": "12 Mar, 2026",
+        "author": "Indo European",
+        "description": "Nowadays, studying abroad has become a dream for many Indian students, and Europe is one of the best international education country.",
+        "image": "/assets/images/finland/Study-abroad-Finland.jpg",
+        "alt": "Study in Finland",
+        "country": "Finland",
+        "location": "Finland",
+        "link": "/blogs/study-abroad-in-finland-for-indian-students"
+    },
+    {
+        "id": 39,
+        "title": "Best Study Abroad Consultants for Europe",
+        "date": "17 Mar, 2026",
+        "author": "Indo European",
+        "description": "Europe is considered the home to multiple top-ranked universities, Europe offers a wide range of English- taught programs to its international students, and emphasis strongly on research and innovation.",
+        "image": "/assets/images/blogs/Europe/StudyinEurope-4.webp",
+        "alt": "Study in Europe",
+        "country": "Europe",
+        "location": "Europe",
+        "link": "/blogs/best-study-abroad-consultants-for-europe"
+    },
+    {
+        "id": 40,
+        "title": "How to Study in Europe After 12th",
+        "date": "25 Mar, 2026",
+        "author": "Indo European",
+        "description": "Planning to go to Europe for your higher studies after 12th, but are not sure whether you can go or not? Then don’t worry, we at Indo-European Study Abroad Consultants are here to guide you through the entire process and clear all your doubts.",
+        "image": "/assets/images/blogs/Europe/europe-blog-5.webp",
+        "alt": "Study in Europe",
+        "country": "Europe",
+        "location": "Europe",
+        "link": "/blogs/how-to-study-in-europe-after-12th"
+    },
 ];
 
 $(document).ready(function () {
@@ -439,8 +487,9 @@ $(document).ready(function () {
     const blogsContainer = $("#Blogs-Container");
     let currentPage = 1;
     let totalPages = 0;
-    let filteredBlogs = BlogsDataJSON; 
+    let filteredBlogs = BlogsDataJSON.reverse(); 
 
+    //console.log(filteredBlogs);
 
     //Pagination Render
     function renderBlogs(filteredBlogs) {
@@ -482,7 +531,7 @@ $(document).ready(function () {
             const blogsOnPage = filteredBlogs.slice(startIndex, endIndex);
 
             if (blogsOnPage.length > 0) {
-                $.each(blogsOnPage.reverse(), function (index, blog) {
+                $.each(blogsOnPage, function (index, blog) {
                     blogsContainer.append(`
                         <div class="feature-card" id="${blog.id}">
                             <div class="feature-icon">
@@ -518,8 +567,10 @@ $(document).ready(function () {
     function filterBlogs() {
         const searchValue = searchInput.val().trim().toLowerCase();
         const countryValue = filterSelect.val().trim().toLowerCase();
-        
-        filteredBlogs = BlogsDataJSON.filter(blog => {
+
+        const blogData = BlogsDataJSON;
+
+        filteredBlogs = blogData.filter(blog => {
             const matchesSearch = !searchValue || blog.title.toLowerCase().includes(searchValue);
             const matchesCountry = !countryValue || blog.country.toLowerCase().trim().replace(/\s+/g, '').includes(countryValue);
             return matchesSearch && matchesCountry;

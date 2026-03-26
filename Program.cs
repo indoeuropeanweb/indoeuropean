@@ -20,20 +20,20 @@ builder.Services.AddHttpsRedirection(options =>
 var app = builder.Build();
 app.UseHttpsRedirection();
 
-app.Use(async (context, next) =>
-{
-    var req = context.Request;
-    var host = req.Host.Host;
+//app.Use(async (context, next) =>
+//{
+//    var req = context.Request;
+//    var host = req.Host.Host;
 
-    if (host.Equals("www.indoeuropean.in", StringComparison.OrdinalIgnoreCase))
-    {
-        var newUrl = $"https://indoeuropean.in{req.Path}{req.QueryString}";
-        context.Response.Redirect(newUrl, permanent: true);
-        return;
-    }
+//    if (host.Equals("www.indoeuropean.in", StringComparison.OrdinalIgnoreCase))
+//    {
+//        var newUrl = $"https://indoeuropean.in{req.Path}{req.QueryString}";
+//        context.Response.Redirect(newUrl, permanent: true);
+//        return;
+//    }
 
-    await next();
-});
+//    await next();
+//});
 
 if (!app.Environment.IsDevelopment())
 {

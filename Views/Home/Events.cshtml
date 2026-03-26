@@ -1,7 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Study Abroad Events & Workshops | Indo European";
-    ViewData["Description"] = "Attend our study abroad events to meet university representatives, get personalised guidance, and learn about scholarships for your dream destination.";
-    ViewData["Keywords"] = "study abroad events, university fair, education workshops, Indo-European events, international education";
+    ViewData["Title"] = "Study Abroad Events & Workshops | International Education Seminars";
+    ViewData["Description"] = "Join top study abroad events by Indo European. Meet university representatives, explore global academic opportunities, and attend 'Study in Europe' days in New Delhi, Chandigarh, and across Punjab.";
+    ViewData["Keywords"] = "study abroad events, education fair India, study in Europe seminars, international university workshops, overseas education events Delhi, study abroad webinars, university representative meetups, Indo European events.";
+    ViewData["OgTitle"] = "Upcoming Study Abroad Events | Join Indo European";
+    ViewData["OgDescription"] = "Engage with university experts at our online and in-person events. Secure your future with our 'Study in Europe' days and global education workshops.";
+    ViewData["OgImage"] = "https://indoeuropean.in/assets/images/logo/logo-dark.webp";
+    ViewData["OgUrl"] = "https://indoeuropean.in/events";
 }
 
 <section class="breadcrumb-events-back">
@@ -72,4 +76,35 @@
     </div>
 </section>
 
-
+<script type="application/ld+json">
+    {
+      "@@context": "https://schema.org",
+      "@@type": "ItemList",
+      "itemListElement": [
+        {
+          "@@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@@type": "EducationEvent",
+            "name": "Study in Europe Day",
+            "description": "Engage with university representatives and experts to delve into academic opportunities in Europe.",
+            "organizer": {
+              "@@type": "Organization",
+              "name": "Indo European",
+              "url": "https://indoeuropean.in/"
+            },
+            "location": {
+              "@@type": "Place",
+              "name": "Multiple Locations (Delhi, Chandigarh, Punjab)",
+              "address": {
+                "@@type": "PostalAddress",
+                "addressCountry": "IN"
+              }
+            },
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+          }
+        }
+      ]
+    }
+</script>

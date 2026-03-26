@@ -17,7 +17,7 @@
     Isstatusid,
     EnqDate,
     Dob,
-    PrefferedCallBackTime,
+    PrefferedlBackTime,
     HighestQualifcation,
     branchid,
     LandingPageUrl,
@@ -37,7 +37,7 @@ function btnclick() {
         (Address1Citytext = $("#txtCity_1").val()),
         (Intakeid = ""),
         (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
-        (EnquirySourceID = window.EnquirySourceID),
+        (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
         (EnqDate = ""),
@@ -87,7 +87,7 @@ function formCountrySubmit() {
         (Address1Citytext = $("#txtCity_2").val()),
         (Intakeid = ""),
         (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
-        (EnquirySourceID = window.EnquirySourceID),
+        (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
         (EnqDate = ""),
@@ -137,7 +137,7 @@ function formValidation() {
         (Address1Citytext = $("#txtCity").val()),
         (Intakeid = ""),
         (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
-        (EnquirySourceID = window.EnquirySourceID),
+        (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
         (EnqDate = ""),
@@ -188,7 +188,7 @@ function formValidation_Contactus() {
         (Address1Citytext = $("#txtCity").val()),
         (Intakeid = ""),
         (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
-        (EnquirySourceID = window.EnquirySourceID),
+        (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
         (EnqDate = ""),
@@ -281,7 +281,7 @@ function getCountryCode() {
             bindDropdown(e.data);
         },
         error: function () {
-            alert("Data not found");
+            console.log("Data not found");
         },
     });
 }
@@ -305,7 +305,7 @@ function getDestinationCode() {
             bindDestinationDropdown(e.data);
         },
         error: function () {
-            alert("Data not found");
+            console.log("Data not found");
         },
     });
 }
@@ -332,7 +332,7 @@ function getBranch() {
             bindBranchDropdown(e.data);
         },
         error: function () {
-            alert("Data not found");
+            console.log("Data not found");
         },
     });
 }
@@ -359,7 +359,7 @@ function getCourse() {
             bindCourseDropdown(e.data);
         },
         error: function () {
-            alert("Data not found");
+            console.log("Data not found");
         },
     });
 }
@@ -397,7 +397,7 @@ function GetHeighestQualification() {
             bindHeighestQualification(e.data);
         },
         error: function () {
-            alert("Data not found");
+            console.log("Data not found");
         },
     });
 }
@@ -413,7 +413,7 @@ function bindHeighestQualification(e) {
             t.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION)),
                 a.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION)),
                 n.append($("<option></option>").attr("value", i.ID).text(i.QUALIFICATION));
-        });
+    });
 }
 function GetPreferredCallBackTime() {
     $.ajax({
@@ -424,7 +424,7 @@ function GetPreferredCallBackTime() {
             bindPreferredCallBackTime(e.data);
         },
         error: function () {
-            alert("Data not found");
+            console.log("Data not found");
         },
     });
 }
@@ -466,7 +466,6 @@ $(document).ready(function () {
 var toastElement = document.getElementById('universityToast');
 var toastClose = document.getElementById("universityToastClose");
 var toast = new bootstrap.Toast(toastElement);
-
 
 toastClose.addEventListener("click", () => {
     showUniversityVisitPopup(5000);

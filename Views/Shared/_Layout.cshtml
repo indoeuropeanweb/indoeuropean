@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="~/assets/css/vendor/bootstrap.min.css">
+    @* <link rel="stylesheet" href="~/assets/css/vendor/bootstrap.min.css"> *@
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="~/assets/css/vendor/icomoon.css">
     <link rel="stylesheet" href="~/assets/css/vendor/remixicon.css">
     <link rel="stylesheet" href="~/assets/css/vendor/magnifypopup.min.css">
@@ -19,6 +20,17 @@
     <link rel="stylesheet" href="~/assets/css/vendor/swiper-bundle.min.css">
     <link rel="stylesheet" href="~/assets/css/vendor/tipped.min.css">
     <link rel="stylesheet" href="~/assets/css/international-telephone-input.css">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="@ViewData["OgUrl"]" />
+    <meta property="og:title" content="@ViewData["OgTitle"]" />
+    <meta property="og:description" content="@ViewData["OgDescription"]" />
+    <meta property="og:image" content="@ViewData["OgImage"]" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="@ViewData["OgUrl"]" />
+    <meta name="twitter:title" content="@ViewData["OgTitle"]" />
+    <meta name="twitter:description" content="@ViewData["OgDescription"]" />
+    <meta name="twitter:image" content="@ViewData["OgImage"]" />
     
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="~/assets/css/app-main.css"/>
@@ -70,7 +82,7 @@
                             <div class="col-md-2">
                                 <div class="logo">
                                     <a href="/">
-                                        <img class="logo-light" src="~/assets/images/logo/logo-dark.webp" alt="Corporate Logo" loading="lazy" width="343" height="102" />
+                                        <img class="logo-light" src="~/assets/images/logo/logo-dark.webp" alt="Indo European Logo" loading="lazy" width="343" height="102" />
                                     </a>
                                 </div>
                             </div>
@@ -82,24 +94,24 @@
                                             <a href="/"> Study Destinations </a>
                                             <ul class="submenu">
                                                     <li class="europe-parent">
-                                                        <a href="/destinations/europe" style="font-size: 16px; font-weight: 500;" class="europe-link"><img src="~/assets/images/flag/europe.jpg" alt="Explore Europe" title="Explore Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe &nbsp;&nbsp;&nbsp;<i class="fa fa-solid fa-caret-right" style="margin-left: 25px;"></i></a>
+                                                        <a href="/destinations/study-in-europe" style="font-size: 16px; font-weight: 500;" class="europe-link"><img src="~/assets/images/flag/europe.jpg" alt="Study in Europe" title="Study in Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe &nbsp;&nbsp;&nbsp;<i class="fa fa-solid fa-caret-right" style="margin-left: 25px;"></i></a>
                                                     <ul class="europe-submenus">
-                                                            <li><a href="/destinations/germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Explore Germany" title="Explore Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
-                                                            <li><a href="/destinations/denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Explore Denmark" title="Explore Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
-                                                            <li><a href="/destinations/finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Explore Finland" title="Explore Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
-                                                            <li><a href="/destinations/latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Explore Latvia" title="Explore Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
-                                                            <li><a href="/destinations/lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Explore Lithuania" title="Explore Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
-                                                            <li><a href="/destinations/france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Explore France" title="Explore France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
-                                                            <li><a href="/destinations/sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Explore Sweden" title="Explore Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
+                                                            <li><a href="/destinations/study-in-germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Study in Germany" title="Study in Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
+                                                            <li><a href="/destinations/study-in-denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Study in Denmark" title="Study in Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
+                                                            <li><a href="/destinations/study-in-finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Study in Finland" title="Study in Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
+                                                            <li><a href="/destinations/study-in-latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Study in Latvia" title="Study in Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
+                                                            <li><a href="/destinations/study-in-lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Study in Lithuania" title="Study in Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
+                                                            <li><a href="/destinations/study-in-france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Study in France" title="Study in France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
+                                                            <li><a href="/destinations/study-in-sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Study in Sweden" title="Study in Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
 														</ul>   
                                                     </li>
-                                                    <li><a href="/destinations/australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="Explore Australia" title="Explore Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
-                                                    <li><a href="/destinations/canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="Explore Canada" title="Explore Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
-                                                    <li><a href="/destinations/newzealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="Explore New Zealand" title="Explore New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
-                                                    <li><a href="/destinations/singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="Explore Singapore" title="Explore Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
-                                                    <li><a href="/destinations/uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="Study Uk" title="Study Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
-                                                    <li><a href="/destinations/usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="Explore USA" title="Explore USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
-                                                    <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Explore Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
+                                                    <li><a href="/destinations/study-in-australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="Study in Australia" title="Stuy in Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
+                                                    <li><a href="/destinations/study-in-canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="Study in Canada" title="Study in Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
+                                                    <li><a href="/destinations/study-in-newzealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="Study in New Zealand" title="Study in New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
+                                                    <li><a href="/destinations/study-in-singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="Study in Singapore" title="Study in Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
+                                                    <li><a href="/destinations/study-in-uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="Study Uk" title="Study Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
+                                                    <li><a href="/destinations/study-in-usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="Study in USA" title="Study in USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
+                                                    <li><a href="/destinations/study-in-ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Study in Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
                                             </ul>
                                         </li>
                                         <li><a href="/ourservices">Our Services</a></li>
@@ -153,26 +165,26 @@
                             <ul class="submenu">
                             <li class="europe-parent-1">
                                 <span class="europe-link-1">
-                                    <a href="/destinations/europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="study-in-europe" title="Study in Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe</a>
+                                    <a href="/destinations/study-in-europe" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/europe.jpg" alt="study-in-europe" title="Study in Europe" loading="lazy" height="13" width="26" /> &nbsp; Europe</a>
                                     &nbsp; &nbsp; <i id="mobile-europe-icon" class="fa fa-solid fa-plus"></i>
                                 </span>
                                 <ul class="europe-submenus-1">
-                                    <li><a href="/destinations/germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Explore Germany" title="Explore Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
-                                    <li><a href="/destinations/denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Explore Denmark" title="Explore Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
-                                    <li><a href="/destinations/finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Explore Finland" title="Explore Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
-                                    <li><a href="/destinations/latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Explore Latvia" title="Explore Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
-                                    <li><a href="/destinations/lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Explore Lithuania" title="Explore Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
-                                    <li><a href="/destinations/france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Explore France" title="Explore France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
-                                    <li><a href="/destinations/sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Explore Sweden" title="Explore Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
+                                    <li><a href="/destinations/study-in-germany" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/germany.jpg" alt="Study in Germany" title="Study in Germany" loading="lazy" height="13" width="26" /> &nbsp;Germany</a></li>
+                                    <li><a href="/destinations/study-in-denmark" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/denmark.jpg" alt="Study in Denmark" title="Study in Denmark" loading="lazy" height="13" width="26" /> &nbsp;Denmark</a></li>
+                                    <li><a href="/destinations/study-in-finland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/europe/countries/flags/finland.png" alt="Study in Finland" title="Study in Finland" loading="lazy" height="13" width="26" /> &nbsp;Finland</a></li>
+                                    <li><a href="/destinations/study-in-latvia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/latvia.jpg" alt="Study in Latvia" title="Study in Latvia" loading="lazy" height="13" width="26" /> &nbsp;Latvia</a></li>
+                                    <li><a href="/destinations/study-in-lithuania" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/lithuania.jpg" alt="Study in Lithuania" title="Study in Lithuania" loading="lazy" height="13" width="26" /> &nbsp;Lithuania</a></li>
+                                    <li><a href="/destinations/study-in-france" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/france.jpg" alt="Study in France" title="Study in France" loading="lazy" height="13" width="26" /> &nbsp;France</a></li>
+                                    <li><a href="/destinations/study-in-sweden" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/sweden.jpg" alt="Study in Sweden" title="Study in Sweden" loading="lazy" height="13" width="26" /> &nbsp;Sweden</a></li>
                                 </ul>
                             </li>
-                            <li><a href="/destinations/australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="study-in-australia" title="Study in Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
-                            <li><a href="/destinations/canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="study-in-Canada" title="Study in Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
-                            <li><a href="/destinations/newzealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="study-in-newzealand" title="Study in New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
-                            <li><a href="/destinations/singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="study-in-singapore" title="Study in Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
-                            <li><a href="/destinations/uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="study-in-uk" title="Study in Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
-                            <li><a href="/destinations/usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="study-in-usa" title="Study in USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
-                            <li><a href="/destinations/ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Study-in-Ireland" title="Study-in-Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
+                            <li><a href="/destinations/study-in-australia" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/australia.jpg" alt="study-in-australia" title="Study in Australia" loading="lazy" height="13" width="26" /> &nbsp; Australia </a></li>
+                            <li><a href="/destinations/study-in-canada" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/canada.jpg" alt="study-in-Canada" title="Study in Canada" loading="lazy" height="13" width="26" /> &nbsp; Canada </a></li>
+                            <li><a href="/destinations/study-in-newzealand" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/nz.jpg" alt="study-in-newzealand" title="Study in New Zealand" loading="lazy" height="13" width="26" /> &nbsp; New Zealand </a></li>
+                            <li><a href="/destinations/study-in-singapore" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/singapore.jpg" alt="study-in-singapore" title="Study in Singapore" loading="lazy" height="13" width="26" /> &nbsp; Singapore </a></li>
+                            <li><a href="/destinations/study-in-uk" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/uk.jpg" alt="study-in-uk" title="Study in Uk" loading="lazy" height="13" width="26" /> &nbsp; UK </a></li>
+                            <li><a href="/destinations/study-in-usa" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/usa.jpg" alt="study-in-usa" title="Study in USA" loading="lazy" height="13" width="26" /> &nbsp; USA </a></li>
+                            <li><a href="/destinations/study-in-ireland" style="font-size: 16px; font-weight: 500;"><img src="~/assets/images/flag/ireland.jpg" alt="Study-in-Ireland" title="Study-in-Ireland" loading="lazy" height="13" width="26"> &nbsp; Ireland </a></li>
                             </ul>
                         </li>
                         <li><a href="/ourservices">Services</a></li>
@@ -187,7 +199,7 @@
         <div class="edu-search-popup">
             <div class="content-wrap">
                 <div class="site-logo">
-                    <img class="logo-light" src="~/assets/images/logo/logo-dark.webp" alt="Indoeuropean Logo" title="Indoeuropean Logo" loading="lazy" height="200" width="400"/>
+                    <img class="logo-light" src="~/assets/images/logo/logo-dark.webp" alt="Indoeuropean Logo" title="Indo European Logo" loading="lazy" height="200" width="400"/>
                 </div>
                 <div class="close-button">
                     <button class="close-trigger"><i class="icon-73"></i></button>
@@ -283,11 +295,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="row">
-                        <div class="col-md-3" style="width: 14rem;">
-                                @* <img class="w-100" src="/assets/images/achievements/icef-agency.png" alt="ICEF Certificate" /> *@
-                                <span id='iasBadge' data-account-id='1179'></span>
-                                <script async defer crossorigin="anonymous" src="https://www-cdn.icef.com/scripts/iasbadgeid.js"></script>
-                            </div>
+                         <div class="col-md-3" style="width: 14rem;"> 
+                                <img class="w-100" src="/assets/images/achievements/icef-agency.png" alt="ICEF Certificate" />
+                                @* <span id='iasBadge' data-account-id='1179'></span>
+                                <script async defer crossorigin="anonymous" src="https://www-cdn.icef.com/scripts/iasbadgeid.js"></script> *@
+                            </div> 
                             <div class="col-md-9">
                             <ul class="classes-logos">
                                 <li>
@@ -455,16 +467,16 @@
                         <div class="carousel-item active">
                             <div class="university-data">                          
                                 <div class="university-visit-img">
-                                    <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" width="114" height="114" />
+                                    <img src="~/assets/images/Europe-Day-Event/lithuania-flag-circle.png" class="d-block w-100" alt="Europe-University" width="114" height="114" />
                                 </div>
                                 <div class="university-visit-content">
-                                    <h5>Study in Europe Day (Ludhiana)</h5>
-                                    <p>Sun 1st Mar 2026, 10:30 AM - 05:30 PM</p>
+                                    <h5>Study in Lithuania</h5>
+                                    <p>Apr 5th Aug 2026, 02:00 PM - 06:30 PM</p>
                                     <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        @* <div class="carousel-item">
                             <div class="university-data">
                             <div class="university-visit-img">
                             <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
@@ -475,7 +487,7 @@
                                 <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                             </div>
                             </div>
-                        </div>
+                        </div> 
                         <div class="carousel-item">
                             <div class="university-data">
                             <div class="university-visit-img">
@@ -506,8 +518,8 @@
                                     <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                                 </div>
                                 <div class="university-visit-content">
-                                    <h5>Study in Europe Day (Chandigarh)</h5>
-                                    <p>Sun 8th Mar 2026, 10:30 AM - 05:30 PM</p>
+                                    <h5>Study in Europe Day (Patiala)</h5>
+                                    <p>Tue 10th Mar 2026, 10:30 AM - 05:30 PM</p>
                                     <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
@@ -518,12 +530,12 @@
                                     <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                                 </div>
                                 <div class="university-visit-content">
-                                    <h5>Study in Europe Day (Patiala)</h5>
-                                    <p>Mon 9th Mar 2026, 10:30 AM - 05:30 PM</p>
+                                    <h5>Study in Europe Day (Chandigarh)</h5>
+                                    <p>Wed 11th Mar 2026, 10:30 AM - 05:30 PM</p>
                                     <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
-                        </div>
+                        </div> *@
                     </div>
                 </div>
             </div>

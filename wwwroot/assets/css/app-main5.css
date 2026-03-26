@@ -4068,7 +4068,7 @@ svg:not(:root) {
     line-height: 15px;
 }
 
-    .about-content .features-list li:before {
+/*    .about-content .features-list li:before {
         content: "\e913";
         font-family: 'icomoon';
         color: #150958;
@@ -4077,7 +4077,7 @@ svg:not(:root) {
         left: -20px;
         top: 40px;
     }
-
+*/
 .about-style-9 .about-content {
     padding-left: 0px;
 }
@@ -4606,14 +4606,15 @@ margin: 0 auto;
 }
 
 #universityToast {
-/*    background-color: #f8ff00;*/
-    background-color: #fecc02;
+    /*background-color: #f8ff00;*/
+    background-color: #150958;
+    border: 1px solid #ccc;
 }
 
     #universityToast .toast-header {
-        color: #150958;
-/*        background-color: #f8ff00;*/
-        background-color: #fecc02;
+        color: #fff;
+        /*background-color: #f8ff00;*/
+        background-color: #150958;
     }
 
 .university-data {
@@ -4625,24 +4626,24 @@ margin: 0 auto;
     .university-data h5 {
         font-size: 1.45rem;
         margin-bottom: 0;
-        color: #150958;
+        color: #fff;
     }
     .university-data p {
         font-size: 1.25rem;
-        color: #db3b3b;
+        color: #f08526;
         font-weight: 600;
     }
 
     .university-data a {
         border: none;
         border-radius: 4px;
-        background-color: #150958;
-        color: #fff;
+        background-color: #fff;
+        color: #150958;
         font-size: 1.25rem;
         padding: 4px;
         display: flex;
-        justify-content:center;
-        align-items:center;
+        justify-content: center;
+        align-items: center;
         gap: 5px;
         margin-left: 100px;
         text-decoration: none;
@@ -4819,4 +4820,13 @@ margin: 0 auto;
     position: relative;
     display: flex;
     align-items: center;
+}
+
+.blog-link{
+    text-decoration: underline;
+}
+
+.blog-link:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
 }

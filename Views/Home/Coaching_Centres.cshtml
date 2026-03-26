@@ -1,7 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Coaching Centres | Indo European";
-    ViewData["Description"] = "Partner with Indo-European to elevate your coaching center. Access high-quality test prep, curriculum support, and expert training to boost student success.";
+    ViewData["Title"] = "Study Abroad Coaching Centre Franchise | IELTS & PTE Training";
+    ViewData["Description"] = "Start your own Indo European coaching centre. Get expert support for IELTS, PTE, TOEFL, and Duolingo preparation. Join a proven business model with staff training and marketing support.";
     ViewData["Keywords"] = "coaching center partnership, study abroad, education collaboration, test prep, student success";
+    ViewData["OgTitle"] = "Launch Your Own Study Abroad Coaching Centre";
+    ViewData["OgDescription"] = "Partner with Indo European to deliver world-class IELTS, PTE, and TOEFL coaching. Access proven curriculum, staff training, and a strong brand name.";
+    ViewData["OgImage"] = "https://indoeuropean.in/assets/images/logo/logo-dark.webp";
+    ViewData["OgUrl"] = "https://indoeuropean.in/coachingcentres";
 }
 
 
@@ -188,3 +192,36 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="~/assets/js/config.js"></script>
 <script src="~/assets/js/landingpage.js"></script>
+<script type="application/ld+json">
+    {
+      "@@context": "https://schema.org",
+      "@@graph": [
+        {
+          "@@type": "Service",
+          "name": "Study Abroad Coaching Centre Franchise",
+          "serviceType": "Educational Franchise",
+          "description": "A comprehensive partnership model for establishing coaching centres focused on international English proficiency exams.",
+          "provider": {
+            "@@type": "Organization",
+            "name": "Indo European",
+            "url": "https://indoeuropean.in/",
+            "logo": "https://indoeuropean.in/assets/images/logo.png",
+            "sameAs": [
+              "https://www.facebook.com/Indoeuropean.in",
+              "https://www.instagram.com/indo_european",
+              "https://x.com/indo_european"
+            ]
+          }
+        },
+        {
+          "@@type": "Course",
+          "name": "English Test Preparation",
+          "description": "Specialized coaching for IELTS, PTE, TOEFL, and Duolingo exams.",
+          "provider": {
+            "@@type": "Organization",
+            "name": "Indo European"
+          }
+        }
+      ]
+    }
+</script>

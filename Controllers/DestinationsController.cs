@@ -5,84 +5,84 @@ namespace indoeuropean.Controllers
     [Route("destinations")]
     public class DestinationsController : Controller
     {
-        [Route("europe")]
+        [Route("study-in-europe")]
         public IActionResult Europe()
         {
             return View();
         }
 
-        [Route("usa")]
+        [Route("study-in-usa")]
         public IActionResult Usa()
         {
             return View();
         }
 
-        [Route("australia")]
+        [Route("study-in-australia")]
         public IActionResult Australia()
         {
             return View();
         }
 
-        [Route("canada")]
+        [Route("study-in-canada")]
         public IActionResult Canada()
         {
             return View();
         }
 
-        [Route("newzealand")]
+        [Route("study-in-newzealand")]
         public IActionResult New_Zealand()
         {
             return View();
         }
 
-        [Route("singapore")]
+        [Route("study-in-singapore")]
         public IActionResult Singapore()
         {
             return View();
         }
 
-        [Route("uk")]
+        [Route("study-in-uk")]
         public IActionResult Uk()
         {
             return View();
         }
 
-        [Route("ireland")]
+        [Route("study-in-ireland")]
         public IActionResult Ireland()
         {
             return View();
         }
-        [Route("finland")]
+        [Route("study-in-finland")]
         public IActionResult Finland()
         {
             return View();
         }
-        [Route("germany")]
+        [Route("study-in-germany")]
         public IActionResult Germany()
         {
             return View();
         }
-        [Route("denmark")]
+        [Route("study-in-denmark")]
         public IActionResult Denmark()
         {
             return View();
         }
-        [Route("lithuania")]
+        [Route("study-in-lithuania")]
         public IActionResult Lithuania()
         {
             return View();
         }
-        [Route("latvia")]
+        [Route("study-in-latvia")]
         public IActionResult Latvia()
         {
             return View();
         }
-        [Route("france")]
+        [Route("study-in-france")]
         public IActionResult France()
         {
             return View();
         }
-        [Route("sweden")]
+        [Route("study-in-sweden")]
         public IActionResult Sweden()
         {
             return View();

@@ -1,7 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Partnerships for Businesses | Indo European";
-    ViewData["Description"] = "Partner with Indo-European to grow your business. Explore opportunities like co-branding, joint ventures, and marketing alliances to expand your reach.";
-    ViewData["Keywords"] = "business partnership, collaboration, education partner, joint venture, marketing alliance, Explore more our other business";
+    ViewData["Title"] = "Strategic Business Partnerships | Collaborate with Indo European";
+    ViewData["Description"] = "Unlock new growth opportunities in the education sector. Partner with Indo European for strategic alliances, co-branding, marketing programs, and joint ventures designed for sustainable success.";
+    ViewData["Keywords"] = "strategic business partnerships, education sector alliances, co-branding opportunities, marketing alliance programs, joint venture in education, B2B education partnerships, corporate educational services, market expansion alliances, Indo European business partners.";
+    ViewData["OgTitle"] = "Strategic Business Partnerships with Indo European";
+    ViewData["OgDescription"] = "Tapping into the growing education sector? Partner with us for co-branding, marketing alliances, and joint ventures to reach new markets and drive sustainable growth.";
+    ViewData["OgImage"] = "https://indoeuropean.in/assets/images/logo/logo-dark.webp";
+    ViewData["OgUrl"] = "https://indoeuropean.in/partners/otherbusinesses";
 }
 
 <section class="breadcrumb-other-business-back">
@@ -30,7 +34,7 @@
         <div class="row mt-5">
             <div class="col-lg-6">
                 <div class="">
-                    <img src="~/assets/images/other-business/img-1.webp" class="w-100" alt="images" />
+                    <img src="~/assets/images/other-business/img-1.webp" class="w-100" alt="Strategic Partnership Opportunities" />
                 </div>
             </div>
             <div class="col-lg-6" style="display:flex; flex-direction: column; justify-content: center;">
@@ -72,7 +76,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="">
-                    <img src="~/assets/images/other-business/img-2.webp" class="w-100" alt="images" />
+                    <img src="~/assets/images/other-business/img-2.webp" class="w-100" alt="Co-branding partnerships" />
                 </div>
             </div>
         </div>
@@ -85,7 +89,7 @@
         <div class="row mt-5">
             <div class="col-lg-6">
                 <div class="">
-                    <img src="~/assets/images/other-business/img-3.webp" class="w-100" alt="images" />
+                    <img src="~/assets/images/other-business/img-3.webp" class="w-100" alt="Marketing Alliance Programs" />
                 </div>
             </div>
             <div class="col-lg-6" style="display:flex; flex-direction: column; justify-content: center;">
@@ -126,7 +130,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="">
-                    <img src="~/assets/images/other-business/img-4.webp" class="w-100" alt="images" />
+                    <img src="~/assets/images/other-business/img-4.webp" class="w-100" alt="Joint Venture Opportunities" />
                 </div>
             </div>
         </div>
@@ -139,7 +143,7 @@
         <div class="row mt-5">
             <div class="col-lg-6">
                 <div class="">
-                    <img src="~/assets/images/other-business/img-5.webp" class="w-100" alt="images" />
+                    <img src="~/assets/images/other-business/img-5.webp" class="w-100" alt="Exclusive Network Access" />
                 </div>
             </div>
             <div class="col-lg-6" style="display:flex; flex-direction: column; justify-content: center;">
@@ -180,7 +184,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="">
-                    <img src="~/assets/images/other-business/img-6.webp" class="w-100" alt="images" />
+                    <img src="~/assets/images/other-business/img-6.webp" class="w-100" alt="Transform Your Business Growth" />
                 </div>
             </div>
         </div>
@@ -230,28 +234,21 @@
                                     <select name="HighestQualifcation" id="ddlHighestQualifcation">
                                     </select>
                                 </div>
-
                                 <div class="form-group col-12">
                                     <select name="ddlCourseCodeId" id="ddlCourseCodeId" required="">
                                     </select>
                                 </div>
-
-
                                 <div class="form-group col-12">
                                     <input type="text" name="txtCity" id="txtCity" placeholder="City" required="">
                                 </div>
-
                                 <div class="form-group col-12">
                                     <select name="Programm" required="" id="ddlDestinationCodeid">
                                     </select>
                                 </div>
-
                                 <div class="form-group col-12">
                                     <select name="PreferredCallBackTime" required="" id="ddlPreferredCallBackTime">
                                     </select>
                                 </div>
-
-
                                 <div class="form-group col-12 text-center">
                                      <input type="button" value="Submit" class="rn-btn edu-btn submit-btn" onclick="formValidation();" /> 
                                 </div>
@@ -274,3 +271,29 @@
 <script src="~/assets/js/landingpage.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<script type="application/ld+json">
+    {
+      "@@context": "https://schema.org",
+      "@@type": "Service",
+      "serviceType": "Business Partnership & Strategic Alliances",
+      "provider": {
+        "@@type": "Organization",
+        "name": "Indo European",
+        "url": "https://indoeuropean.in/",
+        "logo": "https://indoeuropean.in/assets/images/logo.png",
+        "sameAs": [
+          "https://www.facebook.com/Indoeuropean.in",
+          "https://www.instagram.com/indo_european",
+          "https://x.com/indo_european"
+        ]
+      },
+      "description": "Strategic partnership opportunities including co-branding initiatives, marketing alliance programs, and joint ventures within the global education sector.",
+      "offers": {
+        "@@type": "Offer",
+        "itemOffered": {
+          "@@type": "Service",
+          "name": "B2B Educational Alliances"
+        }
+      }
+    }
+</script>
