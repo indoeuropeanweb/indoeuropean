@@ -479,127 +479,279 @@
         "location": "Europe",
         "link": "/blogs/how-to-study-in-europe-after-12th"
     },
+    {
+        "id": 41,
+        "title": "Study in Lithuania Consultants in Delhi",
+        "date": "31 Mar, 2026",
+        "author": "Indo European",
+        "description": "Best Study in Lithuania Consultants in Delhi offer end-to-end services, such as career counselling, university selection, admission process, visa assistance, and many more.",
+        "image": "/assets/images/blogs/lithuania/Lithuania-3.webp",
+        "alt": "Study in Lithuania",
+        "country": "Lithuania",
+        "location": "Lithuania",
+        "link": "/blogs/study-in-lithuania-consultants-in-delhi"
+    },
+    {
+        "id": 42,
+        "title": "European Education Fair in Delhi-ncr 2026",
+        "date": "02 Apr, 2026",
+        "author": "Indo European",
+        "description": "Are you willing to integrate beyond borders with your academics? EUROPEAN EDUCATION FAIR IN DELHI-NCR 2026, organised by Indo European Study Abroad Consultants with 20+ years of excellence",
+        "image": "/assets/images/blogs/europe/Europe-Blog-6.webp",
+        "alt": "Study in Europe",
+        "country": "Europe",
+        "location": "Europe",
+        "link": "/blogs/european-education-fair-in-delhi-ncr-2026"
+    },
 ];
 
 $(document).ready(function () {
     const searchInput = $("#search-blog");
     const filterSelect = $("#blog-type-selection");
     const blogsContainer = $("#Blogs-Container");
+
     let currentPage = 1;
     let totalPages = 0;
-    let filteredBlogs = BlogsDataJSON.reverse(); 
+    const blogsPerPage = 6;
 
-    //console.log(filteredBlogs);
+    // ✅ SORT BY LATEST DATE
+    function getSortedBlogs(data) {
+        return [...data].sort((a, b) => new Date(b.date) - new Date(a.date));
+    }
 
-    //Pagination Render
-    function renderBlogs(filteredBlogs) {
+    let filteredBlogs = getSortedBlogs(BlogsDataJSON);
+
+    // ✅ RENDER BLOGS
+    function renderBlogs(data) {
         blogsContainer.empty();
 
-        const blogsPerPage = 6;
-        totalPages = Math.ceil(filteredBlogs.length / blogsPerPage);
+        totalPages = Math.ceil(data.length / blogsPerPage);
+
         const pagesList = document.getElementById("page-list");
-
         if (pagesList) {
-            pagesList.innerHTML = '';
-            const pagesArray = Array.from({ length: totalPages }, (_, index) => index + 1);
-            pagesArray.forEach(page => {
-                const pageItem = document.createElement("li");
+            pagesList.innerHTML = "";
 
-                if (currentPage == page){
-                    pageItem.classList.add("active");
-                } else {
-                    pageItem.classList.remove("active");
+            for (let i = 1; i <= totalPages; i++) {
+                const li = document.createElement("li");
+                li.textContent = i;
+
+                if (i === currentPage) {
+                    li.classList.add("active");
                 }
 
-                pageItem.textContent = page;
-                pageItem.addEventListener("click", () => {
-                    currentPage = page;
+                li.addEventListener("click", () => {
+                    currentPage = i;
                     renderBlogs(filteredBlogs);
                 });
 
-                pagesList.appendChild(pageItem);
-            });
-        }
-
-        $("#prev-btn").prop("disabled", currentPage <= 1);
-        $("#next-btn").prop("disabled", currentPage >= totalPages);
-
-        //Render All Blogs
-        function showPosts(curPage) {
-            const startIndex = (curPage - 1) * blogsPerPage;
-            const endIndex = startIndex + blogsPerPage;
-            const blogsOnPage = filteredBlogs.slice(startIndex, endIndex);
-
-            if (blogsOnPage.length > 0) {
-                $.each(blogsOnPage, function (index, blog) {
-                    blogsContainer.append(`
-                        <div class="feature-card" id="${blog.id}">
-                            <div class="feature-icon">
-                                <div class="event-bg">
-                                    <img class="w-100" src="${blog.image}" alt="${blog.alt}" height="376" width="563"/>
-                                </div>
-                            </div>
-                            <div class="event-content">
-                                <h3>${blog.title}</h3>
-                                <ul>
-                                    <li class="event-icons">
-                                        <i class="fa-regular fa-calendar-days"></i>&nbsp;${blog.date}
-                                    </li>
-                                    <li class="event-icons">
-                                        <i class="fa-regular fa-building"></i>&nbsp;${blog.author}
-                                    </li>
-                                </ul>
-                                <p class="card-text">${blog.description}</p>
-                                <a class="cursor-pointer event-btn" href="${blog.link}">Read ${blog.location} blog →</a>
-                            </div>
-                        </div>
-                    `);
-                });
-            } else {
-                blogsContainer.append('<p class="notfound_text">No blogs found!</p>');
+                pagesList.appendChild(li);
             }
         }
 
-        showPosts(currentPage);
+        $("#prev-btn").prop("disabled", currentPage === 1);
+        $("#next-btn").prop("disabled", currentPage === totalPages);
+
+        const start = (currentPage - 1) * blogsPerPage;
+        const end = start + blogsPerPage;
+        const pageData = data.slice(start, end);
+
+        if (pageData.length === 0) {
+            blogsContainer.append('<p class="notfound_text">No blogs found!</p>');
+            return;
+        }
+
+        pageData.forEach(blog => {
+            blogsContainer.append(`
+                <div class="feature-card" id="${blog.id}">
+                    <div class="feature-icon">
+                        <div class="event-bg">
+                            <img class="w-100" src="${blog.image}" alt="${blog.alt}" />
+                        </div>
+                    </div>
+                    <div class="event-content">
+                        <h3>${blog.title}</h3>
+                        <ul>
+                            <li class="event-icons">
+                                <i class="fa-regular fa-calendar-days"></i> ${blog.date}
+                            </li>
+                            <li class="event-icons">
+                                <i class="fa-regular fa-building"></i> ${blog.author}
+                            </li>
+                        </ul>
+                        <p class="card-text">${blog.description}</p>
+                        <a class="event-btn" href="${blog.link}">
+                            Read ${blog.location} blog →
+                        </a>
+                    </div>
+                </div>
+            `);
+        });
     }
 
-    //filter all blog posts
+    // ✅ FILTER FUNCTION
     function filterBlogs() {
-        const searchValue = searchInput.val().trim().toLowerCase();
-        const countryValue = filterSelect.val().trim().toLowerCase();
+        const searchValue = searchInput.val().toLowerCase().trim();
+        const countryValue = filterSelect.val().toLowerCase().trim();
 
-        const blogData = BlogsDataJSON;
+        const sortedBlogs = getSortedBlogs(BlogsDataJSON);
 
-        filteredBlogs = blogData.filter(blog => {
-            const matchesSearch = !searchValue || blog.title.toLowerCase().includes(searchValue);
-            const matchesCountry = !countryValue || blog.country.toLowerCase().trim().replace(/\s+/g, '').includes(countryValue);
+        filteredBlogs = sortedBlogs.filter(blog => {
+            const matchesSearch =
+                !searchValue || blog.title.toLowerCase().includes(searchValue);
+
+            const matchesCountry =
+                !countryValue ||
+                blog.country.toLowerCase().replace(/\s+/g, "").includes(countryValue);
+
             return matchesSearch && matchesCountry;
         });
 
         currentPage = 1;
-
         renderBlogs(filteredBlogs);
     }
 
+
     $("#next-btn").on("click", () => {
         if (currentPage < totalPages) {
-            currentPage += 1;
+            currentPage++;
             renderBlogs(filteredBlogs);
         }
     });
 
     $("#prev-btn").on("click", () => {
         if (currentPage > 1) {
-            currentPage -= 1;
-            renderBlogs(filteredBlogs); 
+            currentPage--;
+            renderBlogs(filteredBlogs);
         }
     });
 
-    renderBlogs(filteredBlogs);
-
+    // ✅ EVENTS
     searchInput.on("keyup", filterBlogs);
     filterSelect.on("change", filterBlogs);
+
+    // ✅ INITIAL LOAD
+    renderBlogs(filteredBlogs);
 });
+
+//$(document).ready(function () {
+//    const searchInput = $("#search-blog");
+//    const filterSelect = $("#blog-type-selection");
+//    const blogsContainer = $("#Blogs-Container");
+//    let currentPage = 1;
+//    let totalPages = 0;
+//    let filteredBlogs = [...BlogsDataJSON].reverse();; 
+
+//    //console.log(filteredBlogs);
+
+//    //Pagination Render
+//    function renderBlogs(filteredBlogs) {
+//        blogsContainer.empty();
+
+//        const blogsPerPage = 6;
+//        totalPages = Math.ceil(filteredBlogs.length / blogsPerPage);
+//        const pagesList = document.getElementById("page-list");
+
+//        if (pagesList) {
+//            pagesList.innerHTML = '';
+//            const pagesArray = Array.from({ length: totalPages }, (_, index) => index + 1);
+//            pagesArray.forEach(page => {
+//                const pageItem = document.createElement("li");
+
+//                if (currentPage == page){
+//                    pageItem.classList.add("active");
+//                } else {
+//                    pageItem.classList.remove("active");
+//                }
+
+//                pageItem.textContent = page;
+//                pageItem.addEventListener("click", () => {
+//                    currentPage = page;
+//                    renderBlogs(filteredBlogs);
+//                });
+
+//                pagesList.appendChild(pageItem);
+//            });
+//        }
+
+//        $("#prev-btn").prop("disabled", currentPage <= 1);
+//        $("#next-btn").prop("disabled", currentPage >= totalPages);
+
+//        //Render All Blogs
+//        function showPosts(curPage) {
+//            const startIndex = (curPage - 1) * blogsPerPage;
+//            const endIndex = startIndex + blogsPerPage;
+//            const blogsOnPage = filteredBlogs.slice(startIndex, endIndex);
+
+//            if (blogsOnPage.length > 0) {
+//                $.each(blogsOnPage, function (index, blog) {
+//                    blogsContainer.append(`
+//                        <div class="feature-card" id="${blog.id}">
+//                            <div class="feature-icon">
+//                                <div class="event-bg">
+//                                    <img class="w-100" src="${blog.image}" alt="${blog.alt}" height="376" width="563"/>
+//                                </div>
+//                            </div>
+//                            <div class="event-content">
+//                                <h3>${blog.title}</h3>
+//                                <ul>
+//                                    <li class="event-icons">
+//                                        <i class="fa-regular fa-calendar-days"></i>&nbsp;${blog.date}
+//                                    </li>
+//                                    <li class="event-icons">
+//                                        <i class="fa-regular fa-building"></i>&nbsp;${blog.author}
+//                                    </li>
+//                                </ul>
+//                                <p class="card-text">${blog.description}</p>
+//                                <a class="cursor-pointer event-btn" href="${blog.link}">Read ${blog.location} blog →</a>
+//                            </div>
+//                        </div>
+//                    `);
+//                });
+//            } else {
+//                blogsContainer.append('<p class="notfound_text">No blogs found!</p>');
+//            }
+//        }
+
+//        showPosts(currentPage);
+//    }
+
+//    //filter all blog posts
+//    function filterBlogs() {
+//        const searchValue = searchInput.val().trim().toLowerCase();
+//        const countryValue = filterSelect.val().trim().toLowerCase();
+
+//        const blogData = [...BlogsDataJSON].reverse();;
+
+//        filteredBlogs = blogData.filter(blog => {
+//            const matchesSearch = !searchValue || blog.title.toLowerCase().includes(searchValue);
+//            const matchesCountry = !countryValue || blog.country.toLowerCase().trim().replace(/\s+/g, '').includes(countryValue);
+//            return matchesSearch && matchesCountry;
+//        });
+
+//        currentPage = 1;
+
+//        renderBlogs(filteredBlogs);
+//    }
+
+//    $("#next-btn").on("click", () => {
+//        if (currentPage < totalPages) {
+//            currentPage += 1;
+//            renderBlogs(filteredBlogs);
+//        }
+//    });
+
+//    $("#prev-btn").on("click", () => {
+//        if (currentPage > 1) {
+//            currentPage -= 1;
+//            renderBlogs(filteredBlogs); 
+//        }
+//    });
+
+//    renderBlogs(filteredBlogs);
+
+//    searchInput.on("keyup", filterBlogs);
+//    filterSelect.on("change", filterBlogs);
+//});
 
 
 

@@ -10,6 +10,18 @@ namespace indoeuropean.Controllers
             return View();
         }
 
+        [Route("european-education-fair-in-delhi-ncr-2026")]
+        public IActionResult EuropeBlog6()
+        {
+            return View();
+        }
+
+        [Route("study-in-lithuania-consultants-in-delhi")]
+        public IActionResult LithuaniaBlog3()
+        {
+            return View();
+        }
+
         [Route("how-to-study-in-europe-after-12th")]
         public IActionResult EuropeBlog5()
         {
