@@ -5,7 +5,44 @@ namespace indoeuropean.Controllers
     [Route("blogs")]
     public class BlogsController : Controller
     {
+        [Route("")]
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Route("10-questions-indian-students-ask-before-applying-for-a-latvia-study-visa")]
+        public IActionResult LatviaBlog3()
+        {
+            return View();
+        }
+
+        [Route("top-5-best-universities-in-europe-for-indian-students")]
+        public IActionResult EuropeBlog8()
+        {
+            return View();
+        }
+
+        [Route("cost-of-study-in-finland-for-indian-students")]
+        public IActionResult FinlandBlog5()
+        {
+            return View();
+        }
+
+        [Route("top-7-reasons-to-study-in-latvia-for-indian-students")]
+        public IActionResult LatviaBlog2()
+        {
+            return View();
+        }
+
+        [Route("7-best-countries-to-study-in-europe-for-indian-students")]
+        public IActionResult EuropeBlog7()
+        {
+            return View();
+        }
+
+        [Route("finland-student-visa-process-2026")]
+        public IActionResult FinlandBlog4()
         {
             return View();
         }

@@ -1,19 +1,19 @@
 ﻿const EventDataJSON = [
-    {
-        id: 1,
-        title: "Study in Lithuania Spot Admission Day (New Delhi)",
-        type_Label: "In-Person",
-        date: "Apr 5th, 2026",
-        time: "02:00 PM - 06:30 PM",
-        location: "First Floor, 18/1 -A, Jail Road, Opposite Tilak Nagar Metro Station Gate no - 4, Above Sona Baker, Tilak Nagar",
-        event_banner: "/assets/images/events/events/Study-in-Lithuania-Event.jpg",
-        type: "inperson",
-        location_value: "new-delhi",
-        zoom_id: "910 2227 8457",
-        whatsapp_id: "+91 96501 33355",
-        direct_url: "landing-page/eventpage/lithuania-spot-admission-day/",
-        btn_text: "Register Now"
-    },
+    //{
+    //    id: 1,
+    //    title: "Study in Lithuania Spot Admission Day (New Delhi)",
+    //    type_Label: "In-Person",
+    //    date: "Apr 5th, 2026",
+    //    time: "02:00 PM - 06:30 PM",
+    //    location: "First Floor, 18/1 -A, Jail Road, Opposite Tilak Nagar Metro Station Gate no - 4, Above Sona Baker, Tilak Nagar, New Delhi-110058",
+    //    event_banner: "/assets/images/events/events/Study-in-Lithuania-Event.jpg",
+    //    type: "inperson",
+    //    location_value: "new-delhi",
+    //    zoom_id: "910 2227 8457",
+    //    whatsapp_id: "+91 96501 33355",
+    //    direct_url: "landing-page/eventpage/lithuania-spot-admission-day/",
+    //    btn_text: "Register Now"
+    //},
     //{
     //    id: 1,
     //    title: "Study in Europe Day (Ludhiana)",
@@ -30,18 +30,18 @@
     //    btn_text: "Register Now"
     //},
     //{
-    //    id: 2,
-    //    title: "Study in Europe Day (Jalandhar)",
+    //    id: 1,
+    //    title: "Study in Latvia Day - Spot Admission Day",
     //    type_Label: "In-Person",
-    //    date: "Mar 2nd, 2026",
-    //    time: "10:30 AM - 05:30 PM",
-    //    location: "SCO 11-12, Basement, Axis Bank, Crystal Plaza, ITI College Road, Choti Baradari Part 1, Jalandhar, Punjab - 144022.",
-    //    event_banner: "/assets/images/events/events/Europe-Day-Jalandhar.jpeg",
+    //    date: "Apr 24th, 2026",
+    //    time: "02:00 PM - 06:00 PM",
+    //    location: "First Floor, 18/1 -A, Jail Road, Opposite Tilak Nagar Metro Station Gate no - 4, Above Sona Baker, Tilak Nagar, New Delhi-110058",
+    //    event_banner: "/assets/images/events/events/study-in-latvia-day.webp",
     //    type: "inperson",
-    //    location_value: "jalandhar",
+    //    location_value: "new-delhi",
     //    zoom_id: "N/A",
     //    whatsapp_id: "+91 96501 33355",
-    //    direct_url: "landing-page/eventpage/study-in-europe-day",
+    //    direct_url: "https://indoeuropean.in/landing-page/eventpage/study-in-latvia-day",
     //    btn_text: "Register Now"
     //},
     //{

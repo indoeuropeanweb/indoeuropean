@@ -4830,3 +4830,19 @@ margin: 0 auto;
     text-decoration: underline;
     color: var(--color-primary);
 }
+
+.expert-btn {
+    animation: zoomInOut 2s ease-in-out infinite;
+    margin-right: 25px;
+}
+
+
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+}

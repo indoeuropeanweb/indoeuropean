@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.WebUtilities;
-using Microsoft.AspNetCore.Routing;
+﻿using indoeuropean.Services;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
+using Microsoft.AspNetCore.WebUtilities;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +14,7 @@ builder.Services.Configure<RouteOptions>(options =>
     options.LowercaseQueryStrings = true;
 });
 
+builder.Services.AddSingleton<SitemapService>();
 builder.Services.AddHttpsRedirection(options =>
 {
     options.RedirectStatusCode = StatusCodes.Status301MovedPermanently;
@@ -34,6 +38,81 @@ app.UseHttpsRedirection();
 
 //    await next();
 //});
+
+app.UseRouting();
+
+if (args.Contains("generate-sitemap"))
+{
+    var service = app.Services.GetRequiredService<SitemapService>();
+
+    var baseUrl = "https://indoeuropean.in";
+
+    var endpoints = app.Services.GetRequiredService<EndpointDataSource>();
+
+    var urls = new List<string>();
+
+    var controllerTypes = typeof(Program).Assembly.GetTypes()
+        .Where(t => typeof(Microsoft.AspNetCore.Mvc.Controller).IsAssignableFrom(t));
+
+    foreach (var controller in controllerTypes)
+    {
+        var controllerRoute = controller
+            .GetCustomAttributes(typeof(RouteAttribute), true)
+            .Cast<RouteAttribute>()
+            .FirstOrDefault()?.Template;
+
+        var methods = controller.GetMethods()
+            .Where(m => m.IsPublic && !m.IsDefined(typeof(NonActionAttribute)));
+
+        foreach (var method in methods)
+        {
+            var routeAttr = method
+                .GetCustomAttributes(typeof(RouteAttribute), true)
+                .Cast<RouteAttribute>()
+                .FirstOrDefault();
+
+            if (routeAttr != null)
+            {
+                var actionRoute = routeAttr.Template;
+
+                string fullRoute = "";
+
+                if (!string.IsNullOrEmpty(controllerRoute))
+                    fullRoute += controllerRoute.Trim('/');
+
+                if (!string.IsNullOrEmpty(actionRoute))
+                    fullRoute += "/" + actionRoute.Trim('/');
+
+                urls.Add(fullRoute.Trim('/'));
+            }
+        }
+    }
+
+    // ✅ Add homepage manually
+    urls.Add("");
+
+    // ✅ Remove duplicates
+    urls = urls.Distinct().ToList();
+
+    foreach (var url in urls)
+    {
+        Console.WriteLine(url); // debug
+    }
+
+    var wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+
+    if (!Directory.Exists(wwwrootPath))
+    {
+        Directory.CreateDirectory(wwwrootPath);
+    }
+
+    var filePath = Path.Combine(wwwrootPath, "sitemap.xml");
+
+    service.Generate(baseUrl, urls, filePath);
+
+    Console.WriteLine("✅ Sitemap generated!");
+    return;
+}
 
 if (!app.Environment.IsDevelopment())
 {

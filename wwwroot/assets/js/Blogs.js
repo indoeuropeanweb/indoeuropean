@@ -503,6 +503,78 @@
         "location": "Europe",
         "link": "/blogs/european-education-fair-in-delhi-ncr-2026"
     },
+    {
+        "id": 43,
+        "title": "Finland Student Visa Process 2026: 8-Step Complete Guide",
+        "date": "08 May, 2026",
+        "author": "Indo European",
+        "description": "Finland is the most favoured country for its world-class education system. It has top-notch career opportunities and a safe environment. But before you start your journey, it is necessary...",
+        "image": "/assets/images/blogs/finland/finland-4.webp",
+        "alt": "Finland Student Visa Process",
+        "country": "Finland",
+        "location": "Finland",
+        "link": "/blogs/finland-student-visa-process-2026"
+    },
+    {
+        "id": 44,
+        "title": "7 Best Countries to Study in Europe for Indian Students",
+        "date": "25 May, 2026",
+        "author": "Indo European",
+        "description": "Europe is a well-known destination for international education. Learners from India and all over the world choose this place because it gives top-notch education, pocket-friendly fees...",
+        "image": "/assets/images/blogs/europe/europe-7.webp",
+        "alt": "7 Best Countries to Study in Europe for Indian Students",
+        "country": "Europe",
+        "location": "Europe",
+        "link": "/blogs/7-best-countries-to-study-in-europe-for-indian-students"
+    },
+    {
+        "id": 45,
+        "title": "Top 7 Reasons to Study in Latvia for Indian Students",
+        "date": "02 June, 2026",
+        "author": "Indo European",
+        "description": "The demand for studying in Latvia among Indian students is increasing rapidly as more students look for affordable and high-quality education in Europe.",
+        "image": "/assets/images/blogs/latvia/latvia-2.webp",
+        "alt": "Top 7 Reasons to Study in Latvia for Indian Studentss",
+        "country": "Europe",
+        "location": "Latvia",
+        "link": "/blogs/top-7-reasons-to-study-in-latvia-for-indian-students"
+    },
+    {
+        "id": 46,
+        "title": "Cost of Study in Finland for Indian Students",
+        "date": "05 June, 2026",
+        "author": "Indo European",
+        "description": "Finland has emerged as one of the most attractive study destinations in Europe for international students.Known for its world- class education system, innovative teaching methods...",
+        "image": "/assets/images/blogs/finland/finland-5.webp",
+        "alt": "Cost of Study in Finland for Indian Students",
+        "country": "Europe",
+        "location": "Finland",
+        "link": "/blogs/cost-of-study-in-finland-for-indian-students"
+    },
+    {
+        "id": 47,
+        "title": "Top 5 Best Universities in Europe for Indian Students",
+        "date": "09 June, 2026",
+        "author": "Indo European",
+        "description": "Europe always attracts thousands of students because of its first class academic context, well recognised degrees, learning environment, and the best career exposure.",
+        "image": "/assets/images/blogs/europe/europe-blog-8.webp",
+        "alt": "Top 5 Best Universities in Europe for Indian Students",
+        "country": "Europe",
+        "location": "Europe",
+        "link": "/blogs/top-5-best-universities-in-europe-for-indian-students"
+    },
+    {
+        "id": 48,
+        "title": "10 Questions Indian Students Ask Before Applying for a Latvia Study Visa",
+        "date": "13 June, 2026",
+        "author": "Indo European",
+        "description": "Planning to study in Europe but unsure about the visa process? You&#39;re not alone. Every year, thousands of Indian students explore Latvia as a study destination...",
+        "image": "/assets/images/blogs/europe/latvia-3.webp",
+        "alt": "10 Questions Indian Students Ask Before Applying for a Latvia Study Visa",
+        "country": "Latvia",
+        "location": "Europe",
+        "link": "/blogs/10-questions-indian-students-ask-before-applying-for-a-latvia-study-visa"
+    },
 ];
 
 $(document).ready(function () {
