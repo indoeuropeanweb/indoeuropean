@@ -103,6 +103,51 @@
     //    whatsapp_id: "+91 96501 33355",
     //    direct_url: "landing-page/eventpage/study-in-europe-day",
     //    btn_text: "Register Now"
+    //},
+    //{
+    //    id: 1,
+    //    title: "Study in Europe Day (Jalandhar)",
+    //    type_Label: "In-Person",
+    //    date: "Jun 24, 2026",
+    //    time: "10:00 AM - 05:00 PM",
+    //    location: "SCO 11-12, Basement, Axis Bank, Crystal Plaza, Garha Rd, Choti Baradari Part 1, Choti Baradari, Jalandhar, Punjab 144005",
+    //    event_banner: "/assets/images/events/events/Europe-Day-Jalandhar.jpeg",
+    //    type: "inperson",
+    //    location_value: "jalandhar",
+    //    zoom_id: "N/A",
+    //    whatsapp_id: "+91 96501 33355",
+    //    direct_url: "landing-page/eventpage/study-in-europe-day",
+    //    btn_text: "Register Now"
+    //},
+    //{
+    //    id: 2,
+    //    title: "Study in Europe Day (Ludhiana)",
+    //    type_Label: "In-Person",
+    //    date: "Jun 25, 2026",
+    //    time: "10:00 AM - 05:00 PM",
+    //    location: "2nd Floor, SCO -27, Adjacent to Park Plaza Hotel, Near Biryani by Kilo, Feroz Gandhi Market, Jila Kacheri Area, Model Gram, Ludhiana, Punjab-141001",
+    //    event_banner: "/assets/images/events/events/Europe-Day-Ludhiana.jpeg",
+    //    type: "inperson",
+    //    location_value: "ludhiana",
+    //    zoom_id: "N/A",
+    //    whatsapp_id: "+91 96501 33355",
+    //    direct_url: "landing-page/eventpage/study-in-europe-day",
+    //    btn_text: "Register Now"
+    //},
+    //{
+    //    id: 3,
+    //    title: "Study in Europe Day (Chandigarh)",
+    //    type_Label: "In-Person",
+    //    date: "Jun 26, 2026",
+    //    time: "10:00 AM - 05:00 PM",
+    //    location: "SCO NO.64-65, 2nd Floor, Near Oyster Hotel, Sector 17A, Chandigarh, Punjab-160017",
+    //    event_banner: "/assets/images/events/events/Europe-Day-Chandigarh.jpeg",
+    //    type: "inperson",
+    //    location_value: "chandigarh",
+    //    zoom_id: "N/A",
+    //    whatsapp_id: "+91 96501 33355",
+    //    direct_url: "landing-page/eventpage/study-in-europe-day",
+    //    btn_text: "Register Now"
     //}, 
 ];
 

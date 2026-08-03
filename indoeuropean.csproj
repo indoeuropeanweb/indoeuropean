@@ -13,6 +13,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <Deterministic>False</Deterministic>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\assets\images\NewFolder\**" />
+    <Content Remove="wwwroot\assets\images\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\assets\images\NewFolder\**" />
+    <None Remove="wwwroot\assets\images\NewFolder\**" />
+  </ItemGroup>
 	
   <ItemGroup>
     <PackageReference Include="System.Net.Http" Version="4.3.4" />
@@ -21,6 +28,5 @@
   <ItemGroup>
     <Folder Include="wwwroot\assets\images\Associtae-Agents\" />
     <Folder Include="wwwroot\assets\images\banner\Newsletter\" />
-    <Folder Include="wwwroot\assets\images\NewFolder\" />
   </ItemGroup>
 </Project>

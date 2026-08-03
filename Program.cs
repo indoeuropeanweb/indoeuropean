@@ -1,13 +1,13 @@
 ﻿using indoeuropean.Services;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
-using Microsoft.AspNetCore.WebUtilities;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add services
 builder.Services.AddControllersWithViews();
+
 builder.Services.Configure<RouteOptions>(options =>
 {
     options.LowercaseUrls = true;
@@ -15,31 +15,20 @@ builder.Services.Configure<RouteOptions>(options =>
 });
 
 builder.Services.AddSingleton<SitemapService>();
+
 builder.Services.AddHttpsRedirection(options =>
 {
     options.RedirectStatusCode = StatusCodes.Status301MovedPermanently;
     options.HttpsPort = 443;
 });
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.AddServerHeader = false;
+});
+
 var app = builder.Build();
-app.UseHttpsRedirection();
 
-//app.Use(async (context, next) =>
-//{
-//    var req = context.Request;
-//    var host = req.Host.Host;
-
-//    if (host.Equals("www.indoeuropean.in", StringComparison.OrdinalIgnoreCase))
-//    {
-//        var newUrl = $"https://indoeuropean.in{req.Path}{req.QueryString}";
-//        context.Response.Redirect(newUrl, permanent: true);
-//        return;
-//    }
-
-//    await next();
-//});
-
-app.UseRouting();
 
 if (args.Contains("generate-sitemap"))
 {
@@ -47,12 +36,10 @@ if (args.Contains("generate-sitemap"))
 
     var baseUrl = "https://indoeuropean.in";
 
-    var endpoints = app.Services.GetRequiredService<EndpointDataSource>();
+    var controllerTypes = typeof(Program).Assembly.GetTypes()
+        .Where(t => typeof(Controller).IsAssignableFrom(t));
 
     var urls = new List<string>();
-
-    var controllerTypes = typeof(Program).Assembly.GetTypes()
-        .Where(t => typeof(Microsoft.AspNetCore.Mvc.Controller).IsAssignableFrom(t));
 
     foreach (var controller in controllerTypes)
     {
@@ -73,46 +60,56 @@ if (args.Contains("generate-sitemap"))
 
             if (routeAttr != null)
             {
-                var actionRoute = routeAttr.Template;
-
                 string fullRoute = "";
 
                 if (!string.IsNullOrEmpty(controllerRoute))
                     fullRoute += controllerRoute.Trim('/');
 
-                if (!string.IsNullOrEmpty(actionRoute))
-                    fullRoute += "/" + actionRoute.Trim('/');
+                if (!string.IsNullOrEmpty(routeAttr.Template))
+                    fullRoute += "/" + routeAttr.Template.Trim('/');
 
                 urls.Add(fullRoute.Trim('/'));
             }
         }
     }
 
-    // ✅ Add homepage manually
+    app.Use(async (context, next) =>
+    {
+        context.Response.Headers.Append("X-Content-Type-Options", "nosniff");
+        context.Response.Headers.Append("X-Frame-Options", "SAMEORIGIN");
+        context.Response.Headers.Append(
+            "Content-Security-Policy",
+            "default-src 'self'; " +
+            "script-src 'self'; " +
+            "object-src 'none'; " +
+            "base-uri 'self'; " +
+            "frame-src 'self'; " +
+            "frame-ancestors 'self';"
+        );
+
+        await next();
+    });
+
+
     urls.Add("");
 
-    // ✅ Remove duplicates
     urls = urls.Distinct().ToList();
-
-    foreach (var url in urls)
-    {
-        Console.WriteLine(url); // debug
-    }
 
     var wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
 
     if (!Directory.Exists(wwwrootPath))
-    {
         Directory.CreateDirectory(wwwrootPath);
-    }
 
     var filePath = Path.Combine(wwwrootPath, "sitemap.xml");
 
     service.Generate(baseUrl, urls, filePath);
 
     Console.WriteLine("✅ Sitemap generated!");
+
     return;
 }
+
+// Configure HTTP pipeline
 
 if (!app.Environment.IsDevelopment())
 {
@@ -120,32 +117,46 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+app.UseHttpsRedirection();
+
 app.UseStaticFiles(new StaticFileOptions
 {
     OnPrepareResponse = ctx =>
     {
-        ctx.Context.Response.Headers.Append("Cache-Control", "public,max-age=31536000");
+        ctx.Context.Response.Headers.Append(
+            "Cache-Control",
+            "public,max-age=31536000");
     }
 });
 
+app.UseRouting();
+
+// Remove server headers
 app.Use(async (context, next) =>
 {
     context.Response.OnStarting(() =>
     {
         context.Response.Headers.Remove("Server");
-        context.Response.Headers.Remove("X-Powered-By");
         context.Response.Headers.Remove("server");
+        context.Response.Headers.Remove("X-Powered-By");
         context.Response.Headers.Remove("x-powered-by");
+
         return Task.CompletedTask;
     });
 
     await next();
 });
 
+app.UseStatusCodePages(async context =>
+{
+    if (context.HttpContext.Response.StatusCode == StatusCodes.Status404NotFound)
+    {
+        context.HttpContext.Response.Redirect("/");
+    }
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-app.UseRouting();
+    await Task.CompletedTask;
+});
+
 app.UseAuthorization();
 
 app.MapControllerRoute(

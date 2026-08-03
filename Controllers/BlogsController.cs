@@ -11,6 +11,24 @@ namespace indoeuropean.Controllers
             return View();
         }
 
+        [Route("achieve-your-dream-ielts-score-with-expert-ielts-coaching")]
+        public IActionResult IELTsCoaching()
+        {
+            return View();
+        }
+
+        [Route("12-top-universities-in-finland-every-indian-student-should-know")]
+        public IActionResult FinlandBlog6()
+        {
+            return View();
+        }
+
+        [Route("how-much-does-it-cost-to-study-in-lithuania-for-indian-students")]
+        public IActionResult LithuaniaBlog4()
+        {
+            return View();
+        }
+
         [Route("10-questions-indian-students-ask-before-applying-for-a-latvia-study-visa")]
         public IActionResult LatviaBlog3()
         {

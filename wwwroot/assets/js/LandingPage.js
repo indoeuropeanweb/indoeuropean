@@ -23,6 +23,12 @@
     LandingPageUrl,
     phoneRegex,
     PhonenoOTPStatus = "0";
+
+const d = new Date().getDate();
+const m = new Date().getMonth();
+const y = new Date().getFullYear();
+const currentDate = d + '/' + m + '/' + y;
+
 function btnclick() {
     return (
         (Fname = $("#txtFName_1").val() || ""),
@@ -32,7 +38,7 @@ function btnclick() {
         (WhatsappNo = ""),
         (Emailid = $("#txtEmail_1").val() || ""),
         ("Select" !== (Country1 = $("#ddlDestinationCodeid_1").val()) && null != Country1) || (Country1 = ""),
-        (PrefferedBranchID = 0),
+        (PrefferedBranchID = "0"),
         ("Select" !== (Levelid = $("#ddlCourseCodeId_1").val()) && null != Levelid) || (Levelid = ""),
         (Address1Citytext = $("#txtCity_1").val()),
         (Intakeid = ""),
@@ -40,16 +46,15 @@ function btnclick() {
         (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
-        (EnqDate = ""),
-        (Dob = ""),
+        (EnqDate = currentDate || " "),
+        (Dob = " "),
         ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime_1").val()) &&
             null != PrefferedCallBackTime) ||
         (PrefferedCallBackTime = ""),
         ("Select" !== (HighestQualifcation = $("#ddlHighestQualifcation_1").val()) && null != HighestQualifcation) ||
         (HighestQualifcation = ""),
         (branchid = window.branchid),
-        (LandingPageUrl = window.location.href),
-        (phoneRegex = /^\d{10}$/),
+        (LandingPageUrl = window.location.href || "indoeuropean.in"),
         Fname
             ? Emailid
                 ? CountryCodeid
@@ -79,10 +84,10 @@ function formCountrySubmit() {
         (Lname = $("#txtLName").val() || ""),
         (CountryCodeid = $("#ddlCountryCodeid_2").val() || "67"),
         (PhoneNo = $("#txtPhone_2").val() || ""),
-        (WhatsappNo = ""),
+        (WhatsappNo = $("#txtPhone_2").val()  || ""),
         (Emailid = $("#txtEmail_2").val() || ""),
         ("Select" !== (Country1 = $("#ddlDestinationCodeid_2").val()) && null != Country1) || (Country1 = ""),
-        (PrefferedBranchID = 0),
+        (PrefferedBranchID = "0"),
         ("Select" !== (Levelid = $("#ddlCourseCodeId_2").val()) && null != Levelid) || (Levelid = ""),
         (Address1Citytext = $("#txtCity_2").val()),
         (Intakeid = ""),
@@ -90,8 +95,8 @@ function formCountrySubmit() {
         (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
-        (EnqDate = ""),
-        (Dob = ""),
+        (EnqDate = currentDate || " "),
+        (Dob = " "),
         ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime_2").val()) &&
             null != PrefferedCallBackTime) ||
         (PrefferedCallBackTime = ""),
@@ -99,7 +104,6 @@ function formCountrySubmit() {
         (HighestQualifcation = ""),
         (branchid = window.branchid),
         (LandingPageUrl = window.location.href),
-        (phoneRegex = /^\d{10}$/),
         Fname
             ? Emailid
                 ? CountryCodeid
@@ -140,16 +144,15 @@ function formValidation() {
         (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
-        (EnqDate = ""),
-        (Dob = ""),
+        (EnqDate = currentDate || " "),
+        (Dob = " "),
         ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime").val()) &&
             null != PrefferedCallBackTime) ||
         (PrefferedCallBackTime = ""),
         ("Select" !== (HighestQualifcation = $("#ddlHighestQualifcation").val()) && null != HighestQualifcation) ||
         (HighestQualifcation = ""),
         (branchid = window.branchid),
-        (LandingPageUrl = window.location.href),
-        (phoneRegex = /^\d{10}$/),
+        (LandingPageUrl = window.location.href || "indoeuropean.in"),
         Fname
             ? Emailid
                 ? CountryCodeid
@@ -184,23 +187,22 @@ function formValidation_Contactus() {
         ("Select" !== (Country1 = $("#ddlDestinationCodeid").val()) && null != Country1) || (Country1 = ""),
         ("Select" !== (PrefferedBranchID = $("#ddlBranchCodeId").val()) && null != PrefferedBranchID) ||
         (PrefferedBranchID = ""),
-        (Levelid = 0),
+        (Levelid = "0"),
         (Address1Citytext = $("#txtCity").val()),
         (Intakeid = ""),
         (EnquirySourceCategoryID = window.EnquirySourceCategoryID),
         (EnquirySourceID = "4"),
         (EnqStageid = window.EnqStageid),
         (Isstatusid = "1"),
-        (EnqDate = ""),
-        (Dob = ""),
+        (EnqDate = currentDate || " "),
+        (Dob = " "),
         ("Select" !== (PrefferedCallBackTime = $("#ddlPreferredCallBackTime").val()) &&
             null != PrefferedCallBackTime) ||
         (PrefferedCallBackTime = ""),
         ("Select" !== (HighestQualifcation = $("#ddlHighestQualifcation").val()) && null != HighestQualifcation) ||
         (HighestQualifcation = ""),
         (branchid = window.branchid),
-        (LandingPageUrl = window.location.href),
-        (phoneRegex = /^\d{10}$/),
+        (LandingPageUrl = window.location.href || "indoeuropean.in"),
         Fname
             ? Emailid
                 ? CountryCodeid
@@ -246,10 +248,20 @@ function Create_Lead() {
             PrefferedCallBackTime: PrefferedCallBackTime,
             HighestQualifcation: HighestQualifcation,
             PrefferedBranchID: PrefferedBranchID,
-            LandingPageUrl: LandingPageUrl,
-            PhonenoOTPStatus: PhonenoOTPStatus,
+            LandingPageUrl: LandingPageUrl || 'indoeuropean.in',
+            PhonenoOTPStatus: "0",
         },
         success: function (e) {
+            if (e.status === "Emaildulicate") {
+                alert("Email ID Already Exist !")
+                return;
+            }
+
+            if (e.status === "Mobiledulicate") {
+                alert("Phone Number Already Exist !")
+                return;
+            }
+            //alert("Thank you, your query submitted successfully !");
             window.location.href = "/thankyou";
         },
         error: function () {
@@ -465,18 +477,18 @@ $(document).ready(function () {
 
 var toastElement = document.getElementById('universityToast');
 var toastClose = document.getElementById("universityToastClose");
-var toast = new bootstrap.Toast(toastElement);
+//var toast = new bootstrap.Toast(toastElement);
 
-toastClose.addEventListener("click", () => {
-    showUniversityVisitPopup(5000);
-})
+//toastClose.addEventListener("click", () => {
+//    showUniversityVisitPopup(5000);
+//})
 
-function showUniversityVisitPopup(delay) {
-    setTimeout(function () {
-        toast.show();
-    }, delay);
-}
+//function showUniversityVisitPopup(delay) {
+//    setTimeout(function () {
+//        toast.show();
+//    }, delay);
+//}
 
-showUniversityVisitPopup(5000);
+//showUniversityVisitPopup(5000);
 
  

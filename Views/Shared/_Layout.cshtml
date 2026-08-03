@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@ViewData["Title"]</title>
     <meta name="description" content="@ViewData["Description"]">
-    <meta name="keywords" content="@ViewData["Keywords"]"/>
+	<meta name="keywords" content="@ViewData["Keywords"]" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" type="image/x-icon" href="~/assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="~/assets/images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     @* <link rel="stylesheet" href="~/assets/css/vendor/bootstrap.min.css"> *@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -41,9 +41,26 @@
 
     <link rel="canonical" href="@($"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.Path}")" />
     <link rel="stylesheet" href="https://unpkg.com/sal.js/dist/sal.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    @* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" /> *@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-ie.png"/>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-806027676"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+
+        gtag('js', new Date());
+        gtag('config', 'AW-806027676');
+    </script>
+
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-806027676/iOtsCPibpcUcEJyDrIAD'
+        });
+    </script>
+
 </head>
 
 <body class="sticky-header">
@@ -458,7 +475,7 @@
         </div>
     </div>
 
-    @*<div class="toast-container university-visit-container">
+    @* <div class="toast-container university-visit-container">
         <div id="universityToast" class="toast" role="alert" data-bs-autohide="false" aria-live="assertive" aria-atomic="true">
             <div class="toast-header">
                 <i class="fa-solid fa-2xl fa-building-columns"></i>&nbsp;&nbsp;
@@ -467,7 +484,7 @@
             </div>
             <div class="toast-body">
                 <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
+                    <div class="carousel-inner"> *@
                         @* <div class="carousel-item">
                             <div class="university-data">                          
                                 <div class="university-visit-img">
@@ -480,7 +497,7 @@
                                 </div>
                             </div>
                         </div> *@
-                        @* <div class="carousel-item active">
+                        @* <div class="carousel-item ">
                             <div class="university-data">
                             <div class="university-visit-img">
                             <img src="~/assets/images/Europe-Day-Event/latvia-flag.png" class="d-block w-100" alt="Europe-University" />
@@ -492,38 +509,38 @@
                             </div>
                             </div>
                         </div> *@
-                        @*<div class="carousel-item">
+                        @* <div class="carousel-item active">
                             <div class="university-data">
                             <div class="university-visit-img">
                             <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                             </div>
                             <div class="university-visit-content">
-                                <h5>Study in Europe Day (Amritsar)</h5>
-                                <p>Tue 3rd Mar 2026, 10:30 AM - 05:30 PM</p>
+                                <h5>Study in Europe Day (Jalandhar)</h5>
+                                <p>Wed 24th Jun 2026, 10:00 AM - 05:00 PM</p>
                                 <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                             </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
+                        </div> *@
+                        @* <div class="carousel-item">
                             <div class="university-data">
                             <div class="university-visit-img">
                                 <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                             </div>
                              <div class="university-visit-content">
-                                  <h5>Study in Europe Day (New Delhi)</h5>
-                                  <p>Sat 7th Mar 2026, 10:30 AM - 05:30 PM</p>
+                                  <h5>Study in Europe Day (Chandigarh)</h5>
+                                  <p>Thur 25th June 2026, 10:00 AM - 05:00 PM</p>
                                   <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                              </div>
                             </div>
-                        </div>
-                        <div class="carousel-item">
+                        </div> *@
+                        @* <div class="carousel-item">
                             <div class="university-data">
                                 <div class="university-visit-img">
                                     <img src="~/assets/images/Europe-Day-Event/europe-day-circle.webp" class="d-block w-100" alt="Europe-University" />
                                 </div>
                                 <div class="university-visit-content">
-                                    <h5>Study in Europe Day (Patiala)</h5>
-                                    <p>Tue 10th Mar 2026, 10:30 AM - 05:30 PM</p>
+                                    <h5>Study in Europe Day (Ludhiana)</h5>
+                                    <p>Thu 25th Jun 2026, 10:00 AM - 05:00 PM</p>
                                     <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
@@ -535,16 +552,16 @@
                                 </div>
                                 <div class="university-visit-content">
                                     <h5>Study in Europe Day (Chandigarh)</h5>
-                                    <p>Wed 11th Mar 2026, 10:30 AM - 05:30 PM</p>
+                                    <p>Fri 26th Jun 2026, 10:00 AM - 05:00 PM</p>
                                     <a href="/events">Visit Details &nbsp;<i class="fa-solid fa-caret-right"></i></a>
                                 </div>
                             </div>
-                        </div> 
-                    </div>
+                        </div>  *@
+        @*             </div>
                 </div>
             </div>
         </div>
-        </div>*@
+        </div> *@
 
     @* <a href="https://www.whatsapp.com/channel/0029VaAFrbNLSmbYvAupmm2F" class="float" target="_blank">
         <i class="fa fa-whatsapp my-float"></i>
@@ -571,15 +588,10 @@
     <script src="~/assets/js/vendor/lightbox.min.js"></script>
     <script src="~/assets/js/vendor/sal.min.js"></script>
     <script src="~/assets/js/vendor/swiper-bundle.min.js"></script>
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V436130YDY"></script>
-
     <script src="~/assets/js/international-telephone-input.js"></script>
     <script src="~/assets/js/app.js"></script>
     <script src="~/assets/js/config.js"></script>
     <script src="~/assets/js/landingpage.js"></script>
-    <script src="~/assets/js/Events.js"></script>
-    <script src="~/assets/js/Blogs.js"></script>
 </body>
 </html>
 

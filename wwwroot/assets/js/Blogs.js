@@ -569,11 +569,47 @@
         "date": "13 June, 2026",
         "author": "Indo European",
         "description": "Planning to study in Europe but unsure about the visa process? You&#39;re not alone. Every year, thousands of Indian students explore Latvia as a study destination...",
-        "image": "/assets/images/blogs/europe/latvia-3.webp",
+        "image": "/assets/images/blogs/latvia/latvia-3.webp",
         "alt": "10 Questions Indian Students Ask Before Applying for a Latvia Study Visa",
         "country": "Latvia",
         "location": "Europe",
         "link": "/blogs/10-questions-indian-students-ask-before-applying-for-a-latvia-study-visa"
+    },
+    {
+        "id": 49,
+        "title": "How Much Does It Cost to Study in Lithuania for Indian Students?",
+        "date": "17 June, 2026",
+        "author": "Indo European",
+        "description": "For many students, studying in Europe feels like an expensive dream. Countries such as the UK, Ireland, and the Netherlands often require a significant financial investment...",
+        "image": "/assets/images/blogs/lithuania/lithuania-4.webp",
+        "alt": "How Much Does It Cost to Study in Lithuania for Indian Students?",
+        "country": "Lithuania",
+        "location": "Europe",
+        "link": "/blogs/how-much-does-it-cost-to-study-in-lithuania-for-indian-students"
+    },
+    {
+        "id": 50,
+        "title": "12 Top Universities in Finland Every Indian Student Should Know",
+        "date": "20 June, 2026",
+        "author": "Indo European",
+        "description": "Finland has been increasingly becoming a country where international students want to study. With its educational system that is known to be quite innovative, universities based...",
+        "image": "/assets/images/blogs/finland/finland-6.webp",
+        "alt": "12 Top Universities in Finland Every Indian Student Should Know",
+        "country": "Finland",
+        "location": "Europe",
+        "link": "/blogs/12-top-universities-in-finland-every-indian-student-should-know"
+    },
+    {
+        "id": 51,
+        "title": "Achieve Your Dream IELTS Score with Expert IELTS Coaching",
+        "date": "30 July, 2026",
+        "author": "Indo European",
+        "description": "If you are planning to study, work, or migrate abroad, achieving a good IELTS score is one of the most important steps in your journey.Countries such as the UK, Canada, Australia, Ireland...",
+        "image": "/assets/images/ielts/ielts-coaching.webp",
+        "alt": "Achieve Your Dream IELTS Score with Expert IELTS Coaching",
+        "country": "IELTS",
+        "location": "Europe",
+        "link": "/blogs/achieve-your-dream-ielts-score-with-expert-ielts-coaching"
     },
 ];
 
@@ -652,7 +688,7 @@ $(document).ready(function () {
                         </ul>
                         <p class="card-text">${blog.description}</p>
                         <a class="event-btn" href="${blog.link}">
-                            Read ${blog.location} blog →
+                            Read ${blog.country} blog →
                         </a>
                     </div>
                 </div>
